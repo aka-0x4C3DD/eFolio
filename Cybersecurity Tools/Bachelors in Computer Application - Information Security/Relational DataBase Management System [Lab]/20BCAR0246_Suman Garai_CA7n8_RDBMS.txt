@@ -1,0 +1,251 @@
+
+                                                                               CA-7
+
+1. Write a query to insert the three records to emp table at run time.
+
+SQL>  insert into emp (empno,ename)
+  2  values (&c1,&c2);
+Enter value for c1: '123'
+Enter value for c2: 'S'
+old   2: values (&c1,&c2)
+new   2: values ('123','S')
+
+1 row created.
+
+SQL>  /
+Enter value for c1: '124'
+Enter value for c2: 'A'
+old   2: values (&c1,&c2)
+new   2: values ('124','A')
+
+1 row created.
+
+SQL> /
+Enter value for c1: '125'
+Enter value for c2: 'D'
+old   2: values (&c1,&c2)
+new   2: values ('125','D')
+
+1 row created.
+
+
+SQL> select * from emp;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80       1012                    20
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30
+      7788 SCOTT      ANALYST         7566 19-APR-87       3450                    20
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30
+      7876 ADAMS      CLERK           7788 23-MAY-87     1391.5                    20
+      7900 JAMES      CLERK           7698 03-DEC-81       1045                    30
+      7902 FORD       ANALYST         7566 03-DEC-81       3450                    20
+      7934 MILLER     CLERK           7782 23-JAN-82       1430                    10
+       123 S
+       124 A
+       125 D
+
+
+2. Write a Query to update the salary of the employee by 15%, where the employee should work 
+under the deptno of SMITH.
+
+SQL> update emp
+  2  set sal=sal+sal*15/100
+  3  where deptno=(select deptno from emp where ename='SMITH');
+
+4 rows updated.
+
+SQL> select * from emp;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80     1163.8                    20
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30
+      7788 SCOTT      ANALYST         7566 19-APR-87     3967.5                    20
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30
+      7876 ADAMS      CLERK           7788 23-MAY-87    1600.23                    20
+      7900 JAMES      CLERK           7698 03-DEC-81       1045                    30
+      7902 FORD       ANALYST         7566 03-DEC-81     3967.5                    20
+      7934 MILLER     CLERK           7782 23-JAN-82       1430                    10
+       123 S
+       124 A
+       125 D
+
+14 rows selected.
+
+3. Write a query to delete the record from emp table where the employee should be working as 
+similar to JONES.
+
+SQL> delete from emp
+  2  where job=(select job from emp where ename='JONES');
+
+0 rows deleted.
+
+
+4. Write a query to delete deptno 10 from dept table. Mention the error if there is any error exist.
+
+SQL>  delete from dept
+  2   where deptno=10;
+ delete from dept
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (SCOTT.FK_DEPTNO) violated - child record found
+
+
+5. Write a query to insert single record to emp1 table.
+
+SQL> create table emp3
+  2  as select * from emp;
+
+Table created.
+
+SQL> insert into emp2 (empno,ename)
+  2   values ('14','N');
+
+1 row created.
+
+SQL> select * from emp
+  2  /
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80     1163.8                    20
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30
+      7788 SCOTT      ANALYST         7566 19-APR-87     3967.5                    20
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30
+      7876 ADAMS      CLERK           7788 23-MAY-87    1600.23                    20
+      7900 JAMES      CLERK           7698 03-DEC-81       1045                    30
+      7902 FORD       ANALYST         7566 03-DEC-81     3967.5                    20
+      7934 MILLER     CLERK           7782 23-JAN-82       1430                    10
+       123 S
+       124 A
+       125 D
+
+14 rows selected.
+
+SQL> insert into emp3 (empno,ename)
+  2   values ('14','N');
+
+1 row created.
+
+SQL> select * from emp3;
+
+     EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO
+---------- ---------- --------- ---------- --------- ---------- ---------- ----------
+      7369 SMITH      CLERK           7902 17-DEC-80     1163.8                    20
+      7499 ALLEN      SALESMAN        7698 20-FEB-81       1600        300         30
+      7521 WARD       SALESMAN        7698 22-FEB-81       1250        500         30
+      7654 MARTIN     SALESMAN        7698 28-SEP-81       1250       1400         30
+      7788 SCOTT      ANALYST         7566 19-APR-87     3967.5                    20
+      7839 KING       PRESIDENT            17-NOV-81       5000                    10
+      7844 TURNER     SALESMAN        7698 08-SEP-81       1500          0         30
+      7876 ADAMS      CLERK           7788 23-MAY-87    1600.23                    20
+      7900 JAMES      CLERK           7698 03-DEC-81       1045                    30
+      7902 FORD       ANALYST         7566 03-DEC-81     3967.5                    20
+      7934 MILLER     CLERK           7782 23-JAN-82       1430                    10
+       123 S
+       124 A
+       125 D
+        14 N
+
+15 rows selected.
+                                ------------------------------------------------------------------------------------------------------------
+                                                                                 CA- 8
+
+1.Create the table called product with attributes pno, pname, pprice, qty and total add the 
+constraint not null for the required columns and add check constraint to price >0.
+
+SQL> CREATE TABLE PRODUCT
+  2  (
+  3  pno number(10),
+  4  pname char(10),
+  5  pprice number(7,2),
+  6  quantity number(10),
+  7  total number(10);
+
+Table created.
+
+SQL> desc PRODUCT;
+ Name                                                                                                              Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ PNO                                                                                                                       NUMBER(10)
+ PNAME                                                                                                                     CHAR(10)
+ PPRICE                                                                                                                    NUMBER(7,2)
+ QUANTITY                                                                                                                  NUMBER(10)
+ TOTAL                                                                                                                     NUMBER(10)
+
+
+
+2.Insert five records to product table at run time
+
+SQL> insert into PRODUCT
+  2  values (&c1,&c2,&c3,&c4,&c5);
+Enter value for c1: '1'
+Enter value for c2: 'BISCUIT'
+Enter value for c3: '5.5'
+Enter value for c4: '100'
+Enter value for c5: '5.5'
+old   2: values (&c1,&c2,&c3,&c4,&c5)
+new   2: values ('1','BISCUIT','5.5','100','5.5')
+
+
+3.Then add new column special_offer
+
+SQL> alter table PRODUCT
+  2  add (special_offer number(10));
+
+Table altered.
+SQL>  select * from product;
+
+       PNO PNAME          PPRICE   QUANTITY      TOTAL SPECIAL_OFFER
+---------- ---------- ---------- ---------- ---------- -------------
+         1 BISCUIT           5.5        100          6
+
+
+4.Delete first three records.
+
+SQL> delete from product;
+
+1 row deleted.
+
+5. Create table called product_det using subqueries by using product table
+
+
+SQL> create table product_det
+  2  as select * from product;
+
+Table created.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SQL>
