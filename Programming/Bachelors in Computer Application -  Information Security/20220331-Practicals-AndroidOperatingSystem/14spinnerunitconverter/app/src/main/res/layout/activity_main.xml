@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="335dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintBottom_toTopOf="@+id/weight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/weight"
+            android:layout_width="412dp"
+            android:layout_height="567dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="1dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner">
+
+                <EditText
+                    android:id="@+id/kgWeight"
+                    android:layout_width="329dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginBottom="28dp"
+                    android:ems="10"
+                    android:hint="Enter Weight in KG"
+                    android:inputType="number"
+                    app:layout_constraintBottom_toTopOf="@+id/weightConvert"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+                <EditText
+                    android:id="@+id/pdsWeight"
+                    android:layout_width="321dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="213dp"
+                    android:ems="10"
+                    android:hint="Your Weight in Pounds"
+                    android:inputType="number"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/weightConvert" />
+
+                <Button
+                    android:id="@+id/weightConvert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Convert to Pounds
+"
+                    app:layout_constraintBottom_toTopOf="@+id/pdsWeight"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kgWeight" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Convert Weight Here"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/kgWeight"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/height"
+            android:layout_width="412dp"
+            android:layout_height="567dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="1dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner">
+
+                <EditText
+                    android:id="@+id/cmHeight"
+                    android:layout_width="329dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginBottom="28dp"
+                    android:ems="10"
+                    android:hint="Enter Height in CM"
+                    android:inputType="number"
+                    app:layout_constraintBottom_toTopOf="@+id/heightConvert"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+                <EditText
+                    android:id="@+id/feetHeight"
+                    android:layout_width="321dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginBottom="213dp"
+                    android:ems="10"
+                    android:hint="Your Height in Feet.inches"
+                    android:inputType="number"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/heightConvert" />
+
+                <Button
+                    android:id="@+id/heightConvert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Convert to Feet.inches"
+                    app:layout_constraintBottom_toTopOf="@+id/feetHeight"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cmHeight" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:text="Convert Height Here"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/cmHeight"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

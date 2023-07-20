@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:textAlignment="center"
+    android:background="@android:color/holo_blue_bright"
+    android:weightSum="1"
+    tools:ignore="RtlCompat">
+    <TextView
+        android:text="enter_two_numbers"
+        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:textColorLink="?android:attr/editTextColor"
+        tools:textStyle="bold|italic"
+        android:textStyle="bold|italic"
+        android:fontFamily="serif"
+        android:visibility="visible"
+        android:textSize="24sp"
+        android:layout_weight="0.07" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editOp1"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editOp2"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:elevation="1dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnsub"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnmul"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/btnclr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="clear" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="result"
+        android:textColorLink="?android:attr/editTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        tools:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/result"
+        android:textSize="18sp"
+        android:text="0.00"
+        android:gravity="center_horizontal" />
+</LinearLayout>
