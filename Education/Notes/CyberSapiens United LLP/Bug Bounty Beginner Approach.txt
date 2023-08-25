@@ -1,0 +1,113 @@
+Bug Bounty Beginner Approach:
+
+  - Check the Rules of Bug bounty program
+
+  - Notedown the Domain
+
+  - Check the Technology of Website how it Hosted
+
+  - Check all the Functions of Website
+ 
+  - Check Each Path in website
+
+  - Note the Functions that are available in each path
+
+
+STEPS :
+
+  - You need to create a folder
+  - go lang tools should be installed
+
+
+git clone https://github.com/six2dez/reconftw
+cd reconftw/
+./install.sh
+./reconftw.sh -d target.com -r
+
+ADVANCE RECON :
+
+  - STEP 1 ( TO FIND SUBDOMAINS )
+
+  - You need two tools
+  - Subfinder / Sublist3r / amass / assetfinder
+
+		subfinder -d domain.com -o subsactive.txt
+
+		subfinder -d domain.com |httpx 200 |tee subsall.txt
+
+		(Pro tip -You can also check for subdomain takeover)
+
+STEP 2 waybackurls(tomnomnom) | gauplus
+
+  - waybackurls -u https://xyz.com
+  - cat subsactive.txt | waybackurls > way.txt
+
+YOU NEED TO SEARCH : Through grep command 
+
+cat way.txt |grep <search>
+ 	
+ 	api-key , @gmail , username , @ , userid , token= , password , user , uuid , sessionid , session= , cookie= admin ,pwd ,password, .sql ,.json, .js, config, Webhookconfiguration, apikey, token, credo, auth, anvoy, api, secret, auth, env, s3, url, uri, .git, prod, dev, path, dir, accessToken, config.js, main.js, app.js
+
+
+STEP 3 (gf)
+
+	- cat way.txt | gf xss |tee xss.txt
+	- cat way.txt | gf sqli |tee sql.txt
+	- cat way.txt | gf redirect |tee redirect.txt
+
+
+Functions:
+Name: XSS , SQL(POST based injection), Command injection , SSRF , DOS , SSTI/CSTI, HTMLi , Rate limit
+
+Insert URL : SSRF , Dos , CSRF , Port scanning , RFI
+
+Delete Trip: IDOR , CSRF , SQLi , 
+
+
+
+Reporting:
+
+Hello team i found (Bug name here) 
+
+Description:Cross-site scripting (also known as XSS) is a web security vulnerability that allows an attacker to compromise the interactions that users have with a vulnerable application. It allows an attacker to circumvent the same origin policy, which is designed to segregate different websites from each other.
+
+
+Threat: XSS can lead to get the cookies of victim
+
+Vulnerability: XSS
+
+Vulnerable URL: 
+
+Impact – 
+
+
+Steps To reproduce (POC):
+1.
+2.  
+3.
+4.
+ 
+Solution (optional):
+
+Video POC : 
+
+
+Thanks & Regards
+security researcher
+(your name)
+
+
+
+Thank you guysss................................
+
+
+Refernces:
+https://noureldinehab.medium.com/how-to-install-golang-latest-version-on-kali-linux-1afa2bd64ace
+https://github.com/six2dez/reconftw
+https://github.com/gprime31/WAF-bypass-xss-payloads/blob/master/Cloudflare%20xss%20payloads
+https://github.com/swisskyrepo/PayloadsAllTheThings/
+https://github.com/bhavesh-pardhi/BugSquasher
+https://corneacristian.medium.com/top-25-rce-bug-bounty-reports-bc9555cca7bc
+https://book.hacktricks.xyz/welcome/readme
+https://alike-lantern-72d.notion.site/Web-Application-Penetration-Testing-Checklist-4792d95add7d4ffd85dd50a5f50659c6
+

