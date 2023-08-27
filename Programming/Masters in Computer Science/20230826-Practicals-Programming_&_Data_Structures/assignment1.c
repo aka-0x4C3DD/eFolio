@@ -60,8 +60,8 @@ void main()
     a++;
     printf("\n the value of A after increment is %c\n", a);
     printf("\n the value of A in integer after increment is %d\n", a);
-    // c is assigned ASCII values which corresponds to the character 'c'
-    // a --> 97, b --> 98, c --> 99 | here c will be printed
+    /* c is assigned ASCII values which corresponds to the character 'c'
+     a --> 97, b --> 98, c --> 99 | here c will be printed */
     c = 99;
     printf("\n the value of c is %c\n", c);
     printf("\n the value of c in integer is %d\n", c);
