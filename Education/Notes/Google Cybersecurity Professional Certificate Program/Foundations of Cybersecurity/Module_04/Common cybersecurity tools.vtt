@@ -1,0 +1,467 @@
+WEBVTT
+
+1
+00:00:00.410 --> 00:00:02.550
+As mentioned earlier,
+
+2
+00:00:02.550 --> 00:00:04.755
+security is like
+preparing for a storm.
+
+3
+00:00:04.755 --> 00:00:06.270
+If you identify a leak,
+
+4
+00:00:06.270 --> 00:00:08.010
+the color or shape
+of the bucket you
+
+5
+00:00:08.010 --> 00:00:10.170
+use to catch the
+water doesn't matter.
+
+6
+00:00:10.170 --> 00:00:13.230
+What is important is
+mitigating the risks and
+
+7
+00:00:13.230 --> 00:00:16.665
+threats to your home, by using
+the tools available to you.
+
+8
+00:00:17.665 --> 00:00:19.290
+As an entry-level
+security analyst,
+
+9
+00:00:19.290 --> 00:00:20.970
+you'll have a lot of tools in
+
+10
+00:00:20.970 --> 00:00:22.440
+your toolkit that you can
+
+11
+00:00:22.440 --> 00:00:24.735
+use to mitigate potential risks.
+
+12
+00:00:25.735 --> 00:00:26.970
+In this video, we'll discuss
+
+13
+00:00:26.970 --> 00:00:29.055
+the primary purposes
+and functions
+
+14
+00:00:29.055 --> 00:00:31.650
+of some commonly
+used security tools.
+
+15
+00:00:31.650 --> 00:00:33.075
+And later in the program,
+
+16
+00:00:33.075 --> 00:00:35.100
+you'll have hands-on
+opportunities
+
+17
+00:00:35.100 --> 00:00:36.600
+to practice using them.
+
+18
+00:00:36.600 --> 00:00:38.835
+Before discussing tools further,
+
+19
+00:00:38.835 --> 00:00:40.870
+let's briefly discuss logs,
+
+20
+00:00:40.870 --> 00:00:42.470
+which are the
+source of data that
+
+21
+00:00:42.470 --> 00:00:45.185
+the tools we'll cover are
+designed to organize.
+
+22
+00:00:46.185 --> 00:00:47.930
+A log is a record of events that
+
+23
+00:00:47.930 --> 00:00:51.175
+occur within an
+organization's systems.
+
+24
+00:00:51.175 --> 00:00:55.430
+Examples of security-related
+logs include records of
+
+25
+00:00:55.430 --> 00:00:57.560
+employees signing
+into their computers
+
+26
+00:00:57.560 --> 00:00:59.855
+or accessing web-based services.
+
+27
+00:00:59.855 --> 00:01:02.600
+Logs help security
+professionals identify
+
+28
+00:01:02.600 --> 00:01:06.065
+vulnerabilities and
+potential security breaches.
+
+29
+00:01:07.065 --> 00:01:08.720
+The first tools we'll discuss are
+
+30
+00:01:08.720 --> 00:01:11.795
+security information and
+event management tools,
+
+31
+00:01:11.795 --> 00:01:13.505
+or SIEM tools.
+
+32
+00:01:13.505 --> 00:01:17.060
+A SIEM tool is an application
+that collects and
+
+33
+00:01:17.060 --> 00:01:19.070
+analyzes log data to monitor
+
+34
+00:01:19.070 --> 00:01:21.625
+critical activities
+in an organization.
+
+35
+00:01:21.625 --> 00:01:27.630
+The acronym S-I-E-M may be
+pronounced as 'sim' or 'seem',
+
+36
+00:01:27.630 --> 00:01:30.525
+but we'll use 'sim'
+throughout this program.
+
+37
+00:01:30.525 --> 00:01:35.060
+SIEM tools collect real-time,
+or instant, information,
+
+38
+00:01:35.060 --> 00:01:36.950
+and allow security analysts to
+
+39
+00:01:36.950 --> 00:01:39.830
+identify potential
+breaches as they happen.
+
+40
+00:01:40.830 --> 00:01:43.040
+Imagine having to read
+pages and pages of
+
+41
+00:01:43.040 --> 00:01:46.385
+logs to determine if there
+are any security threats.
+
+42
+00:01:46.385 --> 00:01:48.275
+Depending on the amount of data,
+
+43
+00:01:48.275 --> 00:01:50.950
+it could take hours or days.
+
+44
+00:01:50.950 --> 00:01:54.590
+SIEM tools reduce the amount
+of data an analyst must
+
+45
+00:01:54.590 --> 00:01:56.690
+review by providing alerts for
+
+46
+00:01:56.690 --> 00:01:59.705
+specific types of
+risks and threats.
+
+47
+00:01:59.705 --> 00:02:04.310
+Next, let's go over examples
+of commonly used SIEM tools:
+
+48
+00:02:04.310 --> 00:02:06.650
+Splunk and Chronicle.
+
+49
+00:02:07.650 --> 00:02:09.695
+Splunk is a data
+analysis platform,
+
+50
+00:02:09.695 --> 00:02:13.135
+and Splunk Enterprise
+provides SIEM solutions.
+
+51
+00:02:13.135 --> 00:02:17.375
+Splunk Enterprise is a
+self-hosted tool used to retain,
+
+52
+00:02:17.375 --> 00:02:21.215
+analyze, and search an
+organization's log data.
+
+53
+00:02:22.215 --> 00:02:24.805
+Another SIEM tool is
+Google's Chronicle.
+
+54
+00:02:24.805 --> 00:02:27.920
+Chronicle is a cloud-native SIEM tool that
+
+55
+00:02:27.920 --> 00:02:31.165
+stores security data for
+search and analysis.
+
+56
+00:02:31.165 --> 00:02:33.590
+Cloud-native means
+that Chronicle
+
+57
+00:02:33.590 --> 00:02:36.355
+allows for fast delivery
+of new features.
+
+58
+00:02:37.355 --> 00:02:39.425
+Both of these SIEM tools,
+and SIEMs in general,
+
+59
+00:02:39.425 --> 00:02:41.525
+collect data from
+multiple places,
+
+60
+00:02:41.525 --> 00:02:44.360
+then analyze and filter
+that data to allow
+
+61
+00:02:44.360 --> 00:02:46.610
+security teams to
+prevent and quickly
+
+62
+00:02:46.610 --> 00:02:49.450
+react to potential
+security threats.
+
+63
+00:02:50.450 --> 00:02:51.455
+As a security analyst,
+
+64
+00:02:51.455 --> 00:02:53.750
+you may find yourself
+using SIEM tools to
+
+65
+00:02:53.750 --> 00:02:56.420
+analyze filtered
+events and patterns,
+
+66
+00:02:56.420 --> 00:02:58.850
+perform incident analysis,
+
+67
+00:02:58.850 --> 00:03:01.655
+or proactively
+search for threats.
+
+68
+00:03:01.655 --> 00:03:05.760
+Depending on your organization's
+SIEM setup and risk focus,
+
+69
+00:03:05.760 --> 00:03:08.030
+the tools and how they
+function may differ,
+
+70
+00:03:08.030 --> 00:03:11.965
+but ultimately, they are
+all used to mitigate risk.
+
+71
+00:03:12.965 --> 00:03:14.330
+Other key tools that
+you will use in
+
+72
+00:03:14.330 --> 00:03:16.190
+your role as a security analyst,
+
+73
+00:03:16.190 --> 00:03:17.780
+and that you'll have hands-on
+
+74
+00:03:17.780 --> 00:03:19.370
+opportunities to use later in
+
+75
+00:03:19.370 --> 00:03:23.525
+the program, are playbooks and
+network protocol analyzers.
+
+76
+00:03:24.525 --> 00:03:25.880
+A playbook is a manual that
+
+77
+00:03:25.880 --> 00:03:28.625
+provides details about
+any operational action,
+
+78
+00:03:28.625 --> 00:03:30.905
+such as how to respond
+to an incident.
+
+79
+00:03:30.905 --> 00:03:34.550
+Playbooks, which vary from one
+organization to the next,
+
+80
+00:03:34.550 --> 00:03:36.110
+guide analysts in how to
+
+81
+00:03:36.110 --> 00:03:38.240
+handle a security
+incident before,
+
+82
+00:03:38.240 --> 00:03:41.105
+during, and after
+it has occurred.
+
+83
+00:03:41.105 --> 00:03:43.700
+Playbooks can pertain
+to security or
+
+84
+00:03:43.700 --> 00:03:46.040
+compliance reviews,
+access management,
+
+85
+00:03:46.040 --> 00:03:48.380
+and many other
+organizational tasks that
+
+86
+00:03:48.380 --> 00:03:51.755
+require a documented process
+from beginning to end.
+
+87
+00:03:52.755 --> 00:03:53.510
+Another tool you may use as
+
+88
+00:03:53.510 --> 00:03:57.035
+a security analyst is a
+network protocol analyzer,
+
+89
+00:03:57.035 --> 00:03:59.380
+also called packet sniffer.
+
+90
+00:03:59.380 --> 00:04:02.390
+A packet sniffer is
+a tool designed to
+
+91
+00:04:02.390 --> 00:04:05.600
+capture and analyze data
+traffic within a network.
+
+92
+00:04:05.600 --> 00:04:08.000
+Common network
+protocol analyzers
+
+93
+00:04:08.000 --> 00:04:11.560
+include tcpdump and Wireshark.
+
+94
+00:04:12.560 --> 00:04:13.355
+As an entry-level analyst,
+
+95
+00:04:13.355 --> 00:04:15.680
+you don't have to be an
+expert in these tools.
+
+96
+00:04:15.680 --> 00:04:16.910
+As you continue through
+
+97
+00:04:16.910 --> 00:04:19.985
+this certificate program and
+get more hands-on practice,
+
+98
+00:04:19.985 --> 00:04:22.340
+you'll continuously build
+your understanding of
+
+99
+00:04:22.340 --> 00:04:24.635
+how to use these
+tools to identify,
+
+100
+00:04:24.635 --> 00:04:27.540
+assess, and mitigate risks.

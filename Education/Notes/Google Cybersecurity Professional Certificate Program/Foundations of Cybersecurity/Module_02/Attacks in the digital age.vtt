@@ -1,0 +1,346 @@
+WEBVTT
+
+1
+00:00:01.137 --> 00:00:04.409
+With the expansion of
+reliable high-speed internet,
+
+2
+00:00:04.409 --> 00:00:08.945
+the number of computers connected to
+the internet increased dramatically.
+
+3
+00:00:08.945 --> 00:00:12.217
+Because malware could spread
+through the internet,
+
+4
+00:00:12.217 --> 00:00:16.665
+threat actors no longer needed to use
+physical disks to spread viruses.
+
+5
+00:00:17.665 --> 00:00:20.025
+To better understand
+attacks in the digital age,
+
+6
+00:00:20.025 --> 00:00:24.429
+we'll discuss two notable attacks
+that relied on the internet:
+
+7
+00:00:24.429 --> 00:00:29.333
+the LoveLetter attack and
+the Equifax breach.
+
+8
+00:00:30.333 --> 00:00:33.161
+In the year 2000,
+Onel De Guzman created the LoveLetter
+
+9
+00:00:33.161 --> 00:00:37.086
+malware to steal
+internet login credentials.
+
+10
+00:00:37.086 --> 00:00:41.516
+This attack spread rapidly and
+took advantage of people who had not
+
+11
+00:00:41.516 --> 00:00:45.327
+developed a healthy suspicion for
+unsolicited emails.
+
+12
+00:00:45.327 --> 00:00:49.024
+Users received an email with
+the subject line, "I Love You."
+
+13
+00:00:49.024 --> 00:00:53.125
+Each email contained an attachment
+labeled, "Love Letter For You."
+
+14
+00:00:53.125 --> 00:00:58.127
+When the attachment was opened,
+the malware scanned a user's address book.
+
+15
+00:00:58.127 --> 00:01:02.143
+Then, it automatically sent itself
+to each person on the list and
+
+16
+00:01:02.143 --> 00:01:06.348
+installed a program to collect
+user information and passwords.
+
+17
+00:01:06.348 --> 00:01:10.613
+Recipients would think they were
+receiving an email from a friend, but
+
+18
+00:01:10.613 --> 00:01:12.239
+it was actually malware.
+
+19
+00:01:12.239 --> 00:01:16.956
+The LoveLetter ended up infecting
+45 million computers globally
+
+20
+00:01:16.956 --> 00:01:22.252
+and is believed to have caused over
+$10 billion dollars in damages.
+
+21
+00:01:22.252 --> 00:01:26.250
+The LoveLetter attack is the first
+example of social engineering.
+
+22
+00:01:27.250 --> 00:01:30.853
+Social engineering is a manipulation
+technique that exploits
+
+23
+00:01:30.853 --> 00:01:35.817
+human error to gain private information,
+access, or valuables.
+
+24
+00:01:36.817 --> 00:01:37.282
+After the LoveLetter,
+
+25
+00:01:37.282 --> 00:01:40.805
+attackers understood the power
+of social engineering.
+
+26
+00:01:40.805 --> 00:01:45.651
+The number of social engineering
+attacks is increasing with every new
+
+27
+00:01:45.651 --> 00:01:50.672
+social media application that allows
+public access to people's data.
+
+28
+00:01:50.672 --> 00:01:55.016
+Many people are now prioritizing
+convenience over privacy.
+
+29
+00:01:55.016 --> 00:01:59.924
+The trade-off of this evolving shift
+is that these tools may lead to
+
+30
+00:01:59.924 --> 00:02:04.843
+increased vulnerability, if people
+do not use them appropriately.
+
+31
+00:02:05.843 --> 00:02:08.999
+As a security professional,
+your role is to identify and
+
+32
+00:02:08.999 --> 00:02:14.630
+manage inappropriate use of technology
+that may place your organization and
+
+33
+00:02:14.630 --> 00:02:17.761
+all the people associated with it at risk.
+
+34
+00:02:17.761 --> 00:02:23.854
+One way to safeguard your organization is
+to conduct regular internal trainings,
+
+35
+00:02:23.854 --> 00:02:29.521
+which you as a future security analyst
+may be asked to lead or participate in.
+
+36
+00:02:30.521 --> 00:02:31.273
+Today, it's common for
+
+37
+00:02:31.273 --> 00:02:36.874
+employees to receive training on how
+to identify social engineering attacks.
+
+38
+00:02:36.874 --> 00:02:40.480
+Specifically, phishing through
+the emails they receive.
+
+39
+00:02:40.480 --> 00:02:45.392
+Phishing is the use of digital
+communications to trick people into
+
+40
+00:02:45.392 --> 00:02:49.965
+revealing sensitive data or
+deploying malicious software.
+
+41
+00:02:50.965 --> 00:02:53.148
+Now, let's discuss the Equifax breach.
+
+42
+00:02:53.148 --> 00:02:54.243
+In 2017,
+
+43
+00:02:54.243 --> 00:03:00.192
+attackers successfully infiltrated
+the credit reporting agency, Equifax.
+
+44
+00:03:00.192 --> 00:03:05.906
+This resulted in one of the largest known
+data breaches of sensitive information.
+
+45
+00:03:05.906 --> 00:03:10.675
+Over 143 million customer
+records were stolen, and
+
+46
+00:03:10.675 --> 00:03:15.959
+the breach affected approximately
+40% of all Americans.
+
+47
+00:03:16.959 --> 00:03:20.519
+The records included personally
+identifiable information including
+
+48
+00:03:20.519 --> 00:03:25.079
+social security numbers, birth dates,
+driver's license numbers,
+
+49
+00:03:25.079 --> 00:03:27.897
+home addresses, and credit card numbers.
+
+50
+00:03:27.897 --> 00:03:29.955
+From a security standpoint,
+
+51
+00:03:29.955 --> 00:03:34.576
+the breach occurred due to multiple
+failures on Equifax's part.
+
+52
+00:03:34.576 --> 00:03:39.333
+It wasn't just one vulnerability that
+the attackers took advantage of,
+
+53
+00:03:39.333 --> 00:03:40.719
+there were several.
+
+54
+00:03:40.719 --> 00:03:45.170
+The company failed to take the actions
+needed to fix multiple known
+
+55
+00:03:45.170 --> 00:03:49.314
+vulnerabilities in the months
+leading up to the data breach.
+
+56
+00:03:50.314 --> 00:03:53.796
+In the end,
+Equifax settled with the U.S. government and
+
+57
+00:03:53.796 --> 00:04:00.822
+paid over $575 million dollars to resolve customer
+complaints and cover required fines.
+
+58
+00:04:01.822 --> 00:04:06.249
+While there have been other data breaches
+before and after the Equifax breach,
+
+59
+00:04:06.249 --> 00:04:10.707
+the large settlement with the U.S.
+government alerted companies to
+
+60
+00:04:10.707 --> 00:04:16.397
+the financial impact of a breach and the
+need to implement preventative measures.
+
+61
+00:04:17.397 --> 00:04:20.639
+These are just a couple of well-known
+incidents that have shaped
+
+62
+00:04:20.639 --> 00:04:22.267
+the security industry.
+
+63
+00:04:22.267 --> 00:04:26.158
+Knowing about them will help
+you in your security career.
+
+64
+00:04:26.158 --> 00:04:31.203
+Understanding different types of malware
+and social engineering attacks will
+
+65
+00:04:31.203 --> 00:04:36.183
+allow you to communicate about security
+risks during future job interviews.
+
+66
+00:04:37.183 --> 00:04:41.536
+As a future security professional,
+constantly adapting and educating
+
+67
+00:04:41.536 --> 00:04:47.339
+yourself on threat actors' tactics and
+techniques will be a part of your job.
+
+68
+00:04:47.339 --> 00:04:52.012
+By noticing similar trends,
+patterns, and methodologies,
+
+69
+00:04:52.012 --> 00:04:57.312
+you may be able to identify a potential
+breach and limit future damage.
+
+70
+00:04:58.312 --> 00:05:02.216
+Finally, understanding how
+security affects people's lives is
+
+71
+00:05:02.216 --> 00:05:06.513
+a good reminder of why the work
+you will do is so important!

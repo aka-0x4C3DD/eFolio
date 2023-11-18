@@ -1,0 +1,282 @@
+WEBVTT
+
+1
+00:00:01.270 --> 00:00:06.810
+As the tactics of threat actors evolve, so
+do the roles of security professionals.
+
+2
+00:00:06.810 --> 00:00:11.253
+Having a solid understanding of core
+security concepts will support your growth
+
+3
+00:00:11.253 --> 00:00:12.140
+in this field.
+
+4
+00:00:12.140 --> 00:00:15.595
+One way to better understand
+these core concepts is by
+
+5
+00:00:15.595 --> 00:00:20.200
+organizing them into categories,
+called security domains.
+
+6
+00:00:21.200 --> 00:00:24.660
+As of 2022, CISSP has defined eight domains
+
+7
+00:00:24.660 --> 00:00:29.550
+to organize the work of
+security professionals.
+
+8
+00:00:29.550 --> 00:00:34.518
+It's important to understand that these
+domains are related and that gaps in one
+
+9
+00:00:34.518 --> 00:00:38.986
+domain can result in negative
+consequences to an entire organization.
+
+10
+00:00:39.986 --> 00:00:42.891
+It's also important to understand
+the domains because it may help
+
+11
+00:00:42.891 --> 00:00:47.578
+you better understand your career goals
+and your role within an organization.
+
+12
+00:00:47.578 --> 00:00:50.847
+As you learn more about
+the elements of each domain,
+
+13
+00:00:50.847 --> 00:00:54.799
+the work involved in one may appeal
+to you more than the others.
+
+14
+00:00:54.799 --> 00:00:59.617
+This domain may become a career path for
+you to explore further.
+
+15
+00:01:00.617 --> 00:01:03.155
+CISSP defines eight domains in total, and
+
+16
+00:01:03.155 --> 00:01:09.150
+we'll discuss all eight between
+this video and the next.
+
+17
+00:01:09.150 --> 00:01:13.590
+In this video, we're going to
+cover the first four:
+
+18
+00:01:13.590 --> 00:01:17.032
+security and risk management,
+asset security,
+
+19
+00:01:17.032 --> 00:01:22.950
+security architecture and engineering,
+and communication and network security.
+
+20
+00:01:23.950 --> 00:01:27.340
+Let's start with the first domain,
+security and risk management.
+
+21
+00:01:27.340 --> 00:01:33.649
+Security and risk management focuses on
+defining security goals and objectives,
+
+22
+00:01:33.649 --> 00:01:38.880
+risk mitigation, compliance,
+business continuity, and the law.
+
+23
+00:01:38.880 --> 00:01:43.526
+For example, security analysts may
+need to update company policies
+
+24
+00:01:43.526 --> 00:01:46.500
+related to private health information
+
+25
+00:01:46.500 --> 00:01:50.286
+if a change is made to a federal
+compliance regulation such as
+
+26
+00:01:50.286 --> 00:01:56.310
+the Health Insurance Portability and
+Accountability Act, also known as HIPAA.
+
+27
+00:01:57.310 --> 00:01:59.303
+The second domain is asset security.
+
+28
+00:01:59.303 --> 00:02:05.050
+This domain focuses on securing
+digital and physical assets.
+
+29
+00:02:05.050 --> 00:02:09.826
+It's also related to the storage,
+maintenance, retention, and
+
+30
+00:02:09.826 --> 00:02:12.130
+destruction of data.
+
+31
+00:02:12.130 --> 00:02:16.695
+When working with this domain,
+security analysts may be tasked with
+
+32
+00:02:16.695 --> 00:02:20.552
+making sure that old equipment
+is properly disposed of and
+
+33
+00:02:20.552 --> 00:02:24.663
+destroyed, including any type
+of confidential information.
+
+34
+00:02:25.663 --> 00:02:29.594
+The third domain is security
+architecture and engineering.
+
+35
+00:02:29.594 --> 00:02:35.712
+This domain focuses on optimizing data
+security by ensuring effective tools,
+
+36
+00:02:35.712 --> 00:02:38.557
+systems, and processes are in place.
+
+37
+00:02:38.557 --> 00:02:43.809
+As a security analyst, you may be
+tasked with configuring a firewall.
+
+38
+00:02:43.809 --> 00:02:47.854
+A firewall is a device used to monitor and
+filter incoming and
+
+39
+00:02:47.854 --> 00:02:50.405
+outgoing computer network traffic.
+
+40
+00:02:50.405 --> 00:02:54.714
+Setting up a firewall correctly helps
+prevent attacks that could affect
+
+41
+00:02:54.714 --> 00:02:56.310
+productivity.
+
+42
+00:02:57.310 --> 00:03:00.740
+The fourth security domain is
+communication and network security.
+
+43
+00:03:00.740 --> 00:03:05.099
+This domain focuses on managing and
+securing physical networks and
+
+44
+00:03:05.099 --> 00:03:07.860
+wireless communications.
+
+45
+00:03:07.860 --> 00:03:09.395
+As a security analyst,
+
+46
+00:03:09.395 --> 00:03:13.861
+you may be asked to analyze user
+behavior within your organization.
+
+47
+00:03:15.040 --> 00:03:20.840
+Imagine discovering that users are
+connecting to unsecured wireless hotspots.
+
+48
+00:03:20.840 --> 00:03:26.200
+This could leave the organization and
+its employees vulnerable to attacks.
+
+49
+00:03:26.200 --> 00:03:31.028
+To ensure communications are secure,
+you would create a network policy to
+
+50
+00:03:31.028 --> 00:03:33.253
+prevent and mitigate exposure.
+
+51
+00:03:34.253 --> 00:03:37.554
+Maintaining an organization's
+security is a team effort, and
+
+52
+00:03:37.554 --> 00:03:39.758
+there are many moving parts.
+
+53
+00:03:39.758 --> 00:03:44.201
+As an entry-level analyst, you will
+continue to develop your skills
+
+54
+00:03:44.201 --> 00:03:48.500
+by learning how to mitigate risks
+to keep people and data safe.
+
+55
+00:03:49.500 --> 00:03:53.230
+You don't need to be an expert in all
+domains. But, having a basic understanding
+
+56
+00:03:53.230 --> 00:03:57.460
+of them will aid you in your
+journey as a security professional.
+
+57
+00:03:58.460 --> 00:04:01.813
+You're doing great! We have just
+introduced the first four security
+
+58
+00:04:01.813 --> 00:04:05.440
+domains, and
+in the next video, we'll discuss four more!
+
+59
+00:04:05.440 --> 00:04:06.690
+See you soon!

@@ -1,0 +1,997 @@
+WEBVTT
+
+1
+00:00:00.440 --> 00:00:03.300
+Hello and welcome to
+
+2
+00:00:03.300 --> 00:00:06.615
+the Google Career Certificate
+focused on cybersecurity.
+
+3
+00:00:06.615 --> 00:00:08.715
+I'm so excited that you're here!
+
+4
+00:00:08.715 --> 00:00:10.380
+My name is Toni, and I am
+
+5
+00:00:10.380 --> 00:00:13.230
+a Security Engineering
+Manager at Google.
+
+6
+00:00:13.230 --> 00:00:15.150
+I'll be your instructor for
+
+7
+00:00:15.150 --> 00:00:17.895
+the first course of this
+certificate program.
+
+8
+00:00:17.895 --> 00:00:19.650
+By starting this course,
+
+9
+00:00:19.650 --> 00:00:22.050
+you've already taken
+a big step towards
+
+10
+00:00:22.050 --> 00:00:25.140
+building new skills that will
+help you in your career.
+
+11
+00:00:26.140 --> 00:00:28.470
+Cybersecurity may seem
+daunting at first,
+
+12
+00:00:28.470 --> 00:00:30.030
+but you'd be surprised by
+
+13
+00:00:30.030 --> 00:00:32.325
+the different backgrounds
+many of us have.
+
+14
+00:00:32.325 --> 00:00:34.890
+I worked as an intelligence
+analyst before I
+
+15
+00:00:34.890 --> 00:00:37.200
+got my first job in
+the security industry,
+
+16
+00:00:37.200 --> 00:00:38.760
+and I'm excited to be
+
+17
+00:00:38.760 --> 00:00:42.255
+your instructor as you begin
+your journey into security.
+
+18
+00:00:43.255 --> 00:00:44.345
+The demand for
+security professionals
+
+19
+00:00:44.345 --> 00:00:46.565
+is growing at an
+incredible rate.
+
+20
+00:00:46.565 --> 00:00:50.510
+By 2030, the U.S. Bureau
+of Labor Statistics
+
+21
+00:00:50.510 --> 00:00:54.320
+expects security roles to
+grow by more than 30%,
+
+22
+00:00:54.320 --> 00:00:55.640
+which is higher than
+
+23
+00:00:55.640 --> 00:00:58.310
+the average growth rate
+for other occupations.
+
+24
+00:00:59.310 --> 00:01:01.370
+Global access to the
+internet is expanding.
+
+25
+00:01:01.370 --> 00:01:03.485
+Every day, more people and
+
+26
+00:01:03.485 --> 00:01:07.090
+organizations are adopting
+new digital technologies.
+
+27
+00:01:07.090 --> 00:01:09.230
+Having a diverse community of
+
+28
+00:01:09.230 --> 00:01:11.629
+security professionals
+with unique backgrounds,
+
+29
+00:01:11.629 --> 00:01:14.480
+perspectives, and experiences is
+
+30
+00:01:14.480 --> 00:01:17.735
+essential for protecting and
+serving different markets.
+
+31
+00:01:18.735 --> 00:01:20.240
+Working in security
+has allowed me to
+
+32
+00:01:20.240 --> 00:01:22.925
+work with people from
+all around the world.
+
+33
+00:01:22.925 --> 00:01:24.590
+Working with people who have
+
+34
+00:01:24.590 --> 00:01:27.560
+diverse backgrounds
+ensures that our teams get
+
+35
+00:01:27.560 --> 00:01:29.255
+to ask lots of questions
+
+36
+00:01:29.255 --> 00:01:32.180
+and come up with more
+creative solutions.
+
+37
+00:01:33.180 --> 00:01:34.670
+The main objective
+in security is to
+
+38
+00:01:34.670 --> 00:01:37.430
+protect organizations
+and people.
+
+39
+00:01:37.430 --> 00:01:39.530
+This line of work allows you to
+
+40
+00:01:39.530 --> 00:01:43.000
+support and interact with
+people across the globe.
+
+41
+00:01:44.000 --> 00:01:44.750
+There are many openings for
+
+42
+00:01:44.750 --> 00:01:46.805
+entry-level security analysts,
+
+43
+00:01:46.805 --> 00:01:48.830
+and employers are
+struggling to find
+
+44
+00:01:48.830 --> 00:01:51.425
+enough candidates with
+the right expertise.
+
+45
+00:01:51.425 --> 00:01:55.100
+This program is designed to
+give you the knowledge and
+
+46
+00:01:55.100 --> 00:01:56.855
+skills you need to start
+
+47
+00:01:56.855 --> 00:01:59.090
+or advance in the
+security profession.
+
+48
+00:01:59.090 --> 00:02:01.235
+No matter your
+current skill level,
+
+49
+00:02:01.235 --> 00:02:03.905
+by the time you finish
+this certificate program,
+
+50
+00:02:03.905 --> 00:02:05.495
+you'll be prepared to find
+
+51
+00:02:05.495 --> 00:02:09.680
+a security-related job or
+expand your career in security.
+
+52
+00:02:10.680 --> 00:02:11.510
+You may be wondering,
+
+53
+00:02:11.510 --> 00:02:15.125
+what do security
+professionals actually do?
+
+54
+00:02:15.125 --> 00:02:17.660
+Have you ever had to
+update your password
+
+55
+00:02:17.660 --> 00:02:21.275
+online to include a number
+or a special symbol?
+
+56
+00:02:21.275 --> 00:02:24.110
+If so, then you're
+already familiar with
+
+57
+00:02:24.110 --> 00:02:27.265
+basic security measures,
+like password management.
+
+58
+00:02:27.265 --> 00:02:31.010
+And if you've ever received
+a notification from
+
+59
+00:02:31.010 --> 00:02:35.315
+a service provider about
+stolen data or a software hack,
+
+60
+00:02:35.315 --> 00:02:37.399
+then you have
+first-hand experience
+
+61
+00:02:37.399 --> 00:02:39.875
+with the impact of
+a security breach.
+
+62
+00:02:39.875 --> 00:02:41.840
+If you've ever asked yourself
+
+63
+00:02:41.840 --> 00:02:44.435
+how organizations
+safeguard data,
+
+64
+00:02:44.435 --> 00:02:45.920
+then you already have
+
+65
+00:02:45.920 --> 00:02:48.230
+two important traits
+that are necessary
+
+66
+00:02:48.230 --> 00:02:52.475
+to thrive in this industry:
+curiosity and excitement.
+
+67
+00:02:53.475 --> 00:02:55.280
+Security analysts help minimize
+
+68
+00:02:55.280 --> 00:02:58.280
+risks to organizations
+and people.
+
+69
+00:02:58.280 --> 00:03:01.820
+Analysts work to proactively
+guard against incidents
+
+70
+00:03:01.820 --> 00:03:06.055
+while continuously monitoring
+systems and networks.
+
+71
+00:03:06.055 --> 00:03:08.420
+And, if an incident does occur,
+
+72
+00:03:08.420 --> 00:03:11.284
+they investigate and
+report their findings.
+
+73
+00:03:11.284 --> 00:03:13.040
+They are always asking
+
+74
+00:03:13.040 --> 00:03:15.870
+questions and looking
+for solutions.
+
+75
+00:03:16.870 --> 00:03:19.495
+One of the best things
+about the security industry
+
+76
+00:03:19.495 --> 00:03:23.200
+is the many paths and career
+options it exposes you to.
+
+77
+00:03:23.200 --> 00:03:25.330
+Each option involves
+a unique set
+
+78
+00:03:25.330 --> 00:03:27.565
+of skills and responsibilities.
+
+79
+00:03:27.565 --> 00:03:29.680
+No matter what your
+background is,
+
+80
+00:03:29.680 --> 00:03:31.270
+you'll probably find that you
+
+81
+00:03:31.270 --> 00:03:33.835
+already have some
+relevant experience.
+
+82
+00:03:33.835 --> 00:03:37.525
+If you enjoy collaborating
+with and helping others,
+
+83
+00:03:37.525 --> 00:03:40.645
+solving puzzles, and are
+motivated by challenges,
+
+84
+00:03:40.645 --> 00:03:42.860
+then this is the career for you.
+
+85
+00:03:43.860 --> 00:03:45.430
+For example, my background as
+
+86
+00:03:45.430 --> 00:03:46.750
+an intelligence analyst had
+
+87
+00:03:46.750 --> 00:03:49.105
+nothing to do with
+cybersecurity.
+
+88
+00:03:49.105 --> 00:03:50.440
+However, having
+
+89
+00:03:50.440 --> 00:03:53.605
+strong critical thinking skills
+and communication skills
+
+90
+00:03:53.605 --> 00:03:55.480
+provided a solid foundation for
+
+91
+00:03:55.480 --> 00:03:59.520
+my success when I decided to
+pursue a career in security.
+
+92
+00:04:00.520 --> 00:04:02.300
+If you're not sure what
+direction you want to
+
+93
+00:04:02.300 --> 00:04:05.165
+take in the security
+industry, that's okay.
+
+94
+00:04:05.165 --> 00:04:07.550
+This program will give
+you an overview of
+
+95
+00:04:07.550 --> 00:04:10.190
+many different types
+of available jobs.
+
+96
+00:04:10.190 --> 00:04:12.020
+It will also let you explore
+
+97
+00:04:12.020 --> 00:04:14.090
+certain specialized
+skill sets to help
+
+98
+00:04:14.090 --> 00:04:16.700
+you figure out where you
+want to take your career.
+
+99
+00:04:17.700 --> 00:04:19.520
+The Google Career
+Certificates are designed by
+
+100
+00:04:19.520 --> 00:04:21.380
+industry professionals
+with decades
+
+101
+00:04:21.380 --> 00:04:23.345
+of experience here at Google.
+
+102
+00:04:23.345 --> 00:04:25.520
+You'll have a
+different expert from
+
+103
+00:04:25.520 --> 00:04:28.960
+Google guide you through each
+course in the certificate.
+
+104
+00:04:28.960 --> 00:04:31.520
+We'll share our
+knowledge in videos,
+
+105
+00:04:31.520 --> 00:04:34.820
+provide practice opportunities
+with hands-on activities,
+
+106
+00:04:34.820 --> 00:04:36.965
+and take you through
+real scenarios
+
+107
+00:04:36.965 --> 00:04:39.350
+that you might
+encounter on the job.
+
+108
+00:04:40.350 --> 00:04:41.930
+Throughout this
+program, you'll gain
+
+109
+00:04:41.930 --> 00:04:44.000
+hands-on practice with detecting
+
+110
+00:04:44.000 --> 00:04:45.710
+and responding to attacks,
+
+111
+00:04:45.710 --> 00:04:48.170
+monitoring and
+protecting networks,
+
+112
+00:04:48.170 --> 00:04:50.075
+investigating incidents,
+
+113
+00:04:50.075 --> 00:04:53.165
+and writing code
+to automate tasks.
+
+114
+00:04:54.165 --> 00:04:56.210
+The program is made up of
+several courses that are
+
+115
+00:04:56.210 --> 00:04:59.030
+designed to help you
+land an entry-level job.
+
+116
+00:04:59.030 --> 00:05:02.794
+You'll learn about topics
+like: core security concepts;
+
+117
+00:05:02.794 --> 00:05:06.105
+security domains;
+network security;
+
+118
+00:05:06.105 --> 00:05:09.930
+computing basics,
+including Linux and SQL;
+
+119
+00:05:09.930 --> 00:05:12.190
+along with understanding assets,
+
+120
+00:05:12.190 --> 00:05:14.585
+threats, and vulnerabilities.
+
+121
+00:05:14.585 --> 00:05:16.715
+Our goal is to help you reach
+
+122
+00:05:16.715 --> 00:05:19.715
+your goal of joining
+the security industry.
+
+123
+00:05:20.715 --> 00:05:21.990
+You'll learn about
+incident detection and
+
+124
+00:05:21.990 --> 00:05:24.110
+response, as well as how to use
+
+125
+00:05:24.110 --> 00:05:26.285
+programming languages,
+like Python,
+
+126
+00:05:26.285 --> 00:05:29.120
+to accomplish common
+security tasks.
+
+127
+00:05:29.120 --> 00:05:31.310
+You'll also gain valuable job
+
+128
+00:05:31.310 --> 00:05:33.530
+search strategies
+that will benefit you
+
+129
+00:05:33.530 --> 00:05:35.000
+as you begin to find and
+
+130
+00:05:35.000 --> 00:05:38.050
+apply for jobs in the
+security profession.
+
+131
+00:05:39.050 --> 00:05:40.840
+Completing this Google
+Career Certificate
+
+132
+00:05:40.840 --> 00:05:43.430
+will help you develop
+skills and learn how
+
+133
+00:05:43.430 --> 00:05:45.380
+to use tools to prepare you for
+
+134
+00:05:45.380 --> 00:05:48.830
+a job in a fast-growing,
+high-demand field.
+
+135
+00:05:49.830 --> 00:05:52.130
+The certificate is designed
+to prepare you for a job in
+
+136
+00:05:52.130 --> 00:05:56.275
+3-6 months if you work on the
+certificate part-time.
+
+137
+00:05:56.275 --> 00:05:58.340
+Once you graduate, you can
+
+138
+00:05:58.340 --> 00:06:00.605
+connect with over 200 employers
+
+139
+00:06:00.605 --> 00:06:02.105
+who are interested in hiring
+
+140
+00:06:02.105 --> 00:06:05.360
+Google Career Certificate
+graduates, like you.
+
+141
+00:06:05.360 --> 00:06:07.985
+Whether you're looking
+to switch jobs,
+
+142
+00:06:07.985 --> 00:06:09.380
+start a new career,
+
+143
+00:06:09.380 --> 00:06:11.150
+or level up your skills,
+
+144
+00:06:11.150 --> 00:06:13.280
+this Google Career
+Certificate can
+
+145
+00:06:13.280 --> 00:06:15.910
+open doors to new
+job opportunities.
+
+146
+00:06:16.910 --> 00:06:18.920
+You don't need prior
+experience or knowledge in
+
+147
+00:06:18.920 --> 00:06:20.420
+the security field because
+
+148
+00:06:20.420 --> 00:06:23.255
+this certificate program
+will begin with the basics.
+
+149
+00:06:23.255 --> 00:06:26.540
+I'll be by your side
+throughout this first course,
+
+150
+00:06:26.540 --> 00:06:27.800
+making sure that you're learning
+
+151
+00:06:27.800 --> 00:06:29.570
+the foundational
+knowledge needed
+
+152
+00:06:29.570 --> 00:06:31.070
+to succeed in the field.
+
+153
+00:06:31.070 --> 00:06:33.505
+This program is also flexible.
+
+154
+00:06:33.505 --> 00:06:35.060
+You can complete all of
+
+155
+00:06:35.060 --> 00:06:36.830
+the courses in this
+certificate on
+
+156
+00:06:36.830 --> 00:06:40.700
+your own terms and at
+your own pace, online.
+
+157
+00:06:41.700 --> 00:06:43.850
+We've gathered some amazing
+instructors to support
+
+158
+00:06:43.850 --> 00:06:45.200
+you on your journey, and
+
+159
+00:06:45.200 --> 00:06:46.885
+they'd like to introduce
+themselves now:
+
+160
+00:06:47.885 --> 00:06:49.010
+Hi! My name is Ashley,
+
+161
+00:06:49.010 --> 00:06:51.560
+and I'm a Customer
+Engineering Enablement
+
+162
+00:06:51.560 --> 00:06:54.995
+Lead for Security
+Operations Sales at Google.
+
+163
+00:06:54.995 --> 00:06:57.530
+I'll take you through
+security domains,
+
+164
+00:06:57.530 --> 00:06:59.315
+frameworks and controls,
+
+165
+00:06:59.315 --> 00:07:01.685
+as well as common
+security threats,
+
+166
+00:07:01.685 --> 00:07:03.920
+risks, and vulnerabilities.
+
+167
+00:07:03.920 --> 00:07:05.720
+You'll also be introduced to
+
+168
+00:07:05.720 --> 00:07:08.195
+common tools used by
+security analysts.
+
+169
+00:07:08.195 --> 00:07:10.210
+I can't wait to get started!
+
+170
+00:07:11.210 --> 00:07:12.360
+Hi there! My name is Chris,
+
+171
+00:07:12.360 --> 00:07:14.885
+and I'm the Chief
+Information Security Officer
+
+172
+00:07:14.885 --> 00:07:16.340
+for Google Fiber.
+
+173
+00:07:16.340 --> 00:07:18.050
+I'm excited to talk to
+
+174
+00:07:18.050 --> 00:07:19.715
+you about the structure
+of a network,
+
+175
+00:07:19.715 --> 00:07:22.625
+network protocols,
+common network attacks,
+
+176
+00:07:22.625 --> 00:07:24.895
+and how to secure a network.
+
+177
+00:07:25.895 --> 00:07:27.450
+Hi there! My name is Kim,
+
+178
+00:07:27.450 --> 00:07:29.715
+and I'm a Technical
+Program Manager at Google.
+
+179
+00:07:29.715 --> 00:07:32.345
+I will guide you through
+foundational computing skills
+
+180
+00:07:32.345 --> 00:07:34.975
+that support the work
+of a security analyst.
+
+181
+00:07:34.975 --> 00:07:37.220
+We'll also learn about
+operating systems,
+
+182
+00:07:37.220 --> 00:07:39.865
+the Linux command line, and SQL.
+
+183
+00:07:40.865 --> 00:07:42.300
+Hi! My name is Da'Queshia,
+
+184
+00:07:42.300 --> 00:07:44.345
+and I'm a Security
+Engineer at Google.
+
+185
+00:07:44.345 --> 00:07:46.130
+Together we'll
+explore protecting
+
+186
+00:07:46.130 --> 00:07:48.230
+organizational assets
+through a variety of
+
+187
+00:07:48.230 --> 00:07:49.910
+security controls and develop
+
+188
+00:07:49.910 --> 00:07:52.870
+a deeper understanding of
+risks and vulnerabilities.
+
+189
+00:07:53.870 --> 00:07:54.710
+Hi! My name is Dave,
+
+190
+00:07:54.710 --> 00:07:57.545
+and I'm a Principal Security
+Strategist at Google.
+
+191
+00:07:57.545 --> 00:07:59.570
+In our time together,
+we'll learn about
+
+192
+00:07:59.570 --> 00:08:02.315
+detecting and responding
+to security incidents.
+
+193
+00:08:02.315 --> 00:08:05.045
+You'll also have the chance
+to monitor and analyze
+
+194
+00:08:05.045 --> 00:08:08.515
+network activity using
+powerful security tools.
+
+195
+00:08:09.515 --> 00:08:10.915
+Hello! I'm Angel,
+
+196
+00:08:10.915 --> 00:08:13.025
+and I'm a Security
+Engineer at Google.
+
+197
+00:08:13.025 --> 00:08:16.565
+We'll explore foundational
+Python programming concepts
+
+198
+00:08:16.565 --> 00:08:19.540
+to help you automate
+common security tasks.
+
+199
+00:08:20.540 --> 00:08:21.535
+Hello! I'm Dion.
+
+200
+00:08:21.535 --> 00:08:23.585
+I'm a Program Manager at Google.
+
+201
+00:08:23.585 --> 00:08:25.100
+I'm your instructor for
+
+202
+00:08:25.100 --> 00:08:28.640
+the first portion of the
+final course of the program.
+
+203
+00:08:28.640 --> 00:08:31.250
+There, we'll discuss
+how to escalate
+
+204
+00:08:31.250 --> 00:08:34.490
+incidents and communicate
+with stakeholders.
+
+205
+00:08:35.490 --> 00:08:38.510
+And my name is Emily. I'm a
+Program Manager at Google.
+
+206
+00:08:38.510 --> 00:08:40.340
+I'll guide you through
+the final portion of
+
+207
+00:08:40.340 --> 00:08:42.350
+the program and share
+ways that you can
+
+208
+00:08:42.350 --> 00:08:44.314
+engage with the
+security community
+
+209
+00:08:44.314 --> 00:08:47.420
+and prepare for your
+upcoming job search.
+
+210
+00:08:48.420 --> 00:08:49.295
+And, as you already know,
+
+211
+00:08:49.295 --> 00:08:52.370
+I'll guide you through the
+first course of this program.
+
+212
+00:08:52.370 --> 00:08:54.530
+This is such a great time to
+
+213
+00:08:54.530 --> 00:08:56.675
+grow your career in
+the field of security.
+
+214
+00:08:56.675 --> 00:08:59.940
+Sound exciting?
+Let's get started!
