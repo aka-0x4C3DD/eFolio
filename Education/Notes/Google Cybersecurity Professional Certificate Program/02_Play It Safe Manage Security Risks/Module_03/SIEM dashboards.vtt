@@ -1,0 +1,296 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.450
+We've explored how
+SIEM tools are used
+
+2
+00:00:03.450 --> 00:00:06.090
+to collect and analyze log data.
+
+3
+00:00:06.090 --> 00:00:08.580
+However, this is just one of
+
+4
+00:00:08.580 --> 00:00:11.985
+the many ways SIEM tools
+are used in cybersecurity.
+
+5
+00:00:12.985 --> 00:00:16.140
+SIEM tools can also be used
+to create dashboards.
+
+6
+00:00:16.140 --> 00:00:18.479
+You might have
+encountered dashboards
+
+7
+00:00:18.479 --> 00:00:21.045
+in an app on your
+phone or other device.
+
+8
+00:00:21.045 --> 00:00:23.970
+They present information
+about your account or
+
+9
+00:00:23.970 --> 00:00:27.150
+location in a format
+that's easy to understand.
+
+10
+00:00:28.150 --> 00:00:28.545
+For example,
+
+11
+00:00:28.545 --> 00:00:31.275
+weather apps display
+data like temperature,
+
+12
+00:00:31.275 --> 00:00:32.710
+precipitation,
+
+13
+00:00:32.710 --> 00:00:36.425
+wind speed, and the
+forecast using charts,
+
+14
+00:00:36.425 --> 00:00:38.920
+graphs, and other
+visual elements.
+
+15
+00:00:38.920 --> 00:00:41.600
+This format makes
+it easy to quickly
+
+16
+00:00:41.600 --> 00:00:44.375
+identify weather
+patterns and trends,
+
+17
+00:00:44.375 --> 00:00:47.855
+so you can stay prepared and
+plan your day accordingly.
+
+18
+00:00:48.855 --> 00:00:50.300
+Just like weather
+apps help people make
+
+19
+00:00:50.300 --> 00:00:53.455
+quick and informed
+decisions based on data,
+
+20
+00:00:53.455 --> 00:00:56.180
+SIEM dashboards help
+security analysts
+
+21
+00:00:56.180 --> 00:00:58.415
+quickly and easily access
+
+22
+00:00:58.415 --> 00:01:01.340
+their organization's
+security information as
+
+23
+00:01:01.340 --> 00:01:04.270
+charts, graphs, or tables.
+
+24
+00:01:05.270 --> 00:01:06.890
+For example, a security analyst
+
+25
+00:01:06.890 --> 00:01:10.130
+receives an alert about a
+suspicious login attempt.
+
+26
+00:01:10.130 --> 00:01:13.040
+The analyst accesses
+their SIEM dashboard
+
+27
+00:01:13.040 --> 00:01:15.680
+to gather information
+about this alert.
+
+28
+00:01:15.680 --> 00:01:17.255
+Using the dashboard,
+
+29
+00:01:17.255 --> 00:01:19.460
+the analyst discovers
+that there have been
+
+30
+00:01:19.460 --> 00:01:21.935
+500 login attempts
+for Ymara's
+
+31
+00:01:21.935 --> 00:01:24.830
+account in the span
+of five-minutes.
+
+32
+00:01:24.830 --> 00:01:28.610
+They also discover that the
+login attempts happened from
+
+33
+00:01:28.610 --> 00:01:31.910
+geographic locations
+outside of Ymara's
+
+34
+00:01:31.910 --> 00:01:36.035
+usual location and outside
+of her usual working hours.
+
+35
+00:01:36.035 --> 00:01:37.770
+By using a dashboard,
+
+36
+00:01:37.770 --> 00:01:41.075
+the security analyst was
+able to quickly review
+
+37
+00:01:41.075 --> 00:01:43.580
+visual representations
+of the timeline
+
+38
+00:01:43.580 --> 00:01:45.155
+of the login attempts,
+
+39
+00:01:45.155 --> 00:01:49.100
+the location, and the exact
+time of the activity,
+
+40
+00:01:49.100 --> 00:01:52.850
+then determine that the
+activity was suspicious.
+
+41
+00:01:53.850 --> 00:01:54.695
+In addition to providing
+
+42
+00:01:54.695 --> 00:01:58.040
+a comprehensive summary
+of security-related data,
+
+43
+00:01:58.040 --> 00:02:00.500
+SIEM dashboards also provide
+
+44
+00:02:00.500 --> 00:02:02.855
+stakeholders with
+different metrics.
+
+45
+00:02:02.855 --> 00:02:05.990
+Metrics are key
+technical attributes
+
+46
+00:02:05.990 --> 00:02:07.610
+such as response time,
+
+47
+00:02:07.610 --> 00:02:10.355
+availability, and failure rate,
+
+48
+00:02:10.355 --> 00:02:12.020
+which are used to assess
+
+49
+00:02:12.020 --> 00:02:14.965
+the performance of a
+software application.
+
+50
+00:02:15.965 --> 00:02:16.760
+SIEM dashboards can be
+
+51
+00:02:16.760 --> 00:02:19.355
+customized to display
+specific metrics
+
+52
+00:02:19.355 --> 00:02:21.380
+or other data that are relevant
+
+53
+00:02:21.380 --> 00:02:23.905
+to different members
+in an organization.
+
+54
+00:02:23.905 --> 00:02:28.520
+For example, a security
+analyst may create a dashboard
+
+55
+00:02:28.520 --> 00:02:30.080
+that displays metrics for
+
+56
+00:02:30.080 --> 00:02:32.930
+monitoring everyday
+business operations,
+
+57
+00:02:32.930 --> 00:02:36.574
+like the volume of incoming
+and outgoing network traffic.
+
+58
+00:02:37.574 --> 00:02:39.520
+We've examined how
+security analysts use
+
+59
+00:02:39.520 --> 00:02:41.150
+SIEM dashboards to help
+
+60
+00:02:41.150 --> 00:02:44.240
+organizations maintain
+their security posture.
+
+61
+00:02:44.240 --> 00:02:45.870
+Well done!
+
+62
+00:02:46.870 --> 00:02:49.310
+Coming up, we'll discuss some
+common SIEM tools
+
+63
+00:02:49.310 --> 00:02:53.460
+used in the cybersecurity
+industry. Meet you there.

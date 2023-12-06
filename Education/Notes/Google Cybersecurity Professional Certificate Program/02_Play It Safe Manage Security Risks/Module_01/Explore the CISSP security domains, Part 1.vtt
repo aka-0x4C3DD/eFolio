@@ -1,0 +1,324 @@
+WEBVTT
+
+1
+00:00:01.520 --> 00:00:02.790
+Welcome back!
+
+2
+00:00:02.790 --> 00:00:08.179
+You might remember from course one that
+there are eight security domains, or categories,
+
+3
+00:00:08.179 --> 00:00:11.140
+identified by CISSP.
+
+4
+00:00:11.140 --> 00:00:14.652
+Security teams use them to
+organize daily tasks and
+
+5
+00:00:14.652 --> 00:00:19.473
+identify gaps in security that could
+cause negative consequences for
+
+6
+00:00:19.473 --> 00:00:23.580
+an organization, and
+to establish their security posture.
+
+7
+00:00:23.580 --> 00:00:28.985
+Security posture refers to
+an organization's ability to manage
+
+8
+00:00:28.985 --> 00:00:34.210
+its defense of critical assets and
+data and react to change.
+
+9
+00:00:35.210 --> 00:00:39.667
+In this video, we'll discuss
+the focus of the first four domains:
+
+10
+00:00:39.667 --> 00:00:45.800
+security and risk management,
+asset security,
+
+11
+00:00:45.800 --> 00:00:50.170
+security architecture and engineering,
+and communication and network security.
+
+12
+00:00:51.170 --> 00:00:53.780
+The first domain is security and
+risk management.
+
+13
+00:00:53.780 --> 00:00:57.738
+There are several areas of focus for
+this domain:
+
+14
+00:00:57.738 --> 00:01:02.639
+defining security goals and
+objectives, risk mitigation,
+
+15
+00:01:02.639 --> 00:01:07.470
+compliance, business continuity, and
+legal regulations.
+
+16
+00:01:07.470 --> 00:01:11.849
+Let's discuss each area
+of focus in more detail.
+
+17
+00:01:12.849 --> 00:01:15.580
+By defining security goals and objectives,
+
+18
+00:01:15.580 --> 00:01:20.096
+organizations can reduce
+risks to critical assets and data
+
+19
+00:01:20.096 --> 00:01:25.420
+like PII, or
+personally identifiable information.
+
+20
+00:01:25.420 --> 00:01:29.539
+Risk mitigation means having
+the right procedures and rules
+
+21
+00:01:29.539 --> 00:01:35.120
+in place to quickly reduce
+the impact of a risk like a breach.
+
+22
+00:01:35.120 --> 00:01:40.568
+Compliance is the primary method used
+to develop an organization's internal
+
+23
+00:01:40.568 --> 00:01:45.943
+security policies, regulatory
+requirements, and independent standards.
+
+24
+00:01:45.943 --> 00:01:51.103
+Business continuity relates to
+an organization's ability to maintain
+
+25
+00:01:51.103 --> 00:01:57.010
+their everyday productivity by
+establishing risk disaster recovery plans.
+
+26
+00:01:58.010 --> 00:02:00.703
+And finally,
+while laws related to security and
+
+27
+00:02:00.703 --> 00:02:06.478
+risk management are different worldwide,
+the overall goals are similar.
+
+28
+00:02:06.478 --> 00:02:12.397
+As a security professional, this means
+following rules and expectations for
+
+29
+00:02:12.397 --> 00:02:17.050
+ethical behavior to minimize negligence,
+abuse, or fraud.
+
+30
+00:02:18.050 --> 00:02:20.690
+The next domain is asset security.
+
+31
+00:02:20.690 --> 00:02:26.690
+The asset security domain is focused on
+securing digital and physical assets.
+
+32
+00:02:26.690 --> 00:02:30.761
+It's also related to the storage,
+maintenance,
+
+33
+00:02:30.761 --> 00:02:33.900
+retention, and destruction of data.
+
+34
+00:02:33.900 --> 00:02:39.780
+This means that assets such as PII or
+SPII should be securely handled and
+
+35
+00:02:39.780 --> 00:02:44.876
+protected, whether stored on a computer,
+transferred over
+
+36
+00:02:44.876 --> 00:02:49.788
+a network like the internet, or
+even physically collected.
+
+37
+00:02:49.788 --> 00:02:55.287
+Organizations also need to have
+policies and procedures that ensure
+
+38
+00:02:55.287 --> 00:03:00.609
+data is properly stored,
+maintained, retained, and destroyed.
+
+39
+00:03:00.609 --> 00:03:06.299
+Knowing what data you have and who has
+access to it is necessary for having
+
+40
+00:03:06.299 --> 00:03:12.290
+a strong security posture that mitigates
+risk to critical assets and data.
+
+41
+00:03:13.290 --> 00:03:17.395
+Previously, we provided a few examples
+that touched on the disposal of data.
+
+42
+00:03:17.395 --> 00:03:22.337
+For example, an organization might
+have you, as a security analyst, oversee
+
+43
+00:03:22.337 --> 00:03:27.795
+the destruction of hard drives to make
+sure that they're properly disposed of.
+
+44
+00:03:27.795 --> 00:03:32.583
+This ensures that private data stored
+on those drives can't be accessed by
+
+45
+00:03:32.583 --> 00:03:34.520
+threat actors.
+
+46
+00:03:35.520 --> 00:03:38.760
+The third domain is security
+architecture and engineering.
+
+47
+00:03:38.760 --> 00:03:45.301
+This domain is focused on optimizing data
+security by ensuring effective tools,
+
+48
+00:03:45.301 --> 00:03:52.680
+systems, and processes are in place to
+protect an organization's assets and data.
+
+49
+00:03:52.680 --> 00:03:58.950
+One of the core concepts of secure design
+architecture is shared responsibility.
+
+50
+00:03:58.950 --> 00:04:03.010
+Shared responsibility means
+that all individuals within
+
+51
+00:04:03.010 --> 00:04:06.901
+an organization take an active
+role in lowering risk and
+
+52
+00:04:06.901 --> 00:04:10.484
+maintaining both physical and
+virtual security.
+
+53
+00:04:10.484 --> 00:04:14.411
+By having policies that
+encourage users to recognize and
+
+54
+00:04:14.411 --> 00:04:20.071
+report security concerns, many issues
+can be handled quickly and effectively.
+
+55
+00:04:22.310 --> 00:04:26.642
+The fourth domain is communication and
+network security, which is mainly
+
+56
+00:04:26.642 --> 00:04:32.752
+focused on managing and securing physical
+networks and wireless communications.
+
+57
+00:04:32.752 --> 00:04:38.009
+Secure networks keep an organization's
+data and communications safe
+
+58
+00:04:38.009 --> 00:04:43.500
+whether on-site, or in the cloud, or
+when connecting to services remotely.
+
+59
+00:04:44.500 --> 00:04:48.283
+For example, employees working
+remotely in public spaces need to be
+
+60
+00:04:48.283 --> 00:04:52.488
+protected from vulnerabilities
+that can occur when they use
+
+61
+00:04:52.488 --> 00:04:56.618
+insecure bluetooth connections or
+public wifi hotspots.
+
+62
+00:04:56.618 --> 00:05:02.004
+By having security team members remove
+access to those types of communication
+
+63
+00:05:02.004 --> 00:05:07.146
+channels at the organizational level,
+employees may be discouraged from
+
+64
+00:05:07.146 --> 00:05:12.230
+practicing insecure behavior that
+could be exploited by threat actors.
+
+65
+00:05:13.230 --> 00:05:16.370
+Now that we've reviewed the focus
+of our first four domains,
+
+66
+00:05:16.370 --> 00:05:18.801
+let's discuss the last four domains.

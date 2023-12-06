@@ -1,0 +1,397 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:03.720
+Hello again!
+I'm excited you're here.
+
+2
+00:00:03.720 --> 00:00:06.405
+We have so much to discuss.
+
+3
+00:00:06.405 --> 00:00:08.880
+Previously, we covered the uses
+
+4
+00:00:08.880 --> 00:00:11.230
+and benefits of the NIST CSF.
+
+5
+00:00:11.230 --> 00:00:14.670
+In this video, we'll
+focus specifically on
+
+6
+00:00:14.670 --> 00:00:18.435
+the five core functions of
+the NIST CSF framework.
+
+7
+00:00:18.435 --> 00:00:19.920
+Let's get started.
+
+8
+00:00:20.920 --> 00:00:25.515
+NIST CSF focuses on five
+core functions: identify,
+
+9
+00:00:25.515 --> 00:00:31.109
+protect, detect,
+respond, and recover.
+
+10
+00:00:31.109 --> 00:00:33.045
+These core functions help
+
+11
+00:00:33.045 --> 00:00:36.130
+organizations manage
+cybersecurity risks,
+
+12
+00:00:36.130 --> 00:00:38.735
+implement risk
+management strategies,
+
+13
+00:00:38.735 --> 00:00:41.225
+and learn from
+previous mistakes.
+
+14
+00:00:41.225 --> 00:00:44.570
+Basically, when it comes
+to security operations,
+
+15
+00:00:44.570 --> 00:00:46.610
+NIST CSF functions are
+
+16
+00:00:46.610 --> 00:00:49.220
+key for making sure
+an organization is
+
+17
+00:00:49.220 --> 00:00:51.440
+protected against
+potential threats,
+
+18
+00:00:51.440 --> 00:00:54.355
+risks, and vulnerabilities.
+
+19
+00:00:54.355 --> 00:00:57.320
+So let's take a little
+time to explore how
+
+20
+00:00:57.320 --> 00:00:59.120
+each function can be used to
+
+21
+00:00:59.120 --> 00:01:02.050
+improve an
+organization's security.
+
+22
+00:01:03.050 --> 00:01:04.275
+The first core function is
+
+23
+00:01:04.275 --> 00:01:07.670
+identify, which is related
+to the management of
+
+24
+00:01:07.670 --> 00:01:10.250
+cybersecurity risk
+and its effect on
+
+25
+00:01:10.250 --> 00:01:13.130
+an organization's
+people and assets.
+
+26
+00:01:13.130 --> 00:01:16.235
+For example, as a
+security analyst,
+
+27
+00:01:16.235 --> 00:01:19.870
+you may be asked to monitor
+systems and devices in
+
+28
+00:01:19.870 --> 00:01:23.440
+your organization's internal
+network to identify
+
+29
+00:01:23.440 --> 00:01:25.500
+potential security issues
+
+30
+00:01:26.500 --> 00:01:30.400
+The second core function is
+protect, which is the strategy
+
+31
+00:01:30.400 --> 00:01:32.410
+used to protect an organization
+
+32
+00:01:32.410 --> 00:01:34.825
+through the implementation
+of policies,
+
+33
+00:01:34.825 --> 00:01:37.030
+procedures, training,
+
+34
+00:01:37.030 --> 00:01:40.840
+and tools that help mitigate
+cybersecurity threats.
+
+35
+00:01:41.840 --> 00:01:44.100
+For example, as a
+security analyst,
+
+36
+00:01:44.100 --> 00:01:46.100
+you and your team
+might encounter
+
+37
+00:01:46.100 --> 00:01:49.805
+new and unfamiliar
+threats and attacks.
+
+38
+00:01:49.805 --> 00:01:52.360
+For this reason, studying
+historical data and
+
+39
+00:01:52.360 --> 00:01:54.265
+making improvements to policies
+
+40
+00:01:54.265 --> 00:01:56.000
+and procedures is essential.
+
+41
+00:01:57.000 --> 00:01:59.380
+The third core function
+is detect, which
+
+42
+00:01:59.380 --> 00:02:03.200
+means identifying potential
+security incidents
+
+43
+00:02:03.200 --> 00:02:06.000
+and improving monitoring
+capabilities to
+
+44
+00:02:06.000 --> 00:02:10.320
+increase the speed and
+efficiency of detections.
+
+45
+00:02:10.320 --> 00:02:12.279
+For example, as an analyst,
+
+46
+00:02:12.279 --> 00:02:13.690
+you might be asked to review
+
+47
+00:02:13.690 --> 00:02:18.325
+a new security tool's setup to
+make sure it's flagging low,
+
+48
+00:02:18.325 --> 00:02:20.400
+medium, or high risk,
+
+49
+00:02:20.500 --> 00:02:23.500
+and then alerting the
+security team about
+
+50
+00:02:23.500 --> 00:02:26.000
+any potential threats
+or incidents.
+
+51
+00:02:26.000 --> 00:02:29.000
+The fourth function is
+respond, which means making
+
+52
+00:02:29.200 --> 00:02:32.230
+sure that the proper procedures
+are used to contain,
+
+53
+00:02:32.230 --> 00:02:33.500
+neutralize,
+
+54
+00:02:33.500 --> 00:02:37.000
+and analyze security
+incidents, and
+
+55
+00:02:37.000 --> 00:02:40.280
+implement improvements
+to the security process.
+
+56
+00:02:41.280 --> 00:02:43.000
+As an analyst, you could be
+
+57
+00:02:43.000 --> 00:02:45.400
+working with a team
+to collect and
+
+58
+00:02:45.400 --> 00:02:49.200
+organize data to document
+an incident and suggest
+
+59
+00:02:49.200 --> 00:02:51.240
+improvements to processes to
+
+60
+00:02:51.240 --> 00:02:53.290
+prevent the incident
+from happening again.
+
+61
+00:02:54.290 --> 00:02:56.560
+The fifth core function is
+
+62
+00:02:56.560 --> 00:02:58.040
+recover, which is the process of
+
+63
+00:02:58.040 --> 00:03:02.720
+returning affected systems
+back to normal operation.
+
+64
+00:03:03.720 --> 00:03:07.950
+For example, as an
+entry-level security analyst,
+
+65
+00:03:07.950 --> 00:03:09.665
+you might work with
+your security team
+
+66
+00:03:09.665 --> 00:03:11.315
+to restore systems,
+
+67
+00:03:11.315 --> 00:03:14.000
+data, and assets, such as
+
+68
+00:03:14.000 --> 00:03:17.670
+financial or legal
+files, that have
+
+69
+00:03:17.670 --> 00:03:19.804
+been affected by an
+incident like a breach.
+
+70
+00:03:20.804 --> 00:03:23.060
+We've covered a lot of
+information in this video.
+
+71
+00:03:23.060 --> 00:03:25.640
+Hopefully, it helped you
+
+72
+00:03:25.640 --> 00:03:27.200
+understand the value
+of learning about
+
+73
+00:03:27.200 --> 00:03:30.295
+the NIST CSF and its
+five core functions.
+
+74
+00:03:31.295 --> 00:03:35.400
+From proactive to reactive
+measures, all five functions are
+
+75
+00:03:35.400 --> 00:03:37.720
+essential for making sure
+that an organization
+
+76
+00:03:37.720 --> 00:03:40.780
+has effective security
+strategies in place.
+
+77
+00:03:41.780 --> 00:03:44.600
+Security incidents
+are going to happen,
+
+78
+00:03:44.600 --> 00:03:46.200
+but an organization must have
+
+79
+00:03:46.200 --> 00:03:48.200
+the ability to
+quickly recover from
+
+80
+00:03:48.200 --> 00:03:50.500
+any damage caused by an incident
+
+81
+00:03:50.500 --> 00:03:52.315
+to minimize their level of risk.
+
+82
+00:03:53.315 --> 00:03:54.220
+Coming up, we'll discuss
+
+83
+00:03:54.220 --> 00:03:58.100
+security principles that
+work hand-in-hand with
+
+84
+00:03:58.100 --> 00:04:00.310
+NIST frameworks
+and the CIA triad
+
+85
+00:04:00.310 --> 00:04:04.280
+to help protect critical
+data and assets.

@@ -1,0 +1,268 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:02.955
+As a security analyst,
+
+2
+00:00:02.955 --> 00:00:06.300
+one of your responsibilities
+might include analyzing
+
+3
+00:00:06.300 --> 00:00:08.430
+log data to mitigate and manage
+
+4
+00:00:08.430 --> 00:00:11.430
+threats, risks, and
+vulnerabilities.
+
+5
+00:00:11.430 --> 00:00:15.570
+As a reminder, a log is
+a record of events that
+
+6
+00:00:15.570 --> 00:00:19.875
+occur within an organization's
+systems and networks.
+
+7
+00:00:19.875 --> 00:00:22.440
+Security analysts
+access a variety
+
+8
+00:00:22.440 --> 00:00:24.615
+of logs from different sources.
+
+9
+00:00:24.615 --> 00:00:28.320
+Three common log sources
+include firewall logs,
+
+10
+00:00:28.320 --> 00:00:31.350
+network logs, and server logs.
+
+11
+00:00:31.350 --> 00:00:35.265
+Let's explore each of these
+log sources in more detail.
+
+12
+00:00:36.265 --> 00:00:38.490
+A firewall log is a
+record of attempted or
+
+13
+00:00:38.490 --> 00:00:40.245
+established connections for
+
+14
+00:00:40.245 --> 00:00:42.635
+incoming traffic
+from the internet.
+
+15
+00:00:42.635 --> 00:00:45.640
+It also includes
+outbound requests
+
+16
+00:00:45.640 --> 00:00:48.065
+to the internet from
+within the network.
+
+17
+00:00:49.065 --> 00:00:51.280
+A network log is a record of
+
+18
+00:00:51.280 --> 00:00:53.200
+all computers and devices
+
+19
+00:00:53.200 --> 00:00:55.375
+that enter and
+leave the network.
+
+20
+00:00:55.375 --> 00:00:58.150
+It also records
+connections between
+
+21
+00:00:58.150 --> 00:01:01.190
+devices and services
+on the network.
+
+22
+00:01:02.190 --> 00:01:04.960
+Finally, a server
+log is a record of
+
+23
+00:01:04.960 --> 00:01:08.870
+events related to services
+such as websites,
+
+24
+00:01:08.870 --> 00:01:11.580
+emails, or file shares.
+
+25
+00:01:11.580 --> 00:01:14.244
+It includes actions
+such as login,
+
+26
+00:01:14.244 --> 00:01:17.000
+password, and username requests.
+
+27
+00:01:18.000 --> 00:01:20.590
+By monitoring logs, like
+the one shown here,
+
+28
+00:01:20.590 --> 00:01:22.764
+security teams can identify
+
+29
+00:01:22.764 --> 00:01:25.810
+vulnerabilities and
+potential data breaches.
+
+30
+00:01:25.810 --> 00:01:28.255
+Understanding logs is important
+
+31
+00:01:28.255 --> 00:01:29.830
+because SIEM tools rely on
+
+32
+00:01:29.830 --> 00:01:33.620
+logs to monitor systems and
+detect security threats.
+
+33
+00:01:34.620 --> 00:01:37.915
+A security information and
+event management, or SIEM, tool
+
+34
+00:01:37.915 --> 00:01:39.400
+is an application that
+
+35
+00:01:39.400 --> 00:01:42.160
+collects and
+analyzes log data to
+
+36
+00:01:42.160 --> 00:01:45.410
+monitor critical activities
+in an organization.
+
+37
+00:01:45.410 --> 00:01:48.370
+It provides real-time
+visibility,
+
+38
+00:01:48.370 --> 00:01:52.615
+event monitoring and analysis,
+and automated alerts.
+
+39
+00:01:52.615 --> 00:01:57.115
+It also stores all log data
+in a centralized location.
+
+40
+00:01:58.115 --> 00:02:00.970
+Because SIEM tools index and
+minimize the number of logs
+
+41
+00:02:00.970 --> 00:02:02.740
+a security professional must
+
+42
+00:02:02.740 --> 00:02:05.200
+manually review and analyze,
+
+43
+00:02:05.200 --> 00:02:08.370
+they increase efficiency
+and save time.
+
+44
+00:02:09.370 --> 00:02:11.930
+But, SIEM tools must be
+configured and customized to
+
+45
+00:02:11.930 --> 00:02:15.910
+meet each organization's
+unique security needs.
+
+46
+00:02:15.910 --> 00:02:18.995
+As new threats and
+vulnerabilities emerge,
+
+47
+00:02:18.995 --> 00:02:21.890
+organizations must
+continually customize
+
+48
+00:02:21.890 --> 00:02:23.960
+their SIEM tools to ensure that
+
+49
+00:02:23.960 --> 00:02:26.885
+threats are detected
+and quickly addressed.
+
+50
+00:02:27.885 --> 00:02:29.540
+Later in the
+certificate program,
+
+51
+00:02:29.540 --> 00:02:31.490
+you'll have a chance
+to practice using
+
+52
+00:02:31.490 --> 00:02:32.900
+different SIEM tools to
+
+53
+00:02:32.900 --> 00:02:35.660
+identify potential
+security incidents.
+
+54
+00:02:36.660 --> 00:02:37.610
+Coming up, we'll explore
+
+55
+00:02:37.610 --> 00:02:40.310
+SIEM dashboards and
+how cybersecurity
+
+56
+00:02:40.310 --> 00:02:42.260
+professionals use
+them to monitor for
+
+57
+00:02:42.260 --> 00:02:46.050
+threats, risks, and
+vulnerabilities.

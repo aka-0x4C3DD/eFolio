@@ -1,0 +1,72 @@
+WEBVTT
+
+1
+00:00:00.960 --> 00:00:02.450
+Welcome back!
+
+2
+00:00:02.450 --> 00:00:06.924
+Previously, we discussed security
+frameworks, controls, and design
+
+3
+00:00:06.924 --> 00:00:11.850
+principles, and how security professionals
+apply these to security audits.
+
+4
+00:00:12.850 --> 00:00:16.067
+In this section, we'll continue
+to explore security tools and
+
+5
+00:00:16.067 --> 00:00:21.360
+how they can help you keep organizations
+and the people they serve safe.
+
+6
+00:00:21.360 --> 00:00:25.884
+Security professionals often use
+a variety of tools to address
+
+7
+00:00:25.884 --> 00:00:30.833
+specific security challenges,
+such as collecting security data,
+
+8
+00:00:30.833 --> 00:00:35.440
+detecting and analyzing threats, or
+automating tasks.
+
+9
+00:00:35.440 --> 00:00:41.130
+Security tools help organizations achieve
+a more comprehensive security posture.
+
+10
+00:00:42.130 --> 00:00:45.186
+We'll begin by covering
+different types of logs,
+
+11
+00:00:45.186 --> 00:00:48.320
+what they track, and how they're used.
+
+12
+00:00:49.320 --> 00:00:53.108
+Then we'll explore security
+information and event management,
+
+13
+00:00:53.108 --> 00:00:55.860
+otherwise known as SIEM, dashboards.
+
+14
+00:00:55.860 --> 00:01:01.199
+Finally, we'll discuss some common SIEM
+tools used in the security industry.
+
+15
+00:01:01.199 --> 00:01:02.621
+Let's get started!

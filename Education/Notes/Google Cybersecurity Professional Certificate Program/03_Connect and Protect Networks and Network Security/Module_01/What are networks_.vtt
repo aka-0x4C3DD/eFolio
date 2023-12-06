@@ -1,0 +1,144 @@
+WEBVTT
+
+1
+00:00:00.940 --> 00:00:05.420
+Welcome! Before you can understand
+the importance of securing a network,
+
+2
+00:00:05.420 --> 00:00:08.119
+you need to know what a network is.
+
+3
+00:00:09.119 --> 00:00:10.690
+A network is a group of connected devices.
+
+4
+00:00:10.690 --> 00:00:14.708
+At home, the devices connected to
+your network might be your laptop,
+
+5
+00:00:14.708 --> 00:00:19.015
+cell phones, and smart devices, like
+your refrigerator or air conditioner.
+
+6
+00:00:19.015 --> 00:00:22.410
+In an office, devices like workstations,
+printers, and
+
+7
+00:00:22.410 --> 00:00:25.380
+servers all connect to the network.
+
+8
+00:00:25.380 --> 00:00:30.286
+The devices on a network can communicate
+with each other over network cables, or
+
+9
+00:00:30.286 --> 00:00:31.820
+wireless connections.
+
+10
+00:00:31.820 --> 00:00:35.982
+Networks in your home and
+office can communicate with networks in other locations,
+
+11
+00:00:35.982 --> 00:00:38.737
+and the devices on them.
+
+12
+00:00:39.737 --> 00:00:43.443
+Devices need to find each other on
+a network to establish communications.
+
+13
+00:00:43.443 --> 00:00:49.100
+These devices will use unique addresses, or
+identifiers, to locate each other.
+
+14
+00:00:49.100 --> 00:00:51.966
+The addresses will ensure that
+communications happens with
+
+15
+00:00:51.966 --> 00:00:53.660
+the right device.
+
+16
+00:00:53.660 --> 00:00:57.060
+These are called the IP and MAC addresses.
+
+17
+00:00:58.060 --> 00:01:00.350
+Devices can communicate
+on two types of networks:
+
+18
+00:01:00.350 --> 00:01:03.595
+a local area network, also known as a LAN,
+
+19
+00:01:03.595 --> 00:01:07.100
+and a wide area network, also known as a WAN.
+
+20
+00:01:08.100 --> 00:01:08.886
+A local area network, or LAN,
+
+21
+00:01:08.886 --> 00:01:14.200
+spans a small area like an office
+building, a school, or a home.
+
+22
+00:01:14.200 --> 00:01:17.299
+For example, when a personal
+device like your cell phone or tablet
+
+23
+00:01:17.299 --> 00:01:21.100
+connects to the WIFI in your house,
+they form a LAN.
+
+24
+00:01:21.100 --> 00:01:23.390
+The LAN then connects to the internet.
+
+25
+00:01:24.390 --> 00:01:28.612
+A wide area network or WAN spans
+a large geographical area like a city, state,
+
+26
+00:01:28.612 --> 00:01:30.214
+or country.
+
+27
+00:01:30.214 --> 00:01:33.451
+You can think of
+the internet as one big WAN.
+
+28
+00:01:33.451 --> 00:01:36.715
+An employee of a company in
+San Francisco can communicate and
+
+29
+00:01:36.715 --> 00:01:40.561
+share resources with another employee
+in Dublin, Ireland over the WAN.
+
+30
+00:01:42.710 --> 00:01:45.074
+Now that you've learned about
+the structure and types of networks,
+
+31
+00:01:45.074 --> 00:01:48.789
+meet me in an upcoming video to learn
+about the devices that connect to them.

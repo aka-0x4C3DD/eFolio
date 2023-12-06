@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.955 --> 00:00:03.957
+You've learned about security domains in
+previous courses.
+
+2
+00:00:03.957 --> 00:00:07.846
+Now we'll explore one of those
+domains further: networks.
+
+3
+00:00:07.846 --> 00:00:12.421
+It's important to secure networks because
+network-based attacks are growing in both
+
+4
+00:00:12.421 --> 00:00:13.952
+frequency and complexity.
+
+5
+00:00:15.952 --> 00:00:18.660
+Hi there! My name is Chris, and I'm
+the Chief Information Security Officer for
+
+6
+00:00:18.660 --> 00:00:19.597
+Google Fiber.
+
+7
+00:00:19.597 --> 00:00:22.120
+I'm excited to be your instructor for
+this course!
+
+8
+00:00:22.120 --> 00:00:26.369
+I've been working in network security and
+engineering for over 20 years, and
+
+9
+00:00:26.369 --> 00:00:30.505
+I'm looking forward to sharing some of
+my knowledge and experience with you.
+
+10
+00:00:32.505 --> 00:00:34.640
+This course will help you understand
+the basic structure of a network (also
+
+11
+00:00:34.640 --> 00:00:38.661
+referred to as network architecture)
+and commonly used network tools.
+
+12
+00:00:38.661 --> 00:00:43.083
+You'll also learn about network operations
+and explore some basic network protocols.
+
+13
+00:00:43.083 --> 00:00:46.096
+Next, you'll learn about
+common network attacks and
+
+14
+00:00:46.096 --> 00:00:49.706
+how network intrusion tactics can
+prevent a threat to a network.
+
+15
+00:00:49.706 --> 00:00:53.906
+Finally, the course will provide an
+overview of security hardening practices
+
+16
+00:00:53.906 --> 00:00:56.620
+and how you might use them
+to help secure a network.
+
+17
+00:00:58.620 --> 00:00:59.121
+There's a lot to learn in
+securing networks, and
+
+18
+00:00:59.121 --> 00:01:01.333
+I'm excited to go on
+this journey with you.
+
+19
+00:01:01.333 --> 00:01:02.387
+Ready to get started?
+
+20
+00:01:02.387 --> 00:01:03.273
+Let's go!

@@ -1,0 +1,63 @@
+WEBVTT
+
+1
+00:00:01.055 --> 00:00:05.095
+Let's quickly review what we covered
+in this section of the course.
+
+2
+00:00:05.095 --> 00:00:09.564
+We started by discussing the importance
+of logs and cybersecurity,
+
+3
+00:00:09.564 --> 00:00:15.880
+and we explored different log types,
+like firewall, network, and server logs.
+
+4
+00:00:16.880 --> 00:00:18.693
+Next, we explored SIEM dashboards and
+
+5
+00:00:18.693 --> 00:00:24.236
+how they use visual representations to
+provide security teams with quick and
+
+6
+00:00:24.236 --> 00:00:28.771
+clear insights into the security
+posture of an organization.
+
+7
+00:00:29.771 --> 00:00:34.299
+Finally, we introduced common SIEM
+tools used in the cybersecurity
+
+8
+00:00:34.299 --> 00:00:37.719
+industry, including Splunk and Chronicle.
+
+9
+00:00:38.719 --> 00:00:42.179
+We'll be exploring even more security
+tools later in the program, and
+
+10
+00:00:42.179 --> 00:00:45.540
+you'll have opportunities
+to practice using them.
+
+11
+00:00:45.540 --> 00:00:50.948
+Coming up, we'll discuss playbooks and
+how they help security professionals
+
+12
+00:00:50.948 --> 00:00:56.128
+respond appropriately to identify threats,
+risks, and vulnerabilities.
+
+13
+00:00:56.128 --> 00:00:57.168
+Meet you there.

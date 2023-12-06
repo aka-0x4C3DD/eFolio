@@ -1,0 +1,316 @@
+WEBVTT
+
+1
+00:00:01.068 --> 00:00:05.995
+As an entry-level security analyst,
+one of your many roles will be to handle
+
+2
+00:00:05.995 --> 00:00:09.374
+an organization's digital and
+physical assets.
+
+3
+00:00:09.374 --> 00:00:10.513
+As a reminder,
+
+4
+00:00:10.513 --> 00:00:15.341
+an asset is an item perceived as
+having value to an organization.
+
+5
+00:00:15.341 --> 00:00:20.634
+During their lifespan, organizations
+acquire all types of assets, including
+
+6
+00:00:20.634 --> 00:00:26.167
+physical office spaces, computers,
+customers' PII, intellectual property,
+
+7
+00:00:26.167 --> 00:00:30.358
+such as patents or copyrighted
+data, and so much more.
+
+8
+00:00:30.358 --> 00:00:35.020
+Unfortunately, organizations operate
+in an environment that presents
+
+9
+00:00:35.020 --> 00:00:39.916
+multiple security threats, risks,
+and vulnerabilities to their assets.
+
+10
+00:00:39.916 --> 00:00:44.264
+Let's review what threats, risks,
+and vulnerabilities are and
+
+11
+00:00:44.264 --> 00:00:46.834
+discuss some common examples of each.
+
+12
+00:00:47.834 --> 00:00:52.722
+A threat is any circumstance or
+event that can negatively impact assets.
+
+13
+00:00:52.722 --> 00:00:56.289
+One example of a threat is
+a social engineering attack.
+
+14
+00:00:56.289 --> 00:01:00.991
+Social engineering is a manipulation
+technique that exploits human error
+
+15
+00:01:00.991 --> 00:01:05.215
+to gain private information,
+access, or valuables.
+
+16
+00:01:05.215 --> 00:01:10.103
+Malicious links in email messages that
+look like they're from legitimate companies
+
+17
+00:01:10.103 --> 00:01:15.081
+or people is one method of
+social engineering known as phishing.
+
+18
+00:01:15.081 --> 00:01:19.904
+As a reminder, phishing is a technique
+that is used to acquire sensitive data,
+
+19
+00:01:19.904 --> 00:01:23.629
+such as user names, passwords,
+or banking information.
+
+20
+00:01:24.629 --> 00:01:26.068
+Risks are different from threats.
+
+21
+00:01:26.068 --> 00:01:31.044
+A risk is anything that can impact
+the confidentiality, integrity,
+
+22
+00:01:31.044 --> 00:01:33.165
+or availability of an asset.
+
+23
+00:01:33.165 --> 00:01:36.248
+Think of a risk as the likelihood
+of a threat occurring.
+
+24
+00:01:36.248 --> 00:01:41.614
+An example of a risk to an organization
+might be the lack of backup protocols for
+
+25
+00:01:41.614 --> 00:01:47.144
+making sure its stored information can be
+recovered in the event of an accident or
+
+26
+00:01:47.144 --> 00:01:48.632
+security incident.
+
+27
+00:01:48.632 --> 00:01:53.943
+Organizations tend to rate risks
+at different levels: low, medium,
+
+28
+00:01:53.943 --> 00:01:58.999
+and high, depending on possible
+threats and the value of an asset.
+
+29
+00:01:59.999 --> 00:02:04.702
+A low-risk asset is information that would
+not harm the organization's reputation or
+
+30
+00:02:04.702 --> 00:02:09.726
+ongoing operations, and would not
+cause financial damage if compromised.
+
+31
+00:02:09.726 --> 00:02:14.118
+This includes public information
+such as website content, or
+
+32
+00:02:14.118 --> 00:02:16.105
+published research data.
+
+33
+00:02:17.105 --> 00:02:20.810
+A medium-risk asset might include
+information that's not available
+
+34
+00:02:20.810 --> 00:02:25.666
+to the public and may cause some
+damage to the organization's finances,
+
+35
+00:02:25.666 --> 00:02:28.267
+reputation, or ongoing operations.
+
+36
+00:02:28.267 --> 00:02:33.132
+For example, the early release of a
+company's quarterly earnings could impact
+
+37
+00:02:33.132 --> 00:02:34.716
+the value of their stock.
+
+38
+00:02:35.716 --> 00:02:39.676
+A high-risk asset is any information
+protected by regulations or laws,
+
+39
+00:02:39.676 --> 00:02:43.676
+which if compromised, would have
+a severe negative impact on
+
+40
+00:02:43.676 --> 00:02:48.477
+an organization's finances,
+ongoing operations, or reputation.
+
+41
+00:02:48.477 --> 00:02:53.395
+This could include leaked assets with SPII,
+PII,
+
+42
+00:02:53.395 --> 00:02:56.215
+or intellectual property.
+
+43
+00:02:57.215 --> 00:03:00.167
+Now, let's discuss vulnerabilities.
+
+44
+00:03:00.167 --> 00:03:04.258
+A vulnerability is a weakness that
+can be exploited by a threat.
+
+45
+00:03:04.258 --> 00:03:08.356
+And it's worth noting that
+both a vulnerability and
+
+46
+00:03:08.356 --> 00:03:11.904
+threat must be present for
+there to be a risk.
+
+47
+00:03:11.904 --> 00:03:16.838
+Examples of vulnerabilities include:
+an outdated firewall, software, or
+
+48
+00:03:16.838 --> 00:03:21.699
+application; weak passwords; or
+unprotected confidential data.
+
+49
+00:03:21.699 --> 00:03:25.337
+People can also be
+considered a vulnerability.
+
+50
+00:03:25.337 --> 00:03:31.258
+People's actions can significantly affect
+an organization's internal network.
+
+51
+00:03:31.258 --> 00:03:35.299
+Whether it's a client,
+external vendor, or employee,
+
+52
+00:03:35.299 --> 00:03:39.419
+maintaining security
+must be a united effort.
+
+53
+00:03:40.419 --> 00:03:42.342
+So entry-level analysts
+need to educate and
+
+54
+00:03:42.342 --> 00:03:45.599
+empower people to be
+more security conscious.
+
+55
+00:03:45.599 --> 00:03:51.995
+For example, educating people on how to identify a
+phishing email is a great starting point.
+
+56
+00:03:51.995 --> 00:03:56.698
+Using access cards to grant employee
+access to physical spaces while
+
+57
+00:03:56.698 --> 00:04:01.249
+restricting outside visitors is
+another good security measure.
+
+58
+00:04:01.249 --> 00:04:05.766
+Organizations must continually
+improve their efforts when it comes to
+
+59
+00:04:05.766 --> 00:04:10.748
+identifying and mitigating vulnerabilities
+to minimize threats and risks.
+
+60
+00:04:10.748 --> 00:04:15.565
+Entry-level analysts can support this
+goal by encouraging employees to
+
+61
+00:04:15.565 --> 00:04:19.421
+report suspicious activity and
+actively monitoring and
+
+62
+00:04:19.421 --> 00:04:22.965
+documenting employees'
+access to critical assets.
+
+63
+00:04:23.965 --> 00:04:26.609
+Now that you're familiar with
+some of the threats, risks, and
+
+64
+00:04:26.609 --> 00:04:29.587
+vulnerabilities analysts
+frequently encounter,
+
+65
+00:04:29.587 --> 00:04:33.647
+coming up, we'll discuss how
+they impact business operations.

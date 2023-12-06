@@ -1,0 +1,223 @@
+WEBVTT
+
+1
+00:00:01.088 --> 00:00:02.492
+Hello again!
+
+2
+00:00:02.492 --> 00:00:08.172
+Previously, we discussed how SIEM tools
+help security analysts monitor systems and
+
+3
+00:00:08.172 --> 00:00:10.012
+detect security threats.
+
+4
+00:00:11.012 --> 00:00:15.005
+In this video, we'll cover some
+industry leading SIEM tools that you'll
+
+5
+00:00:15.005 --> 00:00:17.792
+likely encounter as a security analyst.
+
+6
+00:00:17.792 --> 00:00:22.797
+First, let's discuss the different
+types of SIEM tools that
+
+7
+00:00:22.797 --> 00:00:28.486
+organizations can choose from, based
+on their unique security needs.
+
+8
+00:00:29.486 --> 00:00:34.489
+Self-hosted SIEM tools require
+organizations to install, operate, and
+
+9
+00:00:34.489 --> 00:00:41.252
+maintain the tool using their own physical
+infrastructure, such as server capacity.
+
+10
+00:00:41.252 --> 00:00:45.439
+These applications are then managed and
+maintained by
+
+11
+00:00:45.439 --> 00:00:50.635
+the organization's IT department,
+rather than a third party vendor.
+
+12
+00:00:50.635 --> 00:00:55.160
+Self-hosted SIEM tools are ideal
+when an organization is
+
+13
+00:00:55.160 --> 00:01:00.253
+required to maintain physical
+control over confidential data.
+
+14
+00:01:01.253 --> 00:01:04.361
+Alternatively, cloud-hosted
+SIEM tools are maintained and
+
+15
+00:01:04.361 --> 00:01:09.605
+managed by the SIEM providers, making
+them accessible through the internet.
+
+16
+00:01:09.605 --> 00:01:14.331
+Cloud-hosted SIEM tools are ideal for
+organizations that don't want to
+
+17
+00:01:14.331 --> 00:01:18.459
+invest in creating and
+maintaining their own infrastructure.
+
+18
+00:01:19.459 --> 00:01:24.410
+Or, an organization can choose to use
+a combination of both self-hosted and
+
+19
+00:01:24.410 --> 00:01:28.761
+cloud-hosted SIEM tools,
+known as a hybrid solution.
+
+20
+00:01:28.761 --> 00:01:33.884
+Organizations might choose a hybrid SIEM
+solution to leverage the benefits of
+
+21
+00:01:33.884 --> 00:01:38.945
+the cloud while also maintaining
+physical control over confidential data.
+
+22
+00:01:39.945 --> 00:01:43.945
+Splunk Enterprise, Splunk Cloud,
+and Chronicle are common
+
+23
+00:01:43.945 --> 00:01:50.396
+SIEM tools that many organizations use
+to help protect their data and systems.
+
+24
+00:01:50.396 --> 00:01:53.420
+Let's begin by discussing Splunk.
+
+25
+00:01:54.420 --> 00:02:00.433
+Splunk is a data analysis platform and
+Splunk Enterprise provides SIEM solutions.
+
+26
+00:02:00.433 --> 00:02:06.776
+Splunk Enterprise is a self-hosted tool
+used to retain, analyze, and search an
+
+27
+00:02:06.776 --> 00:02:13.225
+organization's log data to provide security
+information and alerts in real-time.
+
+28
+00:02:13.225 --> 00:02:20.467
+Splunk Cloud is a cloud-hosted tool used
+to collect, search, and monitor log data.
+
+29
+00:02:20.467 --> 00:02:26.428
+Splunk Cloud is helpful for organizations
+running hybrid or cloud-only environments,
+
+30
+00:02:26.428 --> 00:02:31.031
+where some or all of the organization's
+services are in the cloud.
+
+31
+00:02:32.031 --> 00:02:34.064
+Finally, there's Google's Chronicle.
+
+32
+00:02:34.064 --> 00:02:40.816
+Chronicle is a cloud-native tool designed
+to retain, analyze, and search data.
+
+33
+00:02:40.816 --> 00:02:46.386
+Chronicle provides log monitoring,
+data analysis, and data collection.
+
+34
+00:02:46.386 --> 00:02:48.229
+Like cloud-hosted tools,
+
+35
+00:02:48.229 --> 00:02:53.524
+cloud-native tools are also fully
+maintained and managed by the vendor.
+
+36
+00:02:53.524 --> 00:02:58.410
+But cloud-native tools
+are specifically designed to take full
+
+37
+00:02:58.410 --> 00:03:03.567
+advantage of cloud computing
+capabilities such as availability,
+
+38
+00:03:03.567 --> 00:03:06.201
+flexibility, and scalability.
+
+39
+00:03:07.201 --> 00:03:10.735
+Because threat actors are frequently
+improving their strategies to
+
+40
+00:03:10.735 --> 00:03:14.174
+compromise the confidentiality,
+integrity, and
+
+41
+00:03:14.174 --> 00:03:17.691
+availability of their targets,
+it's important for
+
+42
+00:03:17.691 --> 00:03:23.101
+organizations to use a variety of security
+tools to help defend against attacks.
+
+43
+00:03:23.101 --> 00:03:29.126
+The SIEM tools we just discussed are only
+a few examples of the tools available for
+
+44
+00:03:29.126 --> 00:03:33.565
+security teams to use to help
+defend their organizations.
+
+45
+00:03:33.565 --> 00:03:35.829
+And later in the certificate program,
+
+46
+00:03:35.829 --> 00:03:40.846
+you'll have the exciting opportunity to
+practice using Splunk Cloud and Chronicle.

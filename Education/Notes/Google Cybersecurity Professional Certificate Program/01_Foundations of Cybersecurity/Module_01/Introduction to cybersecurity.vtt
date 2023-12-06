@@ -1,0 +1,467 @@
+WEBVTT
+
+1
+00:00:00.470 --> 00:00:04.110
+Imagine that you're
+preparing for a storm.
+
+2
+00:00:04.110 --> 00:00:07.470
+You've received notification
+that a storm is coming.
+
+3
+00:00:07.470 --> 00:00:09.570
+You prepare by gathering
+
+4
+00:00:09.570 --> 00:00:12.990
+the tools and materials
+you'll need to stay safe.
+
+5
+00:00:12.990 --> 00:00:16.230
+You make sure your windows
+and doors are secure.
+
+6
+00:00:16.230 --> 00:00:18.375
+You assemble a first aid kit,
+
+7
+00:00:18.375 --> 00:00:22.710
+tools, food and water.
+You're prepared.
+
+8
+00:00:22.710 --> 00:00:24.600
+The storm hits and there are
+
+9
+00:00:24.600 --> 00:00:27.030
+powerful winds and heavy rain.
+
+10
+00:00:27.030 --> 00:00:31.365
+The storm is using its force
+to try and breach your home.
+
+11
+00:00:31.365 --> 00:00:33.255
+You notice some water leaks
+
+12
+00:00:33.255 --> 00:00:34.980
+and begin patching them quickly
+
+13
+00:00:34.980 --> 00:00:38.745
+in order to minimize any
+risk or potential damage.
+
+14
+00:00:39.745 --> 00:00:41.890
+Handling a security
+incident is no different.
+
+15
+00:00:41.890 --> 00:00:46.280
+Organizations must prepare for
+the storm by ensuring they
+
+16
+00:00:46.280 --> 00:00:48.260
+have the tools to mitigate and
+
+17
+00:00:48.260 --> 00:00:50.810
+quickly respond to
+outside threats.
+
+18
+00:00:50.810 --> 00:00:55.120
+The objective is to minimize
+risk and potential damage.
+
+19
+00:00:56.120 --> 00:00:56.945
+As a security analyst,
+
+20
+00:00:56.945 --> 00:00:58.340
+you'll work to protect
+
+21
+00:00:58.340 --> 00:01:01.100
+your organization and the
+people it serves from
+
+22
+00:01:01.100 --> 00:01:03.035
+a variety of risks and outside
+
+23
+00:01:03.035 --> 00:01:05.810
+threats. And if a threat
+does get through,
+
+24
+00:01:05.810 --> 00:01:07.700
+you and your team will provide
+
+25
+00:01:07.700 --> 00:01:10.070
+a solution to remedy
+the situation.
+
+26
+00:01:11.070 --> 00:01:13.055
+To help you better
+understand what this means,
+
+27
+00:01:13.055 --> 00:01:15.290
+we'll define
+security and discuss
+
+28
+00:01:15.290 --> 00:01:18.725
+the roles of security
+professionals in organizations.
+
+29
+00:01:19.725 --> 00:01:21.260
+Let's start with
+some definitions:
+
+30
+00:01:21.260 --> 00:01:24.410
+Cybersecurity, or
+security, is the practice
+
+31
+00:01:24.410 --> 00:01:27.635
+of ensuring
+confidentiality, integrity,
+
+32
+00:01:27.635 --> 00:01:29.990
+and availability of information
+
+33
+00:01:29.990 --> 00:01:32.705
+by protecting networks, devices,
+
+34
+00:01:32.705 --> 00:01:34.775
+people, and data from
+
+35
+00:01:34.775 --> 00:01:38.185
+unauthorized access or
+criminal exploitation.
+
+36
+00:01:39.185 --> 00:01:40.540
+For example, requiring
+
+37
+00:01:40.540 --> 00:01:43.550
+complex passwords
+to access sites and
+
+38
+00:01:43.550 --> 00:01:46.610
+services improves
+confidentiality by
+
+39
+00:01:46.610 --> 00:01:48.470
+making it much
+more difficult for
+
+40
+00:01:48.470 --> 00:01:50.645
+a threat actor to
+compromise them.
+
+41
+00:01:50.645 --> 00:01:53.240
+A threat actor is any person
+
+42
+00:01:53.240 --> 00:01:56.180
+or group who presents
+a security risk.
+
+43
+00:01:57.180 --> 00:01:58.910
+Now that you know the
+definition of security,
+
+44
+00:01:58.910 --> 00:02:02.915
+let's discuss what security
+teams do for an organization.
+
+45
+00:02:03.915 --> 00:02:06.890
+Security protects against
+external and internal threats.
+
+46
+00:02:06.890 --> 00:02:10.820
+An external threat is someone
+outside of the organization
+
+47
+00:02:10.820 --> 00:02:12.440
+trying to gain access to
+
+48
+00:02:12.440 --> 00:02:15.680
+private information,
+networks or devices.
+
+49
+00:02:16.680 --> 00:02:17.810
+An internal threat comes
+
+50
+00:02:17.810 --> 00:02:19.925
+from current or
+former employees,
+
+51
+00:02:19.925 --> 00:02:23.060
+external vendors, or
+trusted partners.
+
+52
+00:02:23.060 --> 00:02:25.849
+Often these internal
+threats are accidental,
+
+53
+00:02:25.849 --> 00:02:27.710
+such as an employee clicking on
+
+54
+00:02:27.710 --> 00:02:29.660
+a compromised link in an email.
+
+55
+00:02:29.660 --> 00:02:34.430
+Other times, the internal
+actor intentionally engages in
+
+56
+00:02:34.430 --> 00:02:37.265
+activities such as
+unauthorized data access
+
+57
+00:02:37.265 --> 00:02:39.925
+or abusing systems
+for personal use.
+
+58
+00:02:40.925 --> 00:02:42.260
+Experienced security
+professionals
+
+59
+00:02:42.260 --> 00:02:43.610
+will help organizations
+
+60
+00:02:43.610 --> 00:02:47.585
+mitigate or reduce the impact
+of threats like these.
+
+61
+00:02:48.585 --> 00:02:49.895
+Security teams also ensure
+
+62
+00:02:49.895 --> 00:02:52.940
+an organization meets
+regulatory compliance, or
+
+63
+00:02:52.940 --> 00:02:55.190
+laws and guidelines, that require
+
+64
+00:02:55.190 --> 00:02:58.255
+the implementation of
+specific security standards.
+
+65
+00:02:59.255 --> 00:03:00.350
+Ensuring that
+organizations are in
+
+66
+00:03:00.350 --> 00:03:02.825
+compliance may allow
+them to avoid fines
+
+67
+00:03:02.825 --> 00:03:05.120
+and audits, while also upholding
+
+68
+00:03:05.120 --> 00:03:08.095
+their ethical obligation
+to protect users.
+
+69
+00:03:09.095 --> 00:03:10.370
+Security teams also maintain
+
+70
+00:03:10.370 --> 00:03:12.530
+and improve business
+productivity.
+
+71
+00:03:12.530 --> 00:03:15.635
+By establishing a plan
+for business continuity,
+
+72
+00:03:15.635 --> 00:03:18.680
+security teams allow
+people to do their jobs,
+
+73
+00:03:18.680 --> 00:03:21.520
+even in the case of something
+like a data breach.
+
+74
+00:03:22.520 --> 00:03:23.930
+Being security
+conscious can also
+
+75
+00:03:23.930 --> 00:03:26.285
+reduce expenses
+associated with risks,
+
+76
+00:03:26.285 --> 00:03:28.490
+such as recovering
+from data loss or
+
+77
+00:03:28.490 --> 00:03:31.880
+operational downtime, and
+potentially avoiding fines.
+
+78
+00:03:31.880 --> 00:03:33.980
+The last benefit of
+security that we'll
+
+79
+00:03:33.980 --> 00:03:36.665
+discuss is maintaining
+brand trust.
+
+80
+00:03:36.665 --> 00:03:39.800
+If services or customer
+data are compromised,
+
+81
+00:03:39.800 --> 00:03:42.095
+this can lower trust
+in the organization,
+
+82
+00:03:42.095 --> 00:03:45.890
+damage the brand, and hurt the
+business in the long term.
+
+83
+00:03:45.890 --> 00:03:47.930
+Loss of customer trust may
+
+84
+00:03:47.930 --> 00:03:50.465
+also lead to less revenue
+for the business.
+
+85
+00:03:51.465 --> 00:03:54.815
+Now, let's go over some
+common security-based roles.
+
+86
+00:03:54.815 --> 00:03:57.065
+After completing this
+certificate program,
+
+87
+00:03:57.065 --> 00:04:00.070
+here are some job titles
+you may want to search for:
+
+88
+00:04:00.070 --> 00:04:02.600
+Security analyst or specialist,
+
+89
+00:04:02.600 --> 00:04:05.660
+Cybersecurity analyst
+or specialist,
+
+90
+00:04:05.660 --> 00:04:08.510
+Security operation center or SOC
+
+91
+00:04:08.510 --> 00:04:11.800
+analyst, Information
+security analyst.
+
+92
+00:04:12.800 --> 00:04:14.480
+You'll also learn more
+about the responsibilities
+
+93
+00:04:14.480 --> 00:04:15.710
+associated with some of
+
+94
+00:04:15.710 --> 00:04:18.260
+these job titles
+later in the program.
+
+95
+00:04:19.260 --> 00:04:20.014
+As you may now realize,
+
+96
+00:04:20.014 --> 00:04:21.590
+the field of security includes
+
+97
+00:04:21.590 --> 00:04:24.470
+many topics and concepts and
+
+98
+00:04:24.470 --> 00:04:26.210
+every activity you complete in
+
+99
+00:04:26.210 --> 00:04:29.735
+this program moves you one
+step closer to a new job.
+
+100
+00:04:29.735 --> 00:04:32.310
+Let's keep learning together.

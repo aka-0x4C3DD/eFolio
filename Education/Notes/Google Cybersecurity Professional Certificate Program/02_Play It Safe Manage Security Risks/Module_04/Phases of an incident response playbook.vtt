@@ -1,0 +1,519 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:04.530
+Previously, we discussed
+how SIEM tools are used to
+
+2
+00:00:04.530 --> 00:00:08.770
+help protect an organization's
+critical assets and data.
+
+3
+00:00:08.770 --> 00:00:11.265
+In this video, we'll introduce
+
+4
+00:00:11.265 --> 00:00:13.170
+another important tool for
+
+5
+00:00:13.170 --> 00:00:15.720
+maintaining an
+organization's security,
+
+6
+00:00:15.720 --> 00:00:17.220
+known as a playbook.
+
+7
+00:00:18.220 --> 00:00:20.040
+A playbook is a
+manual that provides
+
+8
+00:00:20.040 --> 00:00:23.460
+details about any
+operational action.
+
+9
+00:00:23.460 --> 00:00:26.520
+Playbooks also
+clarify what tools
+
+10
+00:00:26.520 --> 00:00:29.760
+should be used in response
+to a security incident.
+
+11
+00:00:29.760 --> 00:00:31.560
+In the security field,
+
+12
+00:00:31.560 --> 00:00:33.715
+playbooks are essential.
+
+13
+00:00:34.715 --> 00:00:38.990
+Urgency, efficiency, and
+accuracy are necessary to
+
+14
+00:00:38.990 --> 00:00:41.045
+quickly identify and mitigate
+
+15
+00:00:41.045 --> 00:00:44.455
+a security threat to
+reduce potential risk.
+
+16
+00:00:44.455 --> 00:00:47.120
+Playbooks ensure
+that people follow
+
+17
+00:00:47.120 --> 00:00:51.425
+a consistent list of actions
+in a prescribed way,
+
+18
+00:00:51.425 --> 00:00:54.740
+regardless of who is
+working on the case.
+
+19
+00:00:55.740 --> 00:00:58.055
+Different types of
+playbooks are used.
+
+20
+00:00:58.055 --> 00:01:01.535
+These include playbooks
+for incident response,
+
+21
+00:01:01.535 --> 00:01:03.260
+security alerts,
+
+22
+00:01:03.260 --> 00:01:07.095
+teams-specific, and product-specific
+purposes.
+
+23
+00:01:08.095 --> 00:01:10.760
+Here, we'll focus on a playbook
+that's commonly used in
+
+24
+00:01:10.760 --> 00:01:15.250
+cybersecurity, called an
+incident response playbook.
+
+25
+00:01:15.250 --> 00:01:18.710
+Incident response
+is an organization's
+
+26
+00:01:18.710 --> 00:01:21.680
+quick attempt to
+identify an attack,
+
+27
+00:01:21.680 --> 00:01:23.750
+contain the damage, and
+
+28
+00:01:23.750 --> 00:01:26.330
+correct the effects
+of a security breach.
+
+29
+00:01:26.330 --> 00:01:30.230
+An incident response
+playbook is a guide with
+
+30
+00:01:30.230 --> 00:01:32.930
+six phases used to
+help mitigate and
+
+31
+00:01:32.930 --> 00:01:36.695
+manage security incidents
+from beginning to end.
+
+32
+00:01:36.695 --> 00:01:39.620
+Let's discuss each phase.
+
+33
+00:01:40.620 --> 00:01:42.905
+The first phase is preparation.
+
+34
+00:01:42.905 --> 00:01:45.950
+Organizations must prepare to
+
+35
+00:01:45.950 --> 00:01:48.290
+mitigate the likelihood, risk,
+
+36
+00:01:48.290 --> 00:01:49.550
+and impact of
+
+37
+00:01:49.550 --> 00:01:53.030
+a security incident by
+documenting procedures,
+
+38
+00:01:53.030 --> 00:01:57.665
+establishing staffing
+plans, and educating users.
+
+39
+00:01:57.665 --> 00:02:00.485
+Preparation sets the foundation
+
+40
+00:02:00.485 --> 00:02:02.810
+for successful
+incident response.
+
+41
+00:02:02.810 --> 00:02:05.870
+For example, organizations
+
+42
+00:02:05.870 --> 00:02:08.090
+can create incident
+response plans and
+
+43
+00:02:08.090 --> 00:02:10.790
+procedures that
+outline the roles and
+
+44
+00:02:10.790 --> 00:02:14.455
+responsibilities of each
+security team member.
+
+45
+00:02:15.455 --> 00:02:18.980
+The second phase is
+detection and analysis.
+
+46
+00:02:18.980 --> 00:02:23.150
+The objective of this phase
+is to detect and analyze
+
+47
+00:02:23.150 --> 00:02:27.545
+events using defined
+processes and technology.
+
+48
+00:02:27.545 --> 00:02:29.750
+Using appropriate tools and
+
+49
+00:02:29.750 --> 00:02:32.390
+strategies during
+this phase helps
+
+50
+00:02:32.390 --> 00:02:35.120
+security analysts determine
+whether a breach has
+
+51
+00:02:35.120 --> 00:02:39.145
+occurred and analyze
+its possible magnitude.
+
+52
+00:02:40.145 --> 00:02:41.970
+The third phase is containment.
+
+53
+00:02:41.970 --> 00:02:44.630
+The goal of containment
+is to prevent
+
+54
+00:02:44.630 --> 00:02:46.490
+further damage and reduce
+
+55
+00:02:46.490 --> 00:02:49.625
+the immediate impact of
+a security incident.
+
+56
+00:02:49.625 --> 00:02:53.480
+During this phase, security
+professionals take
+
+57
+00:02:53.480 --> 00:02:57.395
+actions to contain an
+incident and minimize damage.
+
+58
+00:02:57.395 --> 00:03:01.550
+Containment is a high
+priority for organizations
+
+59
+00:03:01.550 --> 00:03:02.975
+because it helps prevent
+
+60
+00:03:02.975 --> 00:03:06.530
+ongoing risks to critical
+assets and data.
+
+61
+00:03:07.530 --> 00:03:09.200
+The fourth phase in
+an incident response
+
+62
+00:03:09.200 --> 00:03:12.350
+playbook is eradication
+and recovery.
+
+63
+00:03:12.350 --> 00:03:16.115
+This phase involves the complete
+removal of an incident's
+
+64
+00:03:16.115 --> 00:03:18.500
+artifacts so that
+an organization
+
+65
+00:03:18.500 --> 00:03:20.975
+can return to normal operations.
+
+66
+00:03:20.975 --> 00:03:22.670
+During this phase,
+
+67
+00:03:22.670 --> 00:03:25.730
+security professionals
+eliminate artifacts of
+
+68
+00:03:25.730 --> 00:03:27.440
+the incident by removing
+
+69
+00:03:27.440 --> 00:03:30.590
+malicious code and
+mitigating vulnerabilities.
+
+70
+00:03:30.590 --> 00:03:33.725
+Once they've exercised
+due diligence,
+
+71
+00:03:33.725 --> 00:03:35.150
+they can begin to restore
+
+72
+00:03:35.150 --> 00:03:38.255
+the affected environment
+to a secure state.
+
+73
+00:03:38.255 --> 00:03:42.490
+This is also known
+as IT restoration.
+
+74
+00:03:43.490 --> 00:03:47.190
+The fifth phase is post-incident
+activity.
+
+75
+00:03:47.190 --> 00:03:50.690
+This phase includes
+documenting the incident,
+
+76
+00:03:50.690 --> 00:03:53.270
+informing organizational
+leadership,
+
+77
+00:03:53.270 --> 00:03:56.240
+and applying lessons
+learned to ensure that
+
+78
+00:03:56.240 --> 00:03:57.920
+an organization is better
+
+79
+00:03:57.920 --> 00:04:00.440
+prepared to handle
+future incidents.
+
+80
+00:04:00.440 --> 00:04:03.385
+Depending on the severity
+of the incident,
+
+81
+00:04:03.385 --> 00:04:08.330
+organizations can conduct a
+full-scale incident analysis
+
+82
+00:04:08.330 --> 00:04:10.070
+to determine the root cause
+
+83
+00:04:10.070 --> 00:04:13.430
+of the incident and
+implement various updates
+
+84
+00:04:13.430 --> 00:04:17.225
+or improvements to enhance
+its overall security posture.
+
+85
+00:04:18.225 --> 00:04:19.490
+The sixth and final phase in
+
+86
+00:04:19.490 --> 00:04:22.715
+an incident response
+playbook is coordination.
+
+87
+00:04:22.715 --> 00:04:25.340
+Coordination involves
+reporting incidents
+
+88
+00:04:25.340 --> 00:04:27.140
+and sharing
+information, throughout
+
+89
+00:04:27.140 --> 00:04:29.630
+the incident response
+process, based
+
+90
+00:04:29.630 --> 00:04:32.540
+on the organization's
+established standards.
+
+91
+00:04:32.540 --> 00:04:35.990
+Coordination is important
+for many reasons.
+
+92
+00:04:35.990 --> 00:04:38.630
+It ensures that
+organizations meet
+
+93
+00:04:38.630 --> 00:04:41.210
+compliance requirements and it
+
+94
+00:04:41.210 --> 00:04:44.255
+allows for coordinated
+response and resolution.
+
+95
+00:04:45.255 --> 00:04:45.770
+There are many ways
+
+96
+00:04:45.770 --> 00:04:49.370
+security professionals may
+be alerted to an incident.
+
+97
+00:04:49.370 --> 00:04:50.930
+You recently learned about
+
+98
+00:04:50.930 --> 00:04:55.045
+SIEM tools and how they
+collect and analyze data.
+
+99
+00:04:55.045 --> 00:04:58.700
+They use this data to
+detect threats and generate
+
+100
+00:04:58.700 --> 00:05:00.620
+alerts, which can inform
+
+101
+00:05:00.620 --> 00:05:03.500
+the security team of
+a potential incident.
+
+102
+00:05:03.500 --> 00:05:07.640
+Then, when a security
+analyst receives a SIEM alert,
+
+103
+00:05:07.640 --> 00:05:09.995
+they can use the
+appropriate playbook
+
+104
+00:05:09.995 --> 00:05:12.550
+to guide the response process.
+
+105
+00:05:12.550 --> 00:05:15.950
+SIEM tools and playbooks
+work together to provide
+
+106
+00:05:15.950 --> 00:05:18.140
+a structured and
+efficient way of
+
+107
+00:05:18.140 --> 00:05:21.275
+responding to potential
+security incidents.
+
+108
+00:05:22.275 --> 00:05:22.915
+Throughout the program,
+
+109
+00:05:22.915 --> 00:05:25.550
+you'll have opportunities
+to continue to build
+
+110
+00:05:25.550 --> 00:05:29.070
+your understanding of
+these important concepts.

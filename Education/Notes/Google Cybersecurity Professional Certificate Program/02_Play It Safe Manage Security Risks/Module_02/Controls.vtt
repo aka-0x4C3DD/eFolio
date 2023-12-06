@@ -1,0 +1,356 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:03.460
+While frameworks
+are used to create
+
+2
+00:00:03.460 --> 00:00:05.590
+plans to address security risks,
+
+3
+00:00:05.590 --> 00:00:07.525
+threats, and vulnerabilities,
+
+4
+00:00:07.525 --> 00:00:11.870
+controls are used to
+reduce specific risks.
+
+5
+00:00:11.870 --> 00:00:14.460
+If proper controls
+are not in place,
+
+6
+00:00:14.460 --> 00:00:18.220
+an organization could face
+significant financial impacts
+
+7
+00:00:18.220 --> 00:00:20.275
+and damage to their reputation
+
+8
+00:00:20.275 --> 00:00:22.225
+because of exposure to risks
+
+9
+00:00:22.225 --> 00:00:25.855
+including trespassing, creating
+fake employee accounts,
+
+10
+00:00:25.855 --> 00:00:27.950
+or providing free benefits.
+
+11
+00:00:28.950 --> 00:00:30.900
+Let's review the
+definition of controls.
+
+12
+00:00:30.900 --> 00:00:33.550
+Security controls are safeguards
+
+13
+00:00:33.550 --> 00:00:37.000
+designed to reduce
+specific security risks.
+
+14
+00:00:37.000 --> 00:00:40.540
+In this video, we'll
+discuss three common types
+
+15
+00:00:40.540 --> 00:00:42.660
+of controls: encryption,
+
+16
+00:00:42.660 --> 00:00:45.660
+authentication,
+and authorization.
+
+17
+00:00:46.660 --> 00:00:48.350
+Encryption is the process
+of converting data
+
+18
+00:00:48.350 --> 00:00:51.550
+from a readable format
+to an encoded format.
+
+19
+00:00:51.550 --> 00:00:54.620
+Typically, encryption
+involves converting
+
+20
+00:00:54.620 --> 00:00:57.770
+data from plaintext
+to ciphertext.
+
+21
+00:00:57.770 --> 00:01:01.085
+Ciphertext is the
+raw, encoded message
+
+22
+00:01:01.085 --> 00:01:04.510
+that's unreadable to
+humans and computers.
+
+23
+00:01:04.510 --> 00:01:07.460
+Ciphertext data cannot
+be read until it's
+
+24
+00:01:07.460 --> 00:01:11.015
+been decrypted into its
+original plaintext form.
+
+25
+00:01:11.015 --> 00:01:12.950
+Encryption is used to ensure
+
+26
+00:01:12.950 --> 00:01:15.230
+confidentiality of
+sensitive data,
+
+27
+00:01:15.230 --> 00:01:17.510
+such as customers'
+account information
+
+28
+00:01:17.510 --> 00:01:19.790
+or social security numbers.
+
+29
+00:01:20.790 --> 00:01:22.430
+Another control that
+can be used to protect
+
+30
+00:01:22.430 --> 00:01:25.070
+sensitive data is
+authentication.
+
+31
+00:01:25.070 --> 00:01:27.500
+Authentication is the process of
+
+32
+00:01:27.500 --> 00:01:30.775
+verifying who someone
+or something is.
+
+33
+00:01:30.775 --> 00:01:34.010
+A real-world example
+of authentication is
+
+34
+00:01:34.010 --> 00:01:37.630
+logging into a website with
+your username and password.
+
+35
+00:01:37.630 --> 00:01:41.435
+This basic form of
+authentication proves that you
+
+36
+00:01:41.435 --> 00:01:43.670
+know the username and password
+
+37
+00:01:43.670 --> 00:01:46.699
+and should be allowed
+to access the website.
+
+38
+00:01:46.699 --> 00:01:49.850
+More advanced methods
+of authentication,
+
+39
+00:01:49.850 --> 00:01:54.185
+such as multi-factor
+authentication, or MFA,
+
+40
+00:01:54.185 --> 00:01:55.640
+challenge the user to
+
+41
+00:01:55.640 --> 00:01:58.970
+demonstrate that they
+are who they claim to be
+
+42
+00:01:58.970 --> 00:02:01.070
+by requiring both a password
+
+43
+00:02:01.070 --> 00:02:04.175
+and an additional form
+of authentication,
+
+44
+00:02:04.175 --> 00:02:07.100
+like a security
+code or biometrics,
+
+45
+00:02:07.100 --> 00:02:08.180
+such as a fingerprint,
+
+46
+00:02:08.180 --> 00:02:10.100
+voice, or face scan.
+
+47
+00:02:11.100 --> 00:02:13.400
+Biometrics are unique
+physical characteristics
+
+48
+00:02:13.400 --> 00:02:16.579
+that can be used to verify
+a person's identity.
+
+49
+00:02:16.579 --> 00:02:20.125
+Examples of biometrics
+are a fingerprint,
+
+50
+00:02:20.125 --> 00:02:22.730
+an eye scan, or a palm scan.
+
+51
+00:02:22.730 --> 00:02:25.820
+One example of a social
+engineering attack
+
+52
+00:02:25.820 --> 00:02:28.865
+that can exploit
+biometrics is vishing.
+
+53
+00:02:28.865 --> 00:02:31.070
+Vishing is the exploitation of
+
+54
+00:02:31.070 --> 00:02:33.380
+electronic voice
+communication to
+
+55
+00:02:33.380 --> 00:02:35.840
+obtain sensitive information or
+
+56
+00:02:35.840 --> 00:02:38.065
+to impersonate a known source.
+
+57
+00:02:38.065 --> 00:02:41.570
+For example, vishing could
+be used to impersonate
+
+58
+00:02:41.570 --> 00:02:42.890
+a person's voice to steal
+
+59
+00:02:42.890 --> 00:02:45.705
+their identity and
+then commit a crime.
+
+60
+00:02:46.705 --> 00:02:50.845
+Another very important security
+control is authorization.
+
+61
+00:02:50.845 --> 00:02:53.870
+Authorization refers
+to the concept of
+
+62
+00:02:53.870 --> 00:02:58.055
+granting access to specific
+resources within a system.
+
+63
+00:02:58.055 --> 00:03:01.715
+Essentially, authorization
+is used to verify
+
+64
+00:03:01.715 --> 00:03:05.705
+that a person has permission
+to access a resource.
+
+65
+00:03:05.705 --> 00:03:08.660
+As an example, if
+you're working as
+
+66
+00:03:08.660 --> 00:03:10.400
+an entry-level security analyst
+
+67
+00:03:10.400 --> 00:03:11.990
+for the federal government,
+
+68
+00:03:11.990 --> 00:03:14.270
+you could have
+permission to access
+
+69
+00:03:14.270 --> 00:03:16.445
+data through the deep web or
+
+70
+00:03:16.445 --> 00:03:18.530
+other internal data that is only
+
+71
+00:03:18.530 --> 00:03:21.460
+accessible if you're
+a federal employee.
+
+72
+00:03:22.460 --> 00:03:23.870
+The security controls
+we discussed
+
+73
+00:03:23.870 --> 00:03:26.120
+today are only one element of
+
+74
+00:03:26.120 --> 00:03:30.610
+a core security model
+known as the CIA triad.
+
+75
+00:03:30.610 --> 00:03:33.620
+Coming up, we'll talk more
+about this model and how
+
+76
+00:03:33.620 --> 00:03:37.680
+security teams use it to
+protect their organizations.

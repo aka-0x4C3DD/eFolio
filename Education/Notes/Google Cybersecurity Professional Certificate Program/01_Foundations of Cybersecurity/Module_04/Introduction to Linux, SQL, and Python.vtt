@@ -1,0 +1,333 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:02.925
+As we discussed previously,
+
+2
+00:00:02.925 --> 00:00:06.105
+organizations use a variety
+of tools, such as SIEMs,
+
+3
+00:00:06.105 --> 00:00:09.285
+playbooks, and packet
+sniffers to better manage,
+
+4
+00:00:09.285 --> 00:00:11.760
+monitor, and analyze
+security threats.
+
+5
+00:00:11.760 --> 00:00:15.420
+But those aren't the only
+tools in an analyst's toolkit.
+
+6
+00:00:15.420 --> 00:00:18.090
+Analysts also use
+programming languages and
+
+7
+00:00:18.090 --> 00:00:20.880
+operating systems to
+accomplish essential tasks.
+
+8
+00:00:21.880 --> 00:00:23.780
+In this video, we'll
+introduce you to Python and
+
+9
+00:00:23.780 --> 00:00:27.145
+SQL programming, and the
+Linux operating system.
+
+10
+00:00:27.145 --> 00:00:29.540
+All of which you'll have
+an opportunity to practice
+
+11
+00:00:29.540 --> 00:00:31.835
+using later in the
+certificate program.
+
+12
+00:00:32.835 --> 00:00:34.160
+Organizations can use
+programming to create
+
+13
+00:00:34.160 --> 00:00:35.915
+a specific set of instructions
+
+14
+00:00:35.915 --> 00:00:38.155
+for a computer to execute tasks.
+
+15
+00:00:38.155 --> 00:00:40.400
+Programming allows analysts to
+
+16
+00:00:40.400 --> 00:00:42.080
+complete repetitive tasks and
+
+17
+00:00:42.080 --> 00:00:46.130
+processes with a high degree
+of accuracy and efficiency.
+
+18
+00:00:46.130 --> 00:00:49.370
+It also helps reduce the
+risk of human error, and can
+
+19
+00:00:49.370 --> 00:00:50.690
+save hours or days
+
+20
+00:00:50.690 --> 00:00:53.015
+compared to performing
+the work manually.
+
+21
+00:00:53.015 --> 00:00:54.680
+Now that you're aware of what
+
+22
+00:00:54.680 --> 00:00:56.450
+programming languages
+are used for,
+
+23
+00:00:56.450 --> 00:00:57.530
+let's discuss
+
+24
+00:00:57.530 --> 00:00:59.930
+a specific and related
+operating system called
+
+25
+00:00:59.930 --> 00:01:04.650
+Linux, and two programming
+languages: SQL and Python.
+
+26
+00:01:05.650 --> 00:01:07.330
+Linux is an open-source, or
+
+27
+00:01:07.330 --> 00:01:09.880
+publicly available,
+operating system.
+
+28
+00:01:09.880 --> 00:01:13.075
+Unlike other operating systems
+you may be familiar with,
+
+29
+00:01:13.075 --> 00:01:15.995
+for example MacOS or Windows,
+
+30
+00:01:15.995 --> 00:01:18.025
+Linux relies on a command line
+
+31
+00:01:18.025 --> 00:01:20.215
+as the primary user interface.
+
+32
+00:01:20.215 --> 00:01:22.960
+Linux itself is not a
+programming language,
+
+33
+00:01:22.960 --> 00:01:24.550
+but it does allow for the use of
+
+34
+00:01:24.550 --> 00:01:26.770
+text-based commands
+between the user
+
+35
+00:01:26.770 --> 00:01:28.370
+and the operating system.
+
+36
+00:01:28.370 --> 00:01:31.510
+You'll learn more about
+Linux later in the program.
+
+37
+00:01:32.510 --> 00:01:33.400
+A common use of Linux for
+
+38
+00:01:33.400 --> 00:01:35.500
+entry-level security analysts is
+
+39
+00:01:35.500 --> 00:01:37.120
+examining logs to better
+
+40
+00:01:37.120 --> 00:01:39.740
+understand what's
+occurring in a system.
+
+41
+00:01:39.740 --> 00:01:41.590
+For example, you might
+
+42
+00:01:41.590 --> 00:01:43.420
+find yourself using
+commands to review
+
+43
+00:01:43.420 --> 00:01:45.265
+an error log when investigating
+
+44
+00:01:45.265 --> 00:01:48.010
+uncommonly high network traffic.
+
+45
+00:01:49.010 --> 00:01:51.220
+Next, let's discuss SQL.
+
+46
+00:01:51.220 --> 00:01:54.755
+SQL stands for Structured
+Query Language.
+
+47
+00:01:54.755 --> 00:01:57.790
+SQL is a programming
+language used to create,
+
+48
+00:01:57.790 --> 00:02:01.690
+interact with, and request
+information from a database.
+
+49
+00:02:01.690 --> 00:02:04.180
+A database is an
+organized collection
+
+50
+00:02:04.180 --> 00:02:05.965
+of information or data.
+
+51
+00:02:05.965 --> 00:02:09.365
+There may be millions of
+data points in a database.
+
+52
+00:02:09.365 --> 00:02:12.430
+So an entry-level security
+analyst would use SQL to
+
+53
+00:02:12.430 --> 00:02:13.855
+filter through the data points
+
+54
+00:02:13.855 --> 00:02:16.135
+to retrieve specific
+information.
+
+55
+00:02:17.135 --> 00:02:19.795
+The last programming language
+we'll introduce is Python.
+
+56
+00:02:19.795 --> 00:02:21.790
+Security professionals can use
+
+57
+00:02:21.790 --> 00:02:23.590
+Python to perform tasks that are
+
+58
+00:02:23.590 --> 00:02:25.960
+repetitive and
+time-consuming and that
+
+59
+00:02:25.960 --> 00:02:29.075
+require a high level of
+detail and accuracy.
+
+60
+00:02:30.075 --> 00:02:30.700
+As a future analyst,
+
+61
+00:02:30.700 --> 00:02:32.240
+it's important to
+understand that
+
+62
+00:02:32.240 --> 00:02:34.160
+every organization's
+toolkit may be
+
+63
+00:02:34.160 --> 00:02:37.205
+somewhat different based
+on their security needs.
+
+64
+00:02:37.205 --> 00:02:39.410
+The main point is that
+you're familiar with
+
+65
+00:02:39.410 --> 00:02:42.110
+some industry standard tools
+because that will show
+
+66
+00:02:42.110 --> 00:02:44.600
+employers that you have the
+ability to learn how to use
+
+67
+00:02:44.600 --> 00:02:46.220
+their tools to protect
+
+68
+00:02:46.220 --> 00:02:48.655
+the organization and
+the people it serves.
+
+69
+00:02:49.655 --> 00:02:49.810
+You're doing great!
+
+70
+00:02:49.810 --> 00:02:52.670
+Later in the course, you'll learn
+more about Linux and
+
+71
+00:02:52.670 --> 00:02:55.190
+programming languages,
+and you'll practice
+
+72
+00:02:55.190 --> 00:02:59.070
+using these tools in
+security-related scenarios.

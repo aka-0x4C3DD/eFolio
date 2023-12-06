@@ -1,0 +1,163 @@
+WEBVTT
+
+1
+00:00:04.386 --> 00:00:06.820
+My name is Herbert and
+I am a Security Engineer at Google.
+
+2
+00:00:06.820 --> 00:00:09.555
+I think I've always been
+interested in security,
+
+3
+00:00:09.555 --> 00:00:12.681
+in high school our school gave
+us these huge Dell laptops.
+
+4
+00:00:12.681 --> 00:00:15.085
+There wasn't a whole lot of
+security within those computers.
+
+5
+00:00:15.085 --> 00:00:19.878
+So, many of my friends would have cracked
+versions of like video games like Halo,
+
+6
+00:00:19.878 --> 00:00:24.810
+that's really where I learned how to start
+manipulating computers to kind of do what
+
+7
+00:00:24.810 --> 00:00:25.311
+I want.
+
+8
+00:00:25.311 --> 00:00:29.679
+I guess [LAUGH] my day to day consists
+of analyzing security risks and
+
+9
+00:00:29.679 --> 00:00:32.179
+providing solutions to those risks.
+
+10
+00:00:32.179 --> 00:00:33.283
+A typical task for
+
+11
+00:00:33.283 --> 00:00:38.299
+cybersecurity analysts would usually
+be something like exceptions requests.
+
+12
+00:00:38.299 --> 00:00:43.400
+Analyzing if someone needs to have
+special access to a device or document
+
+13
+00:00:43.400 --> 00:00:48.850
+based on the role that the person has or
+the project that they're working on.
+
+14
+00:00:48.850 --> 00:00:52.379
+One of the more common threats that we
+come across is misconfigurations or
+
+15
+00:00:52.379 --> 00:00:55.370
+requesting access for
+something that you don't really need.
+
+16
+00:00:55.370 --> 00:00:58.129
+For example,
+I recently had a case where a vendor we
+
+17
+00:00:58.129 --> 00:01:01.230
+were working with had changed
+their OAuth scope requests.
+
+18
+00:01:01.230 --> 00:01:05.901
+And basically that means that they were
+requesting more permissions to use Google
+
+19
+00:01:05.901 --> 00:01:08.355
+services than they had before in the past.
+
+20
+00:01:08.355 --> 00:01:12.684
+We weren't sure really how to go
+about that because that wasn't
+
+21
+00:01:12.684 --> 00:01:15.418
+a situation we've come across before.
+
+22
+00:01:15.418 --> 00:01:16.739
+So it's still ongoing, but
+
+23
+00:01:16.739 --> 00:01:20.161
+we're working with partner teams to
+kind of develop a solution for that.
+
+24
+00:01:20.161 --> 00:01:24.366
+I think another thing that
+we've seen is outdated systems,
+
+25
+00:01:24.366 --> 00:01:26.775
+machines that need to be patched.
+
+26
+00:01:26.775 --> 00:01:31.127
+That sounds like an IT issue, but it's
+also definitely a cybersecurity issue.
+
+27
+00:01:31.127 --> 00:01:37.148
+Having outdated machines, not having
+proper device management policies,
+
+28
+00:01:37.148 --> 00:01:41.610
+working with a team or
+many teams is a huge part of the job.
+
+29
+00:01:41.610 --> 00:01:45.362
+In order to get really anything done, you
+need to communicate with not just the team
+
+30
+00:01:45.362 --> 00:01:47.468
+that you're a part of,
+but with other teams.
+
+31
+00:01:47.468 --> 00:01:51.852
+Ten years ago I was working at
+a pizza joint and ten years later,
+
+32
+00:01:51.852 --> 00:01:54.860
+here I am, at Google as a Security Engineer.
+
+33
+00:01:54.860 --> 00:01:58.934
+If I told my 16 year old
+self that I would be here,
+
+34
+00:01:58.934 --> 00:02:03.501
+I wouldn't have believed myself,
+but it is possible.

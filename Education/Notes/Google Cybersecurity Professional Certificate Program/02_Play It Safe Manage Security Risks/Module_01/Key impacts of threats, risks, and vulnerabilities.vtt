@@ -1,0 +1,271 @@
+WEBVTT
+
+1
+00:00:01.020 --> 00:00:06.700
+In this video, we'll discuss an expensive
+type of malware called ransomware.
+
+2
+00:00:06.700 --> 00:00:10.989
+Then we'll cover three key
+impacts of threats, risks, and
+
+3
+00:00:10.989 --> 00:00:14.980
+vulnerabilities on
+organizational operations.
+
+4
+00:00:15.980 --> 00:00:19.753
+Ransomware is a malicious attack
+where threat actors encrypt
+
+5
+00:00:19.753 --> 00:00:24.880
+an organization's data then
+demand payment to restore access.
+
+6
+00:00:24.880 --> 00:00:28.512
+Once ransomware is
+deployed by an attacker,
+
+7
+00:00:28.512 --> 00:00:33.292
+it can freeze network systems,
+leave devices unusable, and
+
+8
+00:00:33.292 --> 00:00:39.160
+encrypt, or lock confidential
+data, making devices inaccessible.
+
+9
+00:00:39.160 --> 00:00:44.234
+The threat actor then demands a ransom
+before providing a decryption key
+
+10
+00:00:44.234 --> 00:00:49.330
+to allow organizations to return to
+their normal business operations.
+
+11
+00:00:49.330 --> 00:00:55.990
+Think of a decryption key as a password
+provided to regain access to your data.
+
+12
+00:00:55.990 --> 00:01:01.457
+Note that when ransom negotiations occur
+or data is leaked by threat actors,
+
+13
+00:01:01.457 --> 00:01:04.665
+these events can occur
+through the dark web.
+
+14
+00:01:05.665 --> 00:01:10.635
+While many people use search engines to
+navigate to their social media accounts or
+
+15
+00:01:10.635 --> 00:01:15.630
+to shop online, this is only a small
+part of what the web really is.
+
+16
+00:01:15.630 --> 00:01:20.519
+The web is actually an interlinked
+network of online content that's
+
+17
+00:01:20.519 --> 00:01:25.673
+made up of three layers: the surface web,
+the deep web, and the dark web.
+
+18
+00:01:26.673 --> 00:01:29.232
+The surface web is the layer
+that most people use.
+
+19
+00:01:29.232 --> 00:01:33.700
+It contains content that can be
+accessed using a web browser.
+
+20
+00:01:34.700 --> 00:01:38.380
+The deep web generally requires
+authorization to access it.
+
+21
+00:01:38.380 --> 00:01:42.475
+An organization's intranet is
+an example of the deep web,
+
+22
+00:01:42.475 --> 00:01:48.450
+since it can only be accessed by employees
+or others who have been granted access.
+
+23
+00:01:49.450 --> 00:01:54.570
+Lastly, the dark web can only be
+accessed by using special software.
+
+24
+00:01:54.570 --> 00:01:59.912
+The dark web generally carries a negative
+connotation since it is the preferred
+
+25
+00:01:59.912 --> 00:02:04.320
+web layer for criminals because
+of the secrecy that it provides.
+
+26
+00:02:05.320 --> 00:02:11.180
+Now, let's discuss three key impacts
+of threats, risks, and vulnerabilities.
+
+27
+00:02:11.180 --> 00:02:14.819
+The first impact we'll
+discuss is financial impact.
+
+28
+00:02:14.819 --> 00:02:20.033
+When an organization's assets are
+compromised by an attack, such as the use
+
+29
+00:02:20.033 --> 00:02:26.410
+of malware, the financial consequences can
+be significant for a variety of reasons.
+
+30
+00:02:26.410 --> 00:02:30.593
+These can include interrupted
+production and services,
+
+31
+00:02:30.593 --> 00:02:35.201
+the cost to correct the issue, and
+fines if assets are compromised
+
+32
+00:02:35.201 --> 00:02:39.880
+because of non-compliance with laws and
+regulations.
+
+33
+00:02:40.880 --> 00:02:42.680
+The second impact is identity theft.
+
+34
+00:02:42.680 --> 00:02:47.688
+Organizations must decide whether
+to store private customer,
+
+35
+00:02:47.688 --> 00:02:51.686
+employee, and outside vendor data, and
+for how long.
+
+36
+00:02:51.686 --> 00:02:57.840
+Storing any type of sensitive data
+presents a risk to the organization.
+
+37
+00:02:57.840 --> 00:03:03.449
+Sensitive data can include personally
+identifiable information, or
+
+38
+00:03:03.449 --> 00:03:08.440
+PII, which can be sold or
+leaked through the dark web.
+
+39
+00:03:08.440 --> 00:03:14.310
+That's because the dark web provides
+a sense of secrecy and threat actors may
+
+40
+00:03:14.310 --> 00:03:19.850
+have the ability to sell data there
+without facing legal consequences.
+
+41
+00:03:20.850 --> 00:03:25.710
+The last impact we'll discuss is damage
+to an organization's reputation.
+
+42
+00:03:25.710 --> 00:03:31.004
+A solid customer base supports
+an organization's mission,
+
+43
+00:03:31.004 --> 00:03:33.556
+vision, and financial goals.
+
+44
+00:03:33.556 --> 00:03:38.208
+An exploited vulnerability can lead
+customers to seek new business
+
+45
+00:03:38.208 --> 00:03:40.656
+relationships with competitors or
+
+46
+00:03:40.656 --> 00:03:46.900
+create bad press that causes permanent
+damage to an organization's reputation.
+
+47
+00:03:46.900 --> 00:03:53.123
+The loss of customer data doesn't only
+affect an organization's reputation and
+
+48
+00:03:53.123 --> 00:03:58.580
+financials, it may also result
+in legal penalties and fines.
+
+49
+00:03:58.580 --> 00:04:03.803
+Organizations are strongly encouraged
+to take proper security measures and
+
+50
+00:04:03.803 --> 00:04:08.784
+follow certain protocols to prevent
+the significant impact of threats,
+
+51
+00:04:08.784 --> 00:04:10.807
+risks, and vulnerabilities.
+
+52
+00:04:10.807 --> 00:04:15.294
+By using all the tools in their toolkit,
+security teams are better
+
+53
+00:04:15.294 --> 00:04:19.149
+prepared to handle an event
+such as a ransomware attack.
+
+54
+00:04:20.149 --> 00:04:23.253
+Coming up, we'll cover the NIST
+risk management framework's
+
+55
+00:04:23.253 --> 00:04:25.311
+seven steps for managing risk.

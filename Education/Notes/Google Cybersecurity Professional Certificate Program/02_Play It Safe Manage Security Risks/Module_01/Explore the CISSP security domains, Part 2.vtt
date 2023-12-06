@@ -1,0 +1,348 @@
+WEBVTT
+
+1
+00:00:00.977 --> 00:00:04.624
+In this video,
+we'll cover the last four domains:
+
+2
+00:00:04.624 --> 00:00:09.141
+identity and access management,
+security assessment and testing,
+
+3
+00:00:09.141 --> 00:00:14.252
+security operations, and
+software development security.
+
+4
+00:00:15.252 --> 00:00:19.138
+The fifth domain is identity and
+access management, or IAM.
+
+5
+00:00:19.138 --> 00:00:23.794
+And it's focused on access and
+authorization to keep data secure by
+
+6
+00:00:23.794 --> 00:00:29.197
+making sure users follow established
+policies to control and manage assets.
+
+7
+00:00:29.197 --> 00:00:35.102
+As an entry-level analyst, it's essential
+to keep an organization's systems and data
+
+8
+00:00:35.102 --> 00:00:40.770
+as secure as possible by ensuring user
+access is limited to what employees need.
+
+9
+00:00:40.770 --> 00:00:47.147
+Basically, the goal of IAM is to reduce
+the overall risk to systems and data.
+
+10
+00:00:48.147 --> 00:00:52.970
+For example, if everyone at a company
+is using the same administrator login,
+
+11
+00:00:52.970 --> 00:00:56.776
+there is no way to track who
+has access to what data.
+
+12
+00:00:56.776 --> 00:00:58.563
+In the event of a breach,
+
+13
+00:00:58.563 --> 00:01:04.026
+separating valid user activity from
+the threat actor would be impossible.
+
+14
+00:01:05.026 --> 00:01:07.291
+There are four main components to IAM.
+
+15
+00:01:07.291 --> 00:01:12.516
+Identification is when a user verifies
+who they are by providing a user name,
+
+16
+00:01:12.516 --> 00:01:16.970
+an access card, or
+biometric data such as a fingerprint.
+
+17
+00:01:16.970 --> 00:01:21.651
+Authentication is the verification
+process to prove a person's
+
+18
+00:01:21.651 --> 00:01:24.893
+identity, such as entering a password or
+PIN.
+
+19
+00:01:24.893 --> 00:01:29.919
+Authorization takes place after a user's
+identity has been confirmed and
+
+20
+00:01:29.919 --> 00:01:35.435
+relates to their level of access, which
+depends on the role in the organization.
+
+21
+00:01:35.435 --> 00:01:40.212
+Accountability refers to monitoring and
+recording user actions,
+
+22
+00:01:40.212 --> 00:01:45.002
+like login attempts, to prove systems and
+data are used properly.
+
+23
+00:01:46.002 --> 00:01:49.641
+The sixth security domain is
+security assessment and testing.
+
+24
+00:01:49.641 --> 00:01:54.158
+This domain focuses on conducting
+security control testing,
+
+25
+00:01:54.158 --> 00:01:59.695
+collecting and analyzing data, and
+conducting security audits to monitor for
+
+26
+00:01:59.695 --> 00:02:02.606
+risks, threats, and vulnerabilities.
+
+27
+00:02:02.606 --> 00:02:07.258
+Security control testing can help
+an organization identify new and
+
+28
+00:02:07.258 --> 00:02:11.675
+better ways to mitigate threats,
+risks, and vulnerabilities.
+
+29
+00:02:11.675 --> 00:02:15.810
+This involves examining organizational
+goals and objectives, and
+
+30
+00:02:15.810 --> 00:02:20.323
+evaluating if the controls being used
+actually achieve those goals.
+
+31
+00:02:20.323 --> 00:02:25.412
+Collecting and analyzing security data
+regularly also helps prevent threats and
+
+32
+00:02:25.412 --> 00:02:27.115
+risks to the organization.
+
+33
+00:02:28.115 --> 00:02:32.237
+Analysts might use security control
+testing evaluations and security
+
+34
+00:02:32.237 --> 00:02:37.702
+assessment reports to improve existing
+controls or implement new controls.
+
+35
+00:02:37.702 --> 00:02:43.252
+An example of implementing a new control
+could be requiring the use of multi-factor
+
+36
+00:02:43.252 --> 00:02:49.221
+authentication to better protect the
+organization from potential threats and risks.
+
+37
+00:02:50.221 --> 00:02:53.413
+Next, let's discuss security operations.
+
+38
+00:02:53.413 --> 00:02:58.585
+The security operations domain is
+focused on conducting investigations and
+
+39
+00:02:58.585 --> 00:03:01.298
+implementing preventative measures.
+
+40
+00:03:01.298 --> 00:03:05.843
+Investigations begin once a security
+incident has been identified.
+
+41
+00:03:05.843 --> 00:03:10.573
+This process requires a heightened
+sense of urgency in order to minimize
+
+42
+00:03:10.573 --> 00:03:13.139
+potential risks to the organization.
+
+43
+00:03:13.139 --> 00:03:16.414
+If there is an active attack,
+mitigating the attack and
+
+44
+00:03:16.414 --> 00:03:19.831
+preventing it from escalating further
+is essential for
+
+45
+00:03:19.831 --> 00:03:23.963
+ensuring that private information
+is protected from threat actors.
+
+46
+00:03:24.963 --> 00:03:28.398
+Once the threat has been neutralized,
+the collection of digital and physical
+
+47
+00:03:28.398 --> 00:03:32.845
+evidence to conduct
+a forensic investigation will begin.
+
+48
+00:03:32.845 --> 00:03:37.259
+A digital forensic investigation
+must take place to identify
+
+49
+00:03:37.259 --> 00:03:41.279
+when, how, and
+why the breach occurred.
+
+50
+00:03:41.279 --> 00:03:45.360
+This helps security teams determine
+areas for improvement and
+
+51
+00:03:45.360 --> 00:03:49.904
+preventative measures that can be
+taken to mitigate future attacks.
+
+52
+00:03:50.904 --> 00:03:54.988
+The eighth and final security domain
+is software development security.
+
+53
+00:03:54.988 --> 00:03:59.259
+This domain focuses on using
+secure coding practices.
+
+54
+00:03:59.259 --> 00:04:03.877
+As you may remember,
+secure coding practices are recommended guidelines
+
+55
+00:04:03.877 --> 00:04:09.116
+that are used to create
+secure applications and services.
+
+56
+00:04:09.116 --> 00:04:13.834
+The software development lifecycle is
+an efficient process used by teams to
+
+57
+00:04:13.834 --> 00:04:16.866
+quickly build software products and
+features.
+
+58
+00:04:16.866 --> 00:04:21.167
+In this process, security
+is an additional step.
+
+59
+00:04:21.167 --> 00:04:25.942
+By ensuring that each phase of the
+software development lifecycle undergoes
+
+60
+00:04:25.942 --> 00:04:31.017
+security reviews, security can be fully
+integrated into the software product.
+
+61
+00:04:32.017 --> 00:04:35.699
+For example, performing a secure
+design review during the design phase,
+
+62
+00:04:35.699 --> 00:04:39.798
+secure code reviews during
+the development and testing phases,
+
+63
+00:04:39.798 --> 00:04:44.944
+and penetration testing during
+the deployment and implementation phase
+
+64
+00:04:44.944 --> 00:04:50.263
+ensures that security is embedded into
+the software product at every step.
+
+65
+00:04:50.263 --> 00:04:54.649
+This keeps software secure and
+sensitive data protected, and
+
+66
+00:04:54.649 --> 00:04:58.268
+mitigates unnecessary
+risk to an organization.
+
+67
+00:04:59.268 --> 00:05:03.218
+Being familiar with these domains can
+help you better understand how they're
+
+68
+00:05:03.218 --> 00:05:06.968
+used to improve the overall
+security of an organization and
+
+69
+00:05:06.968 --> 00:05:09.530
+the critical role security teams play.
+
+70
+00:05:09.530 --> 00:05:14.044
+Next, we'll discuss security threats,
+risks, and vulnerabilities,
+
+71
+00:05:14.044 --> 00:05:18.643
+including ransomware, and introduce
+you to the three layers of the web.

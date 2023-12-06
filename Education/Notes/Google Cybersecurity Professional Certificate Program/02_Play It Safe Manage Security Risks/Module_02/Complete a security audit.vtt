@@ -1,0 +1,278 @@
+WEBVTT
+
+1
+00:00:01.334 --> 00:00:06.128
+Previously, we discussed the initial
+planning elements of an internal
+
+2
+00:00:06.128 --> 00:00:07.353
+security audit.
+
+3
+00:00:07.353 --> 00:00:12.309
+In this video, we'll cover the final
+elements that an entry-level analyst
+
+4
+00:00:12.309 --> 00:00:14.332
+might be asked to complete.
+
+5
+00:00:15.332 --> 00:00:19.644
+As a reminder, the planning elements
+of internal security audits include
+
+6
+00:00:19.644 --> 00:00:24.788
+establishing the scope and
+goals, then conducting a risk assessment.
+
+7
+00:00:24.788 --> 00:00:29.722
+The remaining elements are completing
+a controls assessment,
+
+8
+00:00:29.722 --> 00:00:33.751
+assessing compliance, and
+communicating results.
+
+9
+00:00:33.751 --> 00:00:39.111
+Before completing these last three
+elements, you'll need to review the scope and goals,
+
+10
+00:00:39.111 --> 00:00:44.083
+as well as the risk assessment,
+and ask yourself some questions.
+
+11
+00:00:44.083 --> 00:00:51.933
+For example: What is the audit meant to achieve?
+Which assets are most at risk?
+
+12
+00:00:51.933 --> 00:00:56.210
+Are current controls sufficient
+to protect those assets?
+
+13
+00:00:56.210 --> 00:01:02.524
+If not, what controls and compliance
+regulations need to be implemented?
+
+14
+00:01:02.524 --> 00:01:06.716
+Considering questions like
+these can support your ability
+
+15
+00:01:06.716 --> 00:01:10.500
+to complete the next element:
+a controls assessment.
+
+16
+00:01:11.500 --> 00:01:15.906
+A controls assessment involves
+closely reviewing an organization's existing
+
+17
+00:01:15.906 --> 00:01:20.859
+assets, then evaluating
+potential risks to those assets,
+
+18
+00:01:20.859 --> 00:01:25.372
+to ensure internal controls and
+processes are effective.
+
+19
+00:01:25.372 --> 00:01:30.113
+To do this, entry-level analysts
+might be tasked with classifying
+
+20
+00:01:30.113 --> 00:01:35.384
+controls into the following categories:
+administrative controls,
+
+21
+00:01:35.384 --> 00:01:38.739
+technical controls, and physical controls.
+
+22
+00:01:39.739 --> 00:01:44.203
+Administrative controls are related to
+the human component of cybersecurity.
+
+23
+00:01:44.203 --> 00:01:49.222
+They include policies and
+procedures that define how an organization
+
+24
+00:01:49.222 --> 00:01:54.443
+manages data, such as the implementation
+of password policies.
+
+25
+00:01:55.443 --> 00:02:01.221
+Technical controls are hardware and software solutions
+used to protect assets, such
+
+26
+00:02:01.221 --> 00:02:07.110
+as the use of intrusion detection
+systems, or IDS's, and encryption.
+
+27
+00:02:08.110 --> 00:02:12.388
+Physical controls refer to measures
+put in place to prevent physical
+
+28
+00:02:12.388 --> 00:02:17.678
+access to protected assets, such as
+surveillance cameras and locks.
+
+29
+00:02:18.678 --> 00:02:20.783
+The next element is determining whether or
+
+30
+00:02:20.783 --> 00:02:26.139
+not the organization is adhering to
+necessary compliance regulations.
+
+31
+00:02:26.139 --> 00:02:30.310
+As a reminder,
+compliance regulations are laws that
+
+32
+00:02:30.310 --> 00:02:35.602
+organizations must follow to ensure
+private data remains secure.
+
+33
+00:02:35.602 --> 00:02:41.205
+In this example, the organization conducts
+business in the European Union and
+
+34
+00:02:41.205 --> 00:02:43.473
+accepts credit card payments.
+
+35
+00:02:43.473 --> 00:02:47.437
+So they need to adhere to the GDPR and
+
+36
+00:02:47.437 --> 00:02:53.924
+Payment Card Industry Data
+Security Standard, or PCI DSS.
+
+37
+00:02:54.924 --> 00:02:59.232
+The final common element of an internal
+security audit is communication.
+
+38
+00:02:59.232 --> 00:03:03.491
+Once the internal security
+audit is complete, results and
+
+39
+00:03:03.491 --> 00:03:08.026
+recommendations need to be
+communicated to stakeholders.
+
+40
+00:03:08.026 --> 00:03:13.045
+In general, this type of communication
+summarizes the scope and
+
+41
+00:03:13.045 --> 00:03:14.603
+goals of the audit.
+
+42
+00:03:14.603 --> 00:03:21.725
+Then, it lists existing risks and notes how
+quickly those risks need to be addressed.
+
+43
+00:03:21.725 --> 00:03:25.918
+Additionally, it identifies
+compliance regulations
+
+44
+00:03:25.918 --> 00:03:30.757
+the organization needs to adhere to and
+provides recommendations for
+
+45
+00:03:30.757 --> 00:03:34.371
+improving the organization's
+security posture.
+
+46
+00:03:35.371 --> 00:03:40.292
+Internal audits are a great way to
+identify gaps within an organization.
+
+47
+00:03:40.292 --> 00:03:45.498
+When I worked at a previous company,
+my team and I conducted an internal
+
+48
+00:03:45.498 --> 00:03:50.270
+password audit and found that
+many of the passwords were weak.
+
+49
+00:03:50.270 --> 00:03:55.432
+Once we identified this issue,
+the compliance team took the lead and
+
+50
+00:03:55.432 --> 00:03:58.997
+began enforcing stricter
+password policies.
+
+51
+00:03:58.997 --> 00:04:03.757
+Audits are an opportunity to
+determine what security measures an
+
+52
+00:04:03.757 --> 00:04:08.177
+organization has in place and
+what areas need to be improved to
+
+53
+00:04:08.177 --> 00:04:12.343
+achieve the organization's
+desired security posture.
+
+54
+00:04:13.343 --> 00:04:18.544
+Security audits are quite involved, yet
+of extreme value to organizations.
+
+55
+00:04:18.544 --> 00:04:19.905
+Later in the course,
+
+56
+00:04:19.905 --> 00:04:25.197
+you'll have an opportunity to complete
+elements of an internal security audit for
+
+57
+00:04:25.197 --> 00:04:30.051
+a fictional company, which you can
+include in your professional portfolio.

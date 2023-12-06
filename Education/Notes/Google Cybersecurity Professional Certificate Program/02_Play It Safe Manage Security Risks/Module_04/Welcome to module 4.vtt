@@ -1,0 +1,52 @@
+WEBVTT
+
+1
+00:00:00.851 --> 00:00:02.888
+Hello and welcome back.
+
+2
+00:00:02.888 --> 00:00:06.276
+You've reached the final
+section of this course!
+
+3
+00:00:06.276 --> 00:00:09.921
+Previously, we discussed
+security information and
+
+4
+00:00:09.921 --> 00:00:12.513
+event management, or SIEM tools, and
+
+5
+00:00:12.513 --> 00:00:17.706
+how they can be used to help organizations
+improve their security posture.
+
+6
+00:00:18.706 --> 00:00:22.383
+Let's continue our security
+journey by exploring another tool
+
+7
+00:00:22.383 --> 00:00:25.593
+security professionals use: playbooks.
+
+8
+00:00:25.593 --> 00:00:31.114
+In this section, we'll explore how
+playbooks help security teams respond
+
+9
+00:00:31.114 --> 00:00:36.040
+to threats, risks, or
+vulnerabilities identified by SIEM tools.
+
+10
+00:00:37.040 --> 00:00:40.275
+Then, we'll discuss the six
+phases of incident response.
+
+11
+00:00:40.275 --> 00:00:41.495
+Let's get started!

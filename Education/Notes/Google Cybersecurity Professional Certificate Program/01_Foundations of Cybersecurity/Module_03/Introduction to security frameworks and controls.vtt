@@ -1,0 +1,490 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:04.050
+Imagine you're working as a
+security analyst and receive
+
+2
+00:00:04.050 --> 00:00:07.815
+multiple alerts about suspicious
+activity on the network.
+
+3
+00:00:07.815 --> 00:00:10.110
+You realize that you'll need to implement
+
+4
+00:00:10.110 --> 00:00:12.060
+additional security
+measures to keep
+
+5
+00:00:12.060 --> 00:00:13.170
+these alerts from becoming
+
+6
+00:00:13.170 --> 00:00:16.500
+serious incidents. But
+where do you start?
+
+7
+00:00:17.500 --> 00:00:19.380
+As an analyst, you'll
+start by identifying
+
+8
+00:00:19.380 --> 00:00:22.755
+your organization's
+critical assets and risks.
+
+9
+00:00:22.755 --> 00:00:24.060
+Then you'll implement
+
+10
+00:00:24.060 --> 00:00:26.370
+the necessary frameworks
+and controls.
+
+11
+00:00:27.370 --> 00:00:29.985
+In this video, we'll discuss
+how security professionals
+
+12
+00:00:29.985 --> 00:00:33.775
+use frameworks to continuously
+identify and manage risk.
+
+13
+00:00:33.775 --> 00:00:35.540
+We'll also cover how to use
+
+14
+00:00:35.540 --> 00:00:39.140
+security controls to manage
+or reduce specific risks.
+
+15
+00:00:40.140 --> 00:00:41.359
+Security frameworks
+are guidelines
+
+16
+00:00:41.359 --> 00:00:42.590
+used for building plans
+
+17
+00:00:42.590 --> 00:00:46.024
+to help mitigate risks and
+threats to data and privacy.
+
+18
+00:00:46.024 --> 00:00:49.115
+Security frameworks provide
+a structured approach
+
+19
+00:00:49.115 --> 00:00:51.310
+to implementing a
+security lifecycle.
+
+20
+00:00:51.310 --> 00:00:52.910
+The security lifecycle is
+
+21
+00:00:52.910 --> 00:00:55.160
+a constantly evolving
+set of policies
+
+22
+00:00:55.160 --> 00:00:56.840
+and standards that define
+
+23
+00:00:56.840 --> 00:00:59.195
+how an organization
+manages risks,
+
+24
+00:00:59.195 --> 00:01:01.280
+follows established guidelines,
+
+25
+00:01:01.280 --> 00:01:04.975
+and meets regulatory
+compliance, or laws.
+
+26
+00:01:05.975 --> 00:01:07.340
+There are several
+security frameworks
+
+27
+00:01:07.340 --> 00:01:08.600
+that may be used to manage
+
+28
+00:01:08.600 --> 00:01:10.460
+different types
+of organizational
+
+29
+00:01:10.460 --> 00:01:12.890
+and regulatory compliance risks.
+
+30
+00:01:12.890 --> 00:01:16.400
+The purpose of security
+frameworks include protecting
+
+31
+00:01:16.400 --> 00:01:20.450
+personally identifiable
+information, known as PII,
+
+32
+00:01:20.450 --> 00:01:22.670
+securing financial information,
+
+33
+00:01:22.670 --> 00:01:25.145
+identifying security weaknesses,
+
+34
+00:01:25.145 --> 00:01:27.650
+managing organizational risks,
+
+35
+00:01:27.650 --> 00:01:30.910
+and aligning security
+with business goals.
+
+36
+00:01:31.910 --> 00:01:34.610
+Frameworks have four
+core components and
+
+37
+00:01:34.610 --> 00:01:36.260
+understanding them
+will allow you to
+
+38
+00:01:36.260 --> 00:01:38.570
+better manage potential risks.
+
+39
+00:01:38.570 --> 00:01:40.790
+The first core component is
+
+40
+00:01:40.790 --> 00:01:43.795
+identifying and documenting
+security goals.
+
+41
+00:01:43.795 --> 00:01:47.795
+For example, an organization
+may have a goal to
+
+42
+00:01:47.795 --> 00:01:51.770
+align with the E.U.'s General
+Data Protection Regulation,
+
+43
+00:01:51.770 --> 00:01:54.640
+also known as GDPR.
+
+44
+00:01:54.640 --> 00:01:58.880
+GDPR is a data protection
+law established to
+
+45
+00:01:58.880 --> 00:02:01.565
+grant European
+citizens more control
+
+46
+00:02:01.565 --> 00:02:03.425
+over their personal data.
+
+47
+00:02:03.425 --> 00:02:07.400
+A security analyst may be
+asked to identify and document
+
+48
+00:02:07.400 --> 00:02:09.260
+areas where an organization
+
+49
+00:02:09.260 --> 00:02:12.425
+is out of compliance with GDPR.
+
+50
+00:02:13.425 --> 00:02:14.720
+The second core
+component is setting
+
+51
+00:02:14.720 --> 00:02:17.155
+guidelines to achieve
+security goals.
+
+52
+00:02:17.155 --> 00:02:19.280
+For example, when implementing
+
+53
+00:02:19.280 --> 00:02:22.310
+guidelines to achieve
+GDPR compliance,
+
+54
+00:02:22.310 --> 00:02:24.890
+your organization
+may need to develop
+
+55
+00:02:24.890 --> 00:02:26.690
+new policies for how to handle
+
+56
+00:02:26.690 --> 00:02:29.335
+data requests from
+individual users.
+
+57
+00:02:30.335 --> 00:02:32.510
+The third core component
+of security frameworks is
+
+58
+00:02:32.510 --> 00:02:35.780
+implementing strong
+security processes.
+
+59
+00:02:35.780 --> 00:02:38.360
+In the case of GDPR,
+
+60
+00:02:38.360 --> 00:02:40.370
+a security analyst working for
+
+61
+00:02:40.370 --> 00:02:43.070
+a social media company
+may help design
+
+62
+00:02:43.070 --> 00:02:45.110
+procedures to ensure
+the organization
+
+63
+00:02:45.110 --> 00:02:48.220
+complies with verified
+user data requests.
+
+64
+00:02:48.220 --> 00:02:51.830
+An example of this type
+of request is when a user
+
+65
+00:02:51.830 --> 00:02:55.970
+attempts to update or delete
+their profile information.
+
+66
+00:02:56.970 --> 00:02:58.310
+The last core component of
+
+67
+00:02:58.310 --> 00:02:59.870
+security frameworks is
+
+68
+00:02:59.870 --> 00:03:02.450
+monitoring and
+communicating results.
+
+69
+00:03:02.450 --> 00:03:04.970
+As an example, you may monitor
+
+70
+00:03:04.970 --> 00:03:07.730
+your organization's
+internal network and report
+
+71
+00:03:07.730 --> 00:03:09.650
+a potential security
+issue affecting
+
+72
+00:03:09.650 --> 00:03:14.325
+GDPR to your manager or
+regulatory compliance officer.
+
+73
+00:03:15.325 --> 00:03:16.150
+Now that we've introduced
+
+74
+00:03:16.150 --> 00:03:18.955
+the four core components
+of security frameworks,
+
+75
+00:03:18.955 --> 00:03:20.795
+let's tie them all together.
+
+76
+00:03:20.795 --> 00:03:23.785
+Frameworks allow analysts
+to work alongside
+
+77
+00:03:23.785 --> 00:03:26.665
+other members of the
+security team to document,
+
+78
+00:03:26.665 --> 00:03:28.750
+implement, and use the policies
+
+79
+00:03:28.750 --> 00:03:30.909
+and procedures that
+have been created.
+
+80
+00:03:30.909 --> 00:03:34.449
+It's essential for an entry-level
+analyst to understand
+
+81
+00:03:34.449 --> 00:03:36.670
+this process because
+it directly affects
+
+82
+00:03:36.670 --> 00:03:39.985
+the work they do and how they
+collaborate with others.
+
+83
+00:03:39.985 --> 00:03:43.305
+Next, we'll discuss
+security controls.
+
+84
+00:03:44.305 --> 00:03:45.670
+Security controls are safeguards
+
+85
+00:03:45.670 --> 00:03:48.770
+designed to reduce
+specific security risks.
+
+86
+00:03:48.770 --> 00:03:50.770
+For example, your company
+
+87
+00:03:50.770 --> 00:03:52.450
+may have a guideline
+that requires
+
+88
+00:03:52.450 --> 00:03:54.025
+all employees to complete
+
+89
+00:03:54.025 --> 00:03:57.345
+a privacy training to reduce
+the risk of data breaches.
+
+90
+00:03:57.345 --> 00:03:59.225
+As a security analyst,
+
+91
+00:03:59.225 --> 00:04:01.940
+you may use a software
+tool to automatically
+
+92
+00:04:01.940 --> 00:04:03.560
+assign and track which
+
+93
+00:04:03.560 --> 00:04:05.810
+employees have completed
+this training.
+
+94
+00:04:06.810 --> 00:04:08.300
+Security frameworks
+and controls are
+
+95
+00:04:08.300 --> 00:04:10.685
+vital to managing
+security for all types of
+
+96
+00:04:10.685 --> 00:04:13.370
+organizations and
+ensuring that everyone is
+
+97
+00:04:13.370 --> 00:04:16.355
+doing their part to maintain
+a low level of risk.
+
+98
+00:04:17.355 --> 00:04:18.380
+Understanding their
+purpose and how
+
+99
+00:04:18.380 --> 00:04:20.450
+they are used allows analysts to
+
+100
+00:04:20.450 --> 00:04:22.850
+support an organization's
+security goals
+
+101
+00:04:22.850 --> 00:04:25.190
+and protect the
+people it serves.
+
+102
+00:04:26.190 --> 00:04:26.915
+In the following videos,
+
+103
+00:04:26.915 --> 00:04:28.880
+we'll discuss some
+well-known frameworks
+
+104
+00:04:28.880 --> 00:04:30.650
+and principles that
+analysts need to
+
+105
+00:04:30.650 --> 00:04:35.310
+be aware of to minimize risk
+and protect data and users.

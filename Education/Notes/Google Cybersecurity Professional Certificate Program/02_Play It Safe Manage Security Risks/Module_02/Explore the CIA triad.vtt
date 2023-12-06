@@ -1,0 +1,254 @@
+WEBVTT
+
+1
+00:00:00.920 --> 00:00:02.909
+Great to see you again!
+
+2
+00:00:02.909 --> 00:00:08.170
+While working as an entry-level security
+analyst, your main responsibility is to
+
+3
+00:00:08.170 --> 00:00:13.296
+help protect your organization's sensitive
+assets and data from threat actors.
+
+4
+00:00:13.296 --> 00:00:18.567
+The CIA triad is a core security
+model that will help you do that.
+
+5
+00:00:19.567 --> 00:00:23.733
+In this video, we'll explore the CIA
+triad and discuss the importance of each
+
+6
+00:00:23.733 --> 00:00:29.804
+component for keeping an organization safe
+from threats, risks, and vulnerabilities.
+
+7
+00:00:29.804 --> 00:00:31.741
+Let's get started!
+
+8
+00:00:32.741 --> 00:00:35.922
+The CIA triad is a model that
+helps inform how organizations
+
+9
+00:00:35.922 --> 00:00:40.363
+consider risk when setting up systems and
+security policies.
+
+10
+00:00:40.363 --> 00:00:45.000
+As a reminder, the three letters
+in the CIA triad stand for
+
+11
+00:00:45.000 --> 00:00:49.084
+confidentiality, integrity, and
+availability.
+
+12
+00:00:49.084 --> 00:00:54.044
+As an entry-level analyst, you'll
+find yourself constantly referring to
+
+13
+00:00:54.044 --> 00:00:58.848
+these three core principles as you
+work to protect your organization and the people
+
+14
+00:00:58.848 --> 00:01:00.359
+it serves.
+
+15
+00:01:01.359 --> 00:01:06.124
+Confidentiality means that only authorized
+users can access specific assets or data.
+
+16
+00:01:06.124 --> 00:01:10.650
+Sensitive data should be available
+on a "need to know" basis, so
+
+17
+00:01:10.650 --> 00:01:16.926
+that only the people who are authorized to
+handle certain assets or data have access.
+
+18
+00:01:17.926 --> 00:01:22.246
+Integrity means that the data is correct,
+authentic, and reliable.
+
+19
+00:01:22.246 --> 00:01:27.624
+Determining the integrity of data and
+analyzing how it's used will help you, as
+
+20
+00:01:27.624 --> 00:01:32.933
+a security professional, decide whether
+the data can or cannot be trusted.
+
+21
+00:01:33.933 --> 00:01:37.107
+Availability means that the data
+is accessible to those who
+
+22
+00:01:37.107 --> 00:01:39.202
+are authorized to access it.
+
+23
+00:01:39.202 --> 00:01:41.593
+Inaccessible data isn't useful and
+
+24
+00:01:41.593 --> 00:01:44.991
+can prevent people from
+being able to do their jobs.
+
+25
+00:01:44.991 --> 00:01:49.272
+As a security professional, ensuring
+that systems, networks, and
+
+26
+00:01:49.272 --> 00:01:53.254
+applications are functioning
+properly to allow for timely and
+
+27
+00:01:53.254 --> 00:01:57.928
+reliable access, may be a part of
+your everyday work responsibilities.
+
+28
+00:01:58.928 --> 00:02:02.008
+Now that we've defined the CIA triad and
+its components,
+
+29
+00:02:02.008 --> 00:02:07.057
+let's explore how you might use the CIA
+triad to protect an organization.
+
+30
+00:02:07.057 --> 00:02:12.066
+If you work for an organization that has
+large amounts of private data like a bank,
+
+31
+00:02:12.066 --> 00:02:15.481
+the principle of confidentiality
+is essential because
+
+32
+00:02:15.481 --> 00:02:19.929
+the bank must keep people's personal and
+financial information safe.
+
+33
+00:02:20.929 --> 00:02:22.728
+The principle of integrity
+is also a priority.
+
+34
+00:02:22.728 --> 00:02:25.732
+For example,
+if a person's spending habits or
+
+35
+00:02:25.732 --> 00:02:30.464
+purchasing locations change dramatically,
+the bank will likely disable
+
+36
+00:02:30.464 --> 00:02:34.743
+access to the account until they
+can verify that the account owner,
+
+37
+00:02:34.743 --> 00:02:38.363
+not a threat actor, is actually
+the one making purchases.
+
+38
+00:02:39.363 --> 00:02:41.588
+The availability principle
+is also critical.
+
+39
+00:02:41.588 --> 00:02:44.932
+Banks put a lot of effort
+into making sure that people
+
+40
+00:02:44.932 --> 00:02:48.589
+can access their account
+information easily on the web.
+
+41
+00:02:48.589 --> 00:02:53.209
+And to make sure that information is
+protected from threat actors, banks
+
+42
+00:02:53.209 --> 00:02:57.675
+use a validation process to help
+minimize damage if they suspect that
+
+43
+00:02:57.675 --> 00:03:00.538
+customer accounts have been compromised.
+
+44
+00:03:01.538 --> 00:03:04.382
+As an analyst,
+you'll regularly use each component of
+
+45
+00:03:04.382 --> 00:03:09.229
+the triad to help protect your
+organization and the people it serves.
+
+46
+00:03:09.229 --> 00:03:12.248
+And having the CIA triad
+constantly in mind,
+
+47
+00:03:12.248 --> 00:03:17.336
+will help you keep sensitive data and
+assets safe from a variety of threats,
+
+48
+00:03:17.336 --> 00:03:22.186
+risks, and vulnerabilities including
+the social engineering attacks,
+
+49
+00:03:22.186 --> 00:03:25.308
+malware, and
+data theft we discussed earlier.
+
+50
+00:03:26.308 --> 00:03:30.035
+Coming up, we'll explore specific
+frameworks and principles that will also
+
+51
+00:03:30.035 --> 00:03:34.917
+help you protect your organization from
+threats, risks, and vulnerabilities.
+
+52
+00:03:34.917 --> 00:03:35.848
+See you soon!

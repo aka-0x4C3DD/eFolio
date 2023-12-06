@@ -1,0 +1,171 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:03.975
+Welcome to the final
+section of this course!
+
+2
+00:00:03.975 --> 00:00:06.510
+Here, we'll be
+introducing tools and
+
+3
+00:00:06.510 --> 00:00:07.830
+programming languages that are
+
+4
+00:00:07.830 --> 00:00:10.230
+commonly used in
+the security field.
+
+5
+00:00:10.230 --> 00:00:13.260
+They are essential for
+monitoring security in
+
+6
+00:00:13.260 --> 00:00:14.850
+an organization
+because they enhance
+
+7
+00:00:14.850 --> 00:00:17.260
+efficiency by automating tasks.
+
+8
+00:00:17.260 --> 00:00:19.070
+Although we're only introducing
+
+9
+00:00:19.070 --> 00:00:21.095
+these concepts and
+tools at this point,
+
+10
+00:00:21.095 --> 00:00:22.505
+later in the program,
+
+11
+00:00:22.505 --> 00:00:24.380
+you'll have opportunities
+to use them in
+
+12
+00:00:24.380 --> 00:00:26.785
+a variety of
+hands-on activities.
+
+13
+00:00:27.785 --> 00:00:28.565
+In the following videos,
+
+14
+00:00:28.565 --> 00:00:31.160
+you'll learn about
+security information and
+
+15
+00:00:31.160 --> 00:00:34.255
+event management, or SIEM, tools.
+
+16
+00:00:34.255 --> 00:00:36.590
+You'll also be introduced
+to other tools such as
+
+17
+00:00:36.590 --> 00:00:39.605
+playbooks and network
+protocol analyzers.
+
+18
+00:00:40.605 --> 00:00:42.710
+Then, you'll learn about the
+Linux operating system and
+
+19
+00:00:42.710 --> 00:00:45.170
+security-related tasks
+that are initiated through
+
+20
+00:00:45.170 --> 00:00:48.620
+programming languages,
+such as SQL and Python.
+
+21
+00:00:49.620 --> 00:00:52.100
+For me, SQL is one of
+the most useful tools.
+
+22
+00:00:52.100 --> 00:00:53.705
+It allows me to explore
+
+23
+00:00:53.705 --> 00:00:55.760
+all the different data
+sources we collect,
+
+24
+00:00:55.760 --> 00:00:59.210
+and it allows my team to
+analyze the data for trends.
+
+25
+00:01:01.210 --> 00:01:01.640
+Take your time going
+through the videos
+
+26
+00:01:01.640 --> 00:01:03.905
+and if you need
+to, re-watch them.
+
+27
+00:01:03.905 --> 00:01:05.900
+Also know that
+these tools will be
+
+28
+00:01:05.900 --> 00:01:07.910
+discussed in much more detail,
+
+29
+00:01:07.910 --> 00:01:09.470
+and you will be able
+to practice them
+
+30
+00:01:09.470 --> 00:01:12.455
+firsthand, later in the
+certificate program.
+
+31
+00:01:13.455 --> 00:01:15.620
+While every organization has
+their own set of tools and
+
+32
+00:01:15.620 --> 00:01:18.755
+training materials that you'll
+learn to use on the job,
+
+33
+00:01:18.755 --> 00:01:20.420
+this program will provide you
+
+34
+00:01:20.420 --> 00:01:22.130
+with foundational
+knowledge that will
+
+35
+00:01:22.130 --> 00:01:24.490
+help you succeed in
+the security industry.
+
+36
+00:01:24.490 --> 00:01:26.650
+Let's get started!
