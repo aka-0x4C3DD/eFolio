@@ -1,0 +1,263 @@
+WEBVTT
+
+1
+00:00:01.035 --> 00:00:04.839
+Previously, we discussed how firewalls,
+VPNs, and
+
+2
+00:00:04.839 --> 00:00:07.871
+security zones help to secure networks.
+
+3
+00:00:07.871 --> 00:00:12.572
+Next, we'll cover how to secure
+internal networks with proxy servers.
+
+4
+00:00:13.572 --> 00:00:16.777
+Proxy servers are another system
+that helps secure networks.
+
+5
+00:00:16.777 --> 00:00:20.902
+The definition of a proxy server is
+a server that fulfills the request of
+
+6
+00:00:20.902 --> 00:00:23.735
+a client by forwarding
+them on to other servers.
+
+7
+00:00:23.735 --> 00:00:27.684
+The proxy server is a dedicated server
+that sits between the internet and
+
+8
+00:00:27.684 --> 00:00:29.053
+the rest of the network.
+
+9
+00:00:29.053 --> 00:00:32.486
+When a request to connect to
+the network comes in from the internet,
+
+10
+00:00:32.486 --> 00:00:35.931
+the proxy server will determine if
+the connection request is safe.
+
+11
+00:00:35.931 --> 00:00:39.658
+The proxy server is a public IP address
+that is different from the rest
+
+12
+00:00:39.658 --> 00:00:41.018
+of the private network.
+
+13
+00:00:41.018 --> 00:00:46.665
+This hides the private network's IP address
+from malicious actors on the internet and
+
+14
+00:00:46.665 --> 00:00:48.424
+adds a layer of security.
+
+15
+00:00:49.424 --> 00:00:50.756
+Let's examine how this
+will work with an example.
+
+16
+00:00:50.756 --> 00:00:56.690
+When a client receives an HTTPS response,
+they will notice a distorted IP address or
+
+17
+00:00:56.690 --> 00:01:02.390
+no IP address rather than the real IP
+address of the organization's web server.
+
+18
+00:01:02.390 --> 00:01:07.152
+A proxy server can also be used to block
+unsafe websites that users aren't allowed
+
+19
+00:01:07.152 --> 00:01:09.649
+to access on an organization's network.
+
+20
+00:01:09.649 --> 00:01:14.020
+A proxy server uses temporary
+memory to store data that's
+
+21
+00:01:14.020 --> 00:01:17.331
+regularly requested by external servers.
+
+22
+00:01:17.331 --> 00:01:21.967
+This way, it doesn't have to fetch
+data from an organization's internal
+
+23
+00:01:21.967 --> 00:01:23.338
+servers every time.
+
+24
+00:01:23.338 --> 00:01:27.397
+This enhances security by reducing
+contact with the internal server.
+
+25
+00:01:28.397 --> 00:01:31.673
+There are different types of proxy
+servers that support network security.
+
+26
+00:01:31.673 --> 00:01:34.665
+This is important for
+security analysts who monitor
+
+27
+00:01:34.665 --> 00:01:39.296
+traffic from various proxy servers and
+may need to know what purpose they serve.
+
+28
+00:01:39.296 --> 00:01:41.918
+Let's explore some different
+types of proxy servers.
+
+29
+00:01:41.918 --> 00:01:44.131
+A forward proxy server regulates and
+
+30
+00:01:44.131 --> 00:01:47.062
+restricts a person with
+access to the internet.
+
+31
+00:01:47.062 --> 00:01:52.455
+The goal is to hide a user's IP address
+and approve all outgoing requests.
+
+32
+00:01:52.455 --> 00:01:54.481
+In the context of an organization,
+
+33
+00:01:54.481 --> 00:01:59.278
+a forward proxy server receives outgoing
+traffic from an employee, approves it, and
+
+34
+00:01:59.278 --> 00:02:02.464
+then forwards it on to
+the destination on the internet.
+
+35
+00:02:02.464 --> 00:02:04.488
+A reverse proxy server regulates and
+
+36
+00:02:04.488 --> 00:02:07.498
+restricts the internet access
+to an internal server.
+
+37
+00:02:07.498 --> 00:02:11.475
+The goal is to accept traffic from
+external parties, approve it, and
+
+38
+00:02:11.475 --> 00:02:13.648
+forward it to the internal servers.
+
+39
+00:02:13.648 --> 00:02:17.113
+This setup is useful for
+protecting internal web servers containing
+
+40
+00:02:17.113 --> 00:02:20.768
+confidential data from exposing their
+IP address to external parties.
+
+41
+00:02:20.768 --> 00:02:24.028
+An email proxy server is
+another valuable security tool.
+
+42
+00:02:24.028 --> 00:02:28.256
+It filters spam email by verifying
+whether a sender's address was forged.
+
+43
+00:02:28.256 --> 00:02:31.947
+This reduces the risk of phishing
+attacks that impersonate people known to
+
+44
+00:02:31.947 --> 00:02:32.951
+the organization.
+
+45
+00:02:33.951 --> 00:02:35.759
+Let's talk about a real world
+example of an email proxy.
+
+46
+00:02:35.759 --> 00:02:39.629
+Several years ago when I was working
+at a large U.S. broadband ISP,
+
+47
+00:02:39.629 --> 00:02:43.455
+we used a proxy server to implement
+multiple layers of anti-spam filtering
+
+48
+00:02:43.455 --> 00:02:45.996
+before a message was allowed in for
+delivery.
+
+49
+00:02:45.996 --> 00:02:50.266
+It ended up tagging around
+95% of messages as spam.
+
+50
+00:02:50.266 --> 00:02:53.052
+The proxy servers would've
+allowed us to filter and
+
+51
+00:02:53.052 --> 00:02:57.593
+then scale those filters without
+impacting the underlying email platform.
+
+52
+00:02:58.593 --> 00:03:02.712
+Proxy servers play an important part in
+network security by filtering incoming and
+
+53
+00:03:02.712 --> 00:03:06.236
+outgoing traffic and
+staying alert to network attacks.
+
+54
+00:03:06.236 --> 00:03:10.676
+These devices add a layer of protection
+from the unsecured public network that we call
+
+55
+00:03:10.676 --> 00:03:11.521
+the internet.

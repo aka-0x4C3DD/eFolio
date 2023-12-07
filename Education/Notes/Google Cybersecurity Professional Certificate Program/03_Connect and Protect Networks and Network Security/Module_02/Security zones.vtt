@@ -1,0 +1,395 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:03.300
+In this section, we'll
+discuss a type of
+
+2
+00:00:03.300 --> 00:00:06.345
+network security feature
+called a security zone.
+
+3
+00:00:06.345 --> 00:00:08.700
+Security zones are a
+segment of a network
+
+4
+00:00:08.700 --> 00:00:11.310
+that protects the internal
+network from the internet.
+
+5
+00:00:11.310 --> 00:00:13.365
+They are a part of a
+security technique
+
+6
+00:00:13.365 --> 00:00:15.780
+called network segmentation
+
+7
+00:00:15.780 --> 00:00:18.285
+that divides the network
+into segments.
+
+8
+00:00:18.285 --> 00:00:19.560
+Each network segment has
+
+9
+00:00:19.560 --> 00:00:22.845
+its own access permissions
+and security rules.
+
+10
+00:00:22.845 --> 00:00:25.320
+Security zones control who can
+
+11
+00:00:25.320 --> 00:00:27.375
+access different
+segments of a network.
+
+12
+00:00:27.375 --> 00:00:31.530
+Security zones act as a
+barrier to internal networks,
+
+13
+00:00:31.530 --> 00:00:33.885
+maintain privacy within
+corporate groups,
+
+14
+00:00:33.885 --> 00:00:37.110
+and prevent issues from
+spreading to the whole network.
+
+15
+00:00:37.110 --> 00:00:39.630
+One example of network
+segmentation is
+
+16
+00:00:39.630 --> 00:00:42.405
+a hotel that offers
+free public Wi-Fi.
+
+17
+00:00:42.405 --> 00:00:45.590
+The unsecured guest network
+is kept separate from
+
+18
+00:00:45.590 --> 00:00:49.040
+another encrypted network
+used by the hotel staff.
+
+19
+00:00:50.040 --> 00:00:51.500
+Additionally, an organization's
+
+20
+00:00:51.500 --> 00:00:52.670
+network can be divided into
+
+21
+00:00:52.670 --> 00:00:54.980
+subnetworks, or subnets, to
+
+22
+00:00:54.980 --> 00:00:58.025
+maintain privacy for each
+department in a organization.
+
+23
+00:00:58.025 --> 00:01:00.380
+For instance, at a university,
+
+24
+00:01:00.380 --> 00:01:02.180
+there may be a faculty subnet
+
+25
+00:01:02.180 --> 00:01:04.190
+and a separate students subnet.
+
+26
+00:01:04.190 --> 00:01:07.115
+If there is contamination
+on the student's subnet,
+
+27
+00:01:07.115 --> 00:01:09.680
+network administrators
+can isolate it and
+
+28
+00:01:09.680 --> 00:01:12.680
+keep the rest of the network
+free from contamination.
+
+29
+00:01:13.680 --> 00:01:15.050
+An organization's network
+is classified into
+
+30
+00:01:15.050 --> 00:01:18.155
+two types of security
+zones. First,
+
+31
+00:01:18.155 --> 00:01:19.835
+there's the uncontrolled zone,
+
+32
+00:01:19.835 --> 00:01:21.590
+which is any network outside of
+
+33
+00:01:21.590 --> 00:01:24.425
+the organization's control,
+like the internet.
+
+34
+00:01:24.425 --> 00:01:26.540
+Then, there's the
+controlled zone,
+
+35
+00:01:26.540 --> 00:01:28.160
+which is a subnet that protects
+
+36
+00:01:28.160 --> 00:01:31.205
+the internal network from
+the uncontrolled zone.
+
+37
+00:01:31.205 --> 00:01:32.960
+There are several types of
+
+38
+00:01:32.960 --> 00:01:34.830
+networks within the
+controlled zone.
+
+39
+00:01:34.830 --> 00:01:37.655
+On the outer layer is
+the demilitarized zone,
+
+40
+00:01:37.655 --> 00:01:39.500
+or DMZ, which contains
+
+41
+00:01:39.500 --> 00:01:42.130
+public-facing services that
+can access the internet.
+
+42
+00:01:42.130 --> 00:01:43.895
+This includes web servers,
+
+43
+00:01:43.895 --> 00:01:46.220
+proxy servers that host
+websites for the public,
+
+44
+00:01:46.220 --> 00:01:47.915
+and DNS servers that provide
+
+45
+00:01:47.915 --> 00:01:50.090
+IP addresses for internet users.
+
+46
+00:01:50.090 --> 00:01:52.010
+It also includes email and file
+
+47
+00:01:52.010 --> 00:01:54.445
+servers that handle
+external communications.
+
+48
+00:01:54.445 --> 00:01:56.300
+The DMZ acts as
+
+49
+00:01:56.300 --> 00:01:59.420
+a network perimeter to
+the internal network.
+
+50
+00:01:59.420 --> 00:02:01.880
+The internal network
+contains private servers and
+
+51
+00:02:01.880 --> 00:02:04.600
+data that the organization
+needs to protect.
+
+52
+00:02:04.600 --> 00:02:06.560
+Inside the internal network is
+
+53
+00:02:06.560 --> 00:02:08.840
+another zone called
+the restricted zone.
+
+54
+00:02:08.840 --> 00:02:10.910
+The restricted zone protects
+
+55
+00:02:10.910 --> 00:02:13.550
+highly confidential
+information that is only
+
+56
+00:02:13.550 --> 00:02:16.345
+accessible to employees
+with certain privileges.
+
+57
+00:02:17.345 --> 00:02:19.265
+Now, let's try to picture
+these security zones.
+
+58
+00:02:19.265 --> 00:02:22.220
+Ideally, the DMZ is
+situated between
+
+59
+00:02:22.220 --> 00:02:23.720
+two firewalls. One of them
+
+60
+00:02:23.720 --> 00:02:26.240
+filters traffic outside the DMZ,
+
+61
+00:02:26.240 --> 00:02:27.635
+and one of them filters traffic
+
+62
+00:02:27.635 --> 00:02:29.525
+entering the internal network.
+
+63
+00:02:29.525 --> 00:02:31.700
+This protects the
+internal network
+
+64
+00:02:31.700 --> 00:02:33.410
+with several lines of defense.
+
+65
+00:02:33.410 --> 00:02:35.150
+If there's a restricted zone,
+
+66
+00:02:35.150 --> 00:02:36.710
+that too would be protected with
+
+67
+00:02:36.710 --> 00:02:38.870
+another firewall. This way,
+
+68
+00:02:38.870 --> 00:02:40.160
+attacks that penetrate into
+
+69
+00:02:40.160 --> 00:02:42.960
+the DMZ network cannot spread
+to the internal network,
+
+70
+00:02:42.960 --> 00:02:44.240
+and attacks that penetrate
+
+71
+00:02:44.240 --> 00:02:47.185
+the internal network cannot
+access the restricted zone.
+
+72
+00:02:47.185 --> 00:02:49.040
+As a security analyst,
+
+73
+00:02:49.040 --> 00:02:51.065
+you may be responsible
+for regulating
+
+74
+00:02:51.065 --> 00:02:53.860
+access control policies
+on these firewalls.
+
+75
+00:02:53.860 --> 00:02:56.480
+Security teams can
+control traffic reaching
+
+76
+00:02:56.480 --> 00:02:58.610
+the DMZ and the internal network
+
+77
+00:02:58.610 --> 00:03:01.160
+by restricting IPs and ports.
+
+78
+00:03:01.160 --> 00:03:03.740
+For example, an analyst
+may ensure that
+
+79
+00:03:03.740 --> 00:03:06.140
+only HTTPS traffic is
+
+80
+00:03:06.140 --> 00:03:08.690
+allowed to access web
+servers in the DMZ.
+
+81
+00:03:09.690 --> 00:03:10.280
+Security zones are
+
+82
+00:03:10.280 --> 00:03:12.425
+an important part of
+securing networks,
+
+83
+00:03:12.425 --> 00:03:14.855
+especially in large
+organizations.
+
+84
+00:03:14.855 --> 00:03:16.610
+Understanding how
+they are used is
+
+85
+00:03:16.610 --> 00:03:18.650
+essential for all
+security analysts.
+
+86
+00:03:18.650 --> 00:03:23.220
+Coming up, we'll learn about
+securing internal networks.

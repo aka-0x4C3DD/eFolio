@@ -1,0 +1,116 @@
+WEBVTT
+
+1
+00:00:00.940 --> 00:00:06.480
+Let's start by answering the question,
+why do we need secure networks?
+
+2
+00:00:06.480 --> 00:00:11.198
+As you've learned, networks are constantly
+at risk of attack from malicious hackers.
+
+3
+00:00:11.198 --> 00:00:16.029
+Attackers can infiltrate networks via
+malware, spoofing, or packet sniffing.
+
+4
+00:00:16.029 --> 00:00:20.242
+Network operations can also be disrupted
+by attacks such as packet flooding.
+
+5
+00:00:20.242 --> 00:00:23.051
+As we go along,
+you're going to learn about these and
+
+6
+00:00:23.051 --> 00:00:26.202
+other common network intrusion
+attacks in more detail.
+
+7
+00:00:27.202 --> 00:00:29.730
+Protecting a network from these
+types of attacks is important.
+
+8
+00:00:29.730 --> 00:00:33.930
+If even one of them happens, it could have
+a catastrophic impact on an organization.
+
+9
+00:00:33.930 --> 00:00:37.092
+Attacks can harm an organization
+by leaking valuable or
+
+10
+00:00:37.092 --> 00:00:38.790
+confidential information.
+
+11
+00:00:38.790 --> 00:00:42.896
+They can also be damaging to
+an organization's reputation and
+
+12
+00:00:42.896 --> 00:00:44.836
+impact customer retention.
+
+13
+00:00:44.836 --> 00:00:49.310
+Mitigating attacks may also cost
+the organization money and time.
+
+14
+00:00:50.310 --> 00:00:50.804
+Over the last few years,
+
+15
+00:00:50.804 --> 00:00:55.380
+there have been a number of examples
+of damage that cyber attacks can cause.
+
+16
+00:00:55.380 --> 00:01:00.326
+One notorious example was an attack
+against the American home-improvement
+
+17
+00:01:00.326 --> 00:01:02.615
+chain, Home Depot, in 2014.
+
+18
+00:01:02.615 --> 00:01:06.761
+A group of hackers compromised and
+infected Home Depot servers with malware.
+
+19
+00:01:06.761 --> 00:01:11.277
+By the time network administrators shut
+down the attack, the hackers had already
+
+20
+00:01:11.277 --> 00:01:15.620
+taken the credit and debit card
+information for over 56 million customers.
+
+21
+00:01:16.620 --> 00:01:18.600
+Now, you know why it's so
+important to secure a network.
+
+22
+00:01:18.600 --> 00:01:20.437
+But to keep a network secure,
+
+23
+00:01:20.437 --> 00:01:23.971
+you need to know what kinds of
+attacks to protect it from.
+
+24
+00:01:23.971 --> 00:01:26.760
+Coming up, you'll learn about
+some common network attacks.

@@ -1,0 +1,129 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:03.845
+Congratulations on the
+progress you've made so far!
+
+2
+00:00:03.845 --> 00:00:06.030
+In this section,
+you'll learn about how
+
+3
+00:00:06.030 --> 00:00:08.940
+networks operate using
+tools and protocols.
+
+4
+00:00:08.940 --> 00:00:11.370
+These are the concepts
+that you'll use every
+
+5
+00:00:11.370 --> 00:00:13.500
+day in your work as
+a security analyst.
+
+6
+00:00:13.500 --> 00:00:15.990
+The tools and protocols you'll
+learn in this section of
+
+7
+00:00:15.990 --> 00:00:17.640
+the program will
+help you protect
+
+8
+00:00:17.640 --> 00:00:20.025
+your organization's
+network from attacks.
+
+9
+00:00:20.025 --> 00:00:23.190
+Did you know that malicious
+actors can take advantage of
+
+10
+00:00:23.190 --> 00:00:26.175
+data moving from one device
+to another on a network?
+
+11
+00:00:26.175 --> 00:00:27.660
+Thankfully, there are tools and
+
+12
+00:00:27.660 --> 00:00:28.980
+protocols to ensure the network
+
+13
+00:00:28.980 --> 00:00:31.965
+stays protected against
+this type of threat.
+
+14
+00:00:32.965 --> 00:00:35.130
+As an example, I once
+identified an attack
+
+15
+00:00:35.130 --> 00:00:36.630
+based solely on
+the fact they were
+
+16
+00:00:36.630 --> 00:00:38.445
+using the wrong protocol.
+
+17
+00:00:38.445 --> 00:00:40.415
+The network traffic
+volumes were right, and it
+
+18
+00:00:40.415 --> 00:00:42.205
+was coming from a trusted IP,
+
+19
+00:00:42.205 --> 00:00:43.940
+but it was on the wrong protocol,
+
+20
+00:00:43.940 --> 00:00:45.770
+which tipped us off
+enough to shut down
+
+21
+00:00:45.770 --> 00:00:48.100
+the attack before they
+caused real damage.
+
+22
+00:00:49.100 --> 00:00:51.380
+First, we'll discuss some
+common network protocols.
+
+23
+00:00:51.380 --> 00:00:54.950
+Then we'll discuss virtual
+private networks, or VPNs.
+
+24
+00:00:54.950 --> 00:00:56.660
+And finally, we'll learn about
+
+25
+00:00:56.660 --> 00:00:59.875
+firewall security zones
+and proxy servers.
+
+26
+00:00:59.875 --> 00:01:01.610
+Now that you have an
+idea of where we're
+
+27
+00:01:01.610 --> 00:01:04.140
+headed, let's get started.

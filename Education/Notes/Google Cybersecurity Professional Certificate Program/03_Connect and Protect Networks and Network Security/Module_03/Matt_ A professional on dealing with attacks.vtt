@@ -1,0 +1,304 @@
+WEBVTT
+
+1
+00:00:04.410 --> 00:00:07.604
+My name's Matt,
+I'm a chaos specialist at Google.
+
+2
+00:00:07.604 --> 00:00:11.348
+They let us choose our own job titles
+to best describe what it is we do.
+
+3
+00:00:11.348 --> 00:00:13.426
+I spend a lot of my time planning for
+
+4
+00:00:13.426 --> 00:00:17.514
+how to take care of anything that
+might possibly be going wrong, and
+
+5
+00:00:17.514 --> 00:00:22.340
+when it does happen, putting a team in
+place to fix it as quickly as possible.
+
+6
+00:00:22.340 --> 00:00:25.380
+I had no intention of being
+in technology at all.
+
+7
+00:00:25.380 --> 00:00:29.778
+In high school, I was a lifeguard, first
+at public pools and then at a state beach.
+
+8
+00:00:29.778 --> 00:00:32.626
+Lifeguarding got me into
+really enjoying rescue.
+
+9
+00:00:32.626 --> 00:00:37.397
+So I got an EMT license, went through
+firefighter school. About halfway through
+
+10
+00:00:37.397 --> 00:00:42.438
+my college process, and well into when I
+was being a firefighter on a daily basis.
+
+11
+00:00:42.438 --> 00:00:45.030
+I was dealing with some burnout,
+some stress.
+
+12
+00:00:45.030 --> 00:00:46.688
+I needed a change in my life.
+
+13
+00:00:46.688 --> 00:00:50.563
+And a friend of mine who I'd been
+online gaming with since the early days
+
+14
+00:00:50.563 --> 00:00:53.082
+of online gaming,
+when it was all text based,
+
+15
+00:00:53.082 --> 00:00:56.804
+he said, I can tell you're burning
+out hard and you need a change.
+
+16
+00:00:56.804 --> 00:00:59.946
+My friends and I are going to
+San Francisco to start a startup.
+
+17
+00:00:59.946 --> 00:01:01.092
+Will you come with us?
+
+18
+00:01:01.092 --> 00:01:04.772
+And I said, you realize I am
+not a computer guy, right?
+
+19
+00:01:04.772 --> 00:01:07.688
+And he said, no, you're a computer guy,
+you just won't admit it.
+
+20
+00:01:07.688 --> 00:01:11.458
+The same thing that has drawn me into
+incident response in tech is what
+
+21
+00:01:11.458 --> 00:01:13.806
+originally drew me to medical response.
+
+22
+00:01:13.806 --> 00:01:17.272
+I really love being there for
+people on their worst day.
+
+23
+00:01:17.272 --> 00:01:20.044
+Being there when people
+really need you and
+
+24
+00:01:20.044 --> 00:01:24.972
+they don't know where else to turn to
+has always just fed this part of me, and
+
+25
+00:01:24.972 --> 00:01:30.610
+I'm lucky to find that same joy in DFIR,
+Digital Forensics and Incident Response.
+
+26
+00:01:30.610 --> 00:01:32.976
+What type of attacks
+have we faced at Google?
+
+27
+00:01:32.976 --> 00:01:34.656
+That's a hard question to answer,
+
+28
+00:01:34.656 --> 00:01:38.368
+because we face all of the kinds of
+attacks that most other companies face.
+
+29
+00:01:38.368 --> 00:01:41.871
+People after ransomware,
+people after industrial secrets,
+
+30
+00:01:41.871 --> 00:01:45.490
+other countries looking for
+intelligence information.
+
+31
+00:01:45.490 --> 00:01:48.324
+There was a really interesting attack
+that occurred a little while ago.
+
+32
+00:01:48.324 --> 00:01:52.663
+They were interested in getting a lot of
+information from technical companies,
+
+33
+00:01:52.663 --> 00:01:55.598
+specifically about
+vulnerabilities in software.
+
+34
+00:01:55.598 --> 00:01:59.416
+And they put in place a long running
+campaign to build personalities on
+
+35
+00:01:59.416 --> 00:02:03.365
+social media as though they were
+legitimate security researchers, and
+
+36
+00:02:03.365 --> 00:02:06.602
+then reach out to other security
+researchers in our field,
+
+37
+00:02:06.602 --> 00:02:11.250
+build relationships, and then just at
+the right moment, sneak in some malware.
+
+38
+00:02:11.250 --> 00:02:14.731
+Being under attack by an adversary
+who's made some progress is incredibly
+
+39
+00:02:14.731 --> 00:02:15.458
+stressful.
+
+40
+00:02:15.458 --> 00:02:17.526
+The first things you're thinking and
+
+41
+00:02:17.526 --> 00:02:20.278
+feeling are a little bit
+of a sense of panic.
+
+42
+00:02:20.278 --> 00:02:22.316
+Oh no, this is going to be a bad day.
+
+43
+00:02:22.316 --> 00:02:24.336
+How long am I going to be
+awake working on this?
+
+44
+00:02:24.336 --> 00:02:25.136
+What have they done?
+
+45
+00:02:25.136 --> 00:02:26.480
+What am I going to do?
+
+46
+00:02:26.480 --> 00:02:31.292
+And for me, the mantra that I repeat
+to myself is, as an incident responder,
+
+47
+00:02:31.292 --> 00:02:32.560
+I am here to help.
+
+48
+00:02:32.560 --> 00:02:35.663
+The things that are most
+important to having a good outcome
+
+49
+00:02:35.663 --> 00:02:38.891
+in an incident are what we call
+the 3Cs: Command, Control and
+
+50
+00:02:38.891 --> 00:02:43.417
+Communications. Meaning someone needs to
+be in charge of it affirmatively leading.
+
+51
+00:02:43.417 --> 00:02:46.571
+Someone needs to be exerting
+control over everyone involved so
+
+52
+00:02:46.571 --> 00:02:50.201
+that everyone's aligned, focused on
+the mission, and the biggest and
+
+53
+00:02:50.201 --> 00:02:53.510
+most important one of them
+all: proper communications.
+
+54
+00:02:53.510 --> 00:02:56.719
+If you have something to
+offer to the incident,
+
+55
+00:02:56.719 --> 00:03:00.024
+don't just go do it,
+Communicate to someone.
+
+56
+00:03:00.024 --> 00:03:02.418
+I think I could do this
+to help us make progress.
+
+57
+00:03:02.418 --> 00:03:05.020
+I think if we look over here,
+we'll find more data.
+
+58
+00:03:05.020 --> 00:03:08.766
+The advice that I would give somebody who
+wants to get into cybersecurity is if you
+
+59
+00:03:08.766 --> 00:03:10.588
+want it, you probably belong here.
+
+60
+00:03:10.588 --> 00:03:15.191
+The more people we have in here, who
+are passionate, curious question askers,
+
+61
+00:03:15.191 --> 00:03:18.848
+who want to know more, who want to
+build better, and who care about
+
+62
+00:03:18.848 --> 00:03:23.046
+making every thing more secure for
+the people who have to use technology,
+
+63
+00:03:23.046 --> 00:03:26.800
+those are people we want in
+the industry and I would want you here.

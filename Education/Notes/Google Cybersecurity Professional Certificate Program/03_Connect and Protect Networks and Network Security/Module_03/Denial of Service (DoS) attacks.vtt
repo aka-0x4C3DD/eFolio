@@ -1,0 +1,511 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:03.375
+Welcome back. In this video,
+
+2
+00:00:03.375 --> 00:00:06.330
+we're going to discuss
+denial of service attacks.
+
+3
+00:00:06.330 --> 00:00:08.640
+A denial of service attack is
+
+4
+00:00:08.640 --> 00:00:10.890
+an attack that targets
+a network or server
+
+5
+00:00:10.890 --> 00:00:13.050
+and floods it with
+network traffic.
+
+6
+00:00:13.050 --> 00:00:15.465
+The objective of a
+denial of service attack,
+
+7
+00:00:15.465 --> 00:00:17.880
+or a DoS attack, is to disrupt
+
+8
+00:00:17.880 --> 00:00:19.515
+normal business
+operations by
+
+9
+00:00:19.515 --> 00:00:22.065
+overloading an
+organization's network.
+
+10
+00:00:22.065 --> 00:00:24.390
+The goal of the
+attack is to send
+
+11
+00:00:24.390 --> 00:00:26.865
+so much information
+to a network device
+
+12
+00:00:26.865 --> 00:00:28.635
+that it crashes or is
+
+13
+00:00:28.635 --> 00:00:31.120
+unable to respond to
+legitimate users.
+
+14
+00:00:31.120 --> 00:00:33.620
+This means that the
+organization won't
+
+15
+00:00:33.620 --> 00:00:36.020
+be able to conduct their
+normal business operations,
+
+16
+00:00:36.020 --> 00:00:38.450
+which can cost them
+money and time.
+
+17
+00:00:38.450 --> 00:00:40.460
+A network crash can
+also leave them
+
+18
+00:00:40.460 --> 00:00:43.340
+vulnerable to other security
+threats and attacks.
+
+19
+00:00:44.340 --> 00:00:47.310
+A distributed denial of service
+attack, or DDoS,
+
+20
+00:00:47.310 --> 00:00:49.400
+is a kind of DoS
+attack that uses
+
+21
+00:00:49.400 --> 00:00:51.350
+multiple devices or servers in
+
+22
+00:00:51.350 --> 00:00:53.450
+different locations to flood
+
+23
+00:00:53.450 --> 00:00:56.015
+the target network
+with unwanted traffic.
+
+24
+00:00:56.015 --> 00:00:58.880
+Use of numerous devices
+makes it more likely that
+
+25
+00:00:58.880 --> 00:01:00.080
+the total amount of traffic
+
+26
+00:01:00.080 --> 00:01:02.575
+sent will overwhelm
+the target server.
+
+27
+00:01:02.575 --> 00:01:07.095
+Remember, DoS stands
+for denial of service.
+
+28
+00:01:07.095 --> 00:01:09.050
+So it doesn't matter what part
+
+29
+00:01:09.050 --> 00:01:11.060
+of the network the
+attacker overloads;
+
+30
+00:01:11.060 --> 00:01:13.990
+if they overload
+anything, they win.
+
+31
+00:01:13.990 --> 00:01:15.820
+An unfortunate example I've
+
+32
+00:01:15.820 --> 00:01:17.605
+seen is an attacker who crafted
+
+33
+00:01:17.605 --> 00:01:19.990
+a very careful
+packet that caused
+
+34
+00:01:19.990 --> 00:01:23.200
+a router to spend extra time
+processing the request.
+
+35
+00:01:23.200 --> 00:01:26.035
+The overall traffic volume
+didn't overload the router;
+
+36
+00:01:26.035 --> 00:01:28.435
+the specifics within
+the packet did.
+
+37
+00:01:29.435 --> 00:01:31.480
+Now we'll discuss network
+level DoS attacks
+
+38
+00:01:31.480 --> 00:01:34.105
+that target network
+bandwidth to slow traffic.
+
+39
+00:01:34.105 --> 00:01:37.640
+Let's learn about three common
+network level DoS attacks.
+
+40
+00:01:37.640 --> 00:01:40.455
+The first is called
+a SYN flood attack.
+
+41
+00:01:40.455 --> 00:01:42.580
+A SYN flood attack is a type of
+
+42
+00:01:42.580 --> 00:01:45.310
+DoS attack that simulates
+the TCP connection
+
+43
+00:01:45.310 --> 00:01:48.485
+and floods the server
+with SYN packets.
+
+44
+00:01:48.485 --> 00:01:50.890
+Let's break this
+definition down a bit
+
+45
+00:01:50.890 --> 00:01:52.810
+more by taking a closer look at
+
+46
+00:01:52.810 --> 00:01:55.180
+the handshake process
+that is used to establish
+
+47
+00:01:55.180 --> 00:01:59.025
+a TCP connection between
+a device and a server.
+
+48
+00:01:59.025 --> 00:02:02.270
+The first step in the handshake
+is for the device to send
+
+49
+00:02:02.270 --> 00:02:05.935
+a SYN, or synchronize,
+request to the server.
+
+50
+00:02:05.935 --> 00:02:07.580
+Then, the server responds with
+
+51
+00:02:07.580 --> 00:02:09.470
+a SYN/ACK packet to
+
+52
+00:02:09.470 --> 00:02:11.765
+acknowledge the receipt
+of the device's request
+
+53
+00:02:11.765 --> 00:02:13.130
+and leaves a port open for
+
+54
+00:02:13.130 --> 00:02:14.830
+the final step of the handshake.
+
+55
+00:02:14.830 --> 00:02:16.220
+Once the server receives
+
+56
+00:02:16.220 --> 00:02:18.515
+the final ACK packet
+from the device,
+
+57
+00:02:18.515 --> 00:02:21.010
+a TCP connection is established.
+
+58
+00:02:21.010 --> 00:02:24.440
+Malicious actors can take
+advantage of the protocol by
+
+59
+00:02:24.440 --> 00:02:25.730
+flooding a server with
+
+60
+00:02:25.730 --> 00:02:28.310
+SYN packet requests for the
+first part of the handshake.
+
+61
+00:02:28.310 --> 00:02:30.380
+But if the number
+of SYN requests is
+
+62
+00:02:30.380 --> 00:02:33.290
+larger than the number of
+available ports on the server,
+
+63
+00:02:33.290 --> 00:02:35.160
+then the server
+will be overwhelmed
+
+64
+00:02:35.160 --> 00:02:37.155
+and become unable to function.
+
+65
+00:02:38.155 --> 00:02:40.475
+Let's discuss two other
+common DoS attacks
+
+66
+00:02:40.475 --> 00:02:43.795
+that use another
+protocol called ICMP.
+
+67
+00:02:43.795 --> 00:02:48.724
+ICMP stands for Internet
+Control Message Protocol.
+
+68
+00:02:48.724 --> 00:02:52.910
+ICMP is an internet
+protocol used by devices
+
+69
+00:02:52.910 --> 00:02:54.200
+to tell each other about
+
+70
+00:02:54.200 --> 00:02:57.365
+data transmission errors
+across the network.
+
+71
+00:02:57.365 --> 00:02:59.720
+Think of ICMP like a request
+
+72
+00:02:59.720 --> 00:03:01.990
+for a status update
+from a device.
+
+73
+00:03:01.990 --> 00:03:03.380
+The device will return
+
+74
+00:03:03.380 --> 00:03:06.455
+error messages if there
+is a network concern.
+
+75
+00:03:06.455 --> 00:03:08.540
+You can think of this like
+
+76
+00:03:08.540 --> 00:03:10.460
+the ICMP request
+checking in with
+
+77
+00:03:10.460 --> 00:03:12.895
+the device to make
+sure that all is well.
+
+78
+00:03:12.895 --> 00:03:15.360
+An ICMP flood attack
+
+79
+00:03:15.360 --> 00:03:18.290
+is a type of DoS attack
+performed by an attacker
+
+80
+00:03:18.290 --> 00:03:22.580
+repeatedly sending ICMP
+packets to a network server.
+
+81
+00:03:22.580 --> 00:03:26.275
+This forces the server
+to send an ICMP packet.
+
+82
+00:03:26.275 --> 00:03:29.600
+This eventually uses up all
+the bandwidth for incoming
+
+83
+00:03:29.600 --> 00:03:32.945
+and outgoing traffic and
+causes the server to crash.
+
+84
+00:03:32.945 --> 00:03:35.255
+Both of the attacks
+we've discussed so far,
+
+85
+00:03:35.255 --> 00:03:38.060
+SYN flood and ICMP flood,
+
+86
+00:03:38.060 --> 00:03:40.460
+take advantage of
+communication protocols
+
+87
+00:03:40.460 --> 00:03:43.380
+by sending an overwhelming
+number of requests.
+
+88
+00:03:43.380 --> 00:03:46.010
+There are also attacks
+that can overwhelm
+
+89
+00:03:46.010 --> 00:03:48.620
+the server with one big request.
+
+90
+00:03:48.620 --> 00:03:50.300
+One example that we'll discuss
+
+91
+00:03:50.300 --> 00:03:51.995
+is called the ping of death.
+
+92
+00:03:52.995 --> 00:03:53.990
+A ping of death attack is
+
+93
+00:03:53.990 --> 00:03:56.210
+a type of DoS attack that
+is caused when a hacker
+
+94
+00:03:56.210 --> 00:03:58.040
+pings a system by sending it
+
+95
+00:03:58.040 --> 00:04:00.185
+an oversized ICMP packet
+
+96
+00:04:00.185 --> 00:04:02.450
+that is bigger
+than 64 kilobytes,
+
+97
+00:04:02.450 --> 00:04:05.675
+the maximum size for a
+correctly formed ICMP packet.
+
+98
+00:04:05.675 --> 00:04:07.820
+Pinging a vulnerable
+network server with
+
+99
+00:04:07.820 --> 00:04:09.890
+an oversized ICMP packet
+
+100
+00:04:09.890 --> 00:04:12.930
+will overload the system
+and cause it to crash.
+
+101
+00:04:12.930 --> 00:04:16.630
+Think of this like dropping
+a rock on a small anthill.
+
+102
+00:04:16.630 --> 00:04:19.280
+Each individual ant can
+carry a certain amount of
+
+103
+00:04:19.280 --> 00:04:22.160
+weight while transporting
+food to and from the anthill.
+
+104
+00:04:22.160 --> 00:04:24.695
+But if a large rock is
+dropped on the anthill,
+
+105
+00:04:24.695 --> 00:04:27.470
+then many ants will be crushed,
+and the colony is unable to
+
+106
+00:04:27.470 --> 00:04:30.215
+function until it rebuilds
+its operations elsewhere.
+
+107
+00:04:31.215 --> 00:04:32.310
+Now that's it for DoS
+and DDoS attacks.
+
+108
+00:04:32.310 --> 00:04:33.350
+Coming up, we'll continue to
+
+109
+00:04:33.350 --> 00:04:36.540
+discuss common network attacks.

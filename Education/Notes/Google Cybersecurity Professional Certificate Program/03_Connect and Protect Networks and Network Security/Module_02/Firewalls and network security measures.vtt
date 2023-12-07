@@ -1,0 +1,484 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:02.640
+In this video, you'll
+
+2
+00:00:02.640 --> 00:00:04.649
+learn about different
+types of firewalls.
+
+3
+00:00:04.649 --> 00:00:06.224
+These include hardware,
+
+4
+00:00:06.224 --> 00:00:09.120
+software, and
+cloud-based firewalls.
+
+5
+00:00:09.120 --> 00:00:10.860
+You'll also learn the
+difference between
+
+6
+00:00:10.860 --> 00:00:13.680
+a stateless and
+stateful firewall and
+
+7
+00:00:13.680 --> 00:00:15.330
+cover some of the
+basic operations
+
+8
+00:00:15.330 --> 00:00:16.950
+that a firewall performs.
+
+9
+00:00:16.950 --> 00:00:18.780
+Finally, you will explore how
+
+10
+00:00:18.780 --> 00:00:20.430
+proxy servers are used to
+
+11
+00:00:20.430 --> 00:00:22.545
+add a layer of security
+to the network.
+
+12
+00:00:23.545 --> 00:00:24.990
+A firewall is a network
+security device that
+
+13
+00:00:24.990 --> 00:00:27.450
+monitors traffic to
+and from your network.
+
+14
+00:00:27.450 --> 00:00:30.000
+It either allows
+traffic or it blocks
+
+15
+00:00:30.000 --> 00:00:32.535
+it based on a defined
+set of security rules.
+
+16
+00:00:32.535 --> 00:00:34.755
+A firewall can use
+port filtering,
+
+17
+00:00:34.755 --> 00:00:36.000
+which blocks or allows
+
+18
+00:00:36.000 --> 00:00:38.805
+certain port numbers to limit
+unwanted communication.
+
+19
+00:00:38.805 --> 00:00:40.880
+For example, it could have a rule
+
+20
+00:00:40.880 --> 00:00:42.680
+that only allows
+communications on port
+
+21
+00:00:42.680 --> 00:00:45.390
+443 for HTTPS or port
+
+22
+00:00:45.390 --> 00:00:48.500
+25 for email and blocks
+everything else.
+
+23
+00:00:48.500 --> 00:00:50.630
+These firewall settings
+will be determined by
+
+24
+00:00:50.630 --> 00:00:52.925
+the organization's
+security policy.
+
+25
+00:00:53.925 --> 00:00:56.120
+Let's talk about a few
+different kinds of firewalls.
+
+26
+00:00:56.120 --> 00:00:58.190
+A hardware firewall is
+considered the most
+
+27
+00:00:58.190 --> 00:01:00.620
+basic way to defend against
+threats to a network.
+
+28
+00:01:00.620 --> 00:01:02.765
+A hardware firewall inspects
+
+29
+00:01:02.765 --> 00:01:04.070
+each data packet before it's
+
+30
+00:01:04.070 --> 00:01:05.795
+allowed to enter the network.
+
+31
+00:01:05.795 --> 00:01:07.670
+A software firewall performs
+
+32
+00:01:07.670 --> 00:01:09.875
+the same functions as
+a hardware firewall,
+
+33
+00:01:09.875 --> 00:01:11.884
+but it's not a physical device.
+
+34
+00:01:11.884 --> 00:01:13.820
+Instead, it's a software program
+
+35
+00:01:13.820 --> 00:01:16.340
+installed on a computer
+or on a server.
+
+36
+00:01:16.340 --> 00:01:18.980
+If the software firewall is
+installed on a computer,
+
+37
+00:01:18.980 --> 00:01:20.660
+it will analyze all the traffic
+
+38
+00:01:20.660 --> 00:01:22.450
+received by that computer.
+
+39
+00:01:22.450 --> 00:01:25.280
+If the software firewall
+is installed on a server,
+
+40
+00:01:25.280 --> 00:01:28.840
+it will protect all the devices
+connected to the server.
+
+41
+00:01:28.840 --> 00:01:31.490
+A software firewall
+typically costs
+
+42
+00:01:31.490 --> 00:01:34.025
+less than purchasing a
+separate physical device,
+
+43
+00:01:34.025 --> 00:01:36.455
+and it doesn't take
+up any extra space.
+
+44
+00:01:36.455 --> 00:01:38.690
+But because it is a
+software program,
+
+45
+00:01:38.690 --> 00:01:40.400
+it will add some
+processing burden
+
+46
+00:01:40.400 --> 00:01:42.070
+to the individual devices.
+
+47
+00:01:43.070 --> 00:01:45.620
+Organizations may choose to
+use a cloud-based firewall.
+
+48
+00:01:45.620 --> 00:01:48.170
+Cloud service providers
+offer firewalls as
+
+49
+00:01:48.170 --> 00:01:51.830
+a service, or FaaS,
+for organizations.
+
+50
+00:01:51.830 --> 00:01:54.680
+Cloud-based firewalls
+are software firewalls
+
+51
+00:01:54.680 --> 00:01:56.755
+hosted by a cloud
+service provider.
+
+52
+00:01:56.755 --> 00:01:59.390
+Organizations can configure
+the firewall rules
+
+53
+00:01:59.390 --> 00:02:01.400
+on the cloud service
+provider's interface,
+
+54
+00:02:01.400 --> 00:02:04.700
+and the firewall will perform
+security operations on
+
+55
+00:02:04.700 --> 00:02:06.890
+all incoming traffic before
+
+56
+00:02:06.890 --> 00:02:09.290
+it reaches the organization’s onsite network.
+
+57
+00:02:09.290 --> 00:02:12.110
+Cloud-based firewalls also
+protect any assets or
+
+58
+00:02:12.110 --> 00:02:13.880
+processes that an organization
+
+59
+00:02:13.880 --> 00:02:15.830
+might be using in the cloud.
+
+60
+00:02:16.830 --> 00:02:18.020
+All the firewalls we
+have discussed can be
+
+61
+00:02:18.020 --> 00:02:20.180
+either stateful or stateless.
+
+62
+00:02:20.180 --> 00:02:22.190
+The terms "stateful" and "stateless"
+
+63
+00:02:22.190 --> 00:02:24.325
+refer to how the
+firewall operates.
+
+64
+00:02:24.325 --> 00:02:26.450
+Stateful refers to a class
+
+65
+00:02:26.450 --> 00:02:27.680
+of firewall that keeps track of
+
+66
+00:02:27.680 --> 00:02:29.195
+information passing through it
+
+67
+00:02:29.195 --> 00:02:31.565
+and proactively
+filters out threats.
+
+68
+00:02:31.565 --> 00:02:33.470
+A stateful firewall analyzes
+
+69
+00:02:33.470 --> 00:02:35.090
+network traffic for
+characteristics and
+
+70
+00:02:35.090 --> 00:02:37.280
+behavior that appear suspicious
+
+71
+00:02:37.280 --> 00:02:39.365
+and stops them from
+entering the network.
+
+72
+00:02:39.365 --> 00:02:41.630
+Stateless refers to a class
+
+73
+00:02:41.630 --> 00:02:43.040
+of firewall that
+operates based on
+
+74
+00:02:43.040 --> 00:02:44.870
+predefined rules and does not
+
+75
+00:02:44.870 --> 00:02:47.075
+keep track of information
+from data packets.
+
+76
+00:02:47.075 --> 00:02:49.940
+A stateless firewall
+only acts according to
+
+77
+00:02:49.940 --> 00:02:52.910
+preconfigured rules set by
+the firewall administrator.
+
+78
+00:02:52.910 --> 00:02:55.700
+The rules programmed by the
+firewall administrator tell
+
+79
+00:02:55.700 --> 00:02:58.535
+the device what to accept
+and what to reject.
+
+80
+00:02:58.535 --> 00:03:01.775
+A stateless firewall doesn't
+store analyzed information.
+
+81
+00:03:01.775 --> 00:03:03.230
+It also doesn't discover
+
+82
+00:03:03.230 --> 00:03:05.915
+suspicious trends like a
+stateful firewall does.
+
+83
+00:03:05.915 --> 00:03:08.510
+For this reason, stateless
+firewalls are considered
+
+84
+00:03:08.510 --> 00:03:11.060
+less secure than
+stateful firewalls.
+
+85
+00:03:12.060 --> 00:03:13.745
+A next generation
+firewall, or NGFW,
+
+86
+00:03:13.745 --> 00:03:16.820
+provides even more security
+than a stateful firewall.
+
+87
+00:03:16.820 --> 00:03:18.410
+Not only does an NGFW provide
+
+88
+00:03:18.410 --> 00:03:21.260
+stateful inspection of
+incoming and outgoing traffic,
+
+89
+00:03:21.260 --> 00:03:22.640
+but it also performs more
+
+90
+00:03:22.640 --> 00:03:24.080
+in-depth security functions like
+
+91
+00:03:24.080 --> 00:03:26.975
+deep packet inspection
+and intrusion protection.
+
+92
+00:03:26.975 --> 00:03:28.910
+Some NGFWs connect to
+
+93
+00:03:28.910 --> 00:03:30.770
+cloud-based threat
+intelligence services
+
+94
+00:03:30.770 --> 00:03:32.360
+so they can quickly update to
+
+95
+00:03:32.360 --> 00:03:34.960
+protect against
+emerging cyber threats.
+
+96
+00:03:35.960 --> 00:03:37.220
+Now you have a
+basic understanding
+
+97
+00:03:37.220 --> 00:03:39.290
+of firewalls and how they work.
+
+98
+00:03:39.290 --> 00:03:42.635
+We learned that firewalls
+can be hardware or software.
+
+99
+00:03:42.635 --> 00:03:44.630
+We also discussed the
+difference between
+
+100
+00:03:44.630 --> 00:03:46.940
+a stateless and
+stateful firewall
+
+101
+00:03:46.940 --> 00:03:49.700
+and the security benefits
+of a stateful firewall.
+
+102
+00:03:49.700 --> 00:03:52.970
+Finally, we discussed
+next generation firewalls
+
+103
+00:03:52.970 --> 00:03:55.355
+and the security
+benefits they provide.
+
+104
+00:03:55.355 --> 00:03:59.550
+Coming up, we'll learn more
+about virtual networks.

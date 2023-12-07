@@ -1,0 +1,225 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.402
+[MUSIC]
+
+2
+00:00:04.402 --> 00:00:05.349
+My name is Antara,
+
+3
+00:00:05.349 --> 00:00:08.797
+I work on the Enterprise Infrastructure
+Protection Team at Google.
+
+4
+00:00:08.797 --> 00:00:11.654
+And our main job
+responsibility is to protect
+
+5
+00:00:11.654 --> 00:00:15.800
+the infrastructure that all
+the amazing Google products run on.
+
+6
+00:00:15.800 --> 00:00:19.134
+I didn't start with a background in
+computers, and I did my undergrad
+
+7
+00:00:19.134 --> 00:00:22.634
+in electronics and communication,
+which is far away from computers.
+
+8
+00:00:22.634 --> 00:00:26.668
+I took up the challenge to actually
+pivot into computers with my first job.
+
+9
+00:00:26.668 --> 00:00:31.068
+That actually led me to explore
+the security world even more.
+
+10
+00:00:31.068 --> 00:00:35.478
+And that's how it led to doing my masters
+in security, getting expertise in that
+
+11
+00:00:35.478 --> 00:00:38.706
+area and then come to Google
+as a security engineer.
+
+12
+00:00:38.706 --> 00:00:42.568
+A typical day in the life of
+an entry-level network security engineer
+
+13
+00:00:42.568 --> 00:00:44.736
+would start with solving a problem.
+
+14
+00:00:44.736 --> 00:00:49.381
+Maybe you're trying to debug, why is
+this particular endpoint flooded with so
+
+15
+00:00:49.381 --> 00:00:50.342
+much traffic?
+
+16
+00:00:50.342 --> 00:00:52.560
+Or why is this endpoint
+actually slowing down?
+
+17
+00:00:52.560 --> 00:00:55.306
+And you would start with, okay,
+let me get to the endpoint.
+
+18
+00:00:55.306 --> 00:00:57.724
+Let me capture some traffic
+on the endpoint and
+
+19
+00:00:57.724 --> 00:01:01.674
+see what kind of traffic is coming in and
+going out through this endpoint.
+
+20
+00:01:01.674 --> 00:01:05.466
+So I would typically go back,
+think about the problem during lunch.
+
+21
+00:01:05.466 --> 00:01:07.236
+Sometimes things would click.
+
+22
+00:01:07.236 --> 00:01:10.858
+When you're thinking you might not have
+thought about a problem from a different
+
+23
+00:01:10.858 --> 00:01:13.848
+perspective, you might want to
+actually see how it looks like.
+
+24
+00:01:13.848 --> 00:01:16.766
+So you would go about maybe
+doing a lab recreate.
+
+25
+00:01:16.766 --> 00:01:20.412
+Let me connect these endpoints and
+let me try to reproduce the issue.
+
+26
+00:01:20.412 --> 00:01:23.046
+You might see some things in the lab
+recreate that you might have not
+
+27
+00:01:23.046 --> 00:01:23.612
+thought of.
+
+28
+00:01:23.612 --> 00:01:27.757
+And you might need to actually consult
+with experts from different domains who
+
+29
+00:01:27.757 --> 00:01:29.656
+might know better about this area.
+
+30
+00:01:29.656 --> 00:01:32.187
+Get their view on what the problem is,
+analyze,
+
+31
+00:01:32.187 --> 00:01:34.496
+show them everything that you have done.
+
+32
+00:01:34.496 --> 00:01:38.032
+You might get your solution
+just by talking to people.
+
+33
+00:01:38.032 --> 00:01:41.824
+It's a pretty busy day, but
+it's also a very fun day.
+
+34
+00:01:41.824 --> 00:01:45.650
+It's like solving puzzles all the time,
+which is pretty exciting.
+
+35
+00:01:45.650 --> 00:01:49.922
+Some of the best practices in network
+security that I've learned are,
+
+36
+00:01:49.922 --> 00:01:52.538
+don't try to always reinvent the wheel.
+
+37
+00:01:52.538 --> 00:01:54.267
+There are certain protocols,
+
+38
+00:01:54.267 --> 00:01:57.724
+there are certain algorithms
+that have been tried, tested,
+
+39
+00:01:57.724 --> 00:02:02.424
+analyzed, and they have been deemed secure
+for being used in network security.
+
+40
+00:02:02.424 --> 00:02:06.017
+The time that you spend on reinventing
+the wheel is not going to give you
+
+41
+00:02:06.017 --> 00:02:07.596
+the benefits that you need.
+
+42
+00:02:07.596 --> 00:02:12.563
+So it's always good to think about
+the unsolved challenges instead of
+
+43
+00:02:12.563 --> 00:02:16.444
+trying to solve the same
+problem in a different way.
+
+44
+00:02:16.444 --> 00:02:20.866
+I feel cybersecurity is actually a great
+field to get into right now, because,
+
+45
+00:02:20.866 --> 00:02:25.426
+as you see, we are in this information
+age where tech is exponentially growing.
+
+46
+00:02:25.426 --> 00:02:28.564
+Just getting into this field is just
+going to be exciting because there
+
+47
+00:02:28.564 --> 00:02:30.886
+are amazing new challenges
+coming up in this field.

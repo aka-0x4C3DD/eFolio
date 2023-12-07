@@ -1,0 +1,143 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.230
+So far, you've learned about
+
+2
+00:00:02.230 --> 00:00:03.985
+a variety of network protocols,
+
+3
+00:00:03.985 --> 00:00:07.370
+including communication
+protocols like TCP/IP.
+
+4
+00:00:07.370 --> 00:00:09.785
+Now we're going to
+go more in depth
+
+5
+00:00:09.785 --> 00:00:11.905
+into a class of
+communication protocols
+
+6
+00:00:11.905 --> 00:00:15.500
+called the IEEE802.11.
+
+7
+00:00:16.500 --> 00:00:20.015
+IEEE802.11, commonly
+known as Wi-Fi,
+
+8
+00:00:20.015 --> 00:00:21.580
+is a set of standards
+that define
+
+9
+00:00:21.580 --> 00:00:23.795
+communications for
+wireless LANs.
+
+10
+00:00:23.795 --> 00:00:25.510
+IEEE stands for
+
+11
+00:00:25.510 --> 00:00:28.600
+the Institute of Electrical
+and Electronics Engineers,
+
+12
+00:00:28.600 --> 00:00:32.140
+which is an organization that
+maintains Wi-Fi standards,
+
+13
+00:00:32.140 --> 00:00:34.660
+and 802.11 is a suite of
+
+14
+00:00:34.660 --> 00:00:37.775
+protocols used in
+wireless communications.
+
+15
+00:00:38.775 --> 00:00:40.090
+Wi-Fi protocols have adapted
+
+16
+00:00:40.090 --> 00:00:42.644
+over the years to become
+more secure and reliable
+
+17
+00:00:42.644 --> 00:00:44.090
+to provide the same level of
+
+18
+00:00:44.090 --> 00:00:46.445
+security as a wired connection.
+
+19
+00:00:46.445 --> 00:00:48.330
+In 2004,
+
+20
+00:00:48.330 --> 00:00:51.870
+a security protocol called
+the Wi-Fi Protected Access,
+
+21
+00:00:51.870 --> 00:00:53.910
+or WPA, was introduced.
+
+22
+00:00:53.910 --> 00:00:56.240
+WPA is a wireless
+security protocol
+
+23
+00:00:56.240 --> 00:00:58.265
+for devices to connect
+to the internet.
+
+24
+00:00:58.265 --> 00:01:00.920
+Since then, WPA has evolved
+
+25
+00:01:00.920 --> 00:01:04.415
+into newer versions,
+like WPA2 and WPA3,
+
+26
+00:01:04.415 --> 00:01:06.680
+which include further
+security improvements,
+
+27
+00:01:06.680 --> 00:01:08.620
+like more advanced encryption.
+
+28
+00:01:08.620 --> 00:01:10.430
+As a security analyst,
+
+29
+00:01:10.430 --> 00:01:12.830
+you might be responsible
+for making sure that
+
+30
+00:01:12.830 --> 00:01:16.025
+the wireless connections in
+your organization are secure.
+
+31
+00:01:16.025 --> 00:01:19.140
+Let's learn more about
+security measures.

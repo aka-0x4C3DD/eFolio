@@ -1,0 +1,184 @@
+WEBVTT
+
+1
+00:00:00.807 --> 00:00:04.200
+Companies have traditionally
+owned their network devices, and
+
+2
+00:00:04.200 --> 00:00:06.447
+kept them in their own office buildings.
+
+3
+00:00:06.447 --> 00:00:11.280
+But now, a lot of companies are using third-party
+providers to manage their networks.
+
+4
+00:00:12.280 --> 00:00:12.408
+Why?
+
+5
+00:00:12.408 --> 00:00:16.394
+Well, this model helps companies save
+money while giving them access to more network
+
+6
+00:00:16.394 --> 00:00:17.510
+resources.
+
+7
+00:00:17.510 --> 00:00:21.566
+The growth of cloud computing is
+helping many companies reduce costs and
+
+8
+00:00:21.566 --> 00:00:23.835
+streamline their network operations.
+
+9
+00:00:24.835 --> 00:00:29.098
+Cloud computing is the practice of using
+remote servers, applications, and network
+
+10
+00:00:29.098 --> 00:00:33.939
+services that are hosted on the internet
+instead of on local physical devices.
+
+11
+00:00:34.939 --> 00:00:38.291
+Today, the number of businesses that use
+cloud computing is increasing every year,
+
+12
+00:00:38.291 --> 00:00:43.313
+so it's important to understand how cloud
+networks function and how to secure them.
+
+13
+00:00:44.313 --> 00:00:47.606
+Cloud providers offer an alternative
+to traditional on-premise networks, and
+
+14
+00:00:47.606 --> 00:00:52.162
+allow organizations to have the benefits
+of the traditional network without storing
+
+15
+00:00:52.162 --> 00:00:54.949
+the devices and managing
+the network on their own.
+
+16
+00:00:55.949 --> 00:01:00.117
+A cloud network is a collection of servers
+or computers that stores resources and
+
+17
+00:01:00.117 --> 00:01:04.308
+data in a remote data center that
+can be accessed via the internet.
+
+18
+00:01:04.308 --> 00:01:07.979
+Because companies don't house
+the servers at their physical location,
+
+19
+00:01:07.979 --> 00:01:10.593
+these servers are referred
+to as being "in the cloud".
+
+20
+00:01:11.593 --> 00:01:14.835
+Traditional networks host web servers from
+a business in its physical location.
+
+21
+00:01:14.835 --> 00:01:19.644
+However, cloud networks are different from
+traditional networks because they use remote servers,
+
+22
+00:01:19.644 --> 00:01:22.420
+which
+allow online services and web applications
+
+23
+00:01:22.420 --> 00:01:25.819
+to be used
+from any geographic location.
+
+24
+00:01:25.819 --> 00:01:30.507
+Cloud security will become increasingly
+relevant to many security professionals as
+
+25
+00:01:30.507 --> 00:01:33.185
+more organizations migrate
+to cloud services.
+
+26
+00:01:34.185 --> 00:01:37.576
+Cloud service providers offer cloud
+computing to maintain applications.
+
+27
+00:01:37.576 --> 00:01:40.406
+For example,
+they provide on-demand storage and
+
+28
+00:01:40.406 --> 00:01:43.709
+processing power that their
+customers only pay as needed.
+
+29
+00:01:43.709 --> 00:01:45.492
+They also provide business and
+
+30
+00:01:45.492 --> 00:01:50.233
+web analytics that organizations can use
+to monitor their web traffic and sales.
+
+31
+00:01:51.233 --> 00:01:54.308
+With the transition to cloud networking,
+I have witnessed an overlap of identity-based
+
+32
+00:01:54.308 --> 00:01:57.921
+security on top of the more
+traditional network-based solutions.
+
+33
+00:01:57.921 --> 00:02:01.997
+This meant that my focus needed to be
+on verifying both where the traffic is coming from
+
+34
+00:02:01.997 --> 00:02:04.903
+and
+the identity that is coming with it.
+
+35
+00:02:05.903 --> 00:02:08.868
+More organizations are moving their network
+services to the cloud to save money and simplify
+
+36
+00:02:08.868 --> 00:02:10.354
+their operations.
+
+37
+00:02:10.354 --> 00:02:11.688
+As this trend has grown,
+
+38
+00:02:11.688 --> 00:02:15.446
+cloud security has become a significant
+aspect of network security.

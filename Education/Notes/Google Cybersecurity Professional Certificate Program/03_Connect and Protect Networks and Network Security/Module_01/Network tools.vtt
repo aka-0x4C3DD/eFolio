@@ -1,0 +1,295 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:03.060
+In this video,
+you'll learn about
+
+2
+00:00:03.060 --> 00:00:04.500
+the common devices that make up
+
+3
+00:00:04.500 --> 00:00:06.675
+a network. Let's get started.
+
+4
+00:00:07.675 --> 00:00:08.820
+A hub is a network device that
+
+5
+00:00:08.820 --> 00:00:11.935
+broadcasts information to
+every device on the network.
+
+6
+00:00:11.935 --> 00:00:14.790
+Think of a hub like a radio
+tower that broadcasts
+
+7
+00:00:14.790 --> 00:00:18.315
+a signal to any radio tuned
+to the correct frequency.
+
+8
+00:00:19.315 --> 00:00:21.185
+Another network
+device is a switch.
+
+9
+00:00:21.185 --> 00:00:23.160
+A switch makes
+connections between
+
+10
+00:00:23.160 --> 00:00:25.560
+specific devices on a
+network by sending
+
+11
+00:00:25.560 --> 00:00:27.550
+and receiving data between them.
+
+12
+00:00:27.550 --> 00:00:30.305
+A switch is more
+intelligent than a hub.
+
+13
+00:00:30.305 --> 00:00:34.055
+It only passes data to
+the intended destination.
+
+14
+00:00:34.055 --> 00:00:36.890
+This makes switches
+more secure than hubs,
+
+15
+00:00:36.890 --> 00:00:39.470
+and enables them to control
+the flow of traffic
+
+16
+00:00:39.470 --> 00:00:41.314
+and improve network performance.
+
+17
+00:00:42.314 --> 00:00:44.320
+Another device that we'll
+discuss is a router.
+
+18
+00:00:44.320 --> 00:00:46.160
+A router is a
+network device that
+
+19
+00:00:46.160 --> 00:00:48.215
+connects multiple
+networks together.
+
+20
+00:00:49.215 --> 00:00:50.960
+For example, if a
+computer in one network
+
+21
+00:00:50.960 --> 00:00:53.975
+wants to send information to
+a tablet on another network,
+
+22
+00:00:53.975 --> 00:00:56.690
+then the information will
+be transferred as follows:
+
+23
+00:00:56.690 --> 00:00:58.460
+First, the information travels
+
+24
+00:00:58.460 --> 00:01:00.365
+from the computer to the router.
+
+25
+00:01:00.365 --> 00:01:02.870
+Then, the router reads the
+destination address,
+
+26
+00:01:02.870 --> 00:01:05.915
+and forwards the data to the
+intended network's router.
+
+27
+00:01:05.915 --> 00:01:08.000
+Finally, the receiving router
+
+28
+00:01:08.000 --> 00:01:10.400
+directs that information
+to the tablet.
+
+29
+00:01:11.400 --> 00:01:13.050
+Finally, let's discuss modems.
+
+30
+00:01:13.050 --> 00:01:14.840
+A modem is a device
+that connects
+
+31
+00:01:14.840 --> 00:01:16.490
+your router to the internet,
+
+32
+00:01:16.490 --> 00:01:18.705
+and brings internet
+access to the LAN.
+
+33
+00:01:19.705 --> 00:01:22.310
+For example, if a computer from
+one network wants to send
+
+34
+00:01:22.310 --> 00:01:24.080
+information to a
+device on a network
+
+35
+00:01:24.080 --> 00:01:26.110
+in a different
+geographic location,
+
+36
+00:01:26.110 --> 00:01:28.850
+it would be transferred
+as follows:
+
+37
+00:01:28.850 --> 00:01:31.550
+The computer would send
+information to the router,
+
+38
+00:01:31.550 --> 00:01:33.110
+and the router would then transfer
+
+39
+00:01:33.110 --> 00:01:35.785
+the information through
+the modem to the internet.
+
+40
+00:01:35.785 --> 00:01:38.870
+The intended recipient's modem
+receives the information,
+
+41
+00:01:38.870 --> 00:01:40.520
+and transfers it to the router.
+
+42
+00:01:40.520 --> 00:01:42.770
+Finally, the recipient's
+router forwards
+
+43
+00:01:42.770 --> 00:01:45.770
+that information to the
+destination device.
+
+44
+00:01:46.770 --> 00:01:49.115
+Network tools such
+as hubs, switches,
+
+45
+00:01:49.115 --> 00:01:52.280
+routers, and modems
+are physical devices.
+
+46
+00:01:52.280 --> 00:01:54.560
+However, many
+functions performed by
+
+47
+00:01:54.560 --> 00:01:56.300
+these physical devices can be
+
+48
+00:01:56.300 --> 00:01:59.105
+completed by
+virtualization tools.
+
+49
+00:02:00.105 --> 00:02:01.250
+Virtualization
+tools are pieces of
+
+50
+00:02:01.250 --> 00:02:04.445
+software that perform
+network operations.
+
+51
+00:02:04.445 --> 00:02:07.430
+Virtualization tools
+carry out operations
+
+52
+00:02:07.430 --> 00:02:10.070
+that would normally be
+completed by a hub, switch,
+
+53
+00:02:10.070 --> 00:02:11.540
+router, or modem,
+
+54
+00:02:11.540 --> 00:02:14.395
+and they are offered by
+Cloud service providers.
+
+55
+00:02:14.395 --> 00:02:16.550
+These tools provide
+opportunities for
+
+56
+00:02:16.550 --> 00:02:19.015
+cost savings and scalability.
+
+57
+00:02:19.015 --> 00:02:20.450
+You'll learn more about them later
+
+58
+00:02:20.450 --> 00:02:22.490
+in the
+certificate program.
+
+59
+00:02:23.490 --> 00:02:24.530
+Now you've explored
+some common devices
+
+60
+00:02:24.530 --> 00:02:26.670
+that make up a
+network. Coming up,
+
+61
+00:02:26.670 --> 00:02:28.900
+you're going to learn more
+about cloud computing,
+
+62
+00:02:28.900 --> 00:02:32.940
+and how networks can be
+designed using cloud services.

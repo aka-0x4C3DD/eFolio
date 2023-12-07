@@ -1,0 +1,284 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.675
+Hello again. In this video,
+
+2
+00:00:03.675 --> 00:00:05.910
+you'll learn more about
+communication protocols and
+
+3
+00:00:05.910 --> 00:00:07.200
+devices used to communicate
+
+4
+00:00:07.200 --> 00:00:08.730
+with each other
+across the internet.
+
+5
+00:00:08.730 --> 00:00:11.355
+This is called the TCP/IP model.
+
+6
+00:00:12.355 --> 00:00:13.170
+TCP/IP stands for
+
+7
+00:00:13.170 --> 00:00:16.425
+Transmission Control Protocol
+and Internet Protocol.
+
+8
+00:00:16.425 --> 00:00:18.330
+TCP/IP is the standard model
+
+9
+00:00:18.330 --> 00:00:20.185
+used for network communication.
+
+10
+00:00:20.185 --> 00:00:22.520
+Let's take a closer
+look at this model by
+
+11
+00:00:22.520 --> 00:00:25.115
+defining TCP and IP separately.
+
+12
+00:00:26.115 --> 00:00:28.535
+First, TCP, or Transmission
+Control Protocol,
+
+13
+00:00:28.535 --> 00:00:30.920
+is an internet communication
+protocol that allows
+
+14
+00:00:30.920 --> 00:00:33.910
+two devices to form a
+connection and stream data.
+
+15
+00:00:33.910 --> 00:00:36.080
+The protocol includes a
+set of instructions to
+
+16
+00:00:36.080 --> 00:00:38.555
+organize data, so it can
+be sent across a network.
+
+17
+00:00:38.555 --> 00:00:41.420
+It also establishes a
+connection between two devices
+
+18
+00:00:41.420 --> 00:00:42.740
+and makes sure that packets
+
+19
+00:00:42.740 --> 00:00:44.825
+reach their appropriate
+destination.
+
+20
+00:00:45.825 --> 00:00:48.705
+The IP in TCP/IP stands
+for Internet Protocol.
+
+21
+00:00:48.705 --> 00:00:51.440
+IP has a set of standards used
+for routing and addressing
+
+22
+00:00:51.440 --> 00:00:52.700
+data packets as they travel
+
+23
+00:00:52.700 --> 00:00:54.325
+between devices on a network.
+
+24
+00:00:54.325 --> 00:00:57.170
+Included in the Internet
+Protocol (IP) is the IP address
+
+25
+00:00:57.170 --> 00:00:59.910
+that functions as an address
+for each private network.
+
+26
+00:00:59.910 --> 00:01:02.835
+You'll learn more about
+IP addresses a bit later.
+
+27
+00:01:03.835 --> 00:01:06.160
+When data packets are sent and
+received across a network,
+
+28
+00:01:06.160 --> 00:01:07.780
+they are assigned a port.
+
+29
+00:01:08.780 --> 00:01:10.705
+Within the operating system
+of a network device,
+
+30
+00:01:10.705 --> 00:01:13.959
+a port is a software-based
+location that organizes
+
+31
+00:01:13.959 --> 00:01:15.580
+the sending and receiving of data
+
+32
+00:01:15.580 --> 00:01:17.890
+between devices
+on a network.
+
+33
+00:01:17.890 --> 00:01:20.800
+Ports divide network
+traffic into segments
+
+34
+00:01:20.800 --> 00:01:22.060
+based on the service they will perform
+
+35
+00:01:22.060 --> 00:01:24.040
+between two devices.
+
+36
+00:01:24.040 --> 00:01:25.600
+The computers sending and
+
+37
+00:01:25.600 --> 00:01:27.550
+receiving these data
+segments know how to
+
+38
+00:01:27.550 --> 00:01:30.295
+prioritize and process
+these segments
+
+39
+00:01:30.295 --> 00:01:31.960
+based on their port number.
+
+40
+00:01:32.960 --> 00:01:33.580
+This is like sending a letter to
+
+41
+00:01:33.580 --> 00:01:35.440
+a friend who lives in
+an apartment building.
+
+42
+00:01:35.440 --> 00:01:37.210
+The mail delivery person
+
+43
+00:01:37.210 --> 00:01:39.700
+not only knows how to
+find the building,
+
+44
+00:01:39.700 --> 00:01:42.370
+but they also know exactly
+where to go in the building
+
+45
+00:01:42.370 --> 00:01:45.100
+to find the apartment number
+where your friend lives.
+
+46
+00:01:46.100 --> 00:01:47.240
+Data packets include
+instructions that tell
+
+47
+00:01:47.240 --> 00:01:50.020
+the receiving device what
+to do with the information.
+
+48
+00:01:50.020 --> 00:01:52.820
+These instructions come in
+the form of a port number.
+
+49
+00:01:52.820 --> 00:01:54.680
+Port numbers allow computers
+
+50
+00:01:54.680 --> 00:01:56.000
+to split the network traffic and
+
+51
+00:01:56.000 --> 00:01:57.890
+prioritize the operations they
+
+52
+00:01:57.890 --> 00:01:59.405
+will perform with the data.
+
+53
+00:01:59.405 --> 00:02:01.270
+Some common port
+numbers are:
+
+54
+00:02:01.270 --> 00:02:03.485
+port 25, which is used for e-mail,
+
+55
+00:02:03.485 --> 00:02:05.150
+port 443, which is
+
+56
+00:02:05.150 --> 00:02:07.160
+used for secure internet
+communication,
+
+57
+00:02:07.160 --> 00:02:09.905
+and port 20, for large
+file transfers.
+
+58
+00:02:10.905 --> 00:02:11.345
+As you've learned in this video,
+
+59
+00:02:11.345 --> 00:02:13.190
+a lot of information
+and instructions are
+
+60
+00:02:13.190 --> 00:02:14.540
+contained in data packets as
+
+61
+00:02:14.540 --> 00:02:16.100
+they travel across a network.
+
+62
+00:02:16.100 --> 00:02:20.280
+Coming up, you'll learn more
+about the TCP/IP model.

@@ -1,0 +1,533 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:03.000
+In this video, we'll discuss
+
+2
+00:00:03.000 --> 00:00:05.610
+packet sniffing,
+with a focus on how
+
+3
+00:00:05.610 --> 00:00:07.830
+threat actors may use
+this technique to
+
+4
+00:00:07.830 --> 00:00:10.200
+gain unauthorized
+access to information.
+
+5
+00:00:10.200 --> 00:00:12.180
+Previously, you learned about
+
+6
+00:00:12.180 --> 00:00:13.590
+the information and data packets
+
+7
+00:00:13.590 --> 00:00:15.345
+that travel across the network.
+
+8
+00:00:15.345 --> 00:00:17.640
+Packets include a
+header which contains
+
+9
+00:00:17.640 --> 00:00:20.085
+the sender's and
+receiver's IP addresses.
+
+10
+00:00:20.085 --> 00:00:22.530
+Packets also contain
+a body, which
+
+11
+00:00:22.530 --> 00:00:24.900
+may contain valuable
+information like names,
+
+12
+00:00:24.900 --> 00:00:26.775
+date of birth,
+personal messages,
+
+13
+00:00:26.775 --> 00:00:29.710
+financial information, and
+credit card numbers.
+
+14
+00:00:30.710 --> 00:00:32.810
+Packet sniffing is
+the practice of using
+
+15
+00:00:32.810 --> 00:00:34.700
+software tools to observe
+
+16
+00:00:34.700 --> 00:00:37.250
+data as it moves
+across a network.
+
+17
+00:00:37.250 --> 00:00:38.975
+As a security analyst,
+
+18
+00:00:38.975 --> 00:00:42.410
+you may use packet sniffing
+to analyze and capture
+
+19
+00:00:42.410 --> 00:00:45.230
+packets when investigating
+ongoing incidents
+
+20
+00:00:45.230 --> 00:00:47.395
+or debugging network issues.
+
+21
+00:00:47.395 --> 00:00:49.580
+Later in this
+certificate program,
+
+22
+00:00:49.580 --> 00:00:51.200
+you'll gain hands-on practice
+
+23
+00:00:51.200 --> 00:00:53.135
+with some packet
+sniffing software.
+
+24
+00:00:53.135 --> 00:00:56.570
+However, malicious
+actors may also use
+
+25
+00:00:56.570 --> 00:00:57.800
+packet sniffing to look at
+
+26
+00:00:57.800 --> 00:00:59.905
+data that has not
+been sent to them.
+
+27
+00:00:59.905 --> 00:01:02.900
+This is a little bit like
+opening somebody else's mail.
+
+28
+00:01:02.900 --> 00:01:05.150
+It's important for you
+to learn about how
+
+29
+00:01:05.150 --> 00:01:07.205
+threat actors use
+packet sniffing
+
+30
+00:01:07.205 --> 00:01:09.380
+with harmful intent
+so you can be
+
+31
+00:01:09.380 --> 00:01:11.875
+prepared to protect against
+these malicious acts.
+
+32
+00:01:11.875 --> 00:01:14.510
+Malicious actors may insert
+themselves in the middle of
+
+33
+00:01:14.510 --> 00:01:16.940
+an authorized connection
+between two devices.
+
+34
+00:01:16.940 --> 00:01:19.310
+Then they can use packet
+sniffing to spy on
+
+35
+00:01:19.310 --> 00:01:21.965
+every data packet as it
+comes across their device.
+
+36
+00:01:21.965 --> 00:01:24.530
+The goal is to find
+valuable information in
+
+37
+00:01:24.530 --> 00:01:26.000
+the data packets that they can
+
+38
+00:01:26.000 --> 00:01:27.895
+then use to their advantage.
+
+39
+00:01:27.895 --> 00:01:30.649
+Attackers can use
+software applications
+
+40
+00:01:30.649 --> 00:01:34.010
+or a hardware device to
+look into data packets.
+
+41
+00:01:34.010 --> 00:01:36.560
+Malicious actors can access
+a network packet with
+
+42
+00:01:36.560 --> 00:01:39.325
+a packet sniffer and make
+changes to the data.
+
+43
+00:01:39.325 --> 00:01:40.710
+They may change the information
+
+44
+00:01:40.710 --> 00:01:41.705
+in the body of the packet,
+
+45
+00:01:41.705 --> 00:01:44.075
+like altering a recipient's
+bank account number.
+
+46
+00:01:45.075 --> 00:01:47.405
+Packet sniffing can
+be passive or active.
+
+47
+00:01:47.405 --> 00:01:50.000
+Passive packet
+sniffing is a type of
+
+48
+00:01:50.000 --> 00:01:53.155
+attack where data packets
+are read in transit.
+
+49
+00:01:53.155 --> 00:01:55.520
+Since all the
+traffic on a network
+
+50
+00:01:55.520 --> 00:01:57.470
+is visible to any
+host on the hub,
+
+51
+00:01:57.470 --> 00:01:58.850
+malicious actors can view
+
+52
+00:01:58.850 --> 00:02:00.200
+all the information going
+
+53
+00:02:00.200 --> 00:02:02.260
+in and out of the device
+they are targeting.
+
+54
+00:02:02.260 --> 00:02:05.690
+Thinking back to the example
+of a letter being delivered,
+
+55
+00:02:05.690 --> 00:02:07.850
+we can compare a
+passive packet sniffing
+
+56
+00:02:07.850 --> 00:02:10.175
+attack to a postal
+delivery person
+
+57
+00:02:10.175 --> 00:02:12.235
+maliciously reading
+somebody's mail.
+
+58
+00:02:12.235 --> 00:02:14.630
+The postal worker, or packet
+
+59
+00:02:14.630 --> 00:02:17.270
+sniffer, has the right
+to deliver the mail,
+
+60
+00:02:17.270 --> 00:02:20.410
+but not the right to read
+the information inside.
+
+61
+00:02:20.410 --> 00:02:23.120
+Active packet
+sniffing is a type of
+
+62
+00:02:23.120 --> 00:02:26.480
+attack where data packets
+are manipulated in transit.
+
+63
+00:02:26.480 --> 00:02:28.100
+This may include injecting
+
+64
+00:02:28.100 --> 00:02:30.260
+internet protocols to
+redirect the packets to
+
+65
+00:02:30.260 --> 00:02:31.970
+an unintended port or
+
+66
+00:02:31.970 --> 00:02:34.735
+changing the information
+the packet contains.
+
+67
+00:02:34.735 --> 00:02:37.220
+Active packet
+sniffing attack would
+
+68
+00:02:37.220 --> 00:02:39.605
+be like a neighbor telling
+the delivery person
+
+69
+00:02:39.605 --> 00:02:42.695
+"I'll deliver that mail for
+you," and then reading the mail
+
+70
+00:02:42.695 --> 00:02:46.205
+or changing the letter before
+putting it in your mailbox.
+
+71
+00:02:46.205 --> 00:02:48.200
+Even though your
+neighbor knows you
+
+72
+00:02:48.200 --> 00:02:50.615
+and even if they deliver
+it to the correct house,
+
+73
+00:02:50.615 --> 00:02:52.250
+they are actively going out of
+
+74
+00:02:52.250 --> 00:02:54.875
+their way to engage in
+malicious behavior.
+
+75
+00:02:55.875 --> 00:02:56.780
+The good news is that
+
+76
+00:02:56.780 --> 00:02:59.320
+malicious packet sniffing
+can be prevented.
+
+77
+00:02:59.320 --> 00:03:01.235
+Let's look at a few ways
+
+78
+00:03:01.235 --> 00:03:02.630
+the network security
+professional
+
+79
+00:03:02.630 --> 00:03:04.330
+can prevent these attacks.
+
+80
+00:03:04.330 --> 00:03:05.990
+One way to protect against
+
+81
+00:03:05.990 --> 00:03:07.580
+malicious packet
+sniffing is to use
+
+82
+00:03:07.580 --> 00:03:09.290
+a VPN to encrypt and protect
+
+83
+00:03:09.290 --> 00:03:11.660
+data as it travels
+across the network.
+
+84
+00:03:11.660 --> 00:03:13.730
+If you don't remember
+how VPNs work,
+
+85
+00:03:13.730 --> 00:03:14.990
+you can revisit the video about
+
+86
+00:03:14.990 --> 00:03:17.815
+this topic in the previous
+section of the program.
+
+87
+00:03:17.815 --> 00:03:19.990
+When you use a VPN,
+
+88
+00:03:19.990 --> 00:03:22.240
+hackers might interfere
+with your traffic,
+
+89
+00:03:22.240 --> 00:03:23.845
+but they won't be
+able to decode it
+
+90
+00:03:23.845 --> 00:03:26.375
+to read it and read your
+private information.
+
+91
+00:03:26.375 --> 00:03:27.940
+Another way to add a layer of
+
+92
+00:03:27.940 --> 00:03:29.800
+protection against packet
+sniffing is to make sure
+
+93
+00:03:29.800 --> 00:03:31.660
+that websites you have use
+
+94
+00:03:31.660 --> 00:03:34.735
+HTTPS at the beginning
+of the domain address.
+
+95
+00:03:34.735 --> 00:03:39.460
+Previously, we discussed
+how HTTPS uses SSL/TLS to
+
+96
+00:03:39.460 --> 00:03:41.740
+encrypt data and
+prevent eavesdropping
+
+97
+00:03:41.740 --> 00:03:44.455
+when malicious actors spy on
+network transmissions.
+
+98
+00:03:44.455 --> 00:03:47.080
+One final way to help
+protect yourself against
+
+99
+00:03:47.080 --> 00:03:48.670
+malicious packet sniffing is to
+
+100
+00:03:48.670 --> 00:03:51.080
+avoid using unprotected WiFi.
+
+101
+00:03:51.080 --> 00:03:53.320
+You usually find
+unprotected WiFi in
+
+102
+00:03:53.320 --> 00:03:55.360
+public places like coffee shops,
+
+103
+00:03:55.360 --> 00:03:57.249
+restaurants, or airports.
+
+104
+00:03:57.249 --> 00:03:59.535
+These networks don't
+use encryption.
+
+105
+00:03:59.535 --> 00:04:02.375
+This means that anyone on
+the network can access
+
+106
+00:04:02.375 --> 00:04:05.555
+all of the data traveling
+to and from your device.
+
+107
+00:04:05.555 --> 00:04:07.940
+One precaution you
+can take is avoiding
+
+108
+00:04:07.940 --> 00:04:09.650
+free public WiFi
+unless you have
+
+109
+00:04:09.650 --> 00:04:13.165
+a VPN service already
+installed on your device.
+
+110
+00:04:14.165 --> 00:04:16.190
+Now you know how
+threat actors may use
+
+111
+00:04:16.190 --> 00:04:17.510
+packet sniffing and how to
+
+112
+00:04:17.510 --> 00:04:19.505
+protect a network
+from these attacks.
+
+113
+00:04:19.505 --> 00:04:23.190
+Let's move on to discuss
+other network intrusions.

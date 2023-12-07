@@ -1,0 +1,287 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:02.760
+In this video, we're going to
+
+2
+00:00:02.760 --> 00:00:04.665
+discuss how virtual
+private networks,
+
+3
+00:00:04.665 --> 00:00:07.635
+or VPNs, add security
+to your network.
+
+4
+00:00:07.635 --> 00:00:09.090
+When you connect
+to the internet,
+
+5
+00:00:09.090 --> 00:00:10.950
+your internet service
+provider receives
+
+6
+00:00:10.950 --> 00:00:12.150
+your network's requests and
+
+7
+00:00:12.150 --> 00:00:14.400
+forwards it to the correct
+destination server.
+
+8
+00:00:14.400 --> 00:00:15.780
+But your internet requests
+
+9
+00:00:15.780 --> 00:00:17.370
+include your private
+information.
+
+10
+00:00:17.370 --> 00:00:19.409
+That means if the traffic
+gets intercepted,
+
+11
+00:00:19.409 --> 00:00:21.885
+someone could potentially
+connect your internet activity
+
+12
+00:00:21.885 --> 00:00:23.250
+with your physical location
+
+13
+00:00:23.250 --> 00:00:24.885
+and your personal information.
+
+14
+00:00:24.885 --> 00:00:26.430
+This includes some information
+
+15
+00:00:26.430 --> 00:00:27.525
+that you want to keep private,
+
+16
+00:00:27.525 --> 00:00:29.850
+like bank accounts and
+credit card numbers.
+
+17
+00:00:29.850 --> 00:00:31.575
+A virtual private network,
+
+18
+00:00:31.575 --> 00:00:33.300
+also known as a VPN,
+
+19
+00:00:33.300 --> 00:00:35.370
+is a network security
+service that changes
+
+20
+00:00:35.370 --> 00:00:37.440
+your public IP address and hides
+
+21
+00:00:37.440 --> 00:00:39.870
+your virtual location so
+that you can keep your data
+
+22
+00:00:39.870 --> 00:00:41.230
+private when you're
+using a public
+
+23
+00:00:41.230 --> 00:00:42.780
+network like the internet.
+
+24
+00:00:43.780 --> 00:00:44.990
+VPNs also encrypt
+your data as it
+
+25
+00:00:44.990 --> 00:00:48.260
+travels across the internet
+to preserve confidentiality.
+
+26
+00:00:48.260 --> 00:00:49.940
+A VPN service performs
+
+27
+00:00:49.940 --> 00:00:52.145
+encapsulation on your
+data in transit.
+
+28
+00:00:52.145 --> 00:00:54.170
+Encapsulation is a
+process performed
+
+29
+00:00:54.170 --> 00:00:56.000
+by a VPN service that protects
+
+30
+00:00:56.000 --> 00:00:57.170
+your data by wrapping
+
+31
+00:00:57.170 --> 00:00:59.660
+sensitive data in
+other data packets.
+
+32
+00:00:59.660 --> 00:01:02.570
+Previously, you learned how
+the MAC and IP address of
+
+33
+00:01:02.570 --> 00:01:04.250
+the destination
+device is contained
+
+34
+00:01:04.250 --> 00:01:06.350
+in the header and footer
+of a data packet.
+
+35
+00:01:06.350 --> 00:01:08.510
+This is a security
+threat because it shows
+
+36
+00:01:08.510 --> 00:01:11.585
+the IP and virtual location
+of your private network.
+
+37
+00:01:11.585 --> 00:01:14.150
+You could secure a data
+packet by encrypting
+
+38
+00:01:14.150 --> 00:01:16.655
+it to make sure your information
+can't be deciphered,
+
+39
+00:01:16.655 --> 00:01:18.710
+but then network routers
+won't be able to read
+
+40
+00:01:18.710 --> 00:01:21.370
+the IP and MAC address to
+know where to send it to.
+
+41
+00:01:21.370 --> 00:01:23.180
+This means you won't
+be able to connect to
+
+42
+00:01:23.180 --> 00:01:26.210
+the internet site or the
+service that you want.
+
+43
+00:01:26.210 --> 00:01:29.060
+Encapsulation
+solves this problem
+
+44
+00:01:29.060 --> 00:01:31.330
+while still maintaining
+your privacy.
+
+45
+00:01:31.330 --> 00:01:34.430
+VPN services encrypt
+your data packets and
+
+46
+00:01:34.430 --> 00:01:36.950
+encapsulate them in
+other data packets
+
+47
+00:01:36.950 --> 00:01:38.315
+that the routers can read.
+
+48
+00:01:38.315 --> 00:01:40.040
+This allows your
+network requests
+
+49
+00:01:40.040 --> 00:01:41.555
+to reach their destination,
+
+50
+00:01:41.555 --> 00:01:43.595
+but still encrypts
+your personal data
+
+51
+00:01:43.595 --> 00:01:46.090
+so it's unreadable
+while in transit.
+
+52
+00:01:46.090 --> 00:01:48.770
+A VPN also uses an
+encrypted tunnel
+
+53
+00:01:48.770 --> 00:01:51.695
+between your device
+and the VPN server.
+
+54
+00:01:51.695 --> 00:01:55.175
+The encryption is unhackable
+without a cryptographic key,
+
+55
+00:01:55.175 --> 00:01:57.280
+so no one can access your data.
+
+56
+00:01:58.280 --> 00:01:59.900
+VPN services are
+simple and offer
+
+57
+00:01:59.900 --> 00:02:02.665
+significant protection while
+you're on the internet.
+
+58
+00:02:02.665 --> 00:02:03.910
+With a VPN,
+
+59
+00:02:03.910 --> 00:02:06.480
+you have the added assurance
+that your data is encrypted, and
+
+60
+00:02:06.480 --> 00:02:07.550
+your IP address and
+
+61
+00:02:07.550 --> 00:02:11.790
+virtual location are unreadable
+to malicious actors.

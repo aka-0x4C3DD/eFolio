@@ -1,0 +1,227 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:03.000
+Now that we've discussed
+the structure of
+
+2
+00:00:03.000 --> 00:00:05.640
+a network and how
+communications takes place,
+
+3
+00:00:05.640 --> 00:00:07.320
+it's important for
+you to know how
+
+4
+00:00:07.320 --> 00:00:09.090
+the security
+professionals identify
+
+5
+00:00:09.090 --> 00:00:10.800
+problems that might arise.
+
+6
+00:00:11.800 --> 00:00:13.740
+The TCP/IP model is a
+framework that is used to
+
+7
+00:00:13.740 --> 00:00:15.030
+visualize how data is
+
+8
+00:00:15.030 --> 00:00:17.820
+organized and transmitted
+across the network.
+
+9
+00:00:17.820 --> 00:00:20.940
+The TCP/IP model
+has four layers.
+
+10
+00:00:20.940 --> 00:00:23.640
+The four layers are: the
+network access layer,
+
+11
+00:00:23.640 --> 00:00:26.310
+the internet layer,
+the transport layer,
+
+12
+00:00:26.310 --> 00:00:27.900
+and the application layer.
+
+13
+00:00:28.900 --> 00:00:31.305
+Knowing how the TCP/IP model
+organizes network activity
+
+14
+00:00:31.305 --> 00:00:32.760
+allows security professionals to
+
+15
+00:00:32.760 --> 00:00:35.220
+monitor and secure
+against risks.
+
+16
+00:00:36.220 --> 00:00:37.820
+Let's examine these
+layers one at a time.
+
+17
+00:00:38.820 --> 00:00:40.595
+Layer one is the
+network access layer.
+
+18
+00:00:40.595 --> 00:00:43.010
+The network access layer
+deals with creation of
+
+19
+00:00:43.010 --> 00:00:45.680
+data packets and their
+transmission across a network.
+
+20
+00:00:45.680 --> 00:00:47.780
+This includes hardware
+devices connected to
+
+21
+00:00:47.780 --> 00:00:49.520
+physical cables and switches
+
+22
+00:00:49.520 --> 00:00:51.790
+that direct data
+to its destination.
+
+23
+00:00:52.790 --> 00:00:54.210
+Layer two is the internet layer.
+
+24
+00:00:54.210 --> 00:00:56.930
+The internet layer is where
+IP addresses are attached to
+
+25
+00:00:56.930 --> 00:00:58.160
+data packets to indicate
+
+26
+00:00:58.160 --> 00:01:00.485
+the location of the
+sender and receiver.
+
+27
+00:01:00.485 --> 00:01:02.510
+The internet layer also focuses
+
+28
+00:01:02.510 --> 00:01:04.705
+on how networks
+connect to each other.
+
+29
+00:01:04.705 --> 00:01:06.740
+For example, data packets
+
+30
+00:01:06.740 --> 00:01:08.600
+containing information
+that determine whether
+
+31
+00:01:08.600 --> 00:01:10.400
+they will stay on the
+LAN or will be sent
+
+32
+00:01:10.400 --> 00:01:12.860
+to a remote network,
+like the internet.
+
+33
+00:01:13.860 --> 00:01:15.590
+The transport layer
+includes protocols to
+
+34
+00:01:15.590 --> 00:01:18.410
+control the flow of
+traffic across a network.
+
+35
+00:01:18.410 --> 00:01:21.560
+These protocols permit or
+deny communication with
+
+36
+00:01:21.560 --> 00:01:23.270
+other devices and include
+
+37
+00:01:23.270 --> 00:01:25.600
+information about the
+status of the connection.
+
+38
+00:01:25.600 --> 00:01:28.085
+Activities of this layer
+include error control,
+
+39
+00:01:28.085 --> 00:01:29.360
+which ensures data is flowing
+
+40
+00:01:29.360 --> 00:01:31.265
+smoothly across the network.
+
+41
+00:01:32.265 --> 00:01:33.890
+Finally, at the
+application layer,
+
+42
+00:01:33.890 --> 00:01:35.840
+protocols determine
+how the data packets
+
+43
+00:01:35.840 --> 00:01:38.345
+will interact with
+receiving devices.
+
+44
+00:01:38.345 --> 00:01:41.090
+Functions that are organized
+at application layer
+
+45
+00:01:41.090 --> 00:01:44.360
+include file transfers
+and email services.
+
+46
+00:01:45.360 --> 00:01:46.070
+Now you have an understanding of
+
+47
+00:01:46.070 --> 00:01:47.810
+the TCP/IP model and its
+
+48
+00:01:47.810 --> 00:01:51.120
+four layers. Meet you
+in the next video.
