@@ -1,0 +1,247 @@
+WEBVTT
+
+1
+00:00:00.770 --> 00:00:04.705
+Security analysts and the organizations
+they work with have to be
+
+2
+00:00:04.705 --> 00:00:07.820
+proactive about protecting
+systems from attack.
+
+3
+00:00:07.820 --> 00:00:10.487
+This is where security hardening comes in.
+
+4
+00:00:10.487 --> 00:00:15.013
+Security hardening is the process of
+strengthening a system to reduce its
+
+5
+00:00:15.013 --> 00:00:17.290
+vulnerability and attack surface.
+
+6
+00:00:17.290 --> 00:00:21.744
+All the potential vulnerabilities
+that a threat actor could exploit
+
+7
+00:00:21.744 --> 00:00:24.671
+are referred to as
+a system's attack surface.
+
+8
+00:00:25.671 --> 00:00:29.020
+Let's use an example that
+compares a network to a house.
+
+9
+00:00:29.020 --> 00:00:31.316
+The attack surface would
+be all the doors and
+
+10
+00:00:31.316 --> 00:00:34.500
+windows that a robber could use
+to gain access to that house.
+
+11
+00:00:34.500 --> 00:00:37.650
+Just like putting locks on all
+the doors and windows in the house,
+
+12
+00:00:37.650 --> 00:00:41.414
+security hardening involves
+minimizing the attack surface or
+
+13
+00:00:41.414 --> 00:00:45.827
+potential vulnerabilities and
+keeping a network as secure as possible.
+
+14
+00:00:46.827 --> 00:00:50.608
+As part of security hardening, security
+analysts perform regular maintenance
+
+15
+00:00:50.608 --> 00:00:54.967
+procedures to keep network devices and
+systems functioning securely and
+
+16
+00:00:54.967 --> 00:00:56.200
+optimally.
+
+17
+00:00:56.200 --> 00:00:59.396
+Security hardening can be
+conducted on any device or
+
+18
+00:00:59.396 --> 00:01:03.752
+system that can be compromised,
+such as hardware, operating systems,
+
+19
+00:01:03.752 --> 00:01:07.550
+applications, computer networks, and
+databases.
+
+20
+00:01:07.550 --> 00:01:10.640
+Physical security is also
+a part of security hardening.
+
+21
+00:01:10.640 --> 00:01:15.300
+This may include securing a physical space
+with security cameras and security guards.
+
+22
+00:01:16.300 --> 00:01:19.672
+Some common types of hardening
+procedures include software updates,
+
+23
+00:01:19.672 --> 00:01:24.890
+also called patches, and
+device application configuration changes.
+
+24
+00:01:24.890 --> 00:01:28.362
+These updates and
+changes are done to increase security and
+
+25
+00:01:28.362 --> 00:01:31.020
+fix security vulnerabilities on a network.
+
+26
+00:01:31.020 --> 00:01:34.870
+An example of a security configuration
+change would be requiring longer
+
+27
+00:01:34.870 --> 00:01:37.960
+passwords or
+more frequent password changes.
+
+28
+00:01:37.960 --> 00:01:42.320
+This makes it harder for a malicious
+actor to gain login credentials.
+
+29
+00:01:42.320 --> 00:01:46.725
+An example of a configuration check is
+updating the encryption standards for
+
+30
+00:01:46.725 --> 00:01:49.310
+data that is stored in a database.
+
+31
+00:01:49.310 --> 00:01:51.537
+Keeping encryption up to
+date makes it harder for
+
+32
+00:01:51.537 --> 00:01:53.510
+malicious actors to access the database.
+
+33
+00:01:54.510 --> 00:01:56.713
+Other examples of security
+hardening include removing or
+
+34
+00:01:56.713 --> 00:02:00.962
+disabling unused applications and
+services, disabling unused ports, and
+
+35
+00:02:00.962 --> 00:02:04.270
+reducing access permissions
+across devices and network.
+
+36
+00:02:04.270 --> 00:02:08.830
+Minimizing the number of applications,
+devices, ports, and access permissions
+
+37
+00:02:08.830 --> 00:02:13.263
+makes network and device monitoring more
+efficient and reduces the overall attack
+
+38
+00:02:13.263 --> 00:02:17.170
+surface, which is one of the best
+ways to secure an organization.
+
+39
+00:02:18.170 --> 00:02:18.880
+Another important strategy for
+
+40
+00:02:18.880 --> 00:02:22.380
+security hardening is to conduct
+regular penetration testing.
+
+41
+00:02:22.380 --> 00:02:28.045
+A penetration test, also called a pen test,
+is a simulated attack that helps identify
+
+42
+00:02:28.045 --> 00:02:33.561
+vulnerabilities in a system, network,
+website, application, and process.
+
+43
+00:02:33.561 --> 00:02:38.170
+Penetration testers document
+their findings in a report.
+
+44
+00:02:38.170 --> 00:02:42.369
+Depending on where the test fails,
+security teams can determine the type of
+
+45
+00:02:42.369 --> 00:02:45.138
+security vulnerabilities
+that require fixing.
+
+46
+00:02:45.138 --> 00:02:48.360
+Organizations can then review
+these vulnerabilities and
+
+47
+00:02:48.360 --> 00:02:50.075
+come up with a plan to fix them.
+
+48
+00:02:51.075 --> 00:02:54.471
+Coming up, you'll learn more about how
+security hardening is an essential aspect
+
+49
+00:02:54.471 --> 00:02:55.750
+of securing networks.
+
+50
+00:02:55.750 --> 00:02:59.124
+It's a foundational part of
+network security that strengthens
+
+51
+00:02:59.124 --> 00:03:02.570
+the network in order to reduce
+the number of successful attacks.

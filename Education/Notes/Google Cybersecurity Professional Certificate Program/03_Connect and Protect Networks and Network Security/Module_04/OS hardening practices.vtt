@@ -1,0 +1,497 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.525
+Hi there. In this video,
+
+2
+00:00:03.525 --> 00:00:05.865
+we'll discuss
+operating system, or
+
+3
+00:00:05.865 --> 00:00:07.740
+OS, hardening and why it's
+
+4
+00:00:07.740 --> 00:00:10.080
+essential to keep the
+entire network secure.
+
+5
+00:00:10.080 --> 00:00:11.310
+The operating system is
+
+6
+00:00:11.310 --> 00:00:14.475
+the interface between computer
+hardware and the user.
+
+7
+00:00:14.475 --> 00:00:16.200
+The OS is the first program
+
+8
+00:00:16.200 --> 00:00:17.850
+loaded when a computer turns on.
+
+9
+00:00:17.850 --> 00:00:20.220
+The OS acts as an intermediary
+
+10
+00:00:20.220 --> 00:00:23.385
+between software applications
+and the computer hardware.
+
+11
+00:00:23.385 --> 00:00:27.170
+It's important to secure
+the OS in each system
+
+12
+00:00:27.170 --> 00:00:29.000
+because one insecure OS can
+
+13
+00:00:29.000 --> 00:00:31.340
+lead to a whole network
+being compromised.
+
+14
+00:00:31.340 --> 00:00:34.070
+There are many types of
+operating systems, and they
+
+15
+00:00:34.070 --> 00:00:37.024
+all share similar security
+hardening practices.
+
+16
+00:00:37.024 --> 00:00:38.540
+Let's talk about some of
+
+17
+00:00:38.540 --> 00:00:40.250
+those security hardening
+practices that
+
+18
+00:00:40.250 --> 00:00:42.110
+are recommended to secure an OS.
+
+19
+00:00:43.110 --> 00:00:43.760
+Some OS hardening tasks
+
+20
+00:00:43.760 --> 00:00:45.470
+are performed at
+regular intervals,
+
+21
+00:00:45.470 --> 00:00:48.320
+like updates,
+backups, and keeping
+
+22
+00:00:48.320 --> 00:00:51.500
+an up-to-date list of devices
+and authorized users.
+
+23
+00:00:51.500 --> 00:00:53.630
+Other tasks are performed only
+
+24
+00:00:53.630 --> 00:00:56.825
+once as part of preliminary
+safety measures.
+
+25
+00:00:56.825 --> 00:00:58.730
+One example would be configuring
+
+26
+00:00:58.730 --> 00:01:01.315
+a device setting to fit a
+secure encryption standard.
+
+27
+00:01:01.315 --> 00:01:03.860
+Let's begin with
+OS hardening tasks
+
+28
+00:01:03.860 --> 00:01:05.735
+that are performed at
+a regular interval,
+
+29
+00:01:05.735 --> 00:01:07.685
+such as patch installation,
+
+30
+00:01:07.685 --> 00:01:09.940
+also known as patch updates.
+
+31
+00:01:10.940 --> 00:01:13.640
+A patch update is a software
+and operating system, or
+
+32
+00:01:13.640 --> 00:01:15.530
+OS, update that addresses
+
+33
+00:01:15.530 --> 00:01:19.010
+security vulnerabilities
+within a program or product.
+
+34
+00:01:19.010 --> 00:01:21.500
+Now we'll discuss
+patch updates provided
+
+35
+00:01:21.500 --> 00:01:24.280
+to the company by the
+OS software vendor.
+
+36
+00:01:24.280 --> 00:01:26.690
+With patch updates,
+the OS should
+
+37
+00:01:26.690 --> 00:01:29.180
+be upgraded to its
+latest software version.
+
+38
+00:01:29.180 --> 00:01:31.550
+Sometimes patches are released
+
+39
+00:01:31.550 --> 00:01:34.220
+to fix a security
+vulnerability in the software.
+
+40
+00:01:34.220 --> 00:01:36.470
+As soon as OS vendors publish
+
+41
+00:01:36.470 --> 00:01:38.510
+a patch and the
+vulnerability fix,
+
+42
+00:01:38.510 --> 00:01:40.730
+malicious actors
+know exactly where
+
+43
+00:01:40.730 --> 00:01:42.425
+the vulnerability
+is in systems
+
+44
+00:01:42.425 --> 00:01:44.410
+running the out-of-date OS.
+
+45
+00:01:44.410 --> 00:01:47.150
+This is why it's important
+for organizations to run
+
+46
+00:01:47.150 --> 00:01:50.080
+patch updates as soon
+as they are released.
+
+47
+00:01:50.080 --> 00:01:52.010
+For example, my team
+
+48
+00:01:52.010 --> 00:01:53.780
+had to perform an
+emergency patch to
+
+49
+00:01:53.780 --> 00:01:55.325
+address a recent vulnerability
+
+50
+00:01:55.325 --> 00:01:57.980
+found in a commonly used
+programming library.
+
+51
+00:01:57.980 --> 00:02:00.710
+The library is used
+almost everywhere,
+
+52
+00:02:00.710 --> 00:02:03.140
+so we had to quickly patch
+most of our servers and
+
+53
+00:02:03.140 --> 00:02:05.955
+applications to fix
+the vulnerability.
+
+54
+00:02:05.955 --> 00:02:08.675
+The newly updated OS should be
+
+55
+00:02:08.675 --> 00:02:11.420
+added to the baseline
+configuration,
+
+56
+00:02:11.420 --> 00:02:13.710
+also called the baseline image.
+
+57
+00:02:13.710 --> 00:02:17.240
+A baseline configuration
+is a documented set of
+
+58
+00:02:17.240 --> 00:02:19.625
+specifications within a system
+
+59
+00:02:19.625 --> 00:02:22.385
+that is used as a basis
+for future builds,
+
+60
+00:02:22.385 --> 00:02:24.775
+releases, and updates.
+
+61
+00:02:24.775 --> 00:02:27.320
+For example, a
+baseline may contain
+
+62
+00:02:27.320 --> 00:02:28.760
+a firewall rule with a list of
+
+63
+00:02:28.760 --> 00:02:30.860
+allowed and disallowed
+network ports.
+
+64
+00:02:30.860 --> 00:02:32.735
+If a security team suspects
+
+65
+00:02:32.735 --> 00:02:35.030
+unusual activity
+affecting the OS,
+
+66
+00:02:35.030 --> 00:02:37.700
+they can compare the
+current configuration to
+
+67
+00:02:37.700 --> 00:02:41.420
+the baseline and make sure
+that nothing has been changed.
+
+68
+00:02:42.420 --> 00:02:43.940
+Another hardening task
+performed regularly is
+
+69
+00:02:43.940 --> 00:02:46.490
+hardware and software disposal.
+
+70
+00:02:46.490 --> 00:02:49.040
+This ensures that
+all old hardware
+
+71
+00:02:49.040 --> 00:02:51.455
+is properly wiped
+and disposed of.
+
+72
+00:02:51.455 --> 00:02:53.330
+It's also a good idea to delete
+
+73
+00:02:53.330 --> 00:02:55.790
+any unused software
+applications since
+
+74
+00:02:55.790 --> 00:02:57.470
+some popular
+programming languages
+
+75
+00:02:57.470 --> 00:02:59.380
+have known vulnerabilities.
+
+76
+00:02:59.380 --> 00:03:02.420
+Removing unused software
+makes sure that there aren't
+
+77
+00:03:02.420 --> 00:03:05.060
+any unnecessary
+vulnerabilities connected
+
+78
+00:03:05.060 --> 00:03:07.430
+with the programs that
+the software uses.
+
+79
+00:03:08.430 --> 00:03:09.770
+The final OS hardening
+technique that we'll
+
+80
+00:03:09.770 --> 00:03:12.680
+discuss is implementing a
+strong password policy.
+
+81
+00:03:12.680 --> 00:03:14.750
+Strong password policies require
+
+82
+00:03:14.750 --> 00:03:16.900
+that passwords follow
+specific rules.
+
+83
+00:03:16.900 --> 00:03:19.100
+For example, an
+organization may set
+
+84
+00:03:19.100 --> 00:03:20.510
+a password policy that requires
+
+85
+00:03:20.510 --> 00:03:22.354
+a minimum of eight characters,
+
+86
+00:03:22.354 --> 00:03:25.030
+a capital letter, a
+number, and a symbol.
+
+87
+00:03:25.030 --> 00:03:27.375
+To discourage malicious actors,
+
+88
+00:03:27.375 --> 00:03:28.970
+a password policy usually
+
+89
+00:03:28.970 --> 00:03:30.800
+states that a user
+will lose access to
+
+90
+00:03:30.800 --> 00:03:32.360
+the network after entering
+
+91
+00:03:32.360 --> 00:03:35.120
+the wrong password a certain
+number of times in a row.
+
+92
+00:03:35.120 --> 00:03:37.415
+Some systems also require
+
+93
+00:03:37.415 --> 00:03:40.905
+multi-factor
+authentication, or MFA.
+
+94
+00:03:40.905 --> 00:03:42.755
+MFA is a security measure
+
+95
+00:03:42.755 --> 00:03:45.530
+which requires a user to
+verify their identity in
+
+96
+00:03:45.530 --> 00:03:49.025
+two or more ways to access
+a system or network.
+
+97
+00:03:49.025 --> 00:03:51.110
+Ways of identifying
+yourself include
+
+98
+00:03:51.110 --> 00:03:53.360
+something you know,
+like a password,
+
+99
+00:03:53.360 --> 00:03:56.285
+something you have
+like an ID card,
+
+100
+00:03:56.285 --> 00:03:59.825
+or something unique about
+you, like your fingerprint.
+
+101
+00:04:00.825 --> 00:04:03.290
+To review, OS hardening is
+a set of procedures that
+
+102
+00:04:03.290 --> 00:04:06.380
+maintains OS security
+and improves it.
+
+103
+00:04:06.380 --> 00:04:07.565
+Security measures like
+
+104
+00:04:07.565 --> 00:04:09.710
+access privileges and
+password policies
+
+105
+00:04:09.710 --> 00:04:12.050
+frequently undergo
+regular security checks
+
+106
+00:04:12.050 --> 00:04:13.685
+as part of OS hardening.
+
+107
+00:04:13.685 --> 00:04:18.240
+Coming up, we'll discuss
+network hardening practices.

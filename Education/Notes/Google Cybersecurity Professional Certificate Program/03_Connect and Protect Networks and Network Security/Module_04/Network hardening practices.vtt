@@ -1,0 +1,405 @@
+WEBVTT
+
+1
+00:00:00.380 --> 00:00:04.200
+Earlier, you learned that
+OS hardening focuses
+
+2
+00:00:04.200 --> 00:00:07.170
+on device safety and
+uses patch updates,
+
+3
+00:00:07.170 --> 00:00:10.980
+secure configuration, and
+account access policies.
+
+4
+00:00:10.980 --> 00:00:13.635
+Now we'll focus on
+network hardening.
+
+5
+00:00:13.635 --> 00:00:15.180
+Network hardening focuses
+
+6
+00:00:15.180 --> 00:00:17.070
+on network-related
+security hardening,
+
+7
+00:00:17.070 --> 00:00:20.340
+like port filtering,
+network access privileges,
+
+8
+00:00:20.340 --> 00:00:22.575
+and encryption over networks.
+
+9
+00:00:22.575 --> 00:00:25.800
+Certain network hardening
+tasks are performed regularly,
+
+10
+00:00:25.800 --> 00:00:27.060
+while others are performed
+
+11
+00:00:27.060 --> 00:00:29.250
+once and then updated as needed.
+
+12
+00:00:30.250 --> 00:00:30.750
+Some tasks that are regularly
+
+13
+00:00:30.750 --> 00:00:33.140
+performed are firewall
+rules maintenance,
+
+14
+00:00:33.140 --> 00:00:38.360
+network log analysis, patch
+updates, and server backups.
+
+15
+00:00:38.360 --> 00:00:41.600
+Earlier, you learned that
+a log is a record of
+
+16
+00:00:41.600 --> 00:00:44.545
+events that occurs within
+an organization's systems.
+
+17
+00:00:44.545 --> 00:00:48.050
+Network log analysis
+is the process of
+
+18
+00:00:48.050 --> 00:00:52.175
+examining network logs to
+identify events of interest.
+
+19
+00:00:52.175 --> 00:00:55.730
+Security teams use
+a log analyzer tool
+
+20
+00:00:55.730 --> 00:00:59.645
+or a security information
+and event management tool,
+
+21
+00:00:59.645 --> 00:01:01.670
+also known as a SIEM,
+
+22
+00:01:01.670 --> 00:01:04.160
+to conduct network log analysis.
+
+23
+00:01:04.160 --> 00:01:07.850
+A SIEM tool is an application
+that collects and analyzes
+
+24
+00:01:07.850 --> 00:01:09.110
+log data to monitor
+
+25
+00:01:09.110 --> 00:01:11.800
+critical activities
+in an organization.
+
+26
+00:01:11.800 --> 00:01:14.380
+It gathers security
+data from a network and
+
+27
+00:01:14.380 --> 00:01:17.065
+presents that data on
+a single dashboard.
+
+28
+00:01:17.065 --> 00:01:18.970
+The dashboard
+interface is sometimes
+
+29
+00:01:18.970 --> 00:01:21.255
+called a single pane of glass.
+
+30
+00:01:21.255 --> 00:01:25.075
+A SIEM helps analysts
+to inspect, analyze,
+
+31
+00:01:25.075 --> 00:01:26.920
+and react to security events
+
+32
+00:01:26.920 --> 00:01:29.825
+across the network based
+on their priority.
+
+33
+00:01:29.825 --> 00:01:31.870
+Reports from the SIEM
+provide a list of
+
+34
+00:01:31.870 --> 00:01:34.435
+new or ongoing network
+vulnerabilities
+
+35
+00:01:34.435 --> 00:01:36.040
+and list them on a scale
+
+36
+00:01:36.040 --> 00:01:38.200
+of priority from high to
+
+37
+00:01:38.200 --> 00:01:40.870
+low, where high priority
+vulnerabilities
+
+38
+00:01:40.870 --> 00:01:43.675
+have a much shorter
+deadline for mitigation.
+
+39
+00:01:44.675 --> 00:01:45.430
+Now that we've covered tasks
+
+40
+00:01:45.430 --> 00:01:46.540
+that are performed regularly,
+
+41
+00:01:46.540 --> 00:01:49.405
+let's examine tasks that
+are performed once.
+
+42
+00:01:49.405 --> 00:01:52.479
+These tasks include port
+filtering on firewalls,
+
+43
+00:01:52.479 --> 00:01:54.410
+network access privileges, and
+
+44
+00:01:54.410 --> 00:01:57.425
+encryption for communication,
+among many things.
+
+45
+00:01:57.425 --> 00:01:59.135
+Let's start with port filtering.
+
+46
+00:01:59.135 --> 00:02:01.760
+Port filtering can be
+formed over the network.
+
+47
+00:02:01.760 --> 00:02:05.240
+Port filtering is a firewall
+function that blocks or
+
+48
+00:02:05.240 --> 00:02:06.905
+allows certain port numbers
+
+49
+00:02:06.905 --> 00:02:09.215
+to limit unwanted communication.
+
+50
+00:02:09.215 --> 00:02:11.120
+A basic principle is that
+
+51
+00:02:11.120 --> 00:02:12.350
+the only ports that are
+
+52
+00:02:12.350 --> 00:02:14.455
+needed are the ones
+that are allowed.
+
+53
+00:02:14.455 --> 00:02:16.430
+Any port that isn't
+being used by
+
+54
+00:02:16.430 --> 00:02:19.735
+the normal network operations
+should be disallowed.
+
+55
+00:02:19.735 --> 00:02:22.755
+This protects against
+port vulnerabilities.
+
+56
+00:02:22.755 --> 00:02:24.590
+Networks should be set up with
+
+57
+00:02:24.590 --> 00:02:26.450
+the most up-to-date
+wireless protocols
+
+58
+00:02:26.450 --> 00:02:27.605
+available and
+
+59
+00:02:27.605 --> 00:02:30.380
+older wireless protocols
+should be disabled.
+
+60
+00:02:30.380 --> 00:02:32.570
+Security analysts also use
+
+61
+00:02:32.570 --> 00:02:35.000
+network segmentation to create
+
+62
+00:02:35.000 --> 00:02:36.650
+isolated subnets for
+
+63
+00:02:36.650 --> 00:02:38.690
+different departments
+in an organization.
+
+64
+00:02:38.690 --> 00:02:40.940
+For example, they
+might make one for
+
+65
+00:02:40.940 --> 00:02:42.170
+the marketing department and
+
+66
+00:02:42.170 --> 00:02:43.730
+one for the finance department.
+
+67
+00:02:43.730 --> 00:02:45.800
+This is done so the issues in
+
+68
+00:02:45.800 --> 00:02:49.085
+each subnet don't spread
+across the whole company and
+
+69
+00:02:49.085 --> 00:02:51.680
+only specified users
+are given access to
+
+70
+00:02:51.680 --> 00:02:55.060
+the part of the network that
+they require for their role.
+
+71
+00:02:55.060 --> 00:02:57.560
+Network segmentation
+may also be used
+
+72
+00:02:57.560 --> 00:03:00.065
+to separate different
+security zones.
+
+73
+00:03:00.065 --> 00:03:03.080
+Any restricted zone on
+a network containing
+
+74
+00:03:03.080 --> 00:03:05.555
+highly classified or
+confidential data
+
+75
+00:03:05.555 --> 00:03:07.925
+should be separate from
+the rest of the network.
+
+76
+00:03:07.925 --> 00:03:11.030
+Lastly, all network
+communication should be
+
+77
+00:03:11.030 --> 00:03:14.420
+encrypted using the latest
+encryption standards.
+
+78
+00:03:14.420 --> 00:03:17.960
+Encryption standards are
+rules or methods used to
+
+79
+00:03:17.960 --> 00:03:19.895
+conceal outgoing data and
+
+80
+00:03:19.895 --> 00:03:22.850
+uncover or decrypt
+incoming data.
+
+81
+00:03:22.850 --> 00:03:25.130
+Data in restricted zones should
+
+82
+00:03:25.130 --> 00:03:27.155
+have much higher
+encryption standards,
+
+83
+00:03:27.155 --> 00:03:29.719
+which makes them more
+difficult to access.
+
+84
+00:03:30.719 --> 00:03:32.810
+You've learned about the most
+common hardening practices.
+
+85
+00:03:32.810 --> 00:03:34.700
+This knowledge will be
+useful as you complete
+
+86
+00:03:34.700 --> 00:03:36.260
+the certificate program and it's
+
+87
+00:03:36.260 --> 00:03:39.930
+essential to your career
+as a security analyst.

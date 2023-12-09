@@ -1,0 +1,148 @@
+WEBVTT
+
+1
+00:00:00.930 --> 00:00:06.340
+In recent years, many organizations
+are using network services in the cloud.
+
+2
+00:00:06.340 --> 00:00:09.270
+So in addition to securing
+on-premises networks,
+
+3
+00:00:09.270 --> 00:00:12.406
+a security analyst will need
+to secure cloud networks.
+
+4
+00:00:12.406 --> 00:00:16.546
+In a previous video, you learned that
+a cloud network is a collection of
+
+5
+00:00:16.546 --> 00:00:19.354
+servers or
+computers that stores resources and
+
+6
+00:00:19.354 --> 00:00:23.600
+data in a remote data center that
+can be accessed via the internet.
+
+7
+00:00:23.600 --> 00:00:27.894
+They can host company data and
+applications using cloud computing to
+
+8
+00:00:27.894 --> 00:00:32.125
+provide on-demand storage,
+processing power, and data analytics.
+
+9
+00:00:32.125 --> 00:00:36.979
+Just like regular web servers, cloud
+servers also require proper maintenance
+
+10
+00:00:36.979 --> 00:00:40.400
+done through various security
+hardening procedures.
+
+11
+00:00:40.400 --> 00:00:43.882
+Although cloud servers are hosted
+by a cloud service provider,
+
+12
+00:00:43.882 --> 00:00:47.053
+these providers cannot prevent
+intrusions in the
+
+13
+00:00:47.053 --> 00:00:51.485
+cloud—especially intrusions from
+malicious actors, both internal and
+
+14
+00:00:51.485 --> 00:00:53.970
+external to an organization.
+
+15
+00:00:54.970 --> 00:00:57.105
+One distinction between
+cloud network hardening and
+
+16
+00:00:57.105 --> 00:01:01.283
+traditional network hardening is
+the use of a server baseline image for
+
+17
+00:01:01.283 --> 00:01:04.050
+all server instances stored in the cloud.
+
+18
+00:01:04.050 --> 00:01:08.362
+This allows you to compare data in
+the cloud servers to the baseline image to
+
+19
+00:01:08.362 --> 00:01:11.587
+make sure there haven't been
+any unverified changes.
+
+20
+00:01:11.587 --> 00:01:15.910
+An unverified change could come from
+an intrusion in the cloud network.
+
+21
+00:01:15.910 --> 00:01:20.667
+Similar to OS hardening, data and
+applications on a cloud network are kept
+
+22
+00:01:20.667 --> 00:01:23.772
+separate depending on
+their service category.
+
+23
+00:01:23.772 --> 00:01:29.817
+For example, older applications should be
+kept separate from newer applications,
+
+24
+00:01:29.817 --> 00:01:34.544
+and software that deals with internal
+functions should be kept separate
+
+25
+00:01:34.544 --> 00:01:37.576
+from front-end applications seen by users.
+
+26
+00:01:38.576 --> 00:01:41.641
+Even though the cloud service provider
+has a shared responsibility with
+
+27
+00:01:41.641 --> 00:01:46.171
+the organization using their services,
+there are still security measures that
+
+28
+00:01:46.171 --> 00:01:50.930
+need to be taken by the organization to
+make sure their cloud network is safe.
+
+29
+00:01:50.930 --> 00:01:56.640
+Just like traditional networks, operations
+in the cloud need to be secured.
+
+30
+00:01:56.640 --> 00:01:59.071
+You're doing great!
+Meet you in the next video.

@@ -1,0 +1,157 @@
+WEBVTT
+
+1
+00:00:01.310 --> 00:00:04.831
+Wow, we have covered a lot in this course!
+
+2
+00:00:04.831 --> 00:00:07.189
+Let's review everything we've discussed.
+
+3
+00:00:07.189 --> 00:00:12.188
+You learned about networks, network
+architecture, and the best practices used
+
+4
+00:00:12.188 --> 00:00:16.837
+by security professionals to secure
+a network against security breaches.
+
+5
+00:00:16.837 --> 00:00:18.751
+As we bring this course to a close,
+
+6
+00:00:18.751 --> 00:00:22.579
+let's review what you've learned
+about security networks so far.
+
+7
+00:00:23.579 --> 00:00:25.780
+First, we explored
+the structure of a network.
+
+8
+00:00:25.780 --> 00:00:29.792
+A security analyst must understand how
+a network is designed to be able to
+
+9
+00:00:29.792 --> 00:00:34.348
+identify parts of a network that present
+vulnerabilities and need to be secured.
+
+10
+00:00:35.348 --> 00:00:37.636
+Next, we learned about
+network operations and
+
+11
+00:00:37.636 --> 00:00:40.684
+how they affect the communication of data.
+
+12
+00:00:40.684 --> 00:00:44.973
+Network protocols determine how the data
+is transmitted over the network.
+
+13
+00:00:44.973 --> 00:00:49.848
+As communication takes place over the
+network, malicious actors may use tactics
+
+14
+00:00:49.848 --> 00:00:54.169
+such as denial of service attacks,
+packet sniffing, and IP spoofing.
+
+15
+00:00:54.169 --> 00:00:56.320
+Security analysts employ tools and
+
+16
+00:00:56.320 --> 00:01:00.414
+measures such as firewall rules
+to protect against these attacks.
+
+17
+00:01:01.414 --> 00:01:02.941
+We also discussed security hardening.
+
+18
+00:01:02.941 --> 00:01:06.688
+Security hardening is used to reduce
+the attack area of a network.
+
+19
+00:01:06.688 --> 00:01:10.129
+This means the attack does not
+disable an entire network.
+
+20
+00:01:10.129 --> 00:01:14.689
+Security hardening can be done at
+the hardware level, the software level, or
+
+21
+00:01:14.689 --> 00:01:15.874
+the network level.
+
+22
+00:01:15.874 --> 00:01:20.149
+Securing networks is an essential
+part of a security analyst's duties.
+
+23
+00:01:20.149 --> 00:01:24.784
+Knowledge of a network and its operations
+and security practices will ensure that
+
+24
+00:01:24.784 --> 00:01:28.018
+you are successful in your
+career as a security analyst.
+
+25
+00:01:29.018 --> 00:01:31.069
+And that brings us to
+the topic of our next course,
+
+26
+00:01:31.069 --> 00:01:34.712
+which will cover computing basics for
+security analysts.
+
+27
+00:01:34.712 --> 00:01:39.656
+In that course, you'll learn how to use
+the Linux command line to authenticate and
+
+28
+00:01:39.656 --> 00:01:42.411
+authorize users on the network, and
+to use S-Q-L,
+
+29
+00:01:42.411 --> 00:01:45.887
+otherwise known as SQL,
+to communicate with databases.
+
+30
+00:01:45.887 --> 00:01:48.223
+Great work getting here!
+
+31
+00:01:48.223 --> 00:01:51.975
+All of the concepts you've learned in
+this section will be essential for
+
+32
+00:01:51.975 --> 00:01:54.200
+success in your role as security analyst.
+
+33
+00:01:54.200 --> 00:01:57.688
+Now you can move on to the next course.
+Enjoy!
