@@ -1,0 +1,112 @@
+// stack implemented by using link list ,linking in beginning
+#include<stdio.h>
+#include<conio.h>
+#include<alloc.h>
+struct stk
+{
+   int info;
+   struct stk *next;
+ };
+ void instack(int);
+ int delstack();
+ void display();
+ struct stk *start=NULL;
+
+
+
+  void main()
+  {
+
+       int data,t,ch;
+       char ch1='y';
+
+       clrscr();
+	  while(ch1=='y')
+	    {
+	       clrscr();
+	       printf("1.insert stack\n");
+	       printf("2.delete node\n");
+	       printf("3.display\n");
+	       printf("4.exit\n");
+	       printf("what type of operation want to do?\n");
+	       scanf("%d",&ch);
+		switch(ch)
+		    {
+		       case 1:
+			      printf("enter info value in stack \n");
+			      scanf("%d",&data);
+			      instack(data);
+			      break;
+		       case 2:
+
+			      t=delstack();
+			      if(t!=0)
+			      {
+				printf("delete info value from node is %d\n",t);
+			      }
+				break;
+		       case 3:
+			      display();
+			      break;
+		       case 4:
+			      printf("operation complete\n");
+			      exit(0);
+		     } //end of switch
+		     printf("\nwant to do more operation, press y\n");
+		     scanf("\n%c",&ch1);
+		}  //end of while
+	      getch();
+	}// end of main
+
+	//  function start
+	  void instack(int no)
+	     {
+		 struct stk *new;
+		 new=(struct stk*)malloc(sizeof(struct stk));
+		 new->info=no;
+		 new->next=NULL;
+		   if(start==NULL)
+		     {
+			start=new;
+		     }
+		  else
+		   {
+			new->next=start;
+			start=new;
+
+		    }
+	       }
+
+	     int delstack()
+	      {
+		  int i;
+		  struct stk  *t;
+		  if(start==NULL)
+		    {
+		       printf("no node to delete\n");
+		       return(0);
+		    }
+
+			t=start;
+			start=start->next;
+			i=t->info;
+			free(t);
+			return(i);
+	     }
+
+	      void display()
+		{
+		    struct stk *temp;
+		    temp=start;
+		    if(start==NULL)
+		    printf("\n stack is empty. \n");
+		    else
+		    {
+		    printf("\n stack values are \n");
+		    while(temp!=NULL)
+		       {
+			printf("%3d",temp->info);
+			temp=temp->next;
+		       }
+		    }
+		 }
