@@ -1,0 +1,87 @@
+
+
+1. Display customer id, Customer name, order_id, item_id, item name, order date, quantity, price from above three tables using join operation.
+
+SELECT o.cust_id, c.cname, o.order_id, o.order_date, o.item_id, i.Item_Name, o.qty, i.price
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID;
+
+
+2. Display customer id, Customer name, order_id, order date, item_id, item name, quantity, price from above three tables using join operation and sort the result by customer_id.
+
+SELECT o.cust_id, c.cname, o.order_id, o.order_date, o.item_id, i.Item_Name, o.qty, i.price
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+ORDER BY o.cust_id;
+
+
+3. Display customer id, Customer name, order_id, order date, item_id, item name, quantity, price for Ram thakur.
+
+SELECT o.cust_id, c.cname, o.order_id, o.order_date, o.item_id, i.Item_Name, o.qty, i.price
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+WHERE c.cname = 'ram thakur';
+
+
+4. Display all the items bought by Neena dash.
+
+SELECT i.*
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+WHERE c.cname = 'neena dash';
+
+
+5. Display name of customers who bought Laptop.
+
+SELECT DISTINCT c.cname
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+WHERE i.Item_Name = 'laptop';
+
+
+6. Display name of customers who bought more than 10 items in a single order.
+
+SELECT c.cname
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+GROUP BY c.cust_id
+HAVING SUM(o.qty) > 10;
+
+
+7. What is the costliest item.
+
+SELECT *
+FROM items
+ORDER BY price DESC
+LIMIT 1;
+
+
+8. Display all the items that are ordered after 15-jan-23.
+
+SELECT *
+FROM orders o
+JOIN items i ON o.item_id = i.Item_ID
+WHERE o.order_date > '15-Jan-23';
+
+
+9. Arrange all the items in increasing order of their price.
+
+SELECT *
+FROM items
+ORDER BY price ASC;
+
+
+10. Display the name of the customer who bought a Laptop or Desktop.
+
+SELECT DISTINCT c.cname
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+WHERE i.Item_Name IN ('laptop', 'desktop');
+
+

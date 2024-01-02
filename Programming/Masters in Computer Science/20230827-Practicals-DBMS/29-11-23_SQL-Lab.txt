@@ -1,0 +1,97 @@
+
+1.    Display total quantity ordered by customer c001.
+
+
+
+SELECT cust_id, SUM(qty) AS total_quantity
+FROM orders
+WHERE cust_id = 'c001'
+GROUP BY cust_id;
+
+2.    Display total quantity of each item.
+
+
+
+SELECT item_id, SUM(qty) AS total_quantity
+FROM orders
+GROUP BY item_id;
+
+3.    Display total quantity of each item, in increasing order of their value.
+
+
+
+SELECT item_id, SUM(qty) AS total_quantity
+FROM orders
+GROUP BY item_id
+ORDER BY total_quantity ASC;
+
+4.    Which customer ordered the maximum quantity.
+
+
+
+SELECT cust_id, SUM(qty) AS total_quantity
+FROM orders
+GROUP BY cust_id
+ORDER BY total_quantity DESC
+LIMIT 1;
+
+5.    Which item is ordered the maximum.
+
+
+
+SELECT item_id, SUM(qty) AS total_quantity
+FROM orders
+GROUP BY item_id
+ORDER BY total_quantity DESC
+LIMIT 1;
+
+6.    Create a view for all customers ordering a refrigerator.
+
+
+
+CREATE VIEW refrigerator_orders AS
+SELECT o.*
+FROM orders o
+JOIN items i ON o.item_id = i.Item_ID
+WHERE i.Item_Name = 'refrigerator';
+
+7.    Create a view for expensive items (price is more than 50,000).
+
+
+
+CREATE VIEW expensive_items AS
+SELECT *
+FROM items
+WHERE price > 50000;
+
+8.    Create a view having item details of all items ordered by Rahul Bhat.
+
+
+
+CREATE VIEW rahul_bhat_orders AS
+SELECT o.*
+FROM orders o
+JOIN customer c ON o.cust_id = c.cust_id
+WHERE c.cname = 'rahul bhat';
+
+9.    Create a view having all the customer details who ordered expensive items (price is more than 50,000).
+
+
+
+CREATE VIEW customers_ordered_expensive AS
+SELECT c.*
+FROM customer c
+JOIN orders o ON c.cust_id = o.cust_id
+JOIN items i ON o.item_id = i.Item_ID
+WHERE i.price > 50000;
+
+10.    Create a view of all the customers who ordered a laptop (use nested query).
+
+
+
+CREATE VIEW laptop_customers AS
+SELECT *
+FROM customer
+WHERE cust_id IN (SELECT cust_id FROM orders WHERE item_id = 'itm001');
+
+
