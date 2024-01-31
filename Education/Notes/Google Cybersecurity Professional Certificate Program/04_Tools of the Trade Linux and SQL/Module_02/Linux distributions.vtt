@@ -1,0 +1,236 @@
+WEBVTT
+
+1
+00:00:01.024 --> 00:00:03.456
+Let's learn a little bit
+more about Linux and
+
+2
+00:00:03.456 --> 00:00:08.075
+what you need to know about this operating
+system when working as a security analyst.
+
+3
+00:00:08.075 --> 00:00:11.497
+Linux is a very customizable
+operating system.
+
+4
+00:00:11.497 --> 00:00:15.215
+Unlike other operating systems,
+there are different versions available for
+
+5
+00:00:15.215 --> 00:00:15.784
+you to use.
+
+6
+00:00:15.784 --> 00:00:19.477
+These different versions of
+Linux are called distributions.
+
+7
+00:00:19.477 --> 00:00:23.180
+You might also hear them called
+distros or flavors of Linux.
+
+8
+00:00:23.180 --> 00:00:26.914
+It's essential for you to understand
+the distribution that you're using
+
+9
+00:00:26.914 --> 00:00:29.958
+so you know what tools and
+apps are available to you.
+
+10
+00:00:29.958 --> 00:00:30.823
+For example,
+
+11
+00:00:30.823 --> 00:00:35.369
+Debian is a distro that has different
+tools than the Ubuntu distribution.
+
+12
+00:00:36.369 --> 00:00:38.700
+Let's use an analogy to
+describe Linux distributions.
+
+13
+00:00:38.700 --> 00:00:41.287
+Think of the OS as a vehicle.
+
+14
+00:00:41.287 --> 00:00:46.327
+First, we'll start with its engine—that
+would be the kernel. Just as the engine
+
+15
+00:00:46.327 --> 00:00:51.384
+makes a vehicle run, the kernel is the
+most important component of the Linux OS.
+
+16
+00:00:51.384 --> 00:00:55.433
+Because the Linux kernel is open source,
+anyone can take the kernel and
+
+17
+00:00:55.433 --> 00:00:57.675
+modify it to build a new distribution.
+
+18
+00:00:57.675 --> 00:01:01.387
+This is comparable to a vehicle
+manufacturer taking an engine and
+
+19
+00:01:01.387 --> 00:01:04.222
+creating different types of vehicles:
+trucks,
+
+20
+00:01:04.222 --> 00:01:07.879
+cars, vans, convertibles,
+busses, airplanes, and so on.
+
+21
+00:01:07.879 --> 00:01:12.508
+These different types of vehicles can be
+compared to different Linux distributions.
+
+22
+00:01:12.508 --> 00:01:15.595
+A bus is used to transport lots of people.
+
+23
+00:01:15.595 --> 00:01:20.539
+A truck is used to transport a large
+number of goods across vast distances.
+
+24
+00:01:20.539 --> 00:01:23.938
+An aircraft transports
+passengers or goods by air.
+
+25
+00:01:24.938 --> 00:01:26.894
+Just as each vehicle
+serves its own purpose,
+
+26
+00:01:26.894 --> 00:01:30.515
+different distributions are used for
+different reasons.
+
+27
+00:01:30.515 --> 00:01:35.140
+Additionally, vehicles all have different
+components which distinguish them from
+
+28
+00:01:35.140 --> 00:01:35.854
+each other.
+
+29
+00:01:35.854 --> 00:01:39.490
+Aircrafts have control panels
+with buttons and knobs.
+
+30
+00:01:39.490 --> 00:01:43.063
+Regular cars have four tires,
+but trucks can have more.
+
+31
+00:01:43.063 --> 00:01:48.596
+Similarly, different Linux distributions
+contain different preinstalled programs,
+
+32
+00:01:48.596 --> 00:01:50.622
+user interfaces, and much more.
+
+33
+00:01:50.622 --> 00:01:53.887
+A lot of this is based on
+what the Linux user needs, but
+
+34
+00:01:53.887 --> 00:01:57.572
+some distros are also
+chosen based on preference—the
+
+35
+00:01:57.572 --> 00:02:01.292
+same way a sports car
+might be chosen as a vehicle.
+
+36
+00:02:02.292 --> 00:02:05.450
+The advantage of using Linux as
+an OS is that you can customize it.
+
+37
+00:02:05.450 --> 00:02:09.006
+Distributions include the Linux kernel,
+utilities,
+
+38
+00:02:09.006 --> 00:02:12.044
+a package management system, and
+an installer.
+
+39
+00:02:12.044 --> 00:02:14.764
+We learned earlier that
+Linux is open source, and
+
+40
+00:02:14.764 --> 00:02:17.765
+anyone can contribute to
+adding to the source code.
+
+41
+00:02:17.765 --> 00:02:20.072
+That is how new distributions are created.
+
+42
+00:02:21.072 --> 00:02:22.775
+All distros are derived
+from another distro, but
+
+43
+00:02:22.775 --> 00:02:25.855
+there are a few that are considered
+parent distributions.
+
+44
+00:02:25.855 --> 00:02:30.372
+Red Hat® is the parent of CentOS, and
+Slackware® is the parent of SUSE®.
+
+45
+00:02:30.372 --> 00:02:34.153
+Both Ubuntu and
+KALI LINUX™ are derived from Debian.
+
+46
+00:02:35.153 --> 00:02:39.032
+As we continue, we're going to take a look
+at some of the distributions most commonly
+
+47
+00:02:39.032 --> 00:02:40.680
+used by security analysts.
+
+48
+00:02:40.680 --> 00:02:43.080
+The more you understand
+these distributions,
+
+49
+00:02:43.080 --> 00:02:44.460
+the easier your work will be.

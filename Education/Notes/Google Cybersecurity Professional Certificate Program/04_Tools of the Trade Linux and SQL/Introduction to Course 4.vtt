@@ -1,0 +1,262 @@
+WEBVTT
+
+1
+00:00:00.440 --> 00:00:03.030
+Hi! Welcome to this course
+
+2
+00:00:03.030 --> 00:00:04.820
+on computing basics
+for security.
+
+3
+00:00:04.820 --> 00:00:06.500
+My name is Kim, and I work as
+
+4
+00:00:06.500 --> 00:00:08.705
+a Technical Program
+Manager in security.
+
+5
+00:00:08.705 --> 00:00:10.945
+I grew up with computers
+and the internet
+
+6
+00:00:10.945 --> 00:00:12.900
+but didn't really
+consider security as
+
+7
+00:00:12.900 --> 00:00:14.670
+a career opportunity until I saw
+
+8
+00:00:14.670 --> 00:00:17.130
+how it was interwoven
+into technology.
+
+9
+00:00:18.130 --> 00:00:19.140
+Before my first security job,
+
+10
+00:00:19.140 --> 00:00:21.285
+I worked on a cloud
+application team
+
+11
+00:00:21.285 --> 00:00:24.135
+and had to regularly interact
+with the security team.
+
+12
+00:00:24.135 --> 00:00:27.090
+It was my first experience
+working with security,
+
+13
+00:00:27.090 --> 00:00:29.550
+but the idea of protecting
+information and working
+
+14
+00:00:29.550 --> 00:00:32.775
+with others towards that
+goal was exciting to me.
+
+15
+00:00:32.775 --> 00:00:36.405
+As a result, I decided to
+work towards my CISSP,
+
+16
+00:00:36.405 --> 00:00:37.695
+which led me to some new job
+
+17
+00:00:37.695 --> 00:00:39.495
+opportunities at my company,
+
+18
+00:00:39.495 --> 00:00:42.615
+and I was then able to
+move into security.
+
+19
+00:00:43.615 --> 00:00:45.215
+At this point, if you've
+been following along,
+
+20
+00:00:45.215 --> 00:00:46.820
+you've already
+explored a variety of
+
+21
+00:00:46.820 --> 00:00:49.100
+concepts useful to
+the security field,
+
+22
+00:00:49.100 --> 00:00:51.995
+including security
+domains and networking.
+
+23
+00:00:51.995 --> 00:00:53.495
+I'm excited to join you
+
+24
+00:00:53.495 --> 00:00:55.295
+during the next part
+of the program.
+
+25
+00:00:55.295 --> 00:00:56.780
+We'll take it slow
+so that you can
+
+26
+00:00:56.780 --> 00:00:59.150
+understand these topics
+in practical ways.
+
+27
+00:00:59.150 --> 00:01:01.640
+The focus of this course
+is computing basics.
+
+28
+00:01:01.640 --> 00:01:03.020
+When you understand how
+
+29
+00:01:03.020 --> 00:01:05.510
+the machines in an
+organization's system work,
+
+30
+00:01:05.510 --> 00:01:07.040
+it helps you do your job as
+
+31
+00:01:07.040 --> 00:01:09.280
+a security analyst
+more efficiently.
+
+32
+00:01:10.280 --> 00:01:11.630
+Part of your job as a
+security analyst is to
+
+33
+00:01:11.630 --> 00:01:14.255
+keep systems protected
+from possible attacks.
+
+34
+00:01:14.255 --> 00:01:15.935
+You're one of the
+first levels of
+
+35
+00:01:15.935 --> 00:01:18.575
+defense in protecting an
+organization's data.
+
+36
+00:01:18.575 --> 00:01:20.105
+To do this effectively,
+
+37
+00:01:20.105 --> 00:01:21.680
+it's helpful to understand how
+
+38
+00:01:21.680 --> 00:01:24.265
+the system you're
+protecting works.
+
+39
+00:01:24.265 --> 00:01:26.570
+In addition, you may need to
+
+40
+00:01:26.570 --> 00:01:29.890
+investigate events to help
+correct errors in the system.
+
+41
+00:01:29.890 --> 00:01:32.315
+Being familiar with
+Linux operating system
+
+42
+00:01:32.315 --> 00:01:33.920
+and its associated commands,
+
+43
+00:01:33.920 --> 00:01:35.750
+and also being able
+to interact with
+
+44
+00:01:35.750 --> 00:01:37.130
+an organization's data through
+
+45
+00:01:37.130 --> 00:01:39.350
+SQL, will help you with that.
+
+46
+00:01:40.350 --> 00:01:41.015
+In this course,
+you'll learn about
+
+47
+00:01:41.015 --> 00:01:42.410
+operating systems and how they
+
+48
+00:01:42.410 --> 00:01:44.405
+relate to applications
+and hardware.
+
+49
+00:01:44.405 --> 00:01:46.220
+Next, you'll explore
+
+50
+00:01:46.220 --> 00:01:48.815
+the Linux operating
+system in more detail.
+
+51
+00:01:48.815 --> 00:01:50.885
+Then you'll use the
+Linux command line
+
+52
+00:01:50.885 --> 00:01:52.765
+within a security context.
+
+53
+00:01:52.765 --> 00:01:55.760
+Finally, we'll discuss how
+you can use SQL to query
+
+54
+00:01:55.760 --> 00:01:59.030
+databases while working
+as a security analyst.
+
+55
+00:01:59.030 --> 00:02:00.920
+I'm excited to explore all of
+
+56
+00:02:00.920 --> 00:02:04.500
+these topics with you.
+Let's get started.

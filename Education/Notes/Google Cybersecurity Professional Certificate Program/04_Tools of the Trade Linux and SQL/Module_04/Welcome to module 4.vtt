@@ -1,0 +1,168 @@
+WEBVTT
+
+1
+00:00:00.290 --> 00:00:04.185
+In the world of security,
+diversity is important.
+
+2
+00:00:04.185 --> 00:00:06.420
+Diverse perspectives are often
+
+3
+00:00:06.420 --> 00:00:08.460
+needed to find
+effective solutions.
+
+4
+00:00:08.460 --> 00:00:10.830
+This is also true of
+the tools we use.
+
+5
+00:00:10.830 --> 00:00:12.750
+Your job will often require
+
+6
+00:00:12.750 --> 00:00:14.910
+you to use a lot
+of diverse tools.
+
+7
+00:00:14.910 --> 00:00:16.455
+In the last section,
+
+8
+00:00:16.455 --> 00:00:18.870
+we studied the Linux command
+line and learned how
+
+9
+00:00:18.870 --> 00:00:21.570
+this tool can help you search
+and filter through data,
+
+10
+00:00:21.570 --> 00:00:23.700
+navigate through the
+Linux file system,
+
+11
+00:00:23.700 --> 00:00:25.365
+and authenticate users.
+
+12
+00:00:25.365 --> 00:00:27.855
+Now, we'll learn
+about another tool.
+
+13
+00:00:28.855 --> 00:00:31.290
+In this section, we'll
+explore SQL and how it allows
+
+14
+00:00:31.290 --> 00:00:33.390
+you to analyze data in a way
+
+15
+00:00:33.390 --> 00:00:36.030
+needed for your role
+as a security analyst.
+
+16
+00:00:36.030 --> 00:00:38.220
+We're going to start
+off by learning about
+
+17
+00:00:38.220 --> 00:00:41.245
+relational databases and
+how they're structured.
+
+18
+00:00:41.245 --> 00:00:43.490
+From there, we're
+going to introduce
+
+19
+00:00:43.490 --> 00:00:45.320
+SQL queries and how to use
+
+20
+00:00:45.320 --> 00:00:47.585
+them to access data
+from databases.
+
+21
+00:00:47.585 --> 00:00:50.000
+We then move on to SQL filters,
+
+22
+00:00:50.000 --> 00:00:51.830
+which help us refine our queries
+
+23
+00:00:51.830 --> 00:00:54.230
+to get the exact
+information we need.
+
+24
+00:00:54.230 --> 00:00:57.020
+Lastly, we'll explore SQL joins,
+
+25
+00:00:57.020 --> 00:00:59.735
+which allow you to
+combine tables together.
+
+26
+00:01:00.735 --> 00:01:02.795
+When I'm presented with a
+problem or a project at work,
+
+27
+00:01:02.795 --> 00:01:05.530
+I often have to sift through
+a large amount of data.
+
+28
+00:01:05.530 --> 00:01:06.700
+When I use SQL,
+
+29
+00:01:06.700 --> 00:01:09.200
+I'm able to review data quickly
+and provide results with
+
+30
+00:01:09.200 --> 00:01:10.790
+confidence since the queries are
+
+31
+00:01:10.790 --> 00:01:13.010
+consistent and easily executed.
+
+32
+00:01:14.010 --> 00:01:15.950
+SQL is a very powerful
+and flexible tool.
+
+33
+00:01:15.950 --> 00:01:17.660
+Throughout this section, you'll
+
+34
+00:01:17.660 --> 00:01:19.220
+learn how to use
+the parts of it you
+
+35
+00:01:19.220 --> 00:01:22.640
+need as a security analyst
+and gain hands-on experience.
+
+36
+00:01:22.640 --> 00:01:26.580
+Good luck, and I'll join you
+for the rest of the course!

@@ -1,0 +1,148 @@
+WEBVTT
+
+1
+00:00:01.180 --> 00:00:06.020
+Welcome back! In this video, we're
+going to discuss the Linux shell.
+
+2
+00:00:06.020 --> 00:00:10.018
+This part of the Linux architecture
+is where the action will happen for
+
+3
+00:00:10.018 --> 00:00:11.585
+you as a security analyst.
+
+4
+00:00:11.585 --> 00:00:15.726
+We introduced the shell with other
+components of the Linux OS earlier,
+
+5
+00:00:15.726 --> 00:00:19.400
+but let's take a deeper look at
+what the shell is and what it does.
+
+6
+00:00:20.400 --> 00:00:21.330
+The shell is the command-line interpreter.
+
+7
+00:00:21.330 --> 00:00:24.634
+That means it helps you communicate
+with the operating system through
+
+8
+00:00:24.634 --> 00:00:25.890
+the command line.
+
+9
+00:00:25.890 --> 00:00:29.530
+Previously, we discussed
+a command-line interface.
+
+10
+00:00:29.530 --> 00:00:31.780
+This is essentially the shell.
+
+11
+00:00:31.780 --> 00:00:37.152
+The shell provides the command-line
+interface for you to interact with the OS.
+
+12
+00:00:37.152 --> 00:00:41.570
+To tell the OS what to do, you enter
+commands into this interface.
+
+13
+00:00:41.570 --> 00:00:45.570
+A command is an instruction telling
+the computer to do something.
+
+14
+00:00:45.570 --> 00:00:49.059
+The shell communicates with
+the kernel to execute these commands.
+
+15
+00:00:50.059 --> 00:00:52.505
+Earlier, we discussed how
+the operating system helps humans and
+
+16
+00:00:52.505 --> 00:00:54.950
+computers speak with each other.
+
+17
+00:00:54.950 --> 00:00:57.561
+The shell is the part of the OS
+that allows you to do this.
+
+18
+00:00:57.570 --> 00:01:02.929
+Think of this as a very helpful language
+interpreter between you and your system.
+
+19
+00:01:02.929 --> 00:01:05.615
+Since you do not speak
+computer language or binary,
+
+20
+00:01:05.615 --> 00:01:08.410
+you can't directly
+communicate with your system.
+
+21
+00:01:08.410 --> 00:01:10.915
+This is where the shell
+comes in to help you.
+
+22
+00:01:10.915 --> 00:01:14.179
+Your OS doesn't need the shell for
+most of its work, but
+
+23
+00:01:14.179 --> 00:01:17.799
+it is an interface between you and
+what your system can offer.
+
+24
+00:01:17.799 --> 00:01:22.070
+It allows you to perform math,
+run tests, and execute applications.
+
+25
+00:01:22.070 --> 00:01:25.647
+More importantly, it allows you
+to combine these operations and
+
+26
+00:01:25.647 --> 00:01:27.734
+connect applications to each other
+
+27
+00:01:27.734 --> 00:01:30.940
+to perform complex and automated tasks.
+
+28
+00:01:31.940 --> 00:01:33.352
+Just as there are many
+Linux distributions,
+
+29
+00:01:33.352 --> 00:01:35.643
+there are many different types of shells.
+
+30
+00:01:35.643 --> 00:01:39.098
+We'll primarily focus on
+the Bash shell in this course.
+
+31
+00:01:39.098 --> 00:01:41.201
+Let's continue to learn
+more about the shell.

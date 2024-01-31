@@ -1,0 +1,376 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.990
+Previously, you learned about
+what operating systems are.
+
+2
+00:00:03.990 --> 00:00:06.330
+Now, let's discuss
+how they work.
+
+3
+00:00:06.330 --> 00:00:08.700
+In this video, you'll
+learn what happens with
+
+4
+00:00:08.700 --> 00:00:10.890
+an operating system, or OS,
+
+5
+00:00:10.890 --> 00:00:13.485
+when someone uses a
+computer for a task.
+
+6
+00:00:14.485 --> 00:00:15.570
+Think about when
+someone drives a car.
+
+7
+00:00:15.570 --> 00:00:18.100
+They push the gas pedal
+and the car moves forward.
+
+8
+00:00:18.100 --> 00:00:19.770
+They don't need to
+pay attention to
+
+9
+00:00:19.770 --> 00:00:21.990
+all the mechanics that
+allow the car to move.
+
+10
+00:00:21.990 --> 00:00:24.300
+Just like a car can't
+work without its engine,
+
+11
+00:00:24.300 --> 00:00:26.940
+a computer can't work without
+its operating system.
+
+12
+00:00:27.940 --> 00:00:28.695
+The job of an OS is to help
+
+13
+00:00:28.695 --> 00:00:30.795
+other computer programs
+run efficiently.
+
+14
+00:00:30.795 --> 00:00:32.670
+The OS does this by taking care of
+
+15
+00:00:32.670 --> 00:00:34.980
+all the messy details
+related to controlling,
+
+16
+00:00:34.980 --> 00:00:37.515
+the computer's hardware,
+so you don't have to.
+
+17
+00:00:38.515 --> 00:00:39.200
+First, let's see what
+
+18
+00:00:39.200 --> 00:00:41.150
+happens when you turn
+on the computer.
+
+19
+00:00:41.150 --> 00:00:43.295
+When you press the power button,
+
+20
+00:00:43.295 --> 00:00:45.590
+you're interacting
+with the hardware.
+
+21
+00:00:45.590 --> 00:00:47.060
+This boots the computer and
+
+22
+00:00:47.060 --> 00:00:48.815
+brings up the operating system.
+
+23
+00:00:48.815 --> 00:00:50.330
+Booting the computer means that
+
+24
+00:00:50.330 --> 00:00:53.090
+a special microchip called
+a BIOS is activated.
+
+25
+00:00:53.090 --> 00:00:55.655
+On many computers
+built after 2007,
+
+26
+00:00:55.655 --> 00:00:57.850
+the chip was replaced
+by the UEFI.
+
+27
+00:00:57.850 --> 00:01:01.250
+Both BIOS and UEFI contain
+booting instructions that are
+
+28
+00:01:01.250 --> 00:01:03.260
+responsible for loading
+a special program
+
+29
+00:01:03.260 --> 00:01:04.835
+called the bootloader.
+
+30
+00:01:04.835 --> 00:01:06.740
+Then, the bootloader is
+
+31
+00:01:06.740 --> 00:01:09.080
+responsible for starting
+the operating system.
+
+32
+00:01:09.080 --> 00:01:11.510
+Just like that, your
+computer is on.
+
+33
+00:01:12.510 --> 00:01:13.235
+As a security analyst,
+
+34
+00:01:13.235 --> 00:01:16.340
+understanding these processes
+can be helpful for you.
+
+35
+00:01:16.340 --> 00:01:18.260
+Vulnerabilities can occur in
+
+36
+00:01:18.260 --> 00:01:20.510
+something like a
+booting process.
+
+37
+00:01:20.510 --> 00:01:22.490
+Often, the BIOS is not
+
+38
+00:01:22.490 --> 00:01:24.455
+scanned by the
+antivirus software,
+
+39
+00:01:24.455 --> 00:01:26.995
+so it can be vulnerable
+to malware infection.
+
+40
+00:01:26.995 --> 00:01:29.990
+Now, that you learned how to
+boot the operating system,
+
+41
+00:01:29.990 --> 00:01:32.240
+let's look at how
+you and all users
+
+42
+00:01:32.240 --> 00:01:35.090
+communicate with the
+system to complete a task.
+
+43
+00:01:36.090 --> 00:01:37.835
+The process starts
+with you, the user.
+
+44
+00:01:37.835 --> 00:01:41.335
+And to complete tasks, you use
+applications on your computer.
+
+45
+00:01:41.335 --> 00:01:43.130
+An application is a program
+
+46
+00:01:43.130 --> 00:01:45.220
+that performs a specific task.
+
+47
+00:01:45.220 --> 00:01:47.240
+When you do this,
+the application
+
+48
+00:01:47.240 --> 00:01:49.640
+sends your request to
+the operating system.
+
+49
+00:01:49.640 --> 00:01:52.910
+From there, the operating
+system interprets this request
+
+50
+00:01:52.910 --> 00:01:54.875
+and directs it to the
+appropriate component
+
+51
+00:01:54.875 --> 00:01:56.570
+of the computer's hardware.
+
+52
+00:01:57.570 --> 00:01:58.415
+In the previous video,
+
+53
+00:01:58.415 --> 00:02:00.440
+we learned that the
+hardware consists of
+
+54
+00:02:00.440 --> 00:02:03.190
+all the physical components
+of the computer.
+
+55
+00:02:03.190 --> 00:02:05.000
+The hardware will also send
+
+56
+00:02:05.000 --> 00:02:07.445
+information back to
+the operating system.
+
+57
+00:02:07.445 --> 00:02:10.385
+And this in turn is sent
+back to the application.
+
+58
+00:02:11.385 --> 00:02:13.250
+Let's give a simple
+overview of how this works
+
+59
+00:02:13.250 --> 00:02:16.850
+when you want to use the
+calculator on your computer.
+
+60
+00:02:16.850 --> 00:02:18.650
+You use your mouse to click on
+
+61
+00:02:18.650 --> 00:02:21.245
+the calculator application
+on your computer.
+
+62
+00:02:21.245 --> 00:02:23.795
+When you type in the number
+you want to calculate,
+
+63
+00:02:23.795 --> 00:02:26.555
+the application communicates
+with the operating system.
+
+64
+00:02:26.555 --> 00:02:28.430
+Your operating system then sends
+
+65
+00:02:28.430 --> 00:02:30.905
+a calculation to a
+component of the hardware,
+
+66
+00:02:30.905 --> 00:02:34.240
+the central processing
+unit, or CPU.
+
+67
+00:02:34.240 --> 00:02:35.870
+Once the hardware does the work
+
+68
+00:02:35.870 --> 00:02:37.520
+of determining the final number,
+
+69
+00:02:37.520 --> 00:02:40.025
+it sends the answer back
+to your operating system.
+
+70
+00:02:40.025 --> 00:02:43.310
+Then, it can be displayed in
+your calculator application.
+
+71
+00:02:44.310 --> 00:02:45.290
+Understanding this process is
+
+72
+00:02:45.290 --> 00:02:47.570
+helpful when investigating
+security events.
+
+73
+00:02:47.570 --> 00:02:49.460
+Security analysts
+should be able to
+
+74
+00:02:49.460 --> 00:02:51.590
+trace back through
+this process flow
+
+75
+00:02:51.590 --> 00:02:54.445
+to analyze where a security
+event could have occurred.
+
+76
+00:02:55.445 --> 00:02:56.030
+Just like a mechanic needs to
+
+77
+00:02:56.030 --> 00:02:58.280
+understand the inner
+workings of a car
+
+78
+00:02:58.280 --> 00:02:59.840
+more than an average driver,
+
+79
+00:02:59.840 --> 00:03:01.880
+recognizing how
+operating systems
+
+80
+00:03:01.880 --> 00:03:05.460
+work is important knowledge
+for a security analyst.

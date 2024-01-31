@@ -1,0 +1,269 @@
+WEBVTT
+
+1
+00:00:04.010 --> 00:00:06.330
+Hi, I'm Phil I'm the Chief
+
+2
+00:00:06.330 --> 00:00:08.440
+Information Security
+Officer for Google Cloud,
+
+3
+00:00:08.440 --> 00:00:11.670
+and a big part of that is,
+of course, cybersecurity.
+
+4
+00:00:11.670 --> 00:00:13.860
+So, in cyber you've
+always got to learn,
+
+5
+00:00:13.860 --> 00:00:15.600
+you've always got to
+stay up to date for
+
+6
+00:00:15.600 --> 00:00:18.570
+the simple reason
+that technology and
+
+7
+00:00:18.570 --> 00:00:20.370
+business and the world of
+
+8
+00:00:20.370 --> 00:00:23.610
+our, kind of digital lives is
+just always changing.
+
+9
+00:00:23.610 --> 00:00:26.840
+The online services that you use
+
+10
+00:00:26.840 --> 00:00:28.745
+today are probably
+very different
+
+11
+00:00:28.745 --> 00:00:31.165
+even just when what they
+were 12 months ago.
+
+12
+00:00:31.165 --> 00:00:32.810
+In the mid '90s, I
+worked on one of
+
+13
+00:00:32.810 --> 00:00:35.780
+the world's first
+internet banking systems.
+
+14
+00:00:35.780 --> 00:00:37.970
+And essentially we were building and
+
+15
+00:00:37.970 --> 00:00:40.145
+coding all of the
+security ourselves.
+
+16
+00:00:40.145 --> 00:00:43.460
+I remember working on
+the first web browsers,
+
+17
+00:00:43.460 --> 00:00:44.929
+the first web servers,
+
+18
+00:00:44.929 --> 00:00:48.450
+the first implementations of
+encryption on the Internet.
+
+19
+00:00:48.450 --> 00:00:51.050
+This was even before
+Google even existed.
+
+20
+00:00:51.050 --> 00:00:52.670
+And so this was the very beginning of
+
+21
+00:00:52.670 --> 00:00:54.560
+the Internet and we were
+literally kind of assembling
+
+22
+00:00:54.560 --> 00:00:56.420
+and building this and
+learning how to do
+
+23
+00:00:56.420 --> 00:00:58.675
+it as we went along.
+
+24
+00:00:58.675 --> 00:01:00.860
+When you are first getting
+into cybersecurity,
+
+25
+00:01:00.860 --> 00:01:02.915
+it's important to
+not get overwhelmed.
+
+26
+00:01:02.915 --> 00:01:04.820
+It's a very big space.
+
+27
+00:01:04.820 --> 00:01:07.670
+And all of us started off
+at where you are today.
+
+28
+00:01:07.670 --> 00:01:09.455
+And we had to learn into that.
+
+29
+00:01:09.455 --> 00:01:11.765
+At one point, I
+didn't know Linux,
+
+30
+00:01:11.765 --> 00:01:13.090
+I didn't know how to program.
+
+31
+00:01:13.090 --> 00:01:15.910
+I didn't know various parts
+of other operating systems.
+
+32
+00:01:15.910 --> 00:01:18.625
+And I had to learn step-by-step,
+
+33
+00:01:18.625 --> 00:01:20.330
+how all of that worked and
+
+34
+00:01:20.330 --> 00:01:23.000
+gradually build up that
+knowledge over time.
+
+35
+00:01:23.000 --> 00:01:24.260
+And even now I still have to
+
+36
+00:01:24.260 --> 00:01:25.865
+look things up
+occasionally because
+
+37
+00:01:25.865 --> 00:01:27.380
+I don't keep
+everything in my head
+
+38
+00:01:27.380 --> 00:01:29.090
+all at once and
+that's totally fine.
+
+39
+00:01:29.090 --> 00:01:31.340
+When you're approaching
+a new situation,
+
+40
+00:01:31.340 --> 00:01:33.560
+you're always going to
+have a degree of anxiety
+
+41
+00:01:33.560 --> 00:01:34.820
+about whether you're going to be
+
+42
+00:01:34.820 --> 00:01:36.290
+able to learn it quickly enough.
+
+43
+00:01:36.290 --> 00:01:38.389
+And generally, with
+enough experience,
+
+44
+00:01:38.389 --> 00:01:40.230
+you're gradually comfortable
+that you will.
+
+45
+00:01:40.230 --> 00:01:42.890
+But again, this is important
+to remember that you don't
+
+46
+00:01:42.890 --> 00:01:45.770
+have to learn everything
+about everything all at once.
+
+47
+00:01:45.770 --> 00:01:48.215
+Most of the time
+you learn enough to
+
+48
+00:01:48.215 --> 00:01:50.960
+be enough of value in the
+initial part of the process,
+
+49
+00:01:50.960 --> 00:01:52.400
+then you learn as you go.
+
+50
+00:01:52.400 --> 00:01:54.440
+Start off by writing
+a few lines of
+
+51
+00:01:54.440 --> 00:01:55.910
+simple code or looking at
+
+52
+00:01:55.910 --> 00:01:57.620
+somebody else's
+code and trying to
+
+53
+00:01:57.620 --> 00:02:00.260
+understand what it does
+and then change it a
+
+54
+00:02:00.260 --> 00:02:03.155
+little bit and just
+incrementally work into this.
+
+55
+00:02:03.155 --> 00:02:05.030
+Build that foundation
+of knowledge
+
+56
+00:02:05.030 --> 00:02:07.070
+that gives you the ability
+to learn other things,
+
+57
+00:02:07.070 --> 00:02:10.320
+and I think things
+will stem from that.

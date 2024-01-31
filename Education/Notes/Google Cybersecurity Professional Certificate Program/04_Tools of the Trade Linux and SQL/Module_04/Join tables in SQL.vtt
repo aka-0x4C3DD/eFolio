@@ -1,0 +1,551 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:02.820
+You've already
+learned a lot about
+
+2
+00:00:02.820 --> 00:00:05.565
+SQL queries and
+filters. Nice work!
+
+3
+00:00:05.565 --> 00:00:07.680
+The last concept
+we're introducing in
+
+4
+00:00:07.680 --> 00:00:11.655
+this section is joining tables
+when querying a database.
+
+5
+00:00:11.655 --> 00:00:13.620
+This is helpful when you need
+
+6
+00:00:13.620 --> 00:00:17.085
+information from two different
+tables in a database.
+
+7
+00:00:17.085 --> 00:00:19.350
+Let's say we have two tables:
+
+8
+00:00:19.350 --> 00:00:22.110
+one that tells us about
+security vulnerabilities of
+
+9
+00:00:22.110 --> 00:00:24.290
+different operating
+systems, and one
+
+10
+00:00:24.290 --> 00:00:26.780
+about different machines
+in our company,
+
+11
+00:00:26.780 --> 00:00:28.760
+including their
+operating systems.
+
+12
+00:00:28.760 --> 00:00:31.205
+Having the ability
+to combine them
+
+13
+00:00:31.205 --> 00:00:33.425
+gives us a list of
+vulnerable machines.
+
+14
+00:00:33.425 --> 00:00:36.250
+That's pretty cool, right?
+
+15
+00:00:37.250 --> 00:00:39.040
+First, let's start talking about
+the syntax of joins.
+
+16
+00:00:39.040 --> 00:00:41.225
+Since we're working
+with two tables now,
+
+17
+00:00:41.225 --> 00:00:42.980
+we need a way to tell SQL
+
+18
+00:00:42.980 --> 00:00:45.425
+what table we're
+picking columns from.
+
+19
+00:00:45.425 --> 00:00:47.370
+In our example database,
+
+20
+00:00:47.370 --> 00:00:49.650
+we have an employee_id column
+
+21
+00:00:49.650 --> 00:00:53.790
+in both the employees table
+and the machines table.
+
+22
+00:00:53.790 --> 00:00:57.150
+In SQL statements that
+contain two columns,
+
+23
+00:00:57.150 --> 00:01:00.725
+SQL needs to know which
+column we're referring to.
+
+24
+00:01:00.725 --> 00:01:02.930
+The way to resolve this is by
+
+25
+00:01:02.930 --> 00:01:04.985
+writing the name of
+the table first,
+
+26
+00:01:04.985 --> 00:01:08.850
+then a period, and then
+the name of a column.
+
+27
+00:01:08.850 --> 00:01:12.905
+So, we would have employees
+followed by a period,
+
+28
+00:01:12.905 --> 00:01:14.945
+followed by the column name.
+
+29
+00:01:14.945 --> 00:01:18.635
+This is the employee_id column
+for the employees table.
+
+30
+00:01:18.635 --> 00:01:21.950
+Similarly, this is the
+employee_id column
+
+31
+00:01:21.950 --> 00:01:23.375
+for the machines table.
+
+32
+00:01:23.375 --> 00:01:25.700
+Now that we understand
+this syntax,
+
+33
+00:01:25.700 --> 00:01:27.620
+let's apply it to a join!
+
+34
+00:01:28.620 --> 00:01:29.780
+Imagine that we want to get
+
+35
+00:01:29.780 --> 00:01:31.460
+a deeper understanding of
+
+36
+00:01:31.460 --> 00:01:34.640
+the employees accessing the
+machines in our company.
+
+37
+00:01:34.640 --> 00:01:36.500
+By joining the employees and
+
+38
+00:01:36.500 --> 00:01:39.325
+the machines tables,
+we can do this!
+
+39
+00:01:39.325 --> 00:01:41.285
+We first need to identify
+
+40
+00:01:41.285 --> 00:01:42.830
+the shared column that we'll
+
+41
+00:01:42.830 --> 00:01:45.080
+use to connect the two tables.
+
+42
+00:01:45.080 --> 00:01:48.620
+In this case, we'll
+use a primary key and
+
+43
+00:01:48.620 --> 00:01:50.120
+one table to connect to
+
+44
+00:01:50.120 --> 00:01:52.805
+another table where
+it's a foreign key.
+
+45
+00:01:52.805 --> 00:01:57.065
+The primary key of the
+employees table is employee_id,
+
+46
+00:01:57.065 --> 00:02:00.235
+which is a foreign key
+in the machines table.
+
+47
+00:02:00.235 --> 00:02:03.035
+employee_id is a primary key
+
+48
+00:02:03.035 --> 00:02:05.345
+in the employees
+table because it has
+
+49
+00:02:05.345 --> 00:02:07.850
+a unique value for every row in
+
+50
+00:02:07.850 --> 00:02:11.780
+the employees table,
+and no empty values.
+
+51
+00:02:11.780 --> 00:02:15.770
+We don't have a guarantee that
+the employee_id column in
+
+52
+00:02:15.770 --> 00:02:17.810
+the machines table follows
+
+53
+00:02:17.810 --> 00:02:19.790
+the same criteria since it's
+
+54
+00:02:19.790 --> 00:02:22.415
+a foreign key and
+not a primary key.
+
+55
+00:02:23.415 --> 00:02:26.345
+Next, we'll use a type of
+join called an INNER JOIN.
+
+56
+00:02:26.345 --> 00:02:29.330
+An INNER JOIN returns
+rows matching on
+
+57
+00:02:29.330 --> 00:02:33.220
+a specified column that exists
+in more than one table.
+
+58
+00:02:33.220 --> 00:02:36.770
+Tables usually contain
+many more rows,
+
+59
+00:02:36.770 --> 00:02:39.710
+but to further explain what
+we mean by INNER JOIN,
+
+60
+00:02:39.710 --> 00:02:42.260
+let's focus on just
+four rows from
+
+61
+00:02:42.260 --> 00:02:46.160
+the employees table and four
+rows from the machines table.
+
+62
+00:02:46.160 --> 00:02:47.855
+We'll also look at
+
+63
+00:02:47.855 --> 00:02:51.650
+just a few columns of each
+table for this example.
+
+64
+00:02:51.650 --> 00:02:53.690
+Let's say we choose
+
+65
+00:02:53.690 --> 00:02:57.730
+employee_id in both tables
+to perform an INNER JOIN.
+
+66
+00:02:57.730 --> 00:03:01.895
+Let's look at the two rows
+where there is a match.
+
+67
+00:03:01.895 --> 00:03:04.280
+Both tables have 1188 and
+
+68
+00:03:04.280 --> 00:03:07.700
+1189 in their respective
+employee_id columns,
+
+69
+00:03:07.700 --> 00:03:09.990
+so they are considered a match.
+
+70
+00:03:09.990 --> 00:03:13.790
+The results of the join is
+the two rows that have 1188
+
+71
+00:03:13.790 --> 00:03:17.890
+and 1189 and all columns
+from both tables.
+
+72
+00:03:18.890 --> 00:03:20.615
+Before we move on
+to the queries,
+
+73
+00:03:20.615 --> 00:03:23.885
+we have to talk about the
+NULL values in the tables.
+
+74
+00:03:23.885 --> 00:03:28.925
+In SQL, NULL represents a missing
+value due to any reason.
+
+75
+00:03:28.925 --> 00:03:31.475
+In this case, this might be
+
+76
+00:03:31.475 --> 00:03:34.505
+machines that are not
+assigned to any employee.
+
+77
+00:03:34.505 --> 00:03:37.200
+Now, let's bring this into SQL
+
+78
+00:03:37.200 --> 00:03:40.260
+and do an INNER JOIN
+on the full tables.
+
+79
+00:03:40.260 --> 00:03:42.850
+Let's imagine we want to join
+
+80
+00:03:42.850 --> 00:03:45.880
+these tables in order to
+get a list of users and
+
+81
+00:03:45.880 --> 00:03:48.430
+their office location
+that also shows
+
+82
+00:03:48.430 --> 00:03:51.755
+what operating system they
+use on their machines.
+
+83
+00:03:51.755 --> 00:03:55.510
+employee_id is a common
+column between these tables, and
+
+84
+00:03:55.510 --> 00:03:57.640
+we can use this to join them.
+
+85
+00:03:57.640 --> 00:04:01.285
+But we won't need to show
+this column in the results.
+
+86
+00:04:01.285 --> 00:04:04.150
+First, let's start
+with a basic query
+
+87
+00:04:04.150 --> 00:04:06.924
+that indicates we want
+to select the username,
+
+88
+00:04:06.924 --> 00:04:09.940
+office, and
+operating_system columns.
+
+89
+00:04:09.940 --> 00:04:13.570
+We want employees to be
+our first or left table, so
+
+90
+00:04:13.570 --> 00:04:16.120
+we'll use that in our
+FROM statement.
+
+91
+00:04:16.120 --> 00:04:19.320
+Now, we write the part of
+the query that tells SQL
+
+92
+00:04:19.320 --> 00:04:22.805
+to join the machines table
+with the employees table.
+
+93
+00:04:23.805 --> 00:04:24.825
+Let's break down this query.
+
+94
+00:04:24.825 --> 00:04:28.015
+INNER JOIN tells SQL to
+perform the INNER JOIN.
+
+95
+00:04:28.015 --> 00:04:30.040
+Then, we name the second table
+
+96
+00:04:30.040 --> 00:04:31.990
+we want to combine
+with the first.
+
+97
+00:04:31.990 --> 00:04:34.270
+This is called the right table.
+
+98
+00:04:34.270 --> 00:04:37.360
+In this case, we want
+to join machines with
+
+99
+00:04:37.360 --> 00:04:39.100
+the employees table that was
+
+100
+00:04:39.100 --> 00:04:41.750
+already identified after FROM.
+
+101
+00:04:41.750 --> 00:04:45.790
+Lastly, we tell SQL what
+column to base the join on.
+
+102
+00:04:45.790 --> 00:04:49.585
+In our case, we're using
+the employee_id column.
+
+103
+00:04:49.585 --> 00:04:51.520
+Since we're using two tables,
+
+104
+00:04:51.520 --> 00:04:53.290
+we have to identify the table
+
+105
+00:04:53.290 --> 00:04:55.835
+and follow that with
+the column name.
+
+106
+00:04:55.835 --> 00:05:01.840
+So, we have employees.employee_id.
+And machines.employee_id.
+
+107
+00:05:02.840 --> 00:05:03.860
+Let's review the output.
+
+108
+00:05:03.860 --> 00:05:07.590
+Perfect! We have now
+joined two tables.
+
+109
+00:05:07.590 --> 00:05:09.230
+The results of our
+query displays
+
+110
+00:05:09.230 --> 00:05:12.650
+the records that match on
+the employee_id column.
+
+111
+00:05:12.650 --> 00:05:14.420
+Notice that these records
+
+112
+00:05:14.420 --> 00:05:16.595
+contain columns
+from both tables,
+
+113
+00:05:16.595 --> 00:05:17.915
+but only the ones we've
+
+114
+00:05:17.915 --> 00:05:20.425
+indicated through our
+SELECT statement.
+
+115
+00:05:20.425 --> 00:05:22.940
+There are other types
+of joins that don't
+
+116
+00:05:22.940 --> 00:05:25.385
+require a match to
+join two tables, and
+
+117
+00:05:25.385 --> 00:05:27.050
+we're going to discuss those in
+
+118
+00:05:27.050 --> 00:05:30.150
+the next video. I'll
+meet you there!

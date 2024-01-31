@@ -1,0 +1,321 @@
+WEBVTT
+
+1
+00:00:00.940 --> 00:00:03.547
+Our modern world is filled with data and
+
+2
+00:00:03.547 --> 00:00:07.977
+that data almost always guides us
+in making important decisions.
+
+3
+00:00:07.977 --> 00:00:11.928
+When working with large amounts of data,
+we need to know how to store it, so
+
+4
+00:00:11.928 --> 00:00:14.590
+it's organized and
+quick to access and process.
+
+5
+00:00:14.590 --> 00:00:17.048
+The solution to this is through databases,
+and
+
+6
+00:00:17.048 --> 00:00:20.060
+that's what we're exploring in this video!
+
+7
+00:00:21.060 --> 00:00:21.900
+To start us off,
+
+8
+00:00:21.900 --> 00:00:25.780
+we can define a database as an organized
+collection of information or data.
+
+9
+00:00:25.780 --> 00:00:28.600
+Databases are often
+compared to spreadsheets.
+
+10
+00:00:28.600 --> 00:00:31.084
+Some of you may have used Google Sheets or
+
+11
+00:00:31.084 --> 00:00:34.165
+another common spreadsheet
+program in the past.
+
+12
+00:00:34.165 --> 00:00:38.106
+While these programs are convenient
+ways to store data, spreadsheets
+
+13
+00:00:38.106 --> 00:00:42.000
+are often designed for a single user or
+a small team to store less data.
+
+14
+00:00:42.000 --> 00:00:46.574
+In contrast, databases can be accessed
+by multiple people simultaneously and
+
+15
+00:00:46.574 --> 00:00:49.430
+can store massive amounts of data.
+
+16
+00:00:49.430 --> 00:00:54.560
+Databases can also perform complex
+tasks while accessing data.
+
+17
+00:00:54.560 --> 00:00:55.834
+As a security analyst,
+
+18
+00:00:55.834 --> 00:00:59.797
+you'll often need to access databases
+containing useful information.
+
+19
+00:00:59.797 --> 00:01:05.136
+For example, these could be databases
+containing information on login attempts,
+
+20
+00:01:05.136 --> 00:01:08.607
+software and updates, or
+machines and their owners.
+
+21
+00:01:09.607 --> 00:01:11.689
+Now that we know how important
+databases are for us,
+
+22
+00:01:11.689 --> 00:01:16.186
+let's talk about how they're organized and
+how we can interact with them.
+
+23
+00:01:16.186 --> 00:01:20.742
+Using databases allow us to store large
+amounts of data while keeping it quick and
+
+24
+00:01:20.742 --> 00:01:22.220
+easy to access.
+
+25
+00:01:22.220 --> 00:01:26.440
+There are lots of different ways we can
+structure a database, but in this course,
+
+26
+00:01:26.440 --> 00:01:28.904
+we'll be working with
+relational databases.
+
+27
+00:01:28.904 --> 00:01:32.629
+A relational database is a structured
+database containing tables that
+
+28
+00:01:32.629 --> 00:01:34.070
+are related to each other.
+
+29
+00:01:35.070 --> 00:01:37.340
+Let's learn more about what
+makes a relational database.
+
+30
+00:01:37.340 --> 00:01:40.252
+We'll start by examining
+an individual table in
+
+31
+00:01:40.252 --> 00:01:44.310
+a larger database of
+organizational information.
+
+32
+00:01:44.310 --> 00:01:46.684
+Each table contains fields of information.
+
+33
+00:01:46.684 --> 00:01:49.374
+For example, in this table on employees,
+
+34
+00:01:49.374 --> 00:01:54.021
+these would include fields like
+employee_id, device_id, and username.
+
+35
+00:01:55.030 --> 00:01:57.353
+These are the columns of the tables.
+
+36
+00:01:57.353 --> 00:02:01.569
+In addition,
+tables contain rows also called records.
+
+37
+00:02:01.569 --> 00:02:05.600
+Rows are filled with specific data
+related to the columns in the table.
+
+38
+00:02:05.600 --> 00:02:10.206
+For example, our first row is a record for
+an employee whose id is 1,000 and
+
+39
+00:02:10.206 --> 00:02:12.560
+who works in the marketing department.
+
+40
+00:02:13.560 --> 00:02:15.944
+Relational databases often
+have multiple tables.
+
+41
+00:02:15.944 --> 00:02:20.528
+Consider an example where we have two
+tables from a larger database, one with
+
+42
+00:02:20.528 --> 00:02:25.200
+employees of the company and another
+with machines given to those employees.
+
+43
+00:02:25.200 --> 00:02:28.480
+We can connect two tables if
+they share a common column.
+
+44
+00:02:28.480 --> 00:02:29.578
+In this example,
+
+45
+00:02:29.578 --> 00:02:34.280
+we establish a relationship between
+them with a common employee_id column.
+
+46
+00:02:34.280 --> 00:02:37.600
+The columns that relate two tables
+to each other are called keys.
+
+47
+00:02:37.600 --> 00:02:39.480
+There are two types of keys.
+
+48
+00:02:39.480 --> 00:02:41.800
+The first is called a primary key.
+
+49
+00:02:41.800 --> 00:02:46.960
+The primary key refers to a column
+where every row has a unique entry.
+
+50
+00:02:46.960 --> 00:02:51.285
+The primary key must not have any
+duplicate values, or any null or
+
+51
+00:02:51.285 --> 00:02:52.640
+empty values.
+
+52
+00:02:52.640 --> 00:02:57.260
+The primary key allows us to uniquely
+identify every row in our table.
+
+53
+00:02:57.260 --> 00:03:01.790
+For the table of employees,
+employee_id is a primary key.
+
+54
+00:03:01.790 --> 00:03:06.630
+Every employee_id is unique and there
+are no employee_ids that are duplicate or
+
+55
+00:03:06.630 --> 00:03:07.940
+empty.
+
+56
+00:03:08.940 --> 00:03:10.430
+The second type of key is a foreign key.
+
+57
+00:03:10.430 --> 00:03:15.300
+The foreign key is a column in a table
+that is a primary key in another table.
+
+58
+00:03:15.300 --> 00:03:20.550
+Foreign keys, unlike primary keys,
+can have empty values and duplicates.
+
+59
+00:03:20.550 --> 00:03:23.840
+The foreign key allows us to
+connect two tables together.
+
+60
+00:03:23.840 --> 00:03:29.600
+In our example, we can look at the
+employee_id column in the machines table.
+
+61
+00:03:29.600 --> 00:03:33.477
+We previously identified this as
+a primary key in the employees table, so
+
+62
+00:03:33.477 --> 00:03:38.160
+we can use this to connect every machine
+to their corresponding employee.
+
+63
+00:03:39.160 --> 00:03:42.222
+It's also important to know that a table
+can only have one primary key, but
+
+64
+00:03:42.222 --> 00:03:43.631
+multiple foreign keys.
+
+65
+00:03:44.830 --> 00:03:48.701
+With this information, we're ready
+to move on to the basics of SQL,
+
+66
+00:03:48.701 --> 00:03:51.400
+the language that lets
+us work with databases.
+
+67
+00:03:51.400 --> 00:03:52.729
+Throughout this section,
+
+68
+00:03:52.729 --> 00:03:56.435
+we'll gain hands-on experience working
+with the concepts we just covered!

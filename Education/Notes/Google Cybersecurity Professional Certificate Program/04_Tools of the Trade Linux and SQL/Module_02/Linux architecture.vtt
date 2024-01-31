@@ -1,0 +1,389 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:02.880
+Let me start with a
+quick question that may
+
+2
+00:00:02.880 --> 00:00:04.725
+seem unrelated to security.
+
+3
+00:00:04.725 --> 00:00:06.765
+Do you have a favorite building?
+
+4
+00:00:06.765 --> 00:00:08.370
+And what is it about
+
+5
+00:00:08.370 --> 00:00:10.400
+its architecture that
+impresses you the most?
+
+6
+00:00:10.400 --> 00:00:13.425
+The windows? The
+structure of the walls?
+
+7
+00:00:13.425 --> 00:00:16.290
+Just like buildings,
+operating systems also have
+
+8
+00:00:16.290 --> 00:00:17.940
+an architecture
+and are made up of
+
+9
+00:00:17.940 --> 00:00:20.910
+discrete components that work
+together to form the whole.
+
+10
+00:00:20.910 --> 00:00:23.385
+In this video, we're
+going to look at
+
+11
+00:00:23.385 --> 00:00:26.310
+all the components that
+together make up Linux.
+
+12
+00:00:27.310 --> 00:00:29.745
+The components of Linux include
+the user, applications,
+
+13
+00:00:29.745 --> 00:00:32.565
+the shell, the Filesystem
+Hierarchy Standard,
+
+14
+00:00:32.565 --> 00:00:34.575
+the kernel, and the hardware.
+
+15
+00:00:34.575 --> 00:00:36.060
+Don't worry—we'll go into
+
+16
+00:00:36.060 --> 00:00:38.100
+these components one
+by one together.
+
+17
+00:00:39.100 --> 00:00:40.170
+First, you are the user.
+
+18
+00:00:40.170 --> 00:00:44.030
+The user is the person
+interacting with the computer.
+
+19
+00:00:44.030 --> 00:00:46.955
+In Linux, you're
+the first element
+
+20
+00:00:46.955 --> 00:00:49.685
+to the architecture of
+the operating system.
+
+21
+00:00:49.685 --> 00:00:51.700
+You're initiating the tasks or
+
+22
+00:00:51.700 --> 00:00:54.130
+commands that the OS
+is going to execute.
+
+23
+00:00:54.130 --> 00:00:56.430
+Linux is a multi-user system.
+
+24
+00:00:56.430 --> 00:00:58.940
+This means that more
+than one user can
+
+25
+00:00:58.940 --> 00:01:01.610
+use the system's resources
+at the same time.
+
+26
+00:01:02.610 --> 00:01:03.965
+The second element
+of the architecture
+
+27
+00:01:03.965 --> 00:01:06.745
+is the applications
+within a system.
+
+28
+00:01:06.745 --> 00:01:08.630
+An application is a program
+
+29
+00:01:08.630 --> 00:01:10.505
+that performs a specific task,
+
+30
+00:01:10.505 --> 00:01:13.225
+such as a word processor
+or a calculator.
+
+31
+00:01:13.225 --> 00:01:15.755
+You might hear the
+word "applications"
+
+32
+00:01:15.755 --> 00:01:17.965
+and "programs" used
+interchangeably.
+
+33
+00:01:17.965 --> 00:01:19.505
+As an example,
+
+34
+00:01:19.505 --> 00:01:21.380
+one popular Linux
+application that
+
+35
+00:01:21.380 --> 00:01:23.690
+we'll learn more
+about later is Nano.
+
+36
+00:01:23.690 --> 00:01:25.570
+Nano is a text editor.
+
+37
+00:01:25.570 --> 00:01:26.990
+This simple application helps
+
+38
+00:01:26.990 --> 00:01:28.445
+you keep notes on the screen.
+
+39
+00:01:28.445 --> 00:01:30.200
+Linux applications are commonly
+
+40
+00:01:30.200 --> 00:01:32.945
+distributed through
+package managers.
+
+41
+00:01:32.945 --> 00:01:35.320
+We'll learn more about
+this process later.
+
+42
+00:01:36.320 --> 00:01:37.310
+The next component
+in the architecture
+
+43
+00:01:37.310 --> 00:01:38.780
+of Linux is the shell.
+
+44
+00:01:38.780 --> 00:01:40.985
+This is an important
+element because
+
+45
+00:01:40.985 --> 00:01:43.400
+it is how you will
+communicate with the system.
+
+46
+00:01:43.400 --> 00:01:45.680
+The shell is a command
+line interpreter.
+
+47
+00:01:45.680 --> 00:01:48.425
+It processes commands
+and outputs the results.
+
+48
+00:01:48.425 --> 00:01:49.975
+This might sound familiar.
+
+49
+00:01:49.975 --> 00:01:51.830
+Previously, we learned
+
+50
+00:01:51.830 --> 00:01:53.915
+about the two types
+of user interfaces:
+
+51
+00:01:53.915 --> 00:01:55.835
+the GUI and the CLI.
+
+52
+00:01:55.835 --> 00:01:58.190
+You can think of
+the shell as a CLI.
+
+53
+00:01:59.190 --> 00:02:00.320
+Another element of
+the architecture of
+
+54
+00:02:00.320 --> 00:02:02.870
+Linux is the Filesystem
+Hierarchy Standard,
+
+55
+00:02:02.870 --> 00:02:04.790
+or FHS. It's
+
+56
+00:02:04.790 --> 00:02:08.270
+the component of the Linux
+OS that organizes data.
+
+57
+00:02:08.270 --> 00:02:10.190
+An easy way for
+you to think about
+
+58
+00:02:10.190 --> 00:02:14.000
+the FHS is to think about it
+as a filing cabinet of data.
+
+59
+00:02:14.000 --> 00:02:18.080
+The FHS is how data is
+stored in a system.
+
+60
+00:02:18.080 --> 00:02:20.600
+It's a way to organize
+data so that it can be
+
+61
+00:02:20.600 --> 00:02:23.560
+found when the data is
+accessed by the system.
+
+62
+00:02:24.560 --> 00:02:25.260
+That brings us to the kernel.
+
+63
+00:02:25.260 --> 00:02:26.780
+The kernel is a component of
+
+64
+00:02:26.780 --> 00:02:30.095
+the Linux OS that manages
+processes and memory.
+
+65
+00:02:30.095 --> 00:02:32.480
+The kernel communicates
+with the hardware
+
+66
+00:02:32.480 --> 00:02:34.805
+to execute the commands
+sent by the shell.
+
+67
+00:02:34.805 --> 00:02:37.070
+The kernel uses
+drivers to enable
+
+68
+00:02:37.070 --> 00:02:39.305
+applications to execute tasks.
+
+69
+00:02:39.305 --> 00:02:42.110
+The Linux kernel helps
+ensure that the system
+
+70
+00:02:42.110 --> 00:02:44.030
+allocates resources
+more efficiently
+
+71
+00:02:44.030 --> 00:02:46.225
+and makes the
+system work faster.
+
+72
+00:02:47.225 --> 00:02:48.320
+Finally, the last component of
+
+73
+00:02:48.320 --> 00:02:50.315
+the architecture
+is the hardware.
+
+74
+00:02:50.315 --> 00:02:53.600
+Hardware refers to the physical
+components of a computer.
+
+75
+00:02:53.600 --> 00:02:55.985
+You can compare this to
+software applications
+
+76
+00:02:55.985 --> 00:02:58.240
+which can be downloaded
+into a system.
+
+77
+00:02:58.240 --> 00:03:00.710
+The hardware in your
+computer are things
+
+78
+00:03:00.710 --> 00:03:04.060
+like the CPU, mouse,
+and keyboard.
+
+79
+00:03:05.060 --> 00:03:05.910
+Congratulations!
+
+80
+00:03:05.910 --> 00:03:07.730
+We've now covered
+the architecture
+
+81
+00:03:07.730 --> 00:03:09.440
+of Linux. An understanding of
+
+82
+00:03:09.440 --> 00:03:11.090
+these components will help you
+
+83
+00:03:11.090 --> 00:03:14.250
+become increasingly
+familiar with Linux.

@@ -1,0 +1,281 @@
+WEBVTT
+
+1
+00:00:00.856 --> 00:00:05.829
+In this video, we're going to continue
+using SQL queries and filters,
+
+2
+00:00:05.829 --> 00:00:09.425
+but now we're going to apply
+them to new data types.
+
+3
+00:00:09.425 --> 00:00:14.186
+First, let's explore the three
+common data types that you will find in databases:
+
+4
+00:00:14.186 --> 00:00:18.606
+string, numeric,
+and date and time.
+
+5
+00:00:18.606 --> 00:00:23.928
+String data is data consisting of
+an ordered sequence of characters.
+
+6
+00:00:23.928 --> 00:00:28.135
+These characters could be numbers,
+letters, or symbols.
+
+7
+00:00:28.135 --> 00:00:32.504
+For example, you'll encounter
+string data in user names,
+
+8
+00:00:32.504 --> 00:00:34.866
+such as a user name: analyst10.
+
+9
+00:00:34.866 --> 00:00:38.156
+Numeric data is data
+consisting of numbers,
+
+10
+00:00:38.156 --> 00:00:40.675
+such as a count of log-in attempts.
+
+11
+00:00:40.675 --> 00:00:45.469
+Unlike strings, mathematical
+operations can be used on numeric data,
+
+12
+00:00:45.469 --> 00:00:47.835
+like multiplication or addition.
+
+13
+00:00:47.835 --> 00:00:53.048
+Date and time data refers to data
+representing a date and/or time.
+
+14
+00:00:54.048 --> 00:00:56.925
+Previously, we applied filters
+using string data, but
+
+15
+00:00:56.925 --> 00:01:00.487
+now let's work with numeric and
+date and time data.
+
+16
+00:01:00.487 --> 00:01:04.862
+As a security analyst, you'll often
+need to query numbers and dates.
+
+17
+00:01:04.862 --> 00:01:10.529
+For example, we could filter patch dates
+to find machines that need an update,
+
+18
+00:01:10.529 --> 00:01:13.913
+or we could filter log-in
+attempts to return only
+
+19
+00:01:13.913 --> 00:01:16.720
+those made in a certain period of time.
+
+20
+00:01:16.720 --> 00:01:19.506
+We learned about operators
+in the last video, and
+
+21
+00:01:19.506 --> 00:01:22.502
+we're going to use them again for
+numbers and dates.
+
+22
+00:01:23.502 --> 00:01:26.062
+Common operators for
+working with numeric or date and
+
+23
+00:01:26.062 --> 00:01:30.095
+time data types include: equals,
+greater than, less than,
+
+24
+00:01:30.095 --> 00:01:34.544
+not equal to, greater than or
+equal to, and less than or equal to.
+
+25
+00:01:34.544 --> 00:01:38.456
+Let's say you want to find the
+log-in attempts made after 6 pm.
+
+26
+00:01:38.456 --> 00:01:41.441
+Because this is past
+normal business hours,
+
+27
+00:01:41.441 --> 00:01:44.412
+you want to look for suspicious patterns.
+
+28
+00:01:44.412 --> 00:01:50.312
+You can identify these attempts by using
+the greater than operator in your filter.
+
+29
+00:01:50.312 --> 00:01:52.684
+We'll start writing our query in SQL.
+
+30
+00:01:52.684 --> 00:01:57.536
+We begin by indicating that
+we want to select all columns FROM the
+
+31
+00:01:57.536 --> 00:02:00.746
+log_in_attempts table.
+
+32
+00:02:00.746 --> 00:02:03.568
+Then we'll add our filter with WHERE.
+
+33
+00:02:07.390 --> 00:02:13.357
+Our condition indicates that the value in
+the time column must be greater than, or
+
+34
+00:02:13.357 --> 00:02:19.163
+for dates and times, later than '18:00',
+which is how 6 pm is written in SQL.
+
+35
+00:02:19.163 --> 00:02:21.535
+Let's run this and examine the output.
+
+36
+00:02:21.535 --> 00:02:27.973
+Perfect! Now we have a list of
+log-in attempts made after 6 pm.
+
+37
+00:02:28.973 --> 00:02:32.776
+We can also filter for numbers and
+dates by using the BETWEEN operator.
+
+38
+00:02:32.776 --> 00:02:37.743
+BETWEEN is an operator that filters for
+numbers or dates within a range.
+
+39
+00:02:37.743 --> 00:02:40.321
+An example of this would
+be when looking for
+
+40
+00:02:40.321 --> 00:02:43.195
+all patches installed
+within a certain range.
+
+41
+00:02:43.195 --> 00:02:48.604
+Let's do this! Let's find all
+the patches installed between March 1st,
+
+42
+00:02:48.604 --> 00:02:51.661
+2021 and September 1st, 2021.
+
+43
+00:02:51.661 --> 00:02:57.590
+In our query, we start with selecting
+all records FROM the machines table.
+
+44
+00:02:59.001 --> 00:03:02.743
+And we add the BETWEEN operator
+in the WHERE statement.
+
+45
+00:03:06.030 --> 00:03:08.504
+Let's break down the statement.
+
+46
+00:03:08.504 --> 00:03:13.000
+First, after WHERE, we indicate
+which column to filter,
+
+47
+00:03:13.000 --> 00:03:16.596
+in our case, OS_patch_date.
+
+48
+00:03:16.596 --> 00:03:20.395
+Next, comes our operator BETWEEN.
+
+49
+00:03:20.395 --> 00:03:24.289
+We then add the beginning of our range,
+type AND,
+
+50
+00:03:24.289 --> 00:03:28.857
+then finish by adding the end
+of our range and a semicolon.
+
+51
+00:03:28.857 --> 00:03:32.202
+Now, let's run this and
+explore the output.
+
+52
+00:03:32.202 --> 00:03:37.932
+And now we have a list of all machines
+patched between those two dates!
+
+53
+00:03:38.932 --> 00:03:43.140
+Before we wrap up, an important thing to
+note is that when we filter for strings,
+
+54
+00:03:43.140 --> 00:03:47.983
+dates, and times, we use quotation marks
+to specify what we're looking for.
+
+55
+00:03:47.983 --> 00:03:52.126
+However, for
+numbers, we don't use quotation marks.
+
+56
+00:03:52.126 --> 00:03:53.705
+With this new knowledge,
+
+57
+00:03:53.705 --> 00:03:58.821
+you're now ready to work on all sorts of
+interesting filters for numbers and dates.
+
+58
+00:03:58.821 --> 00:04:03.518
+In the next video, we'll be able to
+expand our filtering even further by
+
+59
+00:04:03.518 --> 00:04:06.219
+using multiple conditions in one query.

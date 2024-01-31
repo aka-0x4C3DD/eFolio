@@ -1,0 +1,470 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:03.390
+Hi there! In the previous video,
+
+2
+00:00:03.390 --> 00:00:06.015
+you learned how to check
+permissions for a user.
+
+3
+00:00:06.015 --> 00:00:07.920
+In this video, we're going
+
+4
+00:00:07.920 --> 00:00:10.140
+to learn about
+changing permissions.
+
+5
+00:00:11.140 --> 00:00:12.690
+When working as a
+security analyst,
+
+6
+00:00:12.690 --> 00:00:14.190
+there may be many reasons to
+
+7
+00:00:14.190 --> 00:00:16.245
+change permissions for a user.
+
+8
+00:00:16.245 --> 00:00:18.405
+A user may have
+changed departments
+
+9
+00:00:18.405 --> 00:00:20.460
+or been assigned to a
+different work group.
+
+10
+00:00:20.460 --> 00:00:23.040
+A user might simply no
+longer be working on
+
+11
+00:00:23.040 --> 00:00:26.055
+a project that requires
+certain permissions.
+
+12
+00:00:26.055 --> 00:00:29.265
+These changes are necessary
+in order to protect
+
+13
+00:00:29.265 --> 00:00:31.290
+system files from being
+
+14
+00:00:31.290 --> 00:00:34.155
+accidentally or deliberately
+altered or deleted.
+
+15
+00:00:35.155 --> 00:00:36.420
+Let's explore a related command
+
+16
+00:00:36.420 --> 00:00:38.415
+that helps control this access.
+
+17
+00:00:38.415 --> 00:00:42.600
+In this video, we'll
+learn about chmod.
+
+18
+00:00:42.600 --> 00:00:46.400
+chmod changes permissions
+on files and directories.
+
+19
+00:00:46.400 --> 00:00:50.185
+The command chmod
+stands for change mode.
+
+20
+00:00:51.185 --> 00:00:53.180
+There are two modes for
+changing permissions,
+
+21
+00:00:53.180 --> 00:00:56.240
+but we'll focus on
+symbolic. The best way to
+
+22
+00:00:56.240 --> 00:01:00.130
+learn about how chmod works
+is through an example.
+
+23
+00:01:00.130 --> 00:01:02.510
+I know this has a
+lot of details,
+
+24
+00:01:02.510 --> 00:01:04.025
+but we'll break this down.
+
+25
+00:01:04.025 --> 00:01:08.240
+Also, please keep in mind that,
+like many Linux commands,
+
+26
+00:01:08.240 --> 00:01:09.530
+you don't have to memorize
+
+27
+00:01:09.530 --> 00:01:12.665
+the information and can
+always find a reference.
+
+28
+00:01:13.665 --> 00:01:15.800
+With chmod, you need
+to identify which
+
+29
+00:01:15.800 --> 00:01:19.040
+file or directory you want
+to adjust permissions for.
+
+30
+00:01:19.040 --> 00:01:20.900
+This is the final argument,
+
+31
+00:01:20.900 --> 00:01:24.270
+in this case, a file
+named: access.txt.
+
+32
+00:01:24.270 --> 00:01:26.840
+The first argument,
+added directly after
+
+33
+00:01:26.840 --> 00:01:30.395
+the chmod command, indicates
+how to change permissions.
+
+34
+00:01:30.395 --> 00:01:33.485
+Right now, this might
+seem hard to interpret,
+
+35
+00:01:33.485 --> 00:01:35.345
+but soon we'll understand why
+
+36
+00:01:35.345 --> 00:01:37.465
+this is called symbolic mode.
+
+37
+00:01:38.465 --> 00:01:40.160
+Previously, we learned
+about the three types
+
+38
+00:01:40.160 --> 00:01:43.265
+of owners: user,
+group, and other.
+
+39
+00:01:43.265 --> 00:01:46.040
+To identify these with chmod,
+
+40
+00:01:46.040 --> 00:01:48.845
+we use u to represent the user,
+
+41
+00:01:48.845 --> 00:01:51.065
+g to represent the group,
+
+42
+00:01:51.065 --> 00:01:53.605
+and o to represent other.
+
+43
+00:01:53.605 --> 00:01:55.890
+In this particular example,
+
+44
+00:01:55.890 --> 00:01:57.440
+g indicates we will make
+
+45
+00:01:57.440 --> 00:01:59.405
+some changes to
+group permissions,
+
+46
+00:01:59.405 --> 00:02:02.290
+and o to permissions for other.
+
+47
+00:02:02.290 --> 00:02:04.610
+These owner types are separated
+
+48
+00:02:04.610 --> 00:02:06.530
+by a comma in this argument.
+
+49
+00:02:07.530 --> 00:02:09.745
+But do we want to add or
+take away permissions?
+
+50
+00:02:09.745 --> 00:02:13.670
+Well, for this, we use
+mathematical operators.
+
+51
+00:02:13.670 --> 00:02:15.980
+So, the plus sign after g
+
+52
+00:02:15.980 --> 00:02:18.410
+means we want to add
+permissions for group.
+
+53
+00:02:18.410 --> 00:02:20.675
+The minus sign after o
+
+54
+00:02:20.675 --> 00:02:23.585
+means we want to take
+them away from other.
+
+55
+00:02:23.585 --> 00:02:26.985
+And the last question
+is: what kind of changes?
+
+56
+00:02:26.985 --> 00:02:30.755
+We've already learned that r
+represents read permissions,
+
+57
+00:02:30.755 --> 00:02:33.110
+w represents write permissions,
+
+58
+00:02:33.110 --> 00:02:36.325
+and x represents
+execute permissions.
+
+59
+00:02:36.325 --> 00:02:39.200
+So in this case, the w indicates
+
+60
+00:02:39.200 --> 00:02:41.885
+that we're adding write
+permissions to the group,
+
+61
+00:02:41.885 --> 00:02:44.050
+and r indicates
+that we are taking
+
+62
+00:02:44.050 --> 00:02:46.990
+away read permissions
+from other.
+
+63
+00:02:46.990 --> 00:02:49.495
+This is still very complex.
+
+64
+00:02:49.495 --> 00:02:51.385
+But now that we've
+broken it down,
+
+65
+00:02:51.385 --> 00:02:52.720
+perhaps it doesn't seem quite
+
+66
+00:02:52.720 --> 00:02:54.655
+so much like a foreign language.
+
+67
+00:02:54.655 --> 00:02:58.100
+And remember, you don't have
+to memorize this all.
+
+68
+00:02:59.100 --> 00:03:00.555
+Let's give this
+new command a try.
+
+69
+00:03:00.555 --> 00:03:03.250
+We'll start out in the
+logs sub-directory.
+
+70
+00:03:03.250 --> 00:03:06.325
+If we use the ls -l command,
+
+71
+00:03:06.325 --> 00:03:08.915
+it will output the
+permissions for the file.
+
+72
+00:03:08.915 --> 00:03:11.320
+It shows the permissions
+for the only file
+
+73
+00:03:11.320 --> 00:03:14.515
+in this directory: access.txt.
+
+74
+00:03:14.515 --> 00:03:17.480
+Previously, we learned how
+to read these permissions.
+
+75
+00:03:17.480 --> 00:03:19.585
+The second through
+fourth characters
+
+76
+00:03:19.585 --> 00:03:22.405
+indicate that the user has
+read and write permissions.
+
+77
+00:03:22.405 --> 00:03:24.405
+The fifth through
+seventh characters
+
+78
+00:03:24.405 --> 00:03:27.275
+show the group only
+has read permissions.
+
+79
+00:03:27.275 --> 00:03:29.540
+And the eighth to tenth
+characters show
+
+80
+00:03:29.540 --> 00:03:32.315
+that other only has
+read permissions.
+
+81
+00:03:32.315 --> 00:03:34.730
+We need to adjust
+these permissions.
+
+82
+00:03:35.730 --> 00:03:36.380
+We want to ensure analysts in
+
+83
+00:03:36.380 --> 00:03:38.525
+the security group
+have write permission,
+
+84
+00:03:38.525 --> 00:03:42.065
+but takeaway read permissions
+from the owner-type other,
+
+85
+00:03:42.065 --> 00:03:43.940
+so we add write permissions for
+
+86
+00:03:43.940 --> 00:03:46.975
+group and remove read
+permissions for other.
+
+87
+00:03:46.975 --> 00:03:50.145
+Let's run ls -l again.
+
+88
+00:03:50.145 --> 00:03:54.590
+This shows a change in the
+permissions for access.txt.
+
+89
+00:03:54.590 --> 00:03:56.765
+Notice how in the middle segment
+
+90
+00:03:56.765 --> 00:03:58.145
+of permissions for the group,
+
+91
+00:03:58.145 --> 00:04:01.870
+w has been added to
+give write permissions.
+
+92
+00:04:01.870 --> 00:04:03.900
+And another change is that
+
+93
+00:04:03.900 --> 00:04:06.605
+the r has been removed
+in the last segment,
+
+94
+00:04:06.605 --> 00:04:08.510
+indicating that read permissions
+
+95
+00:04:08.510 --> 00:04:10.880
+for other have been removed.
+
+96
+00:04:10.880 --> 00:04:13.070
+As mentioned earlier,
+these hyphens
+
+97
+00:04:13.070 --> 00:04:15.175
+indicate a lack of permissions.
+
+98
+00:04:15.175 --> 00:04:18.270
+Now, other is lacking
+all permissions.
+
+99
+00:04:19.270 --> 00:04:20.250
+Though it requires practice,
+
+100
+00:04:20.250 --> 00:04:22.895
+working in Linux becomes
+more natural with time.
+
+101
+00:04:22.895 --> 00:04:24.290
+I'm glad you're
+learning a little
+
+102
+00:04:24.290 --> 00:04:26.670
+more about how to use Linux.

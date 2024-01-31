@@ -1,0 +1,333 @@
+WEBVTT
+
+1
+00:00:00.470 --> 00:00:04.905
+Welcome back. I hope you
+enjoyed working on inner joins.
+
+2
+00:00:04.905 --> 00:00:06.375
+In the previous video and
+
+3
+00:00:06.375 --> 00:00:09.030
+exercises, we saw how
+inner joins can be
+
+4
+00:00:09.030 --> 00:00:11.145
+useful by only returning records
+
+5
+00:00:11.145 --> 00:00:13.695
+that share a value
+in specify columns.
+
+6
+00:00:13.695 --> 00:00:16.755
+However, in some
+situations, we might need
+
+7
+00:00:16.755 --> 00:00:20.280
+all of the entries from
+one or both of our tables.
+
+8
+00:00:20.280 --> 00:00:23.280
+This is where we need
+to use outer joins.
+
+9
+00:00:24.280 --> 00:00:26.655
+There are three types of
+outer joins: LEFT JOIN,
+
+10
+00:00:26.655 --> 00:00:29.235
+RIGHT JOIN, and FULL OUTER JOIN.
+
+11
+00:00:29.235 --> 00:00:30.870
+Similar to inner joins,
+
+12
+00:00:30.870 --> 00:00:34.380
+outer joins combine
+two tables together;
+
+13
+00:00:34.380 --> 00:00:36.900
+however, they don't
+necessarily need
+
+14
+00:00:36.900 --> 00:00:39.225
+a match between columns
+to return a row.
+
+15
+00:00:39.225 --> 00:00:42.180
+Which rows are returned
+depends on the type of join.
+
+16
+00:00:43.180 --> 00:00:45.680
+LEFT JOIN returns all of the
+records of the first table,
+
+17
+00:00:45.680 --> 00:00:47.180
+but only returns rows of
+
+18
+00:00:47.180 --> 00:00:49.945
+the second table that match
+on a specified column.
+
+19
+00:00:49.945 --> 00:00:52.160
+Like we did in the
+previous video, let's
+
+20
+00:00:52.160 --> 00:00:54.170
+examine this type of join by
+
+21
+00:00:54.170 --> 00:00:55.880
+looking at just four rows of
+
+22
+00:00:55.880 --> 00:00:58.945
+two tables with a small
+number of columns.
+
+23
+00:00:58.945 --> 00:01:02.465
+Employees is the left
+table, or the first table,
+
+24
+00:01:02.465 --> 00:01:05.720
+and machines is the right
+table, or the second table.
+
+25
+00:01:05.720 --> 00:01:08.120
+Let's join on employee_id.
+
+26
+00:01:08.120 --> 00:01:09.680
+There's a matching value in
+
+27
+00:01:09.680 --> 00:01:11.975
+this column for two
+of the four records.
+
+28
+00:01:11.975 --> 00:01:13.655
+When we execute the join,
+
+29
+00:01:13.655 --> 00:01:16.835
+SQL returns these rows
+with the matching value,
+
+30
+00:01:16.835 --> 00:01:18.260
+all other rows from
+
+31
+00:01:18.260 --> 00:01:21.550
+the left table, and all
+columns from both tables.
+
+32
+00:01:21.550 --> 00:01:23.550
+Records from the
+employees table that
+
+33
+00:01:23.550 --> 00:01:25.520
+didn't match but were returned
+through the LEFT
+
+34
+00:01:25.520 --> 00:01:27.260
+JOIN contain NULL values
+
+35
+00:01:27.260 --> 00:01:29.770
+in columns that came
+from the machines table.
+
+36
+00:01:29.770 --> 00:01:32.775
+Next, let's talk
+about right joins.
+
+37
+00:01:33.775 --> 00:01:34.490
+RIGHT JOIN returns all
+
+38
+00:01:34.490 --> 00:01:36.155
+of the records of
+the second table
+
+39
+00:01:36.155 --> 00:01:38.030
+but only returns rows from
+
+40
+00:01:38.030 --> 00:01:40.540
+the first table that match
+on a specified column.
+
+41
+00:01:40.540 --> 00:01:43.040
+With a RIGHT JOIN on
+the previous example,
+
+42
+00:01:43.040 --> 00:01:45.650
+the full result returns
+matching rows from both,
+
+43
+00:01:45.650 --> 00:01:47.030
+all the rows from
+
+44
+00:01:47.030 --> 00:01:50.030
+the second table, and all
+the columns in both tables.
+
+45
+00:01:50.030 --> 00:01:52.805
+For the values that don't
+exist in either table,
+
+46
+00:01:52.805 --> 00:01:55.220
+we are left with a NULL value.
+
+47
+00:01:55.220 --> 00:01:57.920
+Last, we'll discuss
+full outer joins.
+
+48
+00:01:58.920 --> 00:02:00.230
+FULL OUTER JOIN
+returns all records
+
+49
+00:02:00.230 --> 00:02:02.705
+from both tables. Using
+our same example,
+
+50
+00:02:02.705 --> 00:02:06.290
+a FULL OUTER JOIN returns
+all columns from all tables.
+
+51
+00:02:06.290 --> 00:02:08.120
+If a row doesn't
+have a value for
+
+52
+00:02:08.120 --> 00:02:10.520
+a particular column,
+it returns NULL.
+
+53
+00:02:10.520 --> 00:02:12.440
+For example, the machines table
+
+54
+00:02:12.440 --> 00:02:14.405
+do not have any rows
+with employee_id
+
+55
+00:02:14.405 --> 00:02:17.030
+1190, so the values
+for that row and the
+
+56
+00:02:17.030 --> 00:02:19.880
+columns that came from the
+machines table is NULL.
+
+57
+00:02:19.880 --> 00:02:22.070
+To implement left
+joins, right joins,
+
+58
+00:02:22.070 --> 00:02:24.290
+and full outer joins
+in SQL, you use
+
+59
+00:02:24.290 --> 00:02:26.960
+the same syntax structure
+as the INNER JOIN
+
+60
+00:02:26.960 --> 00:02:28.820
+but use these keywords:
+
+61
+00:02:28.820 --> 00:02:31.070
+LEFT JOIN, RIGHT JOIN,
+
+62
+00:02:31.070 --> 00:02:32.930
+and FULL OUTER JOIN.
+
+63
+00:02:33.930 --> 00:02:34.520
+As a security analyst,
+
+64
+00:02:34.520 --> 00:02:37.325
+you're not required to know
+all of these from memory.
+
+65
+00:02:37.325 --> 00:02:40.355
+Once you understand the
+type of join you need,
+
+66
+00:02:40.355 --> 00:02:41.690
+you can quickly search and find
+
+67
+00:02:41.690 --> 00:02:44.735
+all the information you need
+to execute these queries.
+
+68
+00:02:44.735 --> 00:02:46.760
+With this information on joins,
+
+69
+00:02:46.760 --> 00:02:49.460
+we've now covered some
+very important information
+
+70
+00:02:49.460 --> 00:02:52.340
+you'll need as a security
+analyst using SQL.
+
+71
+00:02:52.340 --> 00:02:55.500
+Thank you for joining
+me in this video.

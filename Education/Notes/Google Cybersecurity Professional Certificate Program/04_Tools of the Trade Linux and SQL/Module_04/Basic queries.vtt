@@ -1,0 +1,313 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.570
+In this video, we're going to be
+
+2
+00:00:03.570 --> 00:00:06.195
+running our very
+first SQL query!
+
+3
+00:00:06.195 --> 00:00:08.640
+This query will be based on
+
+4
+00:00:08.640 --> 00:00:10.560
+a common work task
+that you might
+
+5
+00:00:10.560 --> 00:00:12.955
+encounter as a security analyst.
+
+6
+00:00:12.955 --> 00:00:14.670
+We're going to determine
+
+7
+00:00:14.670 --> 00:00:17.640
+which computer has been
+assigned to a certain employee.
+
+8
+00:00:17.640 --> 00:00:21.750
+Let's say we have access
+to the employees table.
+
+9
+00:00:21.750 --> 00:00:24.855
+The employees table
+has five columns.
+
+10
+00:00:24.855 --> 00:00:27.620
+Two of them, employee_id
+and device_id,
+
+11
+00:00:27.620 --> 00:00:30.440
+contain the
+information that we need.
+
+12
+00:00:30.440 --> 00:00:33.410
+We'll write a query
+to this table that
+
+13
+00:00:33.410 --> 00:00:36.470
+returns only those two
+columns from the table.
+
+14
+00:00:37.470 --> 00:00:38.990
+The two SQL keywords we need for
+
+15
+00:00:38.990 --> 00:00:41.915
+basic SQL queries
+are SELECT and FROM.
+
+16
+00:00:41.915 --> 00:00:45.410
+SELECT indicates which
+columns to return.
+
+17
+00:00:45.410 --> 00:00:48.955
+FROM indicates which
+table to query.
+
+18
+00:00:48.955 --> 00:00:52.250
+The use of these keywords
+in SQL is very similar
+
+19
+00:00:52.250 --> 00:00:55.595
+to how we would use these
+words in everyday language.
+
+20
+00:00:55.595 --> 00:00:59.360
+For example, we can
+ask a friend to select
+
+21
+00:00:59.360 --> 00:01:00.830
+apples and bananas from
+
+22
+00:01:00.830 --> 00:01:03.800
+the big box when going
+out to buy fruit.
+
+23
+00:01:03.800 --> 00:01:07.210
+This is already very
+similar to SQL.
+
+24
+00:01:08.210 --> 00:01:11.540
+So let's go ahead and use
+SELECT and FROM in SQL to
+
+25
+00:01:11.540 --> 00:01:13.310
+return the information
+we need on
+
+26
+00:01:13.310 --> 00:01:15.965
+employees and the
+computers they use.
+
+27
+00:01:15.965 --> 00:01:19.550
+We start off by typing
+in the SQL statement.
+
+28
+00:01:19.550 --> 00:01:22.490
+After FROM, we've identified
+
+29
+00:01:22.490 --> 00:01:23.810
+that the information will be
+
+30
+00:01:23.810 --> 00:01:26.030
+pulled from the employees table.
+
+31
+00:01:26.030 --> 00:01:30.035
+And after SELECT, employee_id
+and device_id
+
+32
+00:01:30.035 --> 00:01:31.850
+indicate the two columns we
+
+33
+00:01:31.850 --> 00:01:34.300
+want to return from this table.
+
+34
+00:01:34.300 --> 00:01:36.770
+Notice how a comma separates
+
+35
+00:01:36.770 --> 00:01:39.425
+the two columns that
+we want to return.
+
+36
+00:01:40.425 --> 00:01:41.720
+It's also worth
+mentioning a couple of
+
+37
+00:01:41.720 --> 00:01:45.065
+key aspects related to
+the syntax of SQL here.
+
+38
+00:01:45.065 --> 00:01:48.440
+Syntax refers to the
+rules that determine
+
+39
+00:01:48.440 --> 00:01:52.115
+what is correctly structured
+in a computing language.
+
+40
+00:01:52.115 --> 00:01:55.940
+In SQL, keywords are
+not case-sensitive, so
+
+41
+00:01:55.940 --> 00:02:00.155
+you could also write select
+and from in lowercase,
+
+42
+00:02:00.155 --> 00:02:02.720
+but we're placing them in
+capital letters because
+
+43
+00:02:02.720 --> 00:02:05.285
+it makes the query
+easier to understand.
+
+44
+00:02:05.285 --> 00:02:07.655
+Another aspect of this syntax
+
+45
+00:02:07.655 --> 00:02:09.020
+is that semicolons are
+
+46
+00:02:09.020 --> 00:02:10.865
+placed at the end
+of the statement.
+
+47
+00:02:11.865 --> 00:02:14.585
+And now, we'll run the query
+by pressing Enter.
+
+48
+00:02:14.585 --> 00:02:17.540
+The output gives us
+the information we
+
+49
+00:02:17.540 --> 00:02:20.419
+need to match employees
+to their computers.
+
+50
+00:02:20.419 --> 00:02:23.905
+We just ran our very
+first SQL query!
+
+51
+00:02:24.905 --> 00:02:25.910
+Suppose you wanted to know
+
+52
+00:02:25.910 --> 00:02:27.960
+what department
+the employee using
+
+53
+00:02:27.960 --> 00:02:29.820
+the computer is from, or their
+
+54
+00:02:29.820 --> 00:02:32.345
+username, or the
+office they work in.
+
+55
+00:02:32.345 --> 00:02:34.820
+To do that, we can
+use SQL to make
+
+56
+00:02:34.820 --> 00:02:36.305
+another statement
+that prints out
+
+57
+00:02:36.305 --> 00:02:38.270
+all of the columns
+from the table.
+
+58
+00:02:38.270 --> 00:02:41.675
+We can do this by placing
+an asterisk after SELECT.
+
+59
+00:02:41.675 --> 00:02:44.745
+This is commonly referred
+to as select all.
+
+60
+00:02:44.745 --> 00:02:49.625
+Now, let's run this query to
+the employees table in SQL.
+
+61
+00:02:49.625 --> 00:02:53.020
+And now we have the full
+table in the output.
+
+62
+00:02:54.020 --> 00:02:55.265
+You just made it
+through a basic query
+
+63
+00:02:55.265 --> 00:02:57.455
+in SQL, congratulations!
+
+64
+00:02:57.455 --> 00:02:59.000
+In the next video,
+
+65
+00:02:59.000 --> 00:03:00.740
+we'll learn how
+to add filters to
+
+66
+00:03:00.740 --> 00:03:03.930
+our queries, so I'll
+meet you there!

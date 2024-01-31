@@ -1,0 +1,585 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:03.150
+Welcome back! In
+this video, we are
+
+2
+00:00:03.150 --> 00:00:05.790
+going to discuss adding
+and deleting users.
+
+3
+00:00:05.790 --> 00:00:09.075
+This is related to the
+concept of authentication.
+
+4
+00:00:09.075 --> 00:00:12.240
+Authentication is the
+process of a user
+
+5
+00:00:12.240 --> 00:00:13.740
+proving that they
+are who they say
+
+6
+00:00:13.740 --> 00:00:15.585
+they are in the system.
+
+7
+00:00:16.585 --> 00:00:17.250
+Just like in a
+physical building,
+
+8
+00:00:17.250 --> 00:00:19.690
+not all users should
+be allowed in.
+
+9
+00:00:19.690 --> 00:00:22.890
+Not all users should get
+access to the system.
+
+10
+00:00:22.890 --> 00:00:25.070
+But we also want to
+make sure everyone
+
+11
+00:00:25.070 --> 00:00:27.730
+who should have access
+to the system has it.
+
+12
+00:00:27.730 --> 00:00:30.345
+That's why we need to add users.
+
+13
+00:00:30.345 --> 00:00:32.210
+New users can be new to
+
+14
+00:00:32.210 --> 00:00:34.895
+the organization
+or new to a group.
+
+15
+00:00:34.895 --> 00:00:36.965
+This could be related
+to a change in
+
+16
+00:00:36.965 --> 00:00:39.560
+organizational structure
+or simply a directive
+
+17
+00:00:39.560 --> 00:00:41.525
+from management to move someone.
+
+18
+00:00:42.525 --> 00:00:44.810
+And also, when users leave
+the organization,
+
+19
+00:00:44.810 --> 00:00:46.415
+they need to be deleted.
+
+20
+00:00:46.415 --> 00:00:47.840
+They should no longer have
+
+21
+00:00:47.840 --> 00:00:50.015
+access to any part
+of the system.
+
+22
+00:00:50.015 --> 00:00:51.905
+Or if they simply
+changed groups,
+
+23
+00:00:51.905 --> 00:00:53.480
+they should be
+deleted from groups
+
+24
+00:00:53.480 --> 00:00:55.615
+that they are no
+longer a part of.
+
+25
+00:00:56.615 --> 00:00:57.560
+Now that we've
+sorted out why it's
+
+26
+00:00:57.560 --> 00:00:59.465
+important to add
+and delete users,
+
+27
+00:00:59.465 --> 00:01:02.660
+let's discuss a different
+type of user, the root user.
+
+28
+00:01:02.660 --> 00:01:04.880
+A root user, or superuser,
+
+29
+00:01:04.880 --> 00:01:09.040
+is a user with elevated
+privileges to modify the system.
+
+30
+00:01:09.040 --> 00:01:11.670
+Regular users have limitations,
+
+31
+00:01:11.670 --> 00:01:13.240
+where the root does not.
+
+32
+00:01:14.240 --> 00:01:15.230
+Individuals who need to perform
+
+33
+00:01:15.230 --> 00:01:19.490
+specific tasks can be temporarily
+added as root users.
+
+34
+00:01:19.490 --> 00:01:22.475
+Root users can create, modify,
+
+35
+00:01:22.475 --> 00:01:25.910
+or delete any file
+and run any program.
+
+36
+00:01:25.910 --> 00:01:28.130
+Only root users or accounts with
+
+37
+00:01:28.130 --> 00:01:31.090
+root privileges
+can add new users.
+
+38
+00:01:31.090 --> 00:01:34.175
+So you may be wondering how
+you become a superuser.
+
+39
+00:01:34.175 --> 00:01:37.430
+Well, one way is logging
+in as the root user,
+
+40
+00:01:37.430 --> 00:01:39.560
+but running commands
+as the root user is
+
+41
+00:01:39.560 --> 00:01:42.340
+considered to be bad
+practice when using Linux.
+
+42
+00:01:43.340 --> 00:01:44.210
+Why is running commands as
+
+43
+00:01:44.210 --> 00:01:46.810
+a root user
+potentially problematic?
+
+44
+00:01:46.810 --> 00:01:48.755
+The first problem
+with logging in
+
+45
+00:01:48.755 --> 00:01:51.080
+as root is the security risks.
+
+46
+00:01:51.080 --> 00:01:54.410
+Malicious actors will try
+to breach the root account.
+
+47
+00:01:54.410 --> 00:01:57.440
+Since it's the most powerful
+account, to stay safe,
+
+48
+00:01:57.440 --> 00:02:00.445
+the root account should
+have logins disabled.
+
+49
+00:02:00.445 --> 00:02:02.810
+Another problem
+is that it's very
+
+50
+00:02:02.810 --> 00:02:05.320
+easy to make
+irreversible mistakes.
+
+51
+00:02:06.320 --> 00:02:09.065
+It's very easy to type the
+wrong command in the CLI,
+
+52
+00:02:09.065 --> 00:02:11.120
+and if you're running
+as the root user,
+
+53
+00:02:11.120 --> 00:02:14.330
+you run a higher risk of
+making an irreversible mistake,
+
+54
+00:02:14.330 --> 00:02:16.615
+such as permanently
+deleting a directory.
+
+55
+00:02:16.615 --> 00:02:19.820
+Finally, there's the
+concern of accountability.
+
+56
+00:02:19.820 --> 00:02:22.625
+In a multi-user
+environment like Linux,
+
+57
+00:02:22.625 --> 00:02:24.520
+there are many users.
+
+58
+00:02:24.520 --> 00:02:26.600
+If a user is running as root,
+
+59
+00:02:26.600 --> 00:02:30.170
+there is no way to track
+who exactly ran a command.
+
+60
+00:02:30.170 --> 00:02:34.150
+One solution to help solve
+this problem is sudo.
+
+61
+00:02:35.150 --> 00:02:36.920
+sudo is a command that
+temporarily grants
+
+62
+00:02:36.920 --> 00:02:39.920
+elevated permissions
+to specific users.
+
+63
+00:02:39.920 --> 00:02:41.690
+This provides more of
+
+64
+00:02:41.690 --> 00:02:44.060
+a controlled approach
+compared to root,
+
+65
+00:02:44.060 --> 00:02:47.005
+which runs every command
+with root privileges.
+
+66
+00:02:47.005 --> 00:02:48.440
+sudo solves lots of
+
+67
+00:02:48.440 --> 00:02:50.735
+problems associated
+with running as root.
+
+68
+00:02:51.735 --> 00:02:53.480
+sudo comes from super-user-do
+
+69
+00:02:53.480 --> 00:02:55.760
+and lets you execute commands as
+
+70
+00:02:55.760 --> 00:02:57.740
+an elevated user without having
+
+71
+00:02:57.740 --> 00:02:59.980
+to sign in and out
+of another account.
+
+72
+00:02:59.980 --> 00:03:02.090
+Running sudo will
+prompt you to enter
+
+73
+00:03:02.090 --> 00:03:05.155
+the password for the user
+you're currently logged in as.
+
+74
+00:03:05.155 --> 00:03:09.020
+Not all users on a system
+can become a superuser.
+
+75
+00:03:09.020 --> 00:03:11.930
+Users must be granted
+sudo access through
+
+76
+00:03:11.930 --> 00:03:15.325
+a configuration file
+called the sudoers file.
+
+77
+00:03:16.325 --> 00:03:17.515
+Now that we've
+learned about sudo,
+
+78
+00:03:17.515 --> 00:03:19.220
+let's learn how we
+can use it with
+
+79
+00:03:19.220 --> 00:03:21.380
+another command to add users.
+
+80
+00:03:21.380 --> 00:03:23.960
+This command is useradd.
+
+81
+00:03:23.960 --> 00:03:27.445
+useradd adds a user
+to the system.
+
+82
+00:03:27.445 --> 00:03:29.240
+Only root or users with
+
+83
+00:03:29.240 --> 00:03:32.435
+sudo privileges can
+use a useradd command.
+
+84
+00:03:32.435 --> 00:03:34.340
+Let's look at a specific example
+
+85
+00:03:34.340 --> 00:03:36.170
+in which we need to add a user.
+
+86
+00:03:36.170 --> 00:03:38.840
+We'll imagine a new
+representative is joining
+
+87
+00:03:38.840 --> 00:03:40.640
+the sales department
+and will be given
+
+88
+00:03:40.640 --> 00:03:43.130
+the username of salesrep7.
+
+89
+00:03:43.130 --> 00:03:46.085
+We're tasked with adding
+them to the system.
+
+90
+00:03:47.085 --> 00:03:48.310
+Let's try adding the new user.
+
+91
+00:03:48.310 --> 00:03:51.155
+First, we need to use
+the sudo command,
+
+92
+00:03:51.155 --> 00:03:53.425
+followed by the useradd command,
+
+93
+00:03:53.425 --> 00:03:56.525
+and then last, the username
+we want to add,
+
+94
+00:03:56.525 --> 00:03:58.835
+in this case, salesrep7.
+
+95
+00:03:58.835 --> 00:04:01.235
+This command doesn't display
+anything on the screen.
+
+96
+00:04:01.235 --> 00:04:03.200
+But since we get
+a new Bash cursor
+
+97
+00:04:03.200 --> 00:04:04.775
+and not an error message,
+
+98
+00:04:04.775 --> 00:04:06.200
+we can feel confident that
+
+99
+00:04:06.200 --> 00:04:07.985
+the command worked successfully.
+
+100
+00:04:07.985 --> 00:04:11.090
+If it didn't, an error
+message would have appeared.
+
+101
+00:04:11.090 --> 00:04:12.890
+Sometimes an error
+has to do with
+
+102
+00:04:12.890 --> 00:04:15.575
+something simple like
+misspelling useradd.
+
+103
+00:04:15.575 --> 00:04:19.555
+Or, it might be because we
+didn't have sudo privileges.
+
+104
+00:04:20.555 --> 00:04:22.245
+Now let's learn how
+to do the opposite.
+
+105
+00:04:22.245 --> 00:04:25.700
+Let's learn how to delete
+a user with userdel.
+
+106
+00:04:25.700 --> 00:04:28.580
+userdel deletes a
+user from the system.
+
+107
+00:04:28.580 --> 00:04:31.310
+Similarly, we need root
+permissions that we'll
+
+108
+00:04:31.310 --> 00:04:34.550
+access through sudo
+to use userdel.
+
+109
+00:04:34.550 --> 00:04:37.860
+Let's go back to our example
+of the user we added.
+
+110
+00:04:37.860 --> 00:04:39.575
+Let's imagine two months later,
+
+111
+00:04:39.575 --> 00:04:41.270
+the sales representative that we just
+
+112
+00:04:41.270 --> 00:04:43.780
+added to the system
+leaves the company.
+
+113
+00:04:43.780 --> 00:04:47.465
+That user should no longer
+have access to the system.
+
+114
+00:04:47.465 --> 00:04:50.155
+Let's delete that
+user from the system.
+
+115
+00:04:51.155 --> 00:04:53.640
+Again, the sudo
+command is used first,
+
+116
+00:04:53.640 --> 00:04:56.100
+then we add the userdel command.
+
+117
+00:04:56.100 --> 00:05:00.130
+Last, we add the name of
+the user we want to delete.
+
+118
+00:05:00.130 --> 00:05:03.230
+Again, we know it ran
+successfully because
+
+119
+00:05:03.230 --> 00:05:06.865
+there is a new Bash cursor
+and not an error message.
+
+120
+00:05:07.865 --> 00:05:09.500
+Now, we've covered
+how to add and delete
+
+121
+00:05:09.500 --> 00:05:12.515
+users and how these
+actions require sudo.
+
+122
+00:05:12.515 --> 00:05:16.100
+When using sudo, we have
+to use our best judgment.
+
+123
+00:05:16.100 --> 00:05:18.590
+These special
+privileges must be used
+
+124
+00:05:18.590 --> 00:05:22.020
+responsibly to ensure
+a secure system.

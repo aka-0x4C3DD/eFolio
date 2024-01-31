@@ -1,0 +1,259 @@
+WEBVTT
+
+1
+00:00:00.050 --> 00:00:02.250
+Now we're ready to discuss
+
+2
+00:00:02.250 --> 00:00:04.380
+a different aspect of
+your operating system.
+
+3
+00:00:04.380 --> 00:00:05.880
+Not only does the OS
+
+4
+00:00:05.880 --> 00:00:08.085
+interact with other
+parts of your computer,
+
+5
+00:00:08.085 --> 00:00:09.510
+but it's also responsible for
+
+6
+00:00:09.510 --> 00:00:11.790
+managing the resources
+of the system.
+
+7
+00:00:11.790 --> 00:00:15.165
+This is a big task that requires
+a lot of balance to make
+
+8
+00:00:15.165 --> 00:00:16.470
+sure all the resources of
+
+9
+00:00:16.470 --> 00:00:18.915
+the computer are
+used efficiently.
+
+10
+00:00:18.915 --> 00:00:21.435
+Think of this like the
+concept of energy.
+
+11
+00:00:21.435 --> 00:00:24.330
+A person needs energy to
+complete different tasks.
+
+12
+00:00:24.330 --> 00:00:26.415
+Some tasks need more energy,
+
+13
+00:00:26.415 --> 00:00:28.110
+while others require less.
+
+14
+00:00:28.110 --> 00:00:30.450
+For example, going for a run
+
+15
+00:00:30.450 --> 00:00:33.255
+requires more energy
+than watching TV.
+
+16
+00:00:33.255 --> 00:00:36.420
+A computer's OS also needs
+to make sure that it
+
+17
+00:00:36.420 --> 00:00:37.500
+has enough energy to
+
+18
+00:00:37.500 --> 00:00:39.625
+function correctly
+for certain tasks.
+
+19
+00:00:39.625 --> 00:00:42.620
+Running an antivirus scan
+on your computer will use
+
+20
+00:00:42.620 --> 00:00:45.860
+more energy than using the
+calculator application.
+
+21
+00:00:46.860 --> 00:00:48.225
+Imagine your computer
+is an orchestra.
+
+22
+00:00:48.225 --> 00:00:50.405
+Many different
+instruments like violins,
+
+23
+00:00:50.405 --> 00:00:53.465
+drums, and trumpets are
+all part of the orchestra.
+
+24
+00:00:53.465 --> 00:00:54.710
+An orchestra also has
+
+25
+00:00:54.710 --> 00:00:57.205
+a conductor to direct
+the flow of the music.
+
+26
+00:00:57.205 --> 00:01:00.140
+In a computer, the
+OS is the conductor.
+
+27
+00:01:00.140 --> 00:01:03.500
+The OS handles resource and
+memory management to ensure
+
+28
+00:01:03.500 --> 00:01:04.880
+the limited capacity of
+
+29
+00:01:04.880 --> 00:01:08.135
+the computer system is used
+where it's needed most.
+
+30
+00:01:08.135 --> 00:01:10.535
+A variety of programs, tasks,
+
+31
+00:01:10.535 --> 00:01:13.010
+and processes are
+constantly competing for
+
+32
+00:01:13.010 --> 00:01:16.655
+the resources of the central
+processing unit, or CPU.
+
+33
+00:01:16.655 --> 00:01:19.430
+They all have their own
+reasons why they need memory,
+
+34
+00:01:19.430 --> 00:01:22.425
+storage, and
+input/output bandwidth.
+
+35
+00:01:22.425 --> 00:01:25.225
+The OS is responsible
+for ensuring that
+
+36
+00:01:25.225 --> 00:01:28.990
+each program is allocating
+and de-allocating resources.
+
+37
+00:01:28.990 --> 00:01:31.240
+All this occurs in
+your computer at
+
+38
+00:01:31.240 --> 00:01:33.355
+the same time so that your
+system functions efficiently.
+
+39
+00:01:34.355 --> 00:01:36.570
+Much of this is hidden
+from you as a user.
+
+40
+00:01:37.570 --> 00:01:39.580
+But, your task manager
+
+41
+00:01:39.580 --> 00:01:40.200
+will list all of
+
+42
+00:01:40.200 --> 00:01:41.300
+the tasks that are
+being processed,
+
+43
+00:01:42.300 --> 00:01:44.555
+along with their
+memory and CPU usage.
+
+44
+00:01:45.555 --> 00:01:46.910
+As an analyst, it's
+helpful to know
+
+45
+00:01:46.910 --> 00:01:49.430
+where a system's
+resources are used.
+
+46
+00:01:49.430 --> 00:01:52.430
+Understanding usage of
+resources can help you respond
+
+47
+00:01:52.430 --> 00:01:53.750
+to an incident and troubleshoot
+
+48
+00:01:53.750 --> 00:01:55.560
+applications in the system.
+
+49
+00:01:56.560 --> 00:01:58.760
+For example, if a computer
+is running slowly,
+
+50
+00:01:58.760 --> 00:02:01.365
+an analyst might discover
+
+51
+00:02:01.365 --> 00:02:03.775
+it's allocating
+resources to malware.
+
+52
+00:02:03.775 --> 00:02:04.425
+A basic understanding of how
+
+53
+00:02:04.425 --> 00:02:06.330
+operating systems
+work will help you
+
+54
+00:02:06.330 --> 00:02:08.265
+better understand
+the security skills
+
+55
+00:02:08.265 --> 00:02:13.020
+you will learn later
+in this program.

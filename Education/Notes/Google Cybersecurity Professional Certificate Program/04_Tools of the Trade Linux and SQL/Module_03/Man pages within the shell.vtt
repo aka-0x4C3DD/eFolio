@@ -1,0 +1,264 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:03.795
+Welcome back! In this video,
+
+2
+00:00:03.795 --> 00:00:06.630
+we're going to discuss some
+resources that are available
+
+3
+00:00:06.630 --> 00:00:08.310
+directly through
+the shell and can
+
+4
+00:00:08.310 --> 00:00:10.485
+help you while working in Linux.
+
+5
+00:00:10.485 --> 00:00:13.080
+One of the great
+things about Linux is
+
+6
+00:00:13.080 --> 00:00:15.780
+that you can get help right
+through the command line.
+
+7
+00:00:15.780 --> 00:00:19.860
+The first command that can
+help you in this way is: man.
+
+8
+00:00:20.860 --> 00:00:22.020
+man displays information on
+
+9
+00:00:22.020 --> 00:00:24.300
+other commands and
+how they work.
+
+10
+00:00:24.300 --> 00:00:27.720
+The name of this command
+comes from the word manual.
+
+11
+00:00:27.720 --> 00:00:30.690
+Let's examine this
+more closely by using
+
+12
+00:00:30.690 --> 00:00:34.095
+man to get information
+about the usermod command.
+
+13
+00:00:34.095 --> 00:00:37.980
+After man, we type the
+name of this command.
+
+14
+00:00:37.980 --> 00:00:40.070
+The information that man
+
+15
+00:00:40.070 --> 00:00:42.860
+returns includes a
+general description.
+
+16
+00:00:42.860 --> 00:00:44.899
+It also contains information
+
+17
+00:00:44.899 --> 00:00:47.425
+about each of usermod's options.
+
+18
+00:00:47.425 --> 00:00:50.640
+For example, the
+option -d can be
+
+19
+00:00:50.640 --> 00:00:53.929
+added to usermod to change
+a user's home directory.
+
+20
+00:00:53.929 --> 00:00:56.000
+man provides a lot
+of information,
+
+21
+00:00:56.000 --> 00:00:57.530
+but sometimes we just need
+
+22
+00:00:57.530 --> 00:00:59.845
+a quick reference on
+what a command does.
+
+23
+00:00:59.845 --> 00:01:02.835
+In that case, you use whatis.
+
+24
+00:01:02.835 --> 00:01:04.910
+whatis displays a description
+
+25
+00:01:04.910 --> 00:01:07.580
+of a command on a single line.
+
+26
+00:01:08.580 --> 00:01:10.025
+Let's say you heard
+a co-worker
+
+27
+00:01:10.025 --> 00:01:12.035
+mention a command like tail.
+
+28
+00:01:12.035 --> 00:01:14.570
+You've never heard of
+this command before,
+
+29
+00:01:14.570 --> 00:01:16.945
+but you can find
+out what it does.
+
+30
+00:01:16.945 --> 00:01:18.570
+Simply use the command,
+
+31
+00:01:18.570 --> 00:01:20.670
+whatis tail, and learn that
+
+32
+00:01:20.670 --> 00:01:23.145
+it outputs the last
+part of files.
+
+33
+00:01:24.145 --> 00:01:26.720
+Sometimes we might not even
+know what command to look up.
+
+34
+00:01:26.720 --> 00:01:29.330
+This is where
+apropos can help us.
+
+35
+00:01:29.330 --> 00:01:32.585
+apropos searches the
+manual page descriptions
+
+36
+00:01:32.585 --> 00:01:35.350
+for a specified string.
+Let's try it out.
+
+37
+00:01:35.350 --> 00:01:36.800
+Let's say you have a task that
+
+38
+00:01:36.800 --> 00:01:38.525
+requires you to
+change a password,
+
+39
+00:01:38.525 --> 00:01:40.535
+but you're not quite
+sure how to do this.
+
+40
+00:01:40.535 --> 00:01:43.805
+If we use the apropos command
+with the string password,
+
+41
+00:01:43.805 --> 00:01:45.320
+this will display a large number
+
+42
+00:01:45.320 --> 00:01:46.945
+of commands with that word.
+
+43
+00:01:46.945 --> 00:01:48.200
+This helps somewhat,
+
+44
+00:01:48.200 --> 00:01:50.915
+but it still may be difficult
+to find what we need.
+
+45
+00:01:50.915 --> 00:01:52.730
+But we can filter this by adding
+
+46
+00:01:52.730 --> 00:01:55.420
+the -a option and
+an additional string.
+
+47
+00:01:55.420 --> 00:01:56.840
+This option will return
+
+48
+00:01:56.840 --> 00:01:59.585
+only the commands that
+contain both strings.
+
+49
+00:01:59.585 --> 00:02:02.450
+In our case, since we want
+to change the password,
+
+50
+00:02:02.450 --> 00:02:05.974
+let's look for commands with
+both: change and password.
+
+51
+00:02:05.974 --> 00:02:07.625
+Now, the output has been
+
+52
+00:02:07.625 --> 00:02:09.830
+limited to the most
+relevant commands.
+
+53
+00:02:10.830 --> 00:02:11.720
+These commands make it a lot
+
+54
+00:02:11.720 --> 00:02:14.315
+easier to navigate the
+Linux command line.
+
+55
+00:02:14.315 --> 00:02:15.920
+As a new analyst,
+
+56
+00:02:15.920 --> 00:02:18.440
+you won't have all the
+answers all the time,
+
+57
+00:02:18.440 --> 00:02:21.380
+but you can learn
+where to find them.

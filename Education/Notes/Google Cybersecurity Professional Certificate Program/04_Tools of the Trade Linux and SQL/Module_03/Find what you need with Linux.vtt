@@ -1,0 +1,504 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:04.500
+Now that we covered: pwd, ls,
+
+2
+00:00:04.500 --> 00:00:06.600
+and cd and are familiar with
+
+3
+00:00:06.600 --> 00:00:07.710
+these basic commands for
+
+4
+00:00:07.710 --> 00:00:10.095
+navigating the
+Linux file system,
+
+5
+00:00:10.095 --> 00:00:12.000
+let's look at a
+couple of ways to
+
+6
+00:00:12.000 --> 00:00:14.400
+find what you need
+within this system.
+
+7
+00:00:14.400 --> 00:00:16.215
+As a security analyst,
+
+8
+00:00:16.215 --> 00:00:18.105
+your work will likely involve
+
+9
+00:00:18.105 --> 00:00:20.445
+filtering for the
+information you need.
+
+10
+00:00:20.445 --> 00:00:22.650
+Filtering means searching
+your system for
+
+11
+00:00:22.650 --> 00:00:24.690
+specific information that can
+
+12
+00:00:24.690 --> 00:00:27.000
+help you solve complex problems.
+
+13
+00:00:27.000 --> 00:00:29.640
+For example, imagine
+that your team
+
+14
+00:00:29.640 --> 00:00:30.720
+determines a piece of
+
+15
+00:00:30.720 --> 00:00:33.345
+malware contains a
+string of characters.
+
+16
+00:00:33.345 --> 00:00:35.970
+You might be tasked with
+finding other files with
+
+17
+00:00:35.970 --> 00:00:37.500
+the same string to determine if
+
+18
+00:00:37.500 --> 00:00:39.655
+those files contain
+the same malware.
+
+19
+00:00:39.655 --> 00:00:41.540
+Later, we'll learn
+more about how
+
+20
+00:00:41.540 --> 00:00:43.670
+you can use SQL to
+filter a database,
+
+21
+00:00:43.670 --> 00:00:46.565
+but Linux is a good place
+to start basic filtering.
+
+22
+00:00:47.565 --> 00:00:48.940
+First, we'll start with grep.
+
+23
+00:00:48.940 --> 00:00:52.010
+The grep command searches
+a specified file and
+
+24
+00:00:52.010 --> 00:00:53.390
+returns all lines in
+
+25
+00:00:53.390 --> 00:00:56.275
+the file containing
+a specified string.
+
+26
+00:00:56.275 --> 00:00:58.625
+Here's an example of this.
+
+27
+00:00:58.625 --> 00:01:03.560
+Let's say we have a file
+called updates.txt,
+
+28
+00:01:03.560 --> 00:01:05.690
+and we're currently
+looking for lines that
+
+29
+00:01:05.690 --> 00:01:08.255
+contain the word: OS.
+
+30
+00:01:08.255 --> 00:01:10.025
+If the file is large,
+
+31
+00:01:10.025 --> 00:01:13.360
+it would take a long time
+to visually scan for this.
+
+32
+00:01:13.360 --> 00:01:15.290
+Instead, after navigating to
+
+33
+00:01:15.290 --> 00:01:18.800
+the directory that
+contains updates.txt,
+
+34
+00:01:18.800 --> 00:01:20.930
+we'll type the command:
+
+35
+00:01:20.930 --> 00:01:24.785
+grep OS updates.txt into the shell.
+
+36
+00:01:24.785 --> 00:01:28.265
+Notice how the grep command
+is followed by two arguments.
+
+37
+00:01:28.265 --> 00:01:31.220
+The first argument is the
+string we're searching for;
+
+38
+00:01:31.220 --> 00:01:33.575
+in this case, OS.
+
+39
+00:01:33.575 --> 00:01:36.230
+The second argument is
+the name of the file
+
+40
+00:01:36.230 --> 00:01:39.640
+we're searching
+through, updates.txt.
+
+41
+00:01:39.640 --> 00:01:41.300
+When we press enter,
+
+42
+00:01:41.300 --> 00:01:45.800
+Bash returns all lines
+containing the word OS.
+
+43
+00:01:46.800 --> 00:01:49.265
+Now let's talk about piping.
+
+44
+00:01:49.265 --> 00:01:51.710
+Piping is a Linux command that
+
+45
+00:01:51.710 --> 00:01:54.505
+can be used for a
+variety of purposes.
+
+46
+00:01:54.505 --> 00:01:56.630
+In a moment, we'll focus on
+
+47
+00:01:56.630 --> 00:01:58.790
+how it can be used
+for filtering.
+
+48
+00:01:58.790 --> 00:02:02.845
+But first, let's talk about
+the general idea of piping.
+
+49
+00:02:02.845 --> 00:02:05.900
+The piping command sends
+a standard output of
+
+50
+00:02:05.900 --> 00:02:07.775
+one command as standard input
+
+51
+00:02:07.775 --> 00:02:10.070
+into another command
+for further processing.
+
+52
+00:02:10.070 --> 00:02:12.770
+It's represented by the
+vertical bar character.
+
+53
+00:02:12.770 --> 00:02:13.850
+In our context,
+
+54
+00:02:13.850 --> 00:02:16.450
+we can refer to this
+as the pipe character.
+
+55
+00:02:16.450 --> 00:02:18.980
+Take a moment and
+imagine a physical pipe.
+
+56
+00:02:18.980 --> 00:02:20.840
+Physical pipes have two ends.
+
+57
+00:02:20.840 --> 00:02:22.535
+On one end, for example,
+
+58
+00:02:22.535 --> 00:02:25.040
+water might enter the pipe
+from a hot water tank.
+
+59
+00:02:25.040 --> 00:02:27.170
+Then, it travels
+through the pipe and
+
+60
+00:02:27.170 --> 00:02:29.975
+comes out on the
+other end in a sink.
+
+61
+00:02:29.975 --> 00:02:32.315
+Similarly, in Linux,
+
+62
+00:02:32.315 --> 00:02:35.015
+piping also involves
+redirection.
+
+63
+00:02:35.015 --> 00:02:37.730
+Output from one command
+is sent through
+
+64
+00:02:37.730 --> 00:02:41.065
+the pipe and then is used on
+the other side of the pipe.
+
+65
+00:02:41.065 --> 00:02:42.755
+Earlier in this video,
+
+66
+00:02:42.755 --> 00:02:45.200
+I explained how grep can
+be used to filter for
+
+67
+00:02:45.200 --> 00:02:47.935
+strings of characters
+within a file.
+
+68
+00:02:47.935 --> 00:02:50.825
+Grep can also be
+incorporated after a pipe.
+
+69
+00:02:51.825 --> 00:02:52.880
+Let's focus on this example.
+
+70
+00:02:52.880 --> 00:02:54.785
+The first command, ls,
+
+71
+00:02:54.785 --> 00:02:57.710
+instructs the operating
+system to output the file
+
+72
+00:02:57.710 --> 00:03:01.630
+and directory contents of
+their reports subdirectory.
+
+73
+00:03:01.630 --> 00:03:04.475
+But because the command
+is followed by the pipe,
+
+74
+00:03:04.475 --> 00:03:06.755
+the output isn't
+returned to the screen.
+
+75
+00:03:06.755 --> 00:03:09.635
+Instead, it's sent
+to the next command.
+
+76
+00:03:09.635 --> 00:03:11.180
+As we just learned,
+
+77
+00:03:11.180 --> 00:03:14.530
+grep searches for a specified
+string of characters;
+
+78
+00:03:14.530 --> 00:03:17.134
+in this case, it's users.
+
+79
+00:03:17.134 --> 00:03:18.960
+But where is it searching?
+
+80
+00:03:18.960 --> 00:03:20.720
+Since grep follows a pipe,
+
+81
+00:03:20.720 --> 00:03:22.610
+the output of the
+previous command
+
+82
+00:03:22.610 --> 00:03:24.365
+indicates where to search.
+
+83
+00:03:24.365 --> 00:03:27.290
+In this case, that
+output is a list of
+
+84
+00:03:27.290 --> 00:03:31.130
+files and directories within
+the reports subdirectory.
+
+85
+00:03:31.130 --> 00:03:32.870
+It will return all files and
+
+86
+00:03:32.870 --> 00:03:35.810
+directories that
+contain the word: users.
+
+87
+00:03:36.810 --> 00:03:38.000
+Let's explore this in Bash.
+
+88
+00:03:38.000 --> 00:03:40.360
+So we can better understand
+how the filter works,
+
+89
+00:03:40.360 --> 00:03:43.465
+let's first output everything
+in the reports directory.
+
+90
+00:03:43.465 --> 00:03:45.634
+If we were already
+in the directory,
+
+91
+00:03:45.634 --> 00:03:48.395
+we would just need to input ls.
+
+92
+00:03:48.395 --> 00:03:50.390
+But since we're not, we'll also
+
+93
+00:03:50.390 --> 00:03:52.795
+specify the path
+to this directory.
+
+94
+00:03:52.795 --> 00:03:54.200
+When we press enter,
+
+95
+00:03:54.200 --> 00:03:56.120
+the output indicates there are
+
+96
+00:03:56.120 --> 00:03:58.790
+seven files in the
+reports directory.
+
+97
+00:03:58.790 --> 00:04:00.260
+Because we want to return
+
+98
+00:04:00.260 --> 00:04:02.585
+only the files that
+contain the word users,
+
+99
+00:04:02.585 --> 00:04:04.865
+we'll combine this ls command
+
+100
+00:04:04.865 --> 00:04:07.435
+with piping and
+the grep command.
+
+101
+00:04:07.435 --> 00:04:09.800
+As the output demonstrates,
+
+102
+00:04:09.800 --> 00:04:11.765
+Linux has been
+instructed to return
+
+103
+00:04:11.765 --> 00:04:14.870
+only files that contain
+the word users.
+
+104
+00:04:14.870 --> 00:04:16.970
+The two files that don't contain
+
+105
+00:04:16.970 --> 00:04:19.840
+this string no longer appear.
+
+106
+00:04:20.840 --> 00:04:22.520
+So now you have two different
+ways that you can
+
+107
+00:04:22.520 --> 00:04:25.435
+filter in Linux while
+working as an analyst.
+
+108
+00:04:25.435 --> 00:04:27.110
+Navigating through files and
+
+109
+00:04:27.110 --> 00:04:29.675
+filtering are just part
+of what you need to know.
+
+110
+00:04:29.675 --> 00:04:33.060
+Let's keep exploring
+the Linux command line.

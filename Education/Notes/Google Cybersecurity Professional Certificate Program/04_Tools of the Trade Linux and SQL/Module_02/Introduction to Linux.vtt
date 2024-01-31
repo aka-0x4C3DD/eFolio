@@ -1,0 +1,272 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.398
+You might have seen or
+heard the name Linux in the past.
+
+2
+00:00:04.398 --> 00:00:08.924
+But did you know Linux is the most-used
+operating system in security today?
+
+3
+00:00:08.924 --> 00:00:12.505
+Let's start by taking a look at Linux and
+how it's used in security.
+
+4
+00:00:13.505 --> 00:00:15.737
+Linux is an open-source operating system.
+
+5
+00:00:15.737 --> 00:00:17.588
+It was created in two parts.
+
+6
+00:00:17.588 --> 00:00:22.235
+In the early 1990s, two different people
+were working separately on projects to
+
+7
+00:00:22.235 --> 00:00:24.051
+improve computer engineering.
+
+8
+00:00:24.051 --> 00:00:27.355
+The first person was Linus Torvalds.
+
+9
+00:00:27.355 --> 00:00:31.303
+At the time, the UNIX operating
+system was already in use.
+
+10
+00:00:31.303 --> 00:00:35.699
+He wanted to improve it and make it
+open source and accessible to anyone.
+
+11
+00:00:35.699 --> 00:00:40.045
+What was revolutionary was his
+introduction of the Linux kernel.
+
+12
+00:00:40.045 --> 00:00:43.426
+We're going to learn what
+the kernel does later.
+
+13
+00:00:44.426 --> 00:00:47.052
+Around the same time,
+Richard Stallman started working on GNU.
+
+14
+00:00:47.052 --> 00:00:49.896
+GNU was also an operating
+system based on UNIX.
+
+15
+00:00:49.896 --> 00:00:54.426
+Stallman shared Torvalds' goal of
+creating software that was free and
+
+16
+00:00:54.426 --> 00:00:55.473
+open to anyone.
+
+17
+00:00:55.473 --> 00:00:59.642
+After working on GNU for
+a few years, the missing element for
+
+18
+00:00:59.642 --> 00:01:01.697
+the software was a kernel.
+
+19
+00:01:01.697 --> 00:01:06.590
+Together, Torvalds' and Stallman’s innovations
+made what is commonly referred
+
+20
+00:01:06.590 --> 00:01:07.425
+to as Linux.
+
+21
+00:01:08.425 --> 00:01:10.188
+Now that you've learned
+the history behind Linux,
+
+22
+00:01:10.188 --> 00:01:12.768
+let's take a look at
+what makes Linux unique.
+
+23
+00:01:12.768 --> 00:01:15.752
+As mentioned before, Linux is open source,
+
+24
+00:01:15.752 --> 00:01:20.787
+meaning anyone can have access to
+the operating system and the source code.
+
+25
+00:01:20.787 --> 00:01:25.716
+Linux and many of the programs that come
+with Linux are licensed under the terms
+
+26
+00:01:25.716 --> 00:01:30.733
+of the GNU Public License, which allow you
+to use, share, and modify them freely.
+
+27
+00:01:30.733 --> 00:01:35.230
+Thanks to Linux's open-source philosophy
+as well as a strong feature set,
+
+28
+00:01:35.230 --> 00:01:39.769
+an entire community of developers
+has adopted this operating system.
+
+29
+00:01:39.769 --> 00:01:43.425
+These developers are able to
+collaborate on projects and
+
+30
+00:01:43.425 --> 00:01:45.489
+advance computing together.
+
+31
+00:01:45.489 --> 00:01:47.020
+As a security analyst,
+
+32
+00:01:47.020 --> 00:01:51.315
+you'll discover that Linux is
+used at different organizations.
+
+33
+00:01:51.315 --> 00:01:56.070
+More specifically,
+Linux is used in many security programs.
+
+34
+00:01:56.070 --> 00:01:59.334
+Another unique feature about Linux
+is the different distributions, or
+
+35
+00:01:59.334 --> 00:02:01.175
+varieties, that have been developed.
+
+36
+00:02:01.175 --> 00:02:03.783
+Because of the large
+community contribution,
+
+37
+00:02:03.783 --> 00:02:06.401
+there are over 600 distributions of Linux.
+
+38
+00:02:06.401 --> 00:02:09.616
+Later you'll learn more
+about distributions.
+
+39
+00:02:10.616 --> 00:02:14.197
+Finally, let's take a look at how you
+would use Linux in an entry-level
+
+40
+00:02:14.197 --> 00:02:15.560
+security position.
+
+41
+00:02:15.560 --> 00:02:20.010
+As a security analyst, you'll use many
+tools and programs in everyday work.
+
+42
+00:02:20.010 --> 00:02:24.754
+You might examine different types of logs
+to identify what's going on in the system.
+
+43
+00:02:24.754 --> 00:02:25.705
+For example,
+
+44
+00:02:25.705 --> 00:02:30.868
+you might find yourself looking at
+an error log when investigating an issue.
+
+45
+00:02:30.868 --> 00:02:34.617
+Another place where you will use
+Linux is to verify access and
+
+46
+00:02:34.617 --> 00:02:38.451
+authorization in an identity and
+access management system.
+
+47
+00:02:38.451 --> 00:02:44.280
+In security, managing access is key
+in order to ensure a secure system.
+
+48
+00:02:44.280 --> 00:02:48.487
+We'll take a closer look into access and
+authorization later.
+
+49
+00:02:49.487 --> 00:02:51.770
+Finally, as an analyst,
+you might find yourself working
+
+50
+00:02:51.770 --> 00:02:55.325
+with specific distributions designed for
+a particular task.
+
+51
+00:02:55.325 --> 00:03:00.113
+For example, you might use a distribution
+that has a digital forensic tool
+
+52
+00:03:00.113 --> 00:03:03.232
+to investigate what
+happened in an event alert.
+
+53
+00:03:03.232 --> 00:03:05.628
+You might also use
+a distribution that's for
+
+54
+00:03:05.628 --> 00:03:09.801
+pen testing in offensive security to
+look for vulnerabilities in the system.
+
+55
+00:03:09.801 --> 00:03:12.645
+Distributions are created to
+fit the needs of their users.
+
+56
+00:03:12.645 --> 00:03:15.545
+I hope you're excited to
+learn more about Linux.
+
+57
+00:03:15.545 --> 00:03:18.730
+This will be a very useful
+skill in the security field.

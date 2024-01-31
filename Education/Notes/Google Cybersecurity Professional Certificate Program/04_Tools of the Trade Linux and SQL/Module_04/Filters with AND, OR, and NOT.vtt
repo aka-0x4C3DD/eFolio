@@ -1,0 +1,533 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:02.265
+In the previous lesson,
+
+2
+00:00:02.265 --> 00:00:05.100
+we learned about even more
+ways to filter queries in
+
+3
+00:00:05.100 --> 00:00:08.805
+SQL to work with some typical
+security analyst tasks.
+
+4
+00:00:08.805 --> 00:00:12.240
+However, when working with
+real security questions,
+
+5
+00:00:12.240 --> 00:00:15.195
+we often have to filter
+for multiple conditions.
+
+6
+00:00:15.195 --> 00:00:16.890
+Vulnerabilities, for instance,
+
+7
+00:00:16.890 --> 00:00:19.690
+might depend on more
+than one factor.
+
+8
+00:00:19.690 --> 00:00:21.470
+For example, a
+
+9
+00:00:21.470 --> 00:00:23.910
+security vulnerability
+might be related to
+
+10
+00:00:23.910 --> 00:00:26.520
+machines using a
+specific email client
+
+11
+00:00:26.520 --> 00:00:28.845
+on a specific operating system.
+
+12
+00:00:28.845 --> 00:00:31.830
+So, to find the possible
+vulnerabilities,
+
+13
+00:00:31.830 --> 00:00:33.990
+we need to find machines using
+
+14
+00:00:33.990 --> 00:00:37.560
+both the email client and
+the operating system.
+
+15
+00:00:38.560 --> 00:00:39.330
+To make a query with
+
+16
+00:00:39.330 --> 00:00:41.785
+multiple conditions
+that must be met,
+
+17
+00:00:41.785 --> 00:00:46.895
+we use the AND operator between
+two separate conditions.
+
+18
+00:00:46.895 --> 00:00:50.390
+AND is an operator
+that specifies that
+
+19
+00:00:50.390 --> 00:00:53.785
+both conditions must
+be met simultaneously.
+
+20
+00:00:53.785 --> 00:00:56.630
+Bringing this back to our
+fruit and vegetable analogy,
+
+21
+00:00:56.630 --> 00:00:59.630
+this is the same as asking
+someone to select apples from
+
+22
+00:00:59.630 --> 00:01:03.625
+the big box where the
+apples are large and fresh.
+
+23
+00:01:03.625 --> 00:01:07.970
+This means our results won't
+include any small apples
+
+24
+00:01:07.970 --> 00:01:09.815
+even if they're fresh, or
+
+25
+00:01:09.815 --> 00:01:12.700
+any rotten apples even
+if they're large.
+
+26
+00:01:12.700 --> 00:01:15.810
+They'll only include
+large fresh apples.
+
+27
+00:01:15.810 --> 00:01:19.390
+The apples must meet
+both conditions.
+
+28
+00:01:20.390 --> 00:01:21.260
+Going back to our database,
+
+29
+00:01:21.260 --> 00:01:22.625
+the machines table lists
+
+30
+00:01:22.625 --> 00:01:25.985
+all operating systems
+and email clients.
+
+31
+00:01:25.985 --> 00:01:29.360
+We want a list of machines
+running Operating System
+
+32
+00:01:29.360 --> 00:01:33.985
+1 and a list of machines
+using Email Client 1.
+
+33
+00:01:33.985 --> 00:01:36.560
+We'll use the left
+and right circles in
+
+34
+00:01:36.560 --> 00:01:39.245
+the Venn diagram to
+represent these groups.
+
+35
+00:01:39.245 --> 00:01:42.410
+We need SQL to select
+the machines that
+
+36
+00:01:42.410 --> 00:01:46.030
+have both OS 1 and
+Email Client 1.
+
+37
+00:01:46.030 --> 00:01:48.770
+The filled-in area at
+the intersection of
+
+38
+00:01:48.770 --> 00:01:51.595
+these circles represents
+this condition.
+
+39
+00:01:51.595 --> 00:01:55.085
+Let's take this and
+implement it in SQL.
+
+40
+00:01:56.085 --> 00:01:57.290
+First, we're going to start by
+
+41
+00:01:57.290 --> 00:01:59.420
+building the first
+lines of the query,
+
+42
+00:01:59.420 --> 00:02:00.995
+telling SQL to SELECT*
+
+43
+00:02:00.995 --> 00:02:04.105
+all columns FROM the
+machines table.
+
+44
+00:02:04.105 --> 00:02:08.080
+Then, we'll add the WHERE clause.
+
+45
+00:02:11.630 --> 00:02:14.610
+Let's examine this more closely.
+
+46
+00:02:14.610 --> 00:02:16.584
+First, we indicate
+
+47
+00:02:16.584 --> 00:02:18.625
+the first condition
+that it must meet,
+
+48
+00:02:18.625 --> 00:02:23.060
+that the operating system
+column has a value of '0S 1'
+
+49
+00:02:24.060 --> 00:02:27.585
+Then, we use AND to join
+this to another condition.
+
+50
+00:02:27.585 --> 00:02:30.525
+And finally, we enter
+the other condition,
+
+51
+00:02:30.525 --> 00:02:31.980
+in this case that
+
+52
+00:02:31.980 --> 00:02:33.670
+the email client column should
+
+53
+00:02:33.670 --> 00:02:36.255
+have a value of 'Email Client 1'
+
+54
+00:02:37.255 --> 00:02:40.150
+And this is how you use the
+AND operator in SQL!
+
+55
+00:02:40.150 --> 00:02:43.135
+Let's run this to get
+the query results.
+
+56
+00:02:43.135 --> 00:02:48.010
+Perfect! All the results
+match both our conditions!
+
+57
+00:02:49.170 --> 00:02:51.970
+Let's keep going and explore
+more ways to combine
+
+58
+00:02:51.970 --> 00:02:55.705
+different conditions by
+working with the OR operator.
+
+59
+00:02:55.705 --> 00:02:58.060
+The OR operator is
+an operator that
+
+60
+00:02:58.060 --> 00:03:01.580
+specifies that either
+condition can be met.
+
+61
+00:03:01.580 --> 00:03:03.345
+In a Venn diagram,
+
+62
+00:03:03.345 --> 00:03:06.390
+let's say each circle
+represents a condition.
+
+63
+00:03:06.390 --> 00:03:08.300
+When they are joined with OR,
+
+64
+00:03:08.300 --> 00:03:09.970
+SQL would select all rows that
+
+65
+00:03:09.970 --> 00:03:12.205
+satisfy one of the conditions.
+
+66
+00:03:12.205 --> 00:03:15.355
+And it's also ok if it
+meets both conditions.
+
+67
+00:03:16.355 --> 00:03:19.520
+Let's run another query
+and use the OR operator.
+
+68
+00:03:19.520 --> 00:03:21.070
+Let's say that we wanted the
+
+69
+00:03:21.070 --> 00:03:23.200
+filter to identify
+machines that have
+
+70
+00:03:23.200 --> 00:03:28.330
+either OS 1 or OS 3 because
+both types need a patch.
+
+71
+00:03:28.330 --> 00:03:31.100
+We'll type in these conditions.
+
+72
+00:03:36.890 --> 00:03:39.855
+Let's examine this more closely.
+
+73
+00:03:39.855 --> 00:03:43.240
+After WHERE, our first
+condition indicates we want to
+
+74
+00:03:43.240 --> 00:03:47.260
+filter, so that the query
+selects machines with 'OS 1'
+
+75
+00:03:47.260 --> 00:03:50.260
+We use the OR operator
+because we also want
+
+76
+00:03:50.260 --> 00:03:53.215
+to find records that
+match another condition.
+
+77
+00:03:53.215 --> 00:03:56.650
+This additional condition
+is placed after OR and
+
+78
+00:03:56.650 --> 00:04:00.875
+indicates to also select
+machines running 'OS 3'
+
+79
+00:04:00.875 --> 00:04:02.835
+Executing the query,
+
+80
+00:04:02.835 --> 00:04:06.070
+our results now include
+records that have a value of
+
+81
+00:04:06.070 --> 00:04:10.685
+either OS 1 or OS 3 in the
+operating system column.
+
+82
+00:04:10.685 --> 00:04:14.680
+Good job, we're running
+some complex queries.
+
+83
+00:04:15.680 --> 00:04:17.020
+The last operator
+we're going to go
+
+84
+00:04:17.020 --> 00:04:19.555
+into is the NOT operator.
+
+85
+00:04:19.555 --> 00:04:22.490
+NOT negates a condition.
+
+86
+00:04:22.490 --> 00:04:24.270
+In a diagram,
+
+87
+00:04:24.270 --> 00:04:25.975
+we can show this by selecting
+
+88
+00:04:25.975 --> 00:04:29.450
+every entry that does
+not match our condition.
+
+89
+00:04:29.450 --> 00:04:31.660
+The condition is
+represented by the circle.
+
+90
+00:04:31.660 --> 00:04:33.640
+The filled-in portion outside
+
+91
+00:04:33.640 --> 00:04:36.175
+the circle represents
+what gets returned.
+
+92
+00:04:36.175 --> 00:04:39.425
+This is all data that does
+not match the condition.
+
+93
+00:04:39.425 --> 00:04:41.965
+For example, when
+picking out fruit,
+
+94
+00:04:41.965 --> 00:04:45.520
+you can be looking for any
+fruit that is not an apple.
+
+95
+00:04:45.520 --> 00:04:47.425
+That is a lot more efficient
+
+96
+00:04:47.425 --> 00:04:48.970
+than telling your
+friend you want
+
+97
+00:04:48.970 --> 00:04:53.105
+a banana or an orange
+or a lime, and so on.
+
+98
+00:04:54.105 --> 00:04:55.180
+Suppose you wanted to update
+
+99
+00:04:55.180 --> 00:04:56.860
+all of the devices in
+
+100
+00:04:56.860 --> 00:05:00.130
+your company except for
+the ones using OS 3.
+
+101
+00:05:00.130 --> 00:05:01.960
+Bringing this into SQL,
+
+102
+00:05:01.960 --> 00:05:04.310
+we can write this query.
+
+103
+00:05:07.820 --> 00:05:10.320
+We place NOT after
+
+104
+00:05:10.320 --> 00:05:14.000
+WHERE and before the
+condition of the filter.
+
+105
+00:05:14.000 --> 00:05:17.810
+Executing these queries
+gives us the list
+
+106
+00:05:17.810 --> 00:05:21.125
+of all the machines that
+aren't running OS 3, and
+
+107
+00:05:21.125 --> 00:05:23.905
+now we know which
+machines to update.
+
+108
+00:05:24.905 --> 00:05:27.230
+That was a lot of new content
+that we just looked into,
+
+109
+00:05:27.230 --> 00:05:29.870
+but you're learning more
+and more SQL that you
+
+110
+00:05:29.870 --> 00:05:32.620
+can use on your journey
+to become an analyst!
+
+111
+00:05:32.620 --> 00:05:34.400
+In the next video,
+
+112
+00:05:34.400 --> 00:05:36.110
+we'll be learning
+how to combine and
+
+113
+00:05:36.110 --> 00:05:37.940
+join two tables together to
+
+114
+00:05:37.940 --> 00:05:42.690
+expand the kinds of queries we can
+run. I'll meet you there!

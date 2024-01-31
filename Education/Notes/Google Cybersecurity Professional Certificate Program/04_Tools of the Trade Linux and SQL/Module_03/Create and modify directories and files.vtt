@@ -1,0 +1,729 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.565
+Let's make some branches!
+
+2
+00:00:02.565 --> 00:00:04.165
+What do I mean by that?
+
+3
+00:00:04.165 --> 00:00:06.450
+Well, in a previous video,
+
+4
+00:00:06.450 --> 00:00:08.310
+we discussed root
+directories and
+
+5
+00:00:08.310 --> 00:00:10.260
+how other subdirectories branch
+
+6
+00:00:10.260 --> 00:00:11.850
+off of the root directory.
+
+7
+00:00:11.850 --> 00:00:13.170
+Let's think again about
+
+8
+00:00:13.170 --> 00:00:15.765
+the file directory
+system as a tree.
+
+9
+00:00:15.765 --> 00:00:19.230
+The subdirectories are
+the branches of the tree.
+
+10
+00:00:19.230 --> 00:00:21.780
+They're all connected
+from the same root
+
+11
+00:00:21.780 --> 00:00:24.510
+but can grow to make
+a complex tree.
+
+12
+00:00:24.510 --> 00:00:26.310
+In this video, we'll create
+
+13
+00:00:26.310 --> 00:00:29.580
+directories and files and
+learn how to modify them.
+
+14
+00:00:30.580 --> 00:00:31.650
+When it comes to
+working with data in
+
+15
+00:00:31.650 --> 00:00:34.170
+security, organization is key.
+
+16
+00:00:34.170 --> 00:00:36.900
+If we know where
+information is located,
+
+17
+00:00:36.900 --> 00:00:38.505
+it makes it easier to detect
+
+18
+00:00:38.505 --> 00:00:41.065
+issues and keep
+information safe.
+
+19
+00:00:41.065 --> 00:00:42.635
+In a previous video,
+
+20
+00:00:42.635 --> 00:00:45.935
+we've already discussed
+navigating between directories,
+
+21
+00:00:45.935 --> 00:00:47.270
+but let's take a moment to
+
+22
+00:00:47.270 --> 00:00:50.120
+examine directories
+more closely.
+
+23
+00:00:50.120 --> 00:00:52.130
+It's possible you're
+familiar with the concept
+
+24
+00:00:52.130 --> 00:00:54.340
+of folders for
+organizing information.
+
+25
+00:00:54.340 --> 00:00:57.225
+In Linux, we have directories.
+
+26
+00:00:57.225 --> 00:01:01.515
+Directories help organize
+files and subdirectories.
+
+27
+00:01:01.515 --> 00:01:05.040
+For example, within a
+directory for reports,
+
+28
+00:01:05.040 --> 00:01:07.815
+an analyst may need to
+create two subdirectories:
+
+29
+00:01:07.815 --> 00:01:10.780
+one for drafts and one
+for final reports.
+
+30
+00:01:11.780 --> 00:01:13.245
+Now that we know why
+we need directories,
+
+31
+00:01:13.245 --> 00:01:14.480
+let's take a look at
+
+32
+00:01:14.480 --> 00:01:16.040
+some essential
+Linux commands for
+
+33
+00:01:16.040 --> 00:01:18.230
+managing directories and files.
+
+34
+00:01:18.230 --> 00:01:20.750
+First, let's take note of
+
+35
+00:01:20.750 --> 00:01:23.510
+commands for creating and
+removing directories.
+
+36
+00:01:23.510 --> 00:01:27.910
+The mkdir command
+creates a new directory.
+
+37
+00:01:27.910 --> 00:01:33.670
+In contrast, rmdir removes
+or deletes a directory.
+
+38
+00:01:33.670 --> 00:01:36.260
+A helpful feature
+of this command is
+
+39
+00:01:36.260 --> 00:01:37.670
+its built-in warning
+that lets you
+
+40
+00:01:37.670 --> 00:01:39.560
+know a directory is not empty.
+
+41
+00:01:39.560 --> 00:01:43.135
+This saves you from
+accidentally deleting files.
+
+42
+00:01:43.135 --> 00:01:44.990
+Next, you'll use
+
+43
+00:01:44.990 --> 00:01:47.480
+other commands for creating
+and removing files.
+
+44
+00:01:47.480 --> 00:01:50.030
+The touch command
+creates a new file,
+
+45
+00:01:50.030 --> 00:01:54.430
+and then the rm command
+removes or deletes a file.
+
+46
+00:01:54.430 --> 00:01:57.320
+And last, we have our
+commands for copying
+
+47
+00:01:57.320 --> 00:02:00.065
+and moving files or directories.
+
+48
+00:02:00.065 --> 00:02:05.119
+The mv command moves a file
+or directory to new location,
+
+49
+00:02:05.119 --> 00:02:10.480
+and cp copies a file or
+directory into a new location.
+
+50
+00:02:11.480 --> 00:02:13.775
+Now, we're ready to try
+out these commands.
+
+51
+00:02:13.775 --> 00:02:17.195
+First, let's use
+the pwd command,
+
+52
+00:02:17.195 --> 00:02:19.940
+and then let's display the
+names of the files and
+
+53
+00:02:19.940 --> 00:02:23.870
+directories in the analyst
+directory with the ls command.
+
+54
+00:02:23.870 --> 00:02:25.760
+Imagine that we no longer need
+
+55
+00:02:25.760 --> 00:02:27.380
+the oldreports directory that
+
+56
+00:02:27.380 --> 00:02:29.570
+appears among the file contents.
+
+57
+00:02:29.570 --> 00:02:32.585
+Let's take a look at
+how to remove it.
+
+58
+00:02:32.585 --> 00:02:36.470
+We input the rmdir command
+and follow it with
+
+59
+00:02:36.470 --> 00:02:40.190
+the name of the directory we
+want to remove: oldreports.
+
+60
+00:02:40.190 --> 00:02:42.965
+We can use the ls
+command to confirm that
+
+61
+00:02:42.965 --> 00:02:44.870
+oldreports has been deleted
+
+62
+00:02:44.870 --> 00:02:47.330
+and no longer appears
+among the contents.
+
+63
+00:02:48.330 --> 00:02:50.015
+Now, let's make another change.
+
+64
+00:02:50.015 --> 00:02:53.500
+We want a new directory
+for drafts of reports.
+
+65
+00:02:53.500 --> 00:02:56.410
+We need to use the command: mkdir
+
+66
+00:02:56.410 --> 00:03:00.305
+and specify a name for
+this directory: drafts.
+
+67
+00:03:00.305 --> 00:03:02.180
+If we input ls again,
+
+68
+00:03:02.180 --> 00:03:04.160
+we'll notice the new
+directory drafts
+
+69
+00:03:04.160 --> 00:03:07.685
+included among the contents
+of the analyst directory.
+
+70
+00:03:07.685 --> 00:03:10.355
+Let's change into
+this new directory
+
+71
+00:03:10.355 --> 00:03:13.860
+by entering: cd drafts.
+
+72
+00:03:13.870 --> 00:03:16.520
+If we run ls,
+
+73
+00:03:16.520 --> 00:03:18.485
+it doesn't return any output,
+
+74
+00:03:18.485 --> 00:03:22.180
+indicating that this
+directory is currently empty.
+
+75
+00:03:22.180 --> 00:03:25.510
+But next, we'll add
+some files to it.
+
+76
+00:03:25.510 --> 00:03:28.070
+Let's say we want to
+draft new reports on
+
+77
+00:03:28.070 --> 00:03:30.920
+recently installed
+email and OS patches.
+
+78
+00:03:30.920 --> 00:03:32.510
+To create these files,
+
+79
+00:03:32.510 --> 00:03:36.990
+we input: touch email_patches.txt
+
+80
+00:03:37.030 --> 00:03:42.360
+and then: touch OS_patches.txt.
+
+81
+00:03:45.530 --> 00:03:48.380
+Running ls indicates that
+
+82
+00:03:48.380 --> 00:03:51.604
+these files are now in
+the drafts directory.
+
+83
+00:03:51.604 --> 00:03:54.905
+What if we realize that we
+only need a new report on
+
+84
+00:03:54.905 --> 00:03:56.660
+OS patches and we want
+
+85
+00:03:56.660 --> 00:03:58.910
+to delete the email
+patches report?
+
+86
+00:03:58.910 --> 00:04:02.900
+To do this, we input the rm
+command and specify the file
+
+87
+00:04:02.900 --> 00:04:07.920
+to delete as: email_patches.txt.
+
+88
+00:04:07.920 --> 00:04:11.685
+Running ls confirms
+that it's been deleted.
+
+89
+00:04:11.685 --> 00:04:15.500
+Now, let's focus on our commands
+for moving and copying.
+
+90
+00:04:15.500 --> 00:04:18.710
+We realized that we have
+a file called email
+
+91
+00:04:18.710 --> 00:04:20.630
+policy in the reports folder
+
+92
+00:04:20.630 --> 00:04:22.720
+that is currently
+in draft format.
+
+93
+00:04:22.720 --> 00:04:26.375
+We want to move it into the
+newly created drafts folder.
+
+94
+00:04:26.375 --> 00:04:28.685
+To do this, we need to change
+
+95
+00:04:28.685 --> 00:04:32.310
+into the directory that
+currently has that file.
+
+96
+00:04:35.840 --> 00:04:39.710
+Running ls in that directory
+indicates that it contains
+
+97
+00:04:39.710 --> 00:04:44.010
+several files, including
+email_policy.txt.
+
+98
+00:04:44.180 --> 00:04:46.575
+Then to move that file,
+
+99
+00:04:46.575 --> 00:04:50.400
+we'll enter the mv command
+followed by two arguments.
+
+100
+00:04:50.400 --> 00:04:52.905
+The first argument
+
+101
+00:04:52.905 --> 00:04:56.025
+after mv identifies
+the file to be moved.
+
+102
+00:04:56.025 --> 00:05:00.245
+The second argument
+indicates where to move it.
+
+103
+00:05:00.245 --> 00:05:02.540
+If we change directories into
+
+104
+00:05:02.540 --> 00:05:04.520
+drafts and then
+display its contents,
+
+105
+00:05:04.520 --> 00:05:07.325
+we'll notice that the
+email policy file
+
+106
+00:05:07.325 --> 00:05:09.830
+has been moved to
+this directory.
+
+107
+00:05:09.830 --> 00:05:12.505
+We'll change back into reports.
+
+108
+00:05:12.505 --> 00:05:15.155
+Displaying the file
+contents confirms that
+
+109
+00:05:15.155 --> 00:05:19.050
+email_policy is no longer there.
+
+110
+00:05:20.760 --> 00:05:25.460
+Okay, one more thing.
+vulnerabilities.txt is
+
+111
+00:05:25.460 --> 00:05:28.580
+a file that we want to keep
+in the reports directory.
+
+112
+00:05:28.580 --> 00:05:31.459
+But since it affects
+an upcoming project,
+
+113
+00:05:31.459 --> 00:05:35.105
+we also want to copy it into
+the project's directory.
+
+114
+00:05:35.105 --> 00:05:39.095
+Since we're already in the
+directory that has this file,
+
+115
+00:05:39.095 --> 00:05:41.000
+we'll use the cp command to
+
+116
+00:05:41.000 --> 00:05:43.160
+copy it into the
+projects directory.
+
+117
+00:05:43.160 --> 00:05:44.750
+Notice that the first argument
+
+118
+00:05:44.750 --> 00:05:46.490
+indicates which file to copy,
+
+119
+00:05:46.490 --> 00:05:48.500
+and the second argument provides
+
+120
+00:05:48.500 --> 00:05:52.145
+the path to the directory
+that it will be copied into.
+
+121
+00:05:52.145 --> 00:05:54.315
+When we press Enter,
+
+122
+00:05:54.315 --> 00:05:57.350
+this copies the
+vulnerabilities file into
+
+123
+00:05:57.350 --> 00:05:59.420
+the projects
+directory while also
+
+124
+00:05:59.420 --> 00:06:01.870
+leaving the original
+within reports.
+
+125
+00:06:01.870 --> 00:06:04.020
+Isn't it cool what we can
+do with these commands?
+
+126
+00:06:05.020 --> 00:06:05.420
+Now, let's focus on
+
+127
+00:06:05.420 --> 00:06:08.840
+one more concept related
+to modifying files.
+
+128
+00:06:08.840 --> 00:06:11.150
+In addition to using commands,
+
+129
+00:06:11.150 --> 00:06:14.615
+you can also use applications
+to help you edit files.
+
+130
+00:06:14.615 --> 00:06:16.400
+As a security analyst,
+
+131
+00:06:16.400 --> 00:06:18.650
+file editors are
+often necessary for
+
+132
+00:06:18.650 --> 00:06:21.935
+your daily tasks, like
+writing or editing reports.
+
+133
+00:06:21.935 --> 00:06:24.575
+A popular file editor is nano.
+
+134
+00:06:24.575 --> 00:06:26.494
+It's good for beginners.
+
+135
+00:06:26.494 --> 00:06:29.900
+You can access this tool
+through the nano command.
+
+136
+00:06:29.900 --> 00:06:32.570
+Let's get familiar
+with nano together.
+
+137
+00:06:32.570 --> 00:06:34.130
+We'll add a title to
+
+138
+00:06:34.130 --> 00:06:39.090
+our new draft report:
+OS_patches.txt.
+
+139
+00:06:39.190 --> 00:06:41.750
+First, we change into
+
+140
+00:06:41.750 --> 00:06:44.095
+the directory
+containing that file,
+
+141
+00:06:44.095 --> 00:06:46.535
+then we input nano
+
+142
+00:06:46.535 --> 00:06:48.560
+followed by the name
+of the file we want
+
+143
+00:06:48.560 --> 00:06:52.790
+to edit: OS_patches.txt.
+
+144
+00:06:52.790 --> 00:06:57.680
+This brings up the nano file
+editor with that file open.
+
+145
+00:06:57.680 --> 00:06:59.900
+For now, we'll just enter
+
+146
+00:06:59.900 --> 00:07:03.875
+the title OS Patches by
+typing this into the editor.
+
+147
+00:07:03.875 --> 00:07:05.450
+We need to save this before
+
+148
+00:07:05.450 --> 00:07:07.670
+returning to the command
+line, and to do so,
+
+149
+00:07:07.670 --> 00:07:09.170
+we press Ctrl+O
+
+150
+00:07:09.170 --> 00:07:13.655
+and then enter to save it
+with the current file name.
+
+151
+00:07:13.655 --> 00:07:17.940
+Then to exit, we
+press Ctrl+X.
+
+152
+00:07:19.680 --> 00:07:21.025
+Great work!
+
+153
+00:07:21.025 --> 00:07:23.240
+We've covered a lot
+of topics here—from
+
+154
+00:07:23.240 --> 00:07:25.730
+creating and removing
+directories and files
+
+155
+00:07:25.730 --> 00:07:27.230
+to copying or moving them,
+
+156
+00:07:27.230 --> 00:07:28.730
+and just now,
+
+157
+00:07:28.730 --> 00:07:30.620
+we've added editing files.
+
+158
+00:07:30.620 --> 00:07:34.230
+You're well on your way to
+learning Linux commands!

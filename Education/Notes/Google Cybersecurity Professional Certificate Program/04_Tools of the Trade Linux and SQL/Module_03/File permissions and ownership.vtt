@@ -1,0 +1,729 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.390
+Hi there. It's great
+to have you back!
+
+2
+00:00:03.390 --> 00:00:05.640
+Let's continue to learn
+more about how to
+
+3
+00:00:05.640 --> 00:00:08.115
+work in Linux as a
+security analyst.
+
+4
+00:00:08.115 --> 00:00:10.230
+In this video, we'll explore
+
+5
+00:00:10.230 --> 00:00:12.385
+file and directory
+permissions.
+
+6
+00:00:12.385 --> 00:00:15.360
+We'll learn how Linux
+represents permissions
+
+7
+00:00:15.360 --> 00:00:17.265
+and how you can check
+for the permissions
+
+8
+00:00:17.265 --> 00:00:19.650
+associated with files
+and directories.
+
+9
+00:00:20.650 --> 00:00:21.480
+Permissions are the type of
+
+10
+00:00:21.480 --> 00:00:24.000
+access granted for a
+file or directory.
+
+11
+00:00:24.000 --> 00:00:26.400
+Permissions are related
+to authorization.
+
+12
+00:00:26.400 --> 00:00:28.740
+Authorization is the
+concept of granting
+
+13
+00:00:28.740 --> 00:00:32.010
+access to specific
+resources in a system.
+
+14
+00:00:32.010 --> 00:00:33.930
+Authorization
+allows you to limit
+
+15
+00:00:33.930 --> 00:00:36.825
+access to specified
+files or directories.
+
+16
+00:00:36.825 --> 00:00:38.580
+A good rule to follow is that
+
+17
+00:00:38.580 --> 00:00:41.280
+data access is on a
+need-to-know basis.
+
+18
+00:00:41.280 --> 00:00:43.310
+You can imagine
+the security risk
+
+19
+00:00:43.310 --> 00:00:44.690
+it would impose if anyone
+
+20
+00:00:44.690 --> 00:00:45.995
+could access or modify
+
+21
+00:00:45.995 --> 00:00:48.295
+anything they wanted
+to on a system.
+
+22
+00:00:49.295 --> 00:00:50.330
+There are three types
+of permissions in
+
+23
+00:00:50.330 --> 00:00:53.495
+Linux that an authorized
+user can have.
+
+24
+00:00:53.495 --> 00:00:56.510
+The first type of
+permission is read.
+
+25
+00:00:56.510 --> 00:00:58.820
+On a file, read permissions
+
+26
+00:00:58.820 --> 00:01:02.005
+means contents on the
+file can be read.
+
+27
+00:01:02.005 --> 00:01:03.750
+On a directory,
+
+28
+00:01:03.750 --> 00:01:05.480
+this permission
+means you can read
+
+29
+00:01:05.480 --> 00:01:07.540
+all files in that directory.
+
+30
+00:01:07.540 --> 00:01:09.375
+Next are write permissions.
+
+31
+00:01:09.375 --> 00:01:11.300
+Write permissions
+on a file allow
+
+32
+00:01:11.300 --> 00:01:14.315
+modifications of
+contents of the file.
+
+33
+00:01:14.315 --> 00:01:17.630
+On a directory, write
+permissions indicate that
+
+34
+00:01:17.630 --> 00:01:20.750
+new files can be created
+in that directory.
+
+35
+00:01:20.750 --> 00:01:23.900
+Finally, there are also
+execute permissions.
+
+36
+00:01:23.900 --> 00:01:27.010
+Execute permissions
+on files mean that
+
+37
+00:01:27.010 --> 00:01:30.610
+the file can be executed if
+it's an executable file.
+
+38
+00:01:30.610 --> 00:01:33.970
+Execute permissions on
+directories allow users to
+
+39
+00:01:33.970 --> 00:01:37.295
+enter into a directory
+and access its files.
+
+40
+00:01:38.295 --> 00:01:38.530
+Permissions are granted for
+
+41
+00:01:38.530 --> 00:01:40.120
+three different types of owners.
+
+42
+00:01:40.120 --> 00:01:42.085
+The first type is the user.
+
+43
+00:01:42.085 --> 00:01:44.815
+The user is the
+owner of the file.
+
+44
+00:01:44.815 --> 00:01:46.765
+When you create a file,
+
+45
+00:01:46.765 --> 00:01:48.985
+you become the
+owner of the file,
+
+46
+00:01:48.985 --> 00:01:51.395
+but the ownership
+can be changed.
+
+47
+00:01:51.395 --> 00:01:53.945
+Group is the next type.
+
+48
+00:01:53.945 --> 00:01:57.145
+Every user is a part
+of a certain group.
+
+49
+00:01:57.145 --> 00:01:59.590
+A group consists
+of several users,
+
+50
+00:01:59.590 --> 00:02:03.649
+and this is one way to manage
+a multi-user environment.
+
+51
+00:02:03.649 --> 00:02:06.885
+Finally, there is other.
+
+52
+00:02:06.885 --> 00:02:10.975
+Other can be considered all
+other users on the system.
+
+53
+00:02:10.975 --> 00:02:13.150
+Basically, anyone
+else with access
+
+54
+00:02:13.150 --> 00:02:15.770
+to the system belongs
+to this group.
+
+55
+00:02:15.770 --> 00:02:18.160
+In Linux, file permissions are
+
+56
+00:02:18.160 --> 00:02:20.395
+represented with a
+10-character string.
+
+57
+00:02:20.395 --> 00:02:23.395
+For a directory with full
+permissions for the user group,
+
+58
+00:02:23.395 --> 00:02:29.675
+this string would be: drwxrwxrwx.
+
+59
+00:02:30.675 --> 00:02:32.950
+Let's examine what this
+means more closely.
+
+60
+00:02:32.950 --> 00:02:36.145
+The first character
+indicates the file type.
+
+61
+00:02:36.145 --> 00:02:37.810
+As shown in this example,
+
+62
+00:02:37.810 --> 00:02:40.855
+d is used to indicate
+it is a directory.
+
+63
+00:02:40.855 --> 00:02:43.960
+If this character contains
+a hyphen instead,
+
+64
+00:02:43.960 --> 00:02:45.970
+it would be a regular file.
+
+65
+00:02:45.970 --> 00:02:47.860
+The second, third, and
+
+66
+00:02:47.860 --> 00:02:51.590
+fourth characters indicate
+the permissions for the user.
+
+67
+00:02:51.590 --> 00:02:53.750
+In this example, r
+
+68
+00:02:53.750 --> 00:02:56.420
+indicates the user
+has read permissions,
+
+69
+00:02:56.420 --> 00:02:59.810
+w indicates the user
+has write permissions,
+
+70
+00:02:59.810 --> 00:03:04.030
+and x indicates the user
+has execute permissions.
+
+71
+00:03:04.030 --> 00:03:06.560
+If one of these
+permissions was missing,
+
+72
+00:03:06.560 --> 00:03:09.170
+there would be a hyphen
+instead of the letter.
+
+73
+00:03:09.170 --> 00:03:11.915
+In the same way,
+the fifth, sixth,
+
+74
+00:03:11.915 --> 00:03:13.880
+and seventh characters indicate
+
+75
+00:03:13.880 --> 00:03:16.535
+permissions for the
+next owner type group.
+
+76
+00:03:16.535 --> 00:03:17.765
+As it shows here,
+
+77
+00:03:17.765 --> 00:03:20.540
+the type group also has read,
+
+78
+00:03:20.540 --> 00:03:22.810
+write, and execute permissions.
+
+79
+00:03:22.810 --> 00:03:25.280
+There are no hyphens
+to indicate that
+
+80
+00:03:25.280 --> 00:03:28.280
+any of these permissions
+haven't been granted.
+
+81
+00:03:28.280 --> 00:03:31.325
+Finally, the eighth through tenth characters
+
+82
+00:03:31.325 --> 00:03:35.000
+indicate permissions for
+the last owner type: other.
+
+83
+00:03:35.000 --> 00:03:37.340
+They also have read, write,
+
+84
+00:03:37.340 --> 00:03:40.225
+and execute permissions
+in this example.
+
+85
+00:03:41.225 --> 00:03:42.920
+Ensuring files and
+directories are set
+
+86
+00:03:42.920 --> 00:03:45.140
+with their appropriate
+access permissions is
+
+87
+00:03:45.140 --> 00:03:47.420
+critical to protecting
+sensitive files and
+
+88
+00:03:47.420 --> 00:03:50.365
+maintaining the overall
+security of a system.
+
+89
+00:03:50.365 --> 00:03:52.550
+For example, payroll departments
+
+90
+00:03:52.550 --> 00:03:54.245
+handle sensitive information.
+
+91
+00:03:54.245 --> 00:03:55.520
+If someone outside of
+
+92
+00:03:55.520 --> 00:03:57.440
+the payroll group
+could read this file,
+
+93
+00:03:57.440 --> 00:03:59.365
+this would be a privacy concern.
+
+94
+00:03:59.365 --> 00:04:01.415
+Another example
+is when the user,
+
+95
+00:04:01.415 --> 00:04:04.565
+the group, and other can
+all write to a file.
+
+96
+00:04:04.565 --> 00:04:08.735
+This type of file is considered
+a world-writable file.
+
+97
+00:04:08.735 --> 00:04:12.940
+World-writable files can pose
+significant security risks.
+
+98
+00:04:13.940 --> 00:04:15.030
+So how do we check permissions?
+
+99
+00:04:15.030 --> 00:04:18.185
+First, we need to understand
+what options are.
+
+100
+00:04:18.185 --> 00:04:21.095
+Options modify the
+behavior of the command.
+
+101
+00:04:21.095 --> 00:04:23.120
+The options for a command
+
+102
+00:04:23.120 --> 00:04:25.475
+can be a single letter
+or a full word.
+
+103
+00:04:25.475 --> 00:04:27.995
+Checking permissions
+involves adding
+
+104
+00:04:27.995 --> 00:04:30.350
+options to the ls command.
+
+105
+00:04:30.350 --> 00:04:34.850
+First, ls -l displays
+
+106
+00:04:34.850 --> 00:04:37.595
+permissions to files
+and directories.
+
+107
+00:04:37.595 --> 00:04:39.320
+You might also want to display
+
+108
+00:04:39.320 --> 00:04:42.020
+hidden files and identify
+their permissions.
+
+109
+00:04:42.020 --> 00:04:43.910
+Hidden files, which begin with
+
+110
+00:04:43.910 --> 00:04:45.680
+a period before their name, don't
+
+111
+00:04:45.680 --> 00:04:49.700
+normally appear when you use
+ls to display file contents.
+
+112
+00:04:49.700 --> 00:04:54.874
+Entering ls -a
+displays hidden files.
+
+113
+00:04:54.874 --> 00:04:59.810
+Then you can combine these
+two options to do both.
+
+114
+00:04:59.810 --> 00:05:05.360
+Entering ls -la
+displays permissions
+
+115
+00:05:05.360 --> 00:05:09.220
+to files and directories,
+including hidden files.
+
+116
+00:05:10.220 --> 00:05:12.555
+Let's get into Bash and
+try out these options.
+
+117
+00:05:12.555 --> 00:05:15.810
+Right now, we're in the
+project subdirectory.
+
+118
+00:05:15.810 --> 00:05:20.650
+First, let's use the ls command
+to display its contents.
+
+119
+00:05:20.650 --> 00:05:23.420
+The output displays the
+files in this directory,
+
+120
+00:05:23.420 --> 00:05:25.910
+but we don't know anything
+about their permissions.
+
+121
+00:05:25.910 --> 00:05:28.775
+By using ls -l instead,
+
+122
+00:05:28.775 --> 00:05:30.800
+we get expanded information on
+
+123
+00:05:30.800 --> 00:05:33.265
+these files. Let's do this.
+
+124
+00:05:33.265 --> 00:05:37.085
+The file names are now on
+the right side of each row.
+
+125
+00:05:37.085 --> 00:05:40.295
+The first piece of
+information in each row
+
+126
+00:05:40.295 --> 00:05:41.600
+shows the permissions in
+
+127
+00:05:41.600 --> 00:05:44.485
+the format that we
+discussed earlier.
+
+128
+00:05:44.485 --> 00:05:47.885
+Since these are all files
+and not directories,
+
+129
+00:05:47.885 --> 00:05:51.140
+notice how the first
+character is a hyphen.
+
+130
+00:05:51.140 --> 00:05:57.205
+Let's focus on one specific
+file: project1.txt.
+
+131
+00:05:57.205 --> 00:05:59.780
+The second through fourth
+characters of its
+
+132
+00:05:59.780 --> 00:06:01.940
+permissions show us the user
+
+133
+00:06:01.940 --> 00:06:04.070
+has both read and
+write permissions
+
+134
+00:06:04.070 --> 00:06:06.445
+but lacks execute permissions.
+
+135
+00:06:06.445 --> 00:06:08.130
+In both the fifth through
+
+136
+00:06:08.130 --> 00:06:11.400
+seventh characters and eighth
+through tenth characters,
+
+137
+00:06:11.400 --> 00:06:14.055
+the sequence is r--.
+
+138
+00:06:14.055 --> 00:06:19.235
+This means group and other
+have only read privileges.
+
+139
+00:06:19.235 --> 00:06:24.500
+After the permissions, ls -l
+first displays the username.
+
+140
+00:06:24.500 --> 00:06:27.840
+Here, that's us, analyst.
+
+141
+00:06:27.840 --> 00:06:29.525
+Next comes the group name;
+
+142
+00:06:29.525 --> 00:06:32.330
+in our case, the security group.
+
+143
+00:06:32.330 --> 00:06:36.280
+Now let's use ls -a
+
+144
+00:06:36.280 --> 00:06:39.885
+The output includes
+two more files—hidden
+
+145
+00:06:39.885 --> 00:06:43.820
+files with the
+names: .hidden1.txt
+
+146
+00:06:43.820 --> 00:06:46.435
+and .hidden2.txt
+
+147
+00:06:46.435 --> 00:06:48.780
+Finally, we can also use
+
+148
+00:06:48.780 --> 00:06:53.285
+ls -la to show the
+permissions for all files,
+
+149
+00:06:53.285 --> 00:06:55.435
+including these hidden files.
+
+150
+00:06:56.435 --> 00:06:58.515
+I thought that was pretty
+interesting. Did you?
+
+151
+00:06:58.515 --> 00:07:00.440
+You now know a little more about
+
+152
+00:07:00.440 --> 00:07:02.420
+file permissions and ownership.
+
+153
+00:07:02.420 --> 00:07:04.280
+This will be helpful
+when working in
+
+154
+00:07:04.280 --> 00:07:06.080
+security because monitoring and
+
+155
+00:07:06.080 --> 00:07:07.640
+setting correct permissions is
+
+156
+00:07:07.640 --> 00:07:10.000
+essential for
+protecting information.
+
+157
+00:07:10.000 --> 00:07:13.680
+Take a small break and
+meet me in the next video.

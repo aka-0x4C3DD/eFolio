@@ -1,0 +1,183 @@
+WEBVTT
+
+1
+00:00:00.800 --> 00:00:04.798
+In this section, we're going to cover
+a Linux distribution that's widely used in
+
+2
+00:00:04.798 --> 00:00:07.020
+security and discuss KALI LINUX™.
+
+3
+00:00:07.020 --> 00:00:11.567
+KALI LINUX™ is a trademark of Offensive
+Security and is Debian derived.
+
+4
+00:00:11.567 --> 00:00:16.420
+This open-source distro was made
+specifically with penetration testing and
+
+5
+00:00:16.420 --> 00:00:18.990
+digital forensics in mind.
+
+6
+00:00:18.990 --> 00:00:21.612
+There are many tools
+pre-installed into KALI LINUX™.
+
+7
+00:00:21.612 --> 00:00:25.920
+It's important to note that KALI LINUX™
+should be used on a virtual machine.
+
+8
+00:00:25.920 --> 00:00:30.085
+This prevents damage to your system in
+the event its tools are used improperly.
+
+9
+00:00:30.085 --> 00:00:34.570
+An additional benefit is that using
+a virtual machine gives you the ability to
+
+10
+00:00:34.570 --> 00:00:36.000
+revert to a previous state.
+
+11
+00:00:37.000 --> 00:00:41.850
+As security professionals advance in their careers,
+some specialize in penetration testing.
+
+12
+00:00:41.850 --> 00:00:46.875
+A penetration test is a simulated attack
+that helps identify vulnerabilities in
+
+13
+00:00:46.875 --> 00:00:51.740
+systems, networks, websites,
+applications, and processes.
+
+14
+00:00:51.740 --> 00:00:56.330
+KALI LINUX™ has numerous tools that
+are useful during penetration testing.
+
+15
+00:00:56.330 --> 00:00:57.854
+Let's look at a few examples.
+
+16
+00:00:58.854 --> 00:01:03.280
+To begin, Metasploit can be used to look for and
+exploit vulnerabilities on machines.
+
+17
+00:01:03.280 --> 00:01:08.073
+Burp Suite is another tool that helps to
+test for weaknesses in web applications.
+
+18
+00:01:08.073 --> 00:01:12.690
+And finally, John the Ripper is
+a tool used to guess passwords.
+
+19
+00:01:12.690 --> 00:01:16.500
+As a security analyst, your work
+might involve digital forensics.
+
+20
+00:01:16.500 --> 00:01:19.615
+Digital forensics is
+the process of collecting and
+
+21
+00:01:19.615 --> 00:01:23.700
+analyzing data to determine what
+has happened after an attack.
+
+22
+00:01:23.700 --> 00:01:24.504
+For example,
+
+23
+00:01:24.504 --> 00:01:29.450
+you might take an investigative look
+at data related to network activity.
+
+24
+00:01:29.450 --> 00:01:31.717
+KALI LINUX™ is also
+a useful distribution for
+
+25
+00:01:31.717 --> 00:01:35.290
+security professionals who
+are involved in digital forensic work.
+
+26
+00:01:35.290 --> 00:01:39.647
+It has a large number of tools that
+can be used for this. As one example,
+
+27
+00:01:39.647 --> 00:01:44.630
+tcpdump is a command-line packet analyzer.
+It's used to capture network traffic.
+
+28
+00:01:44.630 --> 00:01:49.180
+Another tool commonly used in
+the security profession is Wireshark.
+
+29
+00:01:49.180 --> 00:01:52.923
+It has a graphical user interface
+that can be used to analyze live and
+
+30
+00:01:52.923 --> 00:01:54.700
+captured network traffic.
+
+31
+00:01:54.700 --> 00:01:56.230
+And as a final example,
+
+32
+00:01:56.230 --> 00:02:00.890
+Autopsy is a forensic tool used to
+analyze hard drives and smartphones.
+
+33
+00:02:00.890 --> 00:02:04.240
+These are just a few tools
+included with KALI LINUX™.
+
+34
+00:02:04.240 --> 00:02:09.590
+This distribution has many tools used to
+conduct pen testing and digital forensics.
+
+35
+00:02:10.590 --> 00:02:13.737
+We've explored how KALI LINUX™ is
+an important distribution that's widely
+
+36
+00:02:13.737 --> 00:02:14.773
+used in security,
+
+37
+00:02:14.773 --> 00:02:18.998
+but there are other distributions that
+security professionals use as well.
+
+38
+00:02:18.998 --> 00:02:21.658
+Next we'll explore a few
+more distributions.

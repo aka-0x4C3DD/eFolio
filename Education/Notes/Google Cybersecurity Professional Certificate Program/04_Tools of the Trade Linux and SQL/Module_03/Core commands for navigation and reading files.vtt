@@ -1,0 +1,502 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.180
+Welcome back. I hope
+you're learning
+
+2
+00:00:03.180 --> 00:00:06.015
+a lot about how to communicate
+with the Linux OS.
+
+3
+00:00:06.015 --> 00:00:07.920
+As we continue our journey into
+
+4
+00:00:07.920 --> 00:00:09.780
+utilizing the Linux
+command line,
+
+5
+00:00:09.780 --> 00:00:12.885
+we'll focus on how to navigate
+the Linux file system.
+
+6
+00:00:13.885 --> 00:00:16.020
+Now, I want you to
+imagine a tree.
+
+7
+00:00:16.020 --> 00:00:18.515
+What did you notice
+first about the tree?
+
+8
+00:00:18.515 --> 00:00:21.314
+Would you say the
+trunk or the branches?
+
+9
+00:00:21.314 --> 00:00:23.655
+These might definitely
+get your attention,
+
+10
+00:00:23.655 --> 00:00:25.525
+but what about its roots?
+
+11
+00:00:25.525 --> 00:00:29.075
+Everything about a tree
+starts in the roots.
+
+12
+00:00:29.075 --> 00:00:30.890
+Something similar
+happens when we
+
+13
+00:00:30.890 --> 00:00:33.400
+think about the
+Linux file system.
+
+14
+00:00:34.400 --> 00:00:35.900
+Previously, we learned about
+
+15
+00:00:35.900 --> 00:00:37.990
+the components of the
+Linux architecture.
+
+16
+00:00:37.990 --> 00:00:40.025
+The Filesystem
+Hierarchy Standard,
+
+17
+00:00:40.025 --> 00:00:41.600
+or FHS, is
+
+18
+00:00:41.600 --> 00:00:44.695
+the component of the Linux
+OS that organizes data.
+
+19
+00:00:44.695 --> 00:00:46.340
+This file system is
+
+20
+00:00:46.340 --> 00:00:48.530
+a very important part
+of Linux because
+
+21
+00:00:48.530 --> 00:00:50.570
+everything we do in
+Linux is considered
+
+22
+00:00:50.570 --> 00:00:52.985
+a file somewhere in
+the system's directory.
+
+23
+00:00:52.985 --> 00:00:54.995
+The FHS is a hierarchical system,
+
+24
+00:00:54.995 --> 00:00:56.300
+and just like with a tree,
+
+25
+00:00:56.300 --> 00:00:58.520
+everything grows and
+branches out from the root.
+
+26
+00:00:58.520 --> 00:00:59.780
+The root directory is
+
+27
+00:00:59.780 --> 00:01:01.835
+the highest-level
+directory in Linux.
+
+28
+00:01:01.835 --> 00:01:04.435
+It's designated by a single slash.
+
+29
+00:01:04.435 --> 00:01:07.400
+Subdirectories branch off
+from the root directory.
+
+30
+00:01:07.400 --> 00:01:09.170
+The subdirectories branch out
+
+31
+00:01:09.170 --> 00:01:11.540
+further and further away
+from the root directory.
+
+32
+00:01:11.540 --> 00:01:14.840
+When describing the directory
+structure in Linux, slashes
+
+33
+00:01:14.840 --> 00:01:15.890
+are used when tracing
+
+34
+00:01:15.890 --> 00:01:18.185
+back through these
+branches to the root.
+
+35
+00:01:18.185 --> 00:01:19.775
+For example, here,
+
+36
+00:01:19.775 --> 00:01:22.370
+the first slash indicates
+the root directory.
+
+37
+00:01:22.370 --> 00:01:26.390
+Then it branches out a level
+into the home subdirectory.
+
+38
+00:01:26.390 --> 00:01:30.385
+Another slash indicates it
+is branching out again.
+
+39
+00:01:30.385 --> 00:01:32.120
+This time it's to
+
+40
+00:01:32.120 --> 00:01:36.025
+the analyst subdirectory
+that is located within home.
+
+41
+00:01:36.025 --> 00:01:38.060
+When working in security,
+
+42
+00:01:38.060 --> 00:01:40.025
+it is essential that
+you learn to navigate
+
+43
+00:01:40.025 --> 00:01:42.935
+a file system to locate
+and analyze logs,
+
+44
+00:01:42.935 --> 00:01:44.825
+such as log files.
+
+45
+00:01:44.825 --> 00:01:47.330
+You'll analyze
+these log files for
+
+46
+00:01:47.330 --> 00:01:49.960
+application usage
+and authentication.
+
+47
+00:01:50.960 --> 00:01:52.670
+With that background,
+we're now ready to learn
+
+48
+00:01:52.670 --> 00:01:54.335
+the commands commonly used
+
+49
+00:01:54.335 --> 00:01:56.420
+for navigating the file system.
+
+50
+00:01:56.420 --> 00:02:02.345
+First, pwd prints the working
+directory onto the screen.
+
+51
+00:02:02.345 --> 00:02:03.965
+When you use this command,
+
+52
+00:02:03.965 --> 00:02:07.310
+the output tells you which
+directory you're currently in.
+
+53
+00:02:07.310 --> 00:02:11.570
+Next, ls displays the
+names of files and
+
+54
+00:02:11.570 --> 00:02:15.724
+directories in the current
+working directory. And finally,
+
+55
+00:02:15.724 --> 00:02:18.889
+cd navigates between
+directories.
+
+56
+00:02:18.889 --> 00:02:20.900
+This is the command you'll use
+
+57
+00:02:20.900 --> 00:02:22.864
+when you want to
+change directories.
+
+58
+00:02:23.864 --> 00:02:25.505
+Let's use these
+commands in Bash.
+
+59
+00:02:25.505 --> 00:02:27.800
+First, we'll type the command
+
+60
+00:02:27.800 --> 00:02:32.355
+pwd to display the current
+location and then press enter.
+
+61
+00:02:32.355 --> 00:02:34.220
+The output is the path to
+
+62
+00:02:34.220 --> 00:02:37.400
+the analyst directory where
+we're currently working.
+
+63
+00:02:37.400 --> 00:02:40.700
+Next, let's input ls to display
+
+64
+00:02:40.700 --> 00:02:43.990
+the files and directories
+within the analyst directory.
+
+65
+00:02:43.990 --> 00:02:45.410
+The output is the name of
+
+66
+00:02:45.410 --> 00:02:48.140
+four directories:
+logs, oldreports,
+
+67
+00:02:48.140 --> 00:02:52.955
+projects, and reports, and one
+file named updates.txt.
+
+68
+00:02:52.955 --> 00:02:55.340
+So let's say we now want to go into
+
+69
+00:02:55.340 --> 00:02:58.960
+the logs directory to check
+for unauthorized access.
+
+70
+00:02:58.960 --> 00:03:01.635
+We'll input: cd logs
+
+71
+00:03:01.635 --> 00:03:03.335
+to change directories.
+
+72
+00:03:03.335 --> 00:03:04.895
+We won't get any output
+
+73
+00:03:04.895 --> 00:03:06.815
+on the screen from
+the cd command,
+
+74
+00:03:06.815 --> 00:03:09.275
+but if we enter pwd again,
+
+75
+00:03:09.275 --> 00:03:12.310
+its output indicates that the
+working directory is logs.
+
+76
+00:03:12.310 --> 00:03:15.365
+Logs is a subdirectory of
+the analyst directory.
+
+77
+00:03:16.365 --> 00:03:16.715
+As a security analyst,
+
+78
+00:03:16.715 --> 00:03:18.110
+you'll also need
+to know how to
+
+79
+00:03:18.110 --> 00:03:19.760
+read file content in Linux.
+
+80
+00:03:19.760 --> 00:03:21.710
+For example, you may need to read
+
+81
+00:03:21.710 --> 00:03:23.840
+files that contain
+configuration settings to
+
+82
+00:03:23.840 --> 00:03:27.380
+identify potential
+vulnerabilities. Or, you might look
+
+83
+00:03:27.380 --> 00:03:28.610
+at user access reports
+
+84
+00:03:28.610 --> 00:03:31.580
+while investigating
+unauthorized access.
+
+85
+00:03:31.580 --> 00:03:33.814
+When reading file content,
+
+86
+00:03:33.814 --> 00:03:35.690
+there are some commands
+that will help you.
+
+87
+00:03:35.690 --> 00:03:38.960
+First, cat displays the
+content of a file.
+
+88
+00:03:38.960 --> 00:03:41.270
+This is useful,
+but sometimes you
+
+89
+00:03:41.270 --> 00:03:44.030
+won't want the full
+contents of a large file.
+
+90
+00:03:44.030 --> 00:03:47.600
+In these cases, you can
+use the head command.
+
+91
+00:03:47.600 --> 00:03:49.610
+It displays just
+the beginning of
+
+92
+00:03:49.610 --> 00:03:52.070
+a file, by default ten lines.
+
+93
+00:03:53.070 --> 00:03:53.965
+Let's try out these commands.
+
+94
+00:03:53.965 --> 00:03:56.300
+Imagine that we want to
+read the contents of
+
+95
+00:03:56.300 --> 00:03:58.190
+access.txt, and we're
+
+96
+00:03:58.190 --> 00:04:01.160
+already in the working
+directory where it's located.
+
+97
+00:04:01.160 --> 00:04:03.335
+First, we input the cat command
+
+98
+00:04:03.335 --> 00:04:05.585
+and then follow it with
+the name of the file,
+
+99
+00:04:05.585 --> 00:04:08.540
+access.txt. And
+
+100
+00:04:08.540 --> 00:04:11.165
+Bash returns the full
+contents of this file.
+
+101
+00:04:11.165 --> 00:04:13.130
+Let's compare that
+to the head command.
+
+102
+00:04:13.130 --> 00:04:16.355
+When we input the head command
+followed by our file name,
+
+103
+00:04:16.355 --> 00:04:19.705
+only the first 10 lines of
+this file are displayed.
+
+104
+00:04:20.705 --> 00:04:22.250
+Wow, this section had lots
+
+105
+00:04:22.250 --> 00:04:24.530
+of action, and it's
+just the beginning!
+
+106
+00:04:24.530 --> 00:04:27.110
+I'm glad you learned how
+security analysts can use
+
+107
+00:04:27.110 --> 00:04:29.780
+essential commands to
+navigate the system.
+
+108
+00:04:29.780 --> 00:04:33.780
+Next, we'll explore how
+to manage the system.

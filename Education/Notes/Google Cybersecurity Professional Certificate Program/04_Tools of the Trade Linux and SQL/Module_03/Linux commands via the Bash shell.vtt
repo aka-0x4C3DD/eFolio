@@ -1,0 +1,329 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.390
+Welcome back. Before we get
+
+2
+00:00:03.390 --> 00:00:05.700
+into specific Linux
+commands, let's
+
+3
+00:00:05.700 --> 00:00:07.830
+explore in more
+detail the basics of
+
+4
+00:00:07.830 --> 00:00:10.680
+communicating with the
+OS through the shell.
+
+5
+00:00:10.680 --> 00:00:13.230
+Being able to utilize
+Linux commands is
+
+6
+00:00:13.230 --> 00:00:16.485
+a foundational skill for
+all security professionals.
+
+7
+00:00:16.485 --> 00:00:18.930
+As a security analyst,
+you will work with
+
+8
+00:00:18.930 --> 00:00:21.749
+server logs and you'll need
+to know how to navigate,
+
+9
+00:00:21.749 --> 00:00:23.730
+manage and analyze files
+
+10
+00:00:23.730 --> 00:00:26.595
+remotely without a
+graphical user interface.
+
+11
+00:00:26.595 --> 00:00:28.590
+In addition, you'll
+need to know how to
+
+12
+00:00:28.590 --> 00:00:31.320
+verify and configure
+users and group access.
+
+13
+00:00:31.320 --> 00:00:33.200
+You'll also need to
+give authorization
+
+14
+00:00:33.200 --> 00:00:34.520
+and set file permissions.
+
+15
+00:00:34.520 --> 00:00:37.160
+That means that developing
+skills with the command line
+
+16
+00:00:37.160 --> 00:00:40.270
+is essential for your work
+as a security analyst.
+
+17
+00:00:40.270 --> 00:00:41.900
+When we learned about the Linux
+
+18
+00:00:41.900 --> 00:00:43.490
+architecture, we learned that
+
+19
+00:00:43.490 --> 00:00:45.605
+the shell is one of
+the main components
+
+20
+00:00:45.605 --> 00:00:47.285
+of an operating system.
+
+21
+00:00:47.285 --> 00:00:50.225
+We also learned that there
+are different shells.
+
+22
+00:00:50.225 --> 00:00:53.455
+In this section, we'll
+utilize the Bash shell.
+
+23
+00:00:54.455 --> 00:00:57.185
+Bash is the default shell in
+most Linux distributions.
+
+24
+00:00:57.185 --> 00:01:00.080
+For the most part, the key
+Linux commands that you'll
+
+25
+00:01:00.080 --> 00:01:03.070
+be learning in this section
+are the same across shells.
+
+26
+00:01:04.070 --> 00:01:04.790
+Now that you know
+what shell you'll be
+
+27
+00:01:04.790 --> 00:01:07.870
+using, let's go into
+how to write in Bash.
+
+28
+00:01:07.870 --> 00:01:10.280
+As we discussed in
+a previous section,
+
+29
+00:01:10.280 --> 00:01:13.505
+communicating with your OS
+is like a conversation.
+
+30
+00:01:13.505 --> 00:01:15.860
+You type in commands, and the OS
+
+31
+00:01:15.860 --> 00:01:18.230
+responds with an answer
+to your command.
+
+32
+00:01:18.230 --> 00:01:20.135
+A command is an instruction
+
+33
+00:01:20.135 --> 00:01:21.935
+telling the computer
+to do something.
+
+34
+00:01:22.935 --> 00:01:23.900
+We'll try out a command in Bash.
+
+35
+00:01:23.900 --> 00:01:26.285
+Notice a dollar sign
+before the cursor.
+
+36
+00:01:26.285 --> 00:01:28.625
+This is your prompt to
+enter a new command.
+
+37
+00:01:28.625 --> 00:01:30.830
+Some commands might
+tell the computer to
+
+38
+00:01:30.830 --> 00:01:33.260
+find something like
+a specific file.
+
+39
+00:01:33.260 --> 00:01:36.200
+Others might tell it
+to launch a program.
+
+40
+00:01:36.200 --> 00:01:40.055
+Or, it might be to output a
+specific string of text.
+
+41
+00:01:40.055 --> 00:01:41.750
+In the last section,
+
+42
+00:01:41.750 --> 00:01:44.090
+when we discussed input and output,
+
+43
+00:01:44.090 --> 00:01:46.670
+we explored how the
+echo command did this.
+
+44
+00:01:47.670 --> 00:01:49.465
+Let's input the
+echo command again.
+
+45
+00:01:49.465 --> 00:01:51.800
+You may notice that the command
+
+46
+00:01:51.800 --> 00:01:53.990
+we just input is not complete.
+
+47
+00:01:53.990 --> 00:01:56.090
+If we're going to
+use the echo command
+
+48
+00:01:56.090 --> 00:01:57.620
+to output a specific string of
+
+49
+00:01:57.620 --> 00:02:01.420
+texts, we need to specify
+what the string of text is.
+
+50
+00:02:01.420 --> 00:02:03.540
+This is what arguments are for.
+
+51
+00:02:03.540 --> 00:02:07.445
+An argument is specific
+information needed by a command.
+
+52
+00:02:07.445 --> 00:02:10.145
+Some commands take
+multiple arguments.
+
+53
+00:02:10.145 --> 00:02:13.790
+So now let's complete the echo
+command with an argument.
+
+54
+00:02:13.790 --> 00:02:16.275
+We're learning some
+pretty technical stuff,
+
+55
+00:02:16.275 --> 00:02:20.055
+so how about we output the
+words: "You are doing great!"
+
+56
+00:02:20.055 --> 00:02:22.440
+We'll add this argument, and
+
+57
+00:02:22.440 --> 00:02:25.330
+then we'll press enter
+to get the output.
+
+58
+00:02:26.330 --> 00:02:29.330
+In this example, our argument
+was a string of text.
+
+59
+00:02:29.330 --> 00:02:32.915
+Arguments can provide other
+types of information as well.
+
+60
+00:02:32.915 --> 00:02:35.975
+One thing that is really
+important in Linux is that
+
+61
+00:02:35.975 --> 00:02:39.110
+all commands and arguments
+are case sensitive.
+
+62
+00:02:39.110 --> 00:02:41.700
+This includes file
+and directory names.
+
+63
+00:02:41.700 --> 00:02:44.360
+Keep that in mind as you
+learn more about how to
+
+64
+00:02:44.360 --> 00:02:48.025
+use Linux in your day-to-day
+tasks as a security analyst.
+
+65
+00:02:48.025 --> 00:02:50.270
+Okay, now that we've
+covered the basics of
+
+66
+00:02:50.270 --> 00:02:52.070
+entering Linux
+commands and arguments
+
+67
+00:02:52.070 --> 00:02:53.720
+through the Bash
+shell, we're ready
+
+68
+00:02:53.720 --> 00:02:55.520
+to learn some specific commands.
+
+69
+00:02:55.520 --> 00:02:59.220
+This is exciting, so let's
+get to our next video!

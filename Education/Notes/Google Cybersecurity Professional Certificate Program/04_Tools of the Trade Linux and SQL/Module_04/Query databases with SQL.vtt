@@ -1,0 +1,205 @@
+WEBVTT
+
+1
+00:00:01.066 --> 00:00:05.545
+As a security analyst, you'll need to
+be familiar both with databases and
+
+2
+00:00:05.545 --> 00:00:07.405
+the tools used to access them.
+
+3
+00:00:07.405 --> 00:00:09.776
+Now that we know the basics of databases,
+
+4
+00:00:09.776 --> 00:00:13.569
+let's focus on an important tool
+used to work with them, SQL, and
+
+5
+00:00:13.569 --> 00:00:17.186
+learn more about how analysts
+like yourself might utilize it.
+
+6
+00:00:17.186 --> 00:00:22.185
+SQL, or as it's also pronounced, S-Q-L,
+stands for Structured Query Language.
+
+7
+00:00:22.185 --> 00:00:26.054
+SQL is a programming language used
+to create, interact with, and
+
+8
+00:00:26.054 --> 00:00:28.346
+request information from a database.
+
+9
+00:00:29.346 --> 00:00:32.730
+Before learning more about SQL,
+we need to define what query means.
+
+10
+00:00:32.730 --> 00:00:37.860
+A query is a request for data from a
+database table or a combination of tables.
+
+11
+00:00:37.860 --> 00:00:43.297
+Nearly all relational databases rely
+on some version of SQL to query data.
+
+12
+00:00:43.297 --> 00:00:47.513
+The different versions of SQL only have
+slight differences in their structure,
+
+13
+00:00:47.513 --> 00:00:49.499
+like where to place quotation marks.
+
+14
+00:00:49.499 --> 00:00:51.403
+Whatever variety of SQL you use,
+
+15
+00:00:51.403 --> 00:00:55.826
+you'll find it to be a very important
+tool in your work as a security analyst.
+
+16
+00:00:56.826 --> 00:00:59.273
+First, let's discuss how SQL
+can help you retrieve logs.
+
+17
+00:00:59.273 --> 00:01:03.817
+A log is a record of events that occur
+within an organization's systems.
+
+18
+00:01:03.945 --> 00:01:09.052
+As a security analyst, you might be tasked
+with reviewing logs for various reasons.
+
+19
+00:01:09.052 --> 00:01:14.762
+For example, some logs might contain
+details on machines used in a company,
+
+20
+00:01:14.762 --> 00:01:15.765
+and as an analyst,
+
+21
+00:01:16.765 --> 00:01:18.733
+you would need to find those machines
+that weren't configured properly.
+
+22
+00:01:18.733 --> 00:01:23.271
+Other logs might describe the visitors
+to your website or web app and
+
+23
+00:01:23.271 --> 00:01:25.951
+the tasks they perform.
+
+24
+00:01:25.951 --> 00:01:26.791
+In that case,
+
+25
+00:01:27.791 --> 00:01:30.560
+you might be looking for unusual patterns
+that may point to malicious activity.
+
+26
+00:01:30.560 --> 00:01:34.973
+Security logs are often very large and
+hard to process.
+
+27
+00:01:34.973 --> 00:01:36.878
+There are millions of data points, and
+
+28
+00:01:36.878 --> 00:01:39.253
+it's very time consuming
+to find what you need.
+
+29
+00:01:39.253 --> 00:01:43.543
+But this is where SQL comes in! It can
+search through millions of data points to
+
+30
+00:01:43.543 --> 00:01:47.316
+extract relevant rows of data using
+one query that takes seconds to run.
+
+31
+00:01:47.316 --> 00:01:48.390
+That's pretty useful, right?
+
+32
+00:01:49.390 --> 00:01:53.020
+SQL is also a very common language
+used for basic data analytics,
+
+33
+00:01:53.020 --> 00:01:55.784
+another set of skills that will set
+you apart as a security analyst.
+
+34
+00:01:55.784 --> 00:02:01.047
+As a security analyst, you can use
+SQL's filtering to find data to support
+
+35
+00:02:01.047 --> 00:02:04.984
+security-related decisions and
+analyze when things may go wrong.
+
+36
+00:02:04.984 --> 00:02:05.872
+For instance,
+
+37
+00:02:05.872 --> 00:02:09.843
+you can identify what machines
+haven't received the latest patch.
+
+38
+00:02:09.843 --> 00:02:14.308
+This is important because patches are
+updates that help secure against attacks.
+
+39
+00:02:14.308 --> 00:02:18.143
+As another example,
+you can use SQL to determine the best time
+
+40
+00:02:18.143 --> 00:02:21.030
+to update a machine based
+on when it's least used.
+
+41
+00:02:22.030 --> 00:02:23.850
+Now that we know why
+SQL is important to us,
+
+42
+00:02:23.850 --> 00:02:27.701
+we're going to start making basic
+queries to a sample database!
+
+43
+00:02:27.701 --> 00:02:31.148
+This is definitely exciting, and
+I'll meet you in the next video.

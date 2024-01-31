@@ -1,0 +1,227 @@
+WEBVTT
+
+1
+00:00:01.115 --> 00:00:06.122
+Devices like computers, smartphones, and
+tablets all have operating systems.
+
+2
+00:00:06.122 --> 00:00:09.221
+If you've used a desktop or
+laptop computer,
+
+3
+00:00:09.221 --> 00:00:14.225
+you may have used the Windows or
+MacOs operating systems. Smartphones and
+
+4
+00:00:14.225 --> 00:00:18.451
+tablets run on mobile operating
+systems like Android and iOS.
+
+5
+00:00:18.451 --> 00:00:21.777
+Another popular operating system is Linux.
+
+6
+00:00:21.777 --> 00:00:24.189
+Linux is used in the security industry,
+
+7
+00:00:24.189 --> 00:00:29.228
+and as a security professional, it's likely
+that you'll interact with the Linux OS.
+
+8
+00:00:30.228 --> 00:00:31.663
+So what exactly is an operating system?
+
+9
+00:00:31.663 --> 00:00:35.397
+It's the interface between
+the computer hardware and the user.
+
+10
+00:00:35.397 --> 00:00:40.061
+The operating system, or the OS as it's
+commonly called, is responsible for
+
+11
+00:00:40.061 --> 00:00:45.096
+making the computer run as efficiently as
+possible while also making it easy to use.
+
+12
+00:00:45.096 --> 00:00:47.278
+Hardware may be another new term.
+
+13
+00:00:47.278 --> 00:00:51.048
+Hardware refers to the physical
+components of a computer.
+
+14
+00:00:52.048 --> 00:00:55.551
+The OS interface that we now rely on
+every day is something that early
+
+15
+00:00:55.551 --> 00:00:57.296
+computers didn't have.
+
+16
+00:00:57.296 --> 00:01:01.695
+In the 1950s the biggest challenge with
+early computers was the amount of time
+
+17
+00:01:01.695 --> 00:01:05.775
+it took to run a computer program. At
+the time, computers could not run multiple
+
+18
+00:01:05.775 --> 00:01:07.326
+programs simultaneously.
+
+19
+00:01:07.326 --> 00:01:11.174
+Instead, people had to wait for
+a program to finish running,
+
+20
+00:01:11.174 --> 00:01:14.137
+reset the computer, and
+load up the new program.
+
+21
+00:01:14.137 --> 00:01:16.730
+Imagine having to turn
+your computer on and
+
+22
+00:01:16.730 --> 00:01:19.611
+off each time you had to
+open a new application!
+
+23
+00:01:19.611 --> 00:01:24.019
+It would take a long time to complete
+a simple task like sending an email.
+
+24
+00:01:24.019 --> 00:01:26.907
+Since then,
+operating systems have evolved, and
+
+25
+00:01:26.907 --> 00:01:30.298
+we no longer have to worry
+about wasting time in this way.
+
+26
+00:01:30.298 --> 00:01:32.827
+Thanks to operating systems and
+their evolution,
+
+27
+00:01:32.827 --> 00:01:34.776
+today's computers run efficiently.
+
+28
+00:01:34.776 --> 00:01:37.133
+They run multiple applications at once, and
+
+29
+00:01:37.133 --> 00:01:41.133
+they also access external devices
+like printers, keyboards, and mice.
+
+30
+00:01:42.133 --> 00:01:44.889
+Another reason why operating systems
+are important is that they help humans and
+
+31
+00:01:44.889 --> 00:01:46.860
+computers communicate with each other.
+
+32
+00:01:46.860 --> 00:01:52.125
+Computers communicate in a language called
+binary, which consists of 0s and 1s.
+
+33
+00:01:52.125 --> 00:01:57.239
+The OS provides an interface to bridge
+this communication gap between the user
+
+34
+00:01:57.239 --> 00:02:02.441
+and the computer, allowing you to interact
+with the computer in complex ways.
+
+35
+00:02:03.441 --> 00:02:06.561
+Operating systems are critical for
+the use of computers. Likewise,
+
+36
+00:02:06.561 --> 00:02:10.256
+OS security is also critical for
+the security of a computer.
+
+37
+00:02:10.256 --> 00:02:15.327
+This involves securing files,
+data access, and user authentication to
+
+38
+00:02:15.327 --> 00:02:21.003
+help protect and prevent against threats
+such as viruses, worms, and malware.
+
+39
+00:02:21.003 --> 00:02:23.792
+Knowing how operating
+systems work is essential for
+
+40
+00:02:23.792 --> 00:02:26.397
+completing different
+security related tasks.
+
+41
+00:02:26.397 --> 00:02:31.322
+For example, as a security analyst,
+you may be responsible for configuring and
+
+42
+00:02:31.322 --> 00:02:34.880
+maintaining the security of
+a system by managing access.
+
+43
+00:02:34.880 --> 00:02:39.069
+You may also be responsible for
+managing and configuring firewalls,
+
+44
+00:02:39.069 --> 00:02:42.886
+setting security policies,
+enabling virus protection, and
+
+45
+00:02:42.886 --> 00:02:47.764
+performing auditing, accounting, and
+logging to detect unusual behavior.
+
+46
+00:02:47.764 --> 00:02:51.540
+All these tasks require a deep
+understanding of operating systems, and
+
+47
+00:02:51.540 --> 00:02:56.028
+as we continue this course, we'll explore
+operating systems in greater detail.
