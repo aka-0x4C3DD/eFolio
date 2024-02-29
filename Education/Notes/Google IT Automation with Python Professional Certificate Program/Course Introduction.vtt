@@ -1,0 +1,453 @@
+WEBVTT
+
+1
+00:00:01.080 --> 00:00:05.210
+If you work in IT, computer programming
+skills open up an incredible amount of
+
+2
+00:00:05.210 --> 00:00:08.880
+opportunity. Being able to write
+scripts and programs that tell your
+
+3
+00:00:08.880 --> 00:00:12.930
+computer to perform a task equips you
+with an invaluable tool.
+
+4
+00:00:13.330 --> 00:00:17.550
+Not only does it make your work easier
+and more efficient, it can help you grow
+
+5
+00:00:17.550 --> 00:00:19.790
+faster and advance further in your IT
+career.
+
+6
+00:00:20.570 --> 00:00:23.420
+But how do you even start to learn a
+programming language like Python?
+
+7
+00:00:23.810 --> 00:00:26.780
+How do you recognize when to tell a
+computer to perform a task?
+
+8
+00:00:26.830 --> 00:00:31.180
+And how do you then write a program to
+actually get your computer to complete
+
+9
+00:00:31.200 --> 00:00:32.350
+the task you want it to do?
+
+10
+00:00:32.760 --> 00:00:35.760
+The thought of learning to write a
+program in Python can make you feel a
+
+11
+00:00:35.760 --> 00:00:40.420
+whole bunch of emotions, excitement,
+anticipation, that feeling of wanting to
+
+12
+00:00:40.420 --> 00:00:42.950
+dive right in and get going and also
+fear.
+
+13
+00:00:43.700 --> 00:00:47.980
+You might ask yourself, can I really
+learn how to code or do I have it in me?
+
+14
+00:00:48.690 --> 00:00:52.280
+I'm here to tell you, yes, you can
+absolutely do this.
+
+15
+00:00:52.820 --> 00:00:56.490
+Learning how to program can be scary
+and intimidating, but at the same time
+
+16
+00:00:56.490 --> 00:00:58.310
+it's really fun and really exciting.
+
+17
+00:00:58.960 --> 00:01:03.470
+In coding as in life, if we're going to
+get philosophical, the most rewarding
+
+18
+00:01:03.470 --> 00:01:07.150
+work is usually a bit challenging, but
+ultimately well worth the effort.
+
+19
+00:01:07.620 --> 00:01:11.550
+Of course, I'm able to say all this
+from experience, especially the cheesy
+
+20
+00:01:11.550 --> 00:01:13.780
+parts. My name is Christine Rafla.
+
+21
+00:01:14.110 --> 00:01:17.360
+I'm a systems administrator at Google
+and I'm going to be your instructor and
+
+22
+00:01:17.360 --> 00:01:18.370
+guide in this course.
+
+23
+00:01:18.990 --> 00:01:22.780
+The role of a sysadmin can vary a lot
+from company to company and even within
+
+24
+00:01:22.780 --> 00:01:24.320
+different teams in the same company.
+
+25
+00:01:24.940 --> 00:01:27.790
+I happen to work in the corporate
+identity and access management
+
+26
+00:01:27.840 --> 00:01:31.490
+operations team, which is a really long
+way of saying that we make sure that
+
+27
+00:01:31.490 --> 00:01:34.320
+everyone is represented correctly and
+if they need to access certain
+
+28
+00:01:34.320 --> 00:01:35.580
+resources, they can.
+
+29
+00:01:36.290 --> 00:01:39.990
+What I love the most about being a
+sysadmin is that the role has so many
+
+30
+00:01:39.990 --> 00:01:41.060
+diverse functions.
+
+31
+00:01:41.310 --> 00:01:44.940
+We handle loads of unique problems and
+edge cases from tinkering with different
+
+32
+00:01:44.940 --> 00:01:46.400
+systems to collaborating with other
+teams.
+
+33
+00:01:46.940 --> 00:01:50.070
+I am always learning something new, so
+it's really hard to get bored.
+
+34
+00:01:50.550 --> 00:01:53.660
+It all starts with knowing how to
+automate, if you're an IT support
+
+35
+00:01:53.660 --> 00:01:57.790
+specialist, a systems administrator, or
+in a role somewhere in between knowing
+
+36
+00:01:57.790 --> 00:02:01.140
+how to get computers to do the hard
+work for you will set you apart from
+
+37
+00:02:01.190 --> 00:02:04.580
+others in similar IT roles and make
+your life much easier.
+
+38
+00:02:04.580 --> 00:02:09.660
+Think about it, would you rather
+manually deploy 100 computers on your
+
+39
+00:02:09.700 --> 00:02:13.050
+own or tell your computer to do it all
+for you all at once?
+
+40
+00:02:13.330 --> 00:02:17.330
+No-brainer, right, having a coding
+skill set can help you grow into more
+
+41
+00:02:17.330 --> 00:02:21.600
+specialized roles like a systems
+administrator, Cloud Solutions engineer,
+
+42
+00:02:21.600 --> 00:02:25.970
+DevOps specialist, site reliability
+engineer, or who knows maybe even web
+
+43
+00:02:25.970 --> 00:02:27.590
+developer or data analyst.
+
+44
+00:02:27.890 --> 00:02:32.240
+The point is, being able to write a
+program is an essential tool in your IT
+
+45
+00:02:32.280 --> 00:02:36.240
+toolkit and more and more employers are
+looking for these skills in the people
+
+46
+00:02:36.240 --> 00:02:40.140
+they hire. If you've ever learned a new
+skill, like playing a musical
+
+47
+00:02:40.140 --> 00:02:43.640
+instrument, speaking a foreign
+language, knitting, or skateboarding.
+
+48
+00:02:44.100 --> 00:02:47.400
+You know that getting good at something
+new requires a lot of practice.
+
+49
+00:02:47.780 --> 00:02:51.740
+For me, I love to learn new languages
+and I'm proud to say I speak Spanish,
+
+50
+00:02:51.830 --> 00:02:54.660
+Arabic, French, and I even know ten
+words in Russian.
+
+51
+00:02:55.290 --> 00:02:59.520
+Our world is shaped by the words and
+the languages we speak and while some
+
+52
+00:02:59.580 --> 00:03:03.700
+words may be unique to one language you
+can always find similarities that help
+
+53
+00:03:03.700 --> 00:03:04.950
+you learn and understand.
+
+54
+00:03:05.690 --> 00:03:09.360
+Being able to connect the dots between
+cultures allows me to see things others
+
+55
+00:03:09.360 --> 00:03:13.000
+might not, kind of sounds like this
+applies to IT programming, huh?
+
+56
+00:03:13.450 --> 00:03:17.450
+My point is, whether you're learning
+French or Python, it's never easy.
+
+57
+00:03:17.450 --> 00:03:21.010
+You have to start small, learn the
+basics and practice those until you
+
+58
+00:03:21.010 --> 00:03:25.800
+master them. Only then can you move on
+to more complex and impressive stuff and
+
+59
+00:03:25.800 --> 00:03:29.070
+I'm here to help you along that path
+along with my colleagues who you'll meet
+
+60
+00:03:29.070 --> 00:03:33.370
+in later courses. We'll start slow,
+master the foundations together and
+
+61
+00:03:33.370 --> 00:03:35.500
+you'll soon be ready for more
+challenging stuff.
+
+62
+00:03:35.920 --> 00:03:39.830
+So are you wondering why we filmed this
+course in a cabin on a lake in Canada?
+
+63
+00:03:40.280 --> 00:03:43.930
+The truth is we're actually in a game
+room at one of the Google offices in
+
+64
+00:03:43.930 --> 00:03:45.100
+Sunnyvale, California.
+
+65
+00:03:45.570 --> 00:03:48.790
+We chose a different themed office
+space for each course of the program
+
+66
+00:03:48.790 --> 00:03:51.390
+just to mix things up and I think I
+scored with this one.
+
+67
+00:03:51.800 --> 00:03:54.890
+I should warn my manager that I'll be
+hanging out in this one well after the
+
+68
+00:03:54.890 --> 00:03:56.940
+course ends because it's super comfy.
+
+69
+00:03:57.490 --> 00:04:00.660
+By the end of this course, you'll
+understand the benefits of programming
+
+70
+00:04:00.660 --> 00:04:05.180
+in IT roles. You'll be able to write
+simple programs using Python, figure out
+
+71
+00:04:05.180 --> 00:04:09.130
+how the building blocks of programming
+fit together, and combine all this
+
+72
+00:04:09.130 --> 00:04:11.980
+knowledge to solve a complex
+programming problem.
+
+73
+00:04:12.510 --> 00:04:15.910
+That's right, by the end of this
+course, you're going to write a program
+
+74
+00:04:15.910 --> 00:04:20.930
+in Python that's designed to solve a
+real-world IT problem, super exciting
+
+75
+00:04:20.930 --> 00:04:24.150
+right? We'll start off by diving into
+the basics of writing a computer
+
+76
+00:04:24.150 --> 00:04:28.100
+program. You'll get hands-on experience
+with programming concepts through
+
+77
+00:04:28.100 --> 00:04:30.310
+interactive exercises and real-world
+examples.
+
+78
+00:04:31.440 --> 00:04:34.720
+You'll quickly start to see how
+computers can perform a multitude of
+
+79
+00:04:34.720 --> 00:04:37.890
+tasks. You just have to write code that
+tells them what to do.
+
+80
+00:04:38.590 --> 00:04:41.750
+Along the way, we'll be talking about
+automation, which is the process of
+
+81
+00:04:41.750 --> 00:04:46.260
+getting computers to automatically do a
+task that us humans normally have to do
+
+82
+00:04:46.260 --> 00:04:49.880
+by hand. Now, some of the stuff can get
+a little complex and confusing.
+
+83
+00:04:49.940 --> 00:04:53.590
+I promise to do my best to make these
+lessons clear and easy to understand,
+
+84
+00:04:53.990 --> 00:04:57.550
+but if you get stuck at any point,
+please feel free to re-watch the videos.
+
+85
+00:04:57.630 --> 00:05:01.240
+Practice as much as you like and take
+the time you really need to understand
+
+86
+00:05:01.240 --> 00:05:04.850
+these topics. The goal of this course
+isn't to teach you everything there is
+
+87
+00:05:04.850 --> 00:05:08.060
+to know about software engineering
+because yikes, that would be a long
+
+88
+00:05:08.060 --> 00:05:11.840
+course. Instead, we're going to
+introduce you to some of the key
+
+89
+00:05:11.840 --> 00:05:15.280
+concepts of programming and scripting
+that will empower you to spot
+
+90
+00:05:15.310 --> 00:05:17.280
+opportunities for automation in real
+life.
+
+91
+00:05:18.280 --> 00:05:21.690
+You're about to learn a skill that can
+help you take your career to whole new
+
+92
+00:05:21.690 --> 00:05:23.130
+levels. Are you excited?
+
+93
+00:05:23.770 --> 00:05:25.710
+I'm excited, so let's jump in!

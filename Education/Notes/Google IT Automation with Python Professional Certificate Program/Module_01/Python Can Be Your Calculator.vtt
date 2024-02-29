@@ -1,0 +1,197 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:03.890
+There's a ton of things that you can do
+with Python and you'll learn many of
+
+2
+00:00:03.890 --> 00:00:07.790
+them in this course. But before we dive
+into complex subjects, let's have some
+
+3
+00:00:07.830 --> 00:00:10.100
+fun with another simple task that you
+can do with Python.
+
+4
+00:00:10.630 --> 00:00:11.830
+We are going to make Python our
+calculator.
+
+5
+00:00:13.370 --> 00:00:14.410
+Let's start with something easy.
+
+6
+00:00:15.120 --> 00:00:24.610
+So 4 plus 5 is 9, 9 times 7 is 63,
+minus 1 divided by 4 is minus 0.25.
+
+7
+00:00:25.240 --> 00:00:30.320
+Easy. Repeating or periodic numbers are
+printed in a longer format.
+
+8
+00:00:30.810 --> 00:00:32.460
+Let's try 1 divided by 3.
+
+9
+00:00:34.160 --> 00:00:39.420
+In math theory, when 1 is divided by 3,
+the digit 3 repeats forever after the
+
+10
+00:00:39.420 --> 00:00:44.060
+decimal point. Of course, it's hard to
+display something that repeats forever.
+
+11
+00:00:44.060 --> 00:00:47.690
+So instead, we have a representation
+showing lots of decimal places.
+
+12
+00:00:48.350 --> 00:00:52.110
+Not too hard, right? Let's get the
+computer something a bit trickier.
+
+13
+00:00:52.650 --> 00:00:58.280
+Let's say we want to divide 2050 by 5,
+then subtract 32 and then divide the
+
+14
+00:00:58.280 --> 00:01:02.640
+result by 9. To do this, we'll need to
+use parentheses, just as we do in
+
+15
+00:01:02.640 --> 00:01:03.790
+typical math problems.
+
+16
+00:01:04.580 --> 00:01:09.910
+You can also use Python to get squares,
+cubes, or any power of n of a number.
+
+17
+00:01:10.370 --> 00:01:14.490
+For example, let's say we want to find
+out what 2 to the power of 10 is.
+
+18
+00:01:14.860 --> 00:01:18.250
+To get Python to give us the answer, we
+use the double star operator.
+
+19
+00:01:19.050 --> 00:01:22.750
+If you're starting to worry that this
+is becoming an algebra course, relax.
+
+20
+00:01:22.750 --> 00:01:25.350
+We're not going to do anything more
+complex than what we've just seen.
+
+21
+00:01:26.080 --> 00:01:29.260
+If you're thinking, "Why would I use
+Python instead of just a normal
+
+22
+00:01:29.260 --> 00:01:31.910
+calculator?" That's a valid question.
+
+23
+00:01:32.480 --> 00:01:36.080
+Experimenting in this way, you get
+familiar with the language's math
+
+24
+00:01:36.230 --> 00:01:40.350
+capabilities. In IT jobs, there are
+many tasks that require you to use math
+
+25
+00:01:40.350 --> 00:01:44.080
+calculations. You might need to count
+how many times a certain word appears in
+
+26
+00:01:44.080 --> 00:01:48.620
+a text, or work out the average time it
+takes for an operation to complete, or
+
+27
+00:01:48.620 --> 00:01:51.940
+how much you have to compress an image
+to fit in certain size constraints.
+
+28
+00:01:52.290 --> 00:01:56.550
+Whatever you need to calculate, writing
+a script can help you do it faster and
+
+29
+00:01:56.550 --> 00:02:00.080
+with more accuracy. So you need to know
+what mathematical operations are
+
+30
+00:02:00.080 --> 00:02:04.600
+available to you. Python actually has a
+lot more advanced numeric capabilities
+
+31
+00:02:04.600 --> 00:02:08.180
+that are used for data analysis,
+statistics, machine learning, and other
+
+32
+00:02:08.180 --> 00:02:09.380
+scientific applications.
+
+33
+00:02:09.950 --> 00:02:11.670
+We won't get into these in this course.
+
+34
+00:02:11.690 --> 00:02:14.550
+But if you want to learn more about
+them on your own, there's a wealth of
+
+35
+00:02:14.550 --> 00:02:15.950
+online resources available.
+
+36
+00:02:16.470 --> 00:02:20.190
+Next up, a cheat sheet to help you with
+programming concepts that we've just
+
+37
+00:02:20.190 --> 00:02:22.730
+covered. After that, it's time for
+another quiz.
+
+38
+00:02:23.170 --> 00:02:24.840
+This time with a few small coding
+exercises.
+
+39
+00:02:26.210 --> 00:02:30.150
+Remember, if something is unclear, you
+can re-watch the videos as many times as
+
+40
+00:02:30.150 --> 00:02:31.490
+you need. Ready?
+
+41
+00:02:32.000 --> 00:02:32.810
+You've got this.

@@ -1,0 +1,231 @@
+WEBVTT
+
+1
+00:00:01.080 --> 00:00:05.260
+At a basic level, a computer program is
+a recipe of instructions that tells your
+
+2
+00:00:05.260 --> 00:00:06.400
+computer what to do.
+
+3
+00:00:06.780 --> 00:00:10.730
+When you write a program, you create a
+step by step recipe of what needs to be
+
+4
+00:00:10.730 --> 00:00:15.390
+done to complete a task and when your
+computer executes the program it reads
+
+5
+00:00:15.390 --> 00:00:18.010
+what you wrote and follows your
+instructions to the letter.
+
+6
+00:00:18.400 --> 00:00:19.420
+How nice is that?
+
+7
+00:00:20.430 --> 00:00:23.720
+The recipe is written in a code called
+programming language.
+
+8
+00:00:24.280 --> 00:00:27.830
+Programming languages are actually
+similar to humans spoken languages since
+
+9
+00:00:27.830 --> 00:00:30.020
+they have a syntax and semantics.
+
+10
+00:00:30.510 --> 00:00:34.840
+Now if it's been awhile since your last
+grammar class, here's a quick refresher
+
+11
+00:00:34.840 --> 00:00:36.220
+on syntax and semantics.
+
+12
+00:00:36.880 --> 00:00:41.260
+In a human language, syntax is the
+rules for how a sentence is constructed
+
+13
+00:00:41.720 --> 00:00:44.720
+while semantics refers to the actual
+meaning of the statements.
+
+14
+00:00:45.440 --> 00:00:49.860
+In English, sentences generally have
+both a subject, that's a person, place,
+
+15
+00:00:49.860 --> 00:00:54.050
+or thing and a predicate, usually a
+verb and a statement that explains what
+
+16
+00:00:54.120 --> 00:00:59.410
+the subject is doing. Let's take the
+sentence, Paula loves to program in
+
+17
+00:00:59.410 --> 00:01:00.820
+Python as an example.
+
+18
+00:01:01.430 --> 00:01:06.190
+In this sentence, Paula is the subject
+and loves to program in Python is the
+
+19
+00:01:06.190 --> 00:01:10.900
+predicate. To form a sentence that
+others can understand, you need to know
+
+20
+00:01:10.900 --> 00:01:14.960
+both the syntax that constructs the
+sentence and the semantics that gives it
+
+21
+00:01:14.960 --> 00:01:18.030
+meaning. The same applies to
+programming languages.
+
+22
+00:01:18.490 --> 00:01:22.880
+In a programming language like Python,
+the syntax is the rules for how each
+
+23
+00:01:22.880 --> 00:01:26.550
+instruction is written and the
+semantics is the effects the
+
+24
+00:01:26.550 --> 00:01:31.110
+instructions have. Much like spoken
+languages, there are lots of programming
+
+25
+00:01:31.110 --> 00:01:32.200
+languages to choose from.
+
+26
+00:01:32.550 --> 00:01:37.660
+Each has its own history, features, and
+applications but they all share the same
+
+27
+00:01:37.660 --> 00:01:38.780
+fundamental ideas.
+
+28
+00:01:38.780 --> 00:01:42.390
+So once you understand the basic
+concepts in one programming language, it
+
+29
+00:01:42.390 --> 00:01:44.260
+becomes much easier to learn another.
+
+30
+00:01:44.770 --> 00:01:47.800
+Lastly, computers always do exactly
+what they're told.
+
+31
+00:01:48.200 --> 00:01:51.970
+So when you write a program, it's
+important to be super clear about what
+
+32
+00:01:52.020 --> 00:01:53.360
+you want the computer to do.
+
+33
+00:01:53.880 --> 00:01:57.420
+Learning the syntax and semantics of
+the programming language you choose will
+
+34
+00:01:57.420 --> 00:01:59.210
+allow you to do just that.
+
+35
+00:01:59.730 --> 00:02:03.600
+Make sense? Before we continue, let's
+spend a moment on terminology.
+
+36
+00:02:04.100 --> 00:02:07.560
+In the next few videos you'll hear the
+term script being used a bunch.
+
+37
+00:02:08.080 --> 00:02:10.910
+So what's the difference between a
+script and a program?
+
+38
+00:02:11.290 --> 00:02:12.840
+The line between the two can be a bit
+blurry.
+
+39
+00:02:13.620 --> 00:02:15.190
+In this course, we'll use the terms
+interchangeably.
+
+40
+00:02:16.770 --> 00:02:20.680
+In general, you can think of scripts as
+programs with a short development cycle
+
+41
+00:02:20.680 --> 00:02:22.260
+that can be created and deployed
+rapidly.
+
+42
+00:02:23.260 --> 00:02:27.180
+In other words, a script is a program
+that is short, simple, and can be
+
+43
+00:02:27.180 --> 00:02:31.400
+written very quickly. In this course
+we'll focus on a specific scripting
+
+44
+00:02:31.400 --> 00:02:35.140
+language called python which we'll use
+to learn the basics of programming.
+
+45
+00:02:35.600 --> 00:02:38.660
+We'll learn about the python syntax,
+the rules of how to write a python
+
+46
+00:02:38.660 --> 00:02:42.640
+program, and the semantics or meaning
+of the different pieces involved.
+
+47
+00:02:43.290 --> 00:02:46.870
+Before we start learning how to code
+and having you write your first python
+
+48
+00:02:46.870 --> 00:02:50.980
+script, let's talk more about what
+automation is and why it's useful.

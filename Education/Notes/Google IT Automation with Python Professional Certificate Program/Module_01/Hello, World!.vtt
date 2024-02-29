@@ -1,0 +1,198 @@
+WEBVTT
+
+1
+00:00:01.090 --> 00:00:05.260
+Now that you've got an idea of what
+Python code looks like, let's check out
+
+2
+00:00:05.260 --> 00:00:08.770
+one of the most basic examples and dive
+deeper into what's going on.
+
+3
+00:00:09.330 --> 00:00:12.550
+Get ready. We're going to use the
+Python interpreter to make our computer
+
+4
+00:00:12.550 --> 00:00:14.050
+say hello to the world.
+
+5
+00:00:15.250 --> 00:00:19.610
+When we run this code either locally on
+our machine or on a web interpreter, the
+
+6
+00:00:19.610 --> 00:00:23.120
+words hello world appear on the screen,
+just like magic.
+
+7
+00:00:23.910 --> 00:00:24.940
+Actually it's not magic.
+
+8
+00:00:25.400 --> 00:00:29.650
+It's because Print is a Python function
+that writes what we tell it to on the
+
+9
+00:00:29.650 --> 00:00:34.550
+screen. Like the statement hello world
+for example, the print function is part
+
+10
+00:00:34.550 --> 00:00:39.470
+of the basic Python language, whenever
+we use keywords or functions that are
+
+11
+00:00:39.470 --> 00:00:43.440
+part of the language, we're using the
+programming language's syntax to tell
+
+12
+00:00:43.440 --> 00:00:47.650
+the computer what to do. So what are
+functions and keywords?
+
+13
+00:00:47.970 --> 00:00:50.520
+Functions are pieces of code that
+perform a unit of work.
+
+14
+00:00:51.610 --> 00:00:54.610
+We'll talk a lot more about functions
+later on, and you'll even learn how to
+
+15
+00:00:54.610 --> 00:00:58.610
+write your own. Keywords are reserved
+words that are used to construct
+
+16
+00:00:58.670 --> 00:01:03.210
+instructions. These words are the core
+part of the language and can only be
+
+17
+00:01:03.210 --> 00:01:04.560
+used in specific ways.
+
+18
+00:01:04.960 --> 00:01:08.700
+Some examples include if, while, and
+for.
+
+19
+00:01:10.010 --> 00:01:13.420
+We'll explain all of those and a bunch
+more later in the course.
+
+20
+00:01:13.980 --> 00:01:17.770
+As we called out, the keywords and
+functions used in Python are what makes
+
+21
+00:01:17.770 --> 00:01:19.310
+up the syntax of the language.
+
+22
+00:01:19.800 --> 00:01:23.460
+Once we understand how they work, we
+can use them to construct more complex
+
+23
+00:01:23.460 --> 00:01:26.270
+expressions that get the computer to do
+what we want it to do.
+
+24
+00:01:26.670 --> 00:01:31.330
+Last off, notice how hello world is
+written between double quotation marks.
+
+25
+00:01:31.960 --> 00:01:35.650
+Wrapping text in quotation marks
+indicates that the text is considered a
+
+26
+00:01:35.750 --> 00:01:39.770
+string, which means it's text that will
+be manipulated by our script.
+
+27
+00:01:40.300 --> 00:01:44.490
+In programming, any text that isn't
+inside quotation marks is considered
+
+28
+00:01:44.600 --> 00:01:49.400
+part of the code. Now, for a bit of
+trivia, do you know why we printed the
+
+29
+00:01:49.400 --> 00:01:50.860
+whole world in our example?
+
+30
+00:01:51.700 --> 00:01:55.830
+Well, printing hello world has been the
+traditional way to start learning a
+
+31
+00:01:55.830 --> 00:01:59.920
+programming language since way back in
+the '70s when it was used as the first
+
+32
+00:01:59.920 --> 00:02:04.430
+example in a famous programming book
+called the C programming language.
+
+33
+00:02:04.680 --> 00:02:06.350
+That example looked like this.
+
+34
+00:02:09.670 --> 00:02:15.360
+In Python, the hello world example is
+just one line, in C, it's three lines,
+
+35
+00:02:15.460 --> 00:02:16.830
+in other languages, it can be even
+more.
+
+36
+00:02:17.770 --> 00:02:21.130
+While learning to write hello world
+won't teach you the whole language, it
+
+37
+00:02:21.130 --> 00:02:24.920
+gives you a first impression of how
+functions are used, and how a program
+
+38
+00:02:24.920 --> 00:02:26.350
+written in that language looks.
+
+39
+00:02:26.790 --> 00:02:30.220
+All right, now that we've written our
+first piece of Python code, I think
+
+40
+00:02:30.220 --> 00:02:32.630
+you're ready for something a bit more
+challenging than hello world.
+
+41
+00:02:33.340 --> 00:02:34.610
+Ready? Let's do it.

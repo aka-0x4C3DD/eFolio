@@ -1,0 +1,356 @@
+WEBVTT
+
+1
+00:00:01.140 --> 00:00:04.330
+Remember how we mentioned that Python is
+simple and easy to use?
+
+2
+00:00:04.890 --> 00:00:08.650
+Python makes it easy to express the
+fundamental concepts of programming like
+
+3
+00:00:08.670 --> 00:00:12.200
+data structures and algorithms with
+easy to read syntax.
+
+4
+00:00:12.580 --> 00:00:15.490
+This makes Python a great language to
+use to learn programming.
+
+5
+00:00:15.970 --> 00:00:18.130
+And there are other reasons to pick
+Python, too.
+
+6
+00:00:18.290 --> 00:00:21.800
+Python is super popular in the IT
+industry, making it one of the most
+
+7
+00:00:21.800 --> 00:00:23.520
+common programming languages used
+today.
+
+8
+00:00:24.230 --> 00:00:28.340
+Python isn't new. Its first version was
+released by Guido van Rossum back in
+
+9
+00:00:28.340 --> 00:00:32.960
+1991. Since then, the community that
+develops it has grown and the language
+
+10
+00:00:32.960 --> 00:00:34.160
+has advanced a lot.
+
+11
+00:00:34.910 --> 00:00:38.290
+Whenever there's a significant change
+to the semantics or syntax of the
+
+12
+00:00:38.290 --> 00:00:40.290
+language, a new major version is
+released.
+
+13
+00:00:41.330 --> 00:00:43.630
+In 2000, Python 2 was released.
+
+14
+00:00:43.690 --> 00:00:45.560
+In 2008, we got Python 3.
+
+15
+00:00:46.080 --> 00:00:50.160
+In this course, we'll use Python 3.7,
+which came out in 2018.
+
+16
+00:00:50.590 --> 00:00:54.800
+For many years, Python was considered a
+beginner's language and was mostly used
+
+17
+00:00:54.800 --> 00:00:58.690
+for teaching concepts or writing very
+small simple scripts, like in this
+
+18
+00:00:58.690 --> 00:01:02.600
+course. But in recent years, the
+adoption of Python has grown
+
+19
+00:01:02.600 --> 00:01:06.540
+dramatically. One reason for this is
+that the language has become more
+
+20
+00:01:06.590 --> 00:01:10.270
+powerful. It's also because there's
+more tools available in Python for a
+
+21
+00:01:10.270 --> 00:01:11.870
+growing range of applications.
+
+22
+00:01:12.200 --> 00:01:16.020
+You can use Python to calculate
+statistics, run your e-commerce site,
+
+23
+00:01:16.090 --> 00:01:19.810
+process images, interact with web
+services, and do a whole host of other
+
+24
+00:01:19.810 --> 00:01:21.890
+tasks. Python is perfect for
+automation.
+
+25
+00:01:22.790 --> 00:01:27.080
+It lets you automate everyday tasks by
+writing simple scripts that are easy to
+
+26
+00:01:27.080 --> 00:01:28.980
+understand and easy to maintain.
+
+27
+00:01:29.580 --> 00:01:33.220
+That's why Python is the language of
+choice for lots of people working in IT
+
+28
+00:01:33.250 --> 00:01:35.300
+support, system administration, and web
+development.
+
+29
+00:01:36.500 --> 00:01:40.220
+Not only that, but it's also used in
+fast-growing areas of IT, like machine
+
+30
+00:01:40.220 --> 00:01:41.630
+learning or data analytics.
+
+31
+00:01:42.070 --> 00:01:46.040
+Last but not least, Python is available
+for download on a wide variety of
+
+32
+00:01:46.040 --> 00:01:49.400
+operating systems, like Windows, Linux,
+and Mac OS.
+
+33
+00:01:49.970 --> 00:01:53.570
+And what's more, Python is so popular
+in the workplace that if you are
+
+34
+00:01:53.570 --> 00:01:57.060
+currently working in IT, you've most
+likely encountered it already.
+
+35
+00:01:57.550 --> 00:02:01.330
+And if you're planning a career in IT,
+chances are you'll interact with Python
+
+36
+00:02:01.370 --> 00:02:05.740
+quite a bit. So there's a whole lot of
+reasons for why Python is relevant to
+
+37
+00:02:05.740 --> 00:02:07.140
+today's IT industry.
+
+38
+00:02:07.590 --> 00:02:11.310
+A large part of programming is learning
+through trial and error and asking
+
+39
+00:02:11.310 --> 00:02:15.090
+questions. So if at any point you get
+stuck, don't get discouraged.
+
+40
+00:02:15.180 --> 00:02:17.370
+Making mistakes helps you improve.
+
+41
+00:02:17.960 --> 00:02:22.600
+The more you see failure or broken code
+as an opportunity to learn, the quicker
+
+42
+00:02:22.600 --> 00:02:23.980
+you'll master programming.
+
+43
+00:02:24.450 --> 00:02:27.350
+I remember the first Python script I
+ever wrote.
+
+44
+00:02:27.600 --> 00:02:31.460
+It took a lot of refactoring,
+debugging, and testing to get it to
+
+45
+00:02:31.460 --> 00:02:35.820
+work. I relied on a lot of my teammates
+for help and mentorship and wound up
+
+46
+00:02:35.820 --> 00:02:39.680
+spending more time on Stack Overflow
+than actually writing the code.
+
+47
+00:02:40.440 --> 00:02:42.490
+Thankfully, you don't have to reinvent
+the wheel.
+
+48
+00:02:42.850 --> 00:02:46.230
+There's almost always someone on the
+Internet who's trying to do what you're
+
+49
+00:02:46.230 --> 00:02:48.920
+doing and can help point you in the
+right direction when you're stuck.
+
+50
+00:02:49.590 --> 00:02:51.090
+Sometimes it takes a village.
+
+51
+00:02:51.580 --> 00:02:55.330
+It's really important to keep in mind
+that even experienced programmers may
+
+52
+00:02:55.330 --> 00:02:59.020
+need to ask a colleague a question from
+time to time or look something up on the
+
+53
+00:02:59.020 --> 00:03:02.650
+Internet. Whether you're a programming
+novice or have some experience in
+
+54
+00:03:02.650 --> 00:03:06.970
+software development, remember, the
+best programmers overcome challenges by
+
+55
+00:03:06.970 --> 00:03:09.420
+seeking help or using other resources.
+
+56
+00:03:09.700 --> 00:03:12.620
+Once you've completed this program,
+you'll be well on your way to
+
+57
+00:03:12.620 --> 00:03:14.350
+confidently programming in basic
+Python.
+
+58
+00:03:15.360 --> 00:03:18.860
+There's lots of information online that
+will help you continue to develop your
+
+59
+00:03:18.860 --> 00:03:23.170
+programming skills. For example, there
+are lots of online courses for specific
+
+60
+00:03:23.170 --> 00:03:24.270
+programming languages.
+
+61
+00:03:24.310 --> 00:03:27.940
+You'll find answers to your Python
+coding questions in the official Python
+
+62
+00:03:27.940 --> 00:03:32.100
+documentation. You can use sites like
+Stack Overflow to discuss and share with
+
+63
+00:03:32.100 --> 00:03:35.570
+other developers. And you can ask
+questions in our discussion forums.
+
+64
+00:03:36.050 --> 00:03:39.640
+You can even subscribe to some of the
+Python mailing lists to keep in the know
+
+65
+00:03:39.640 --> 00:03:41.450
+on the latest updates to the language.
+
+66
+00:03:41.840 --> 00:03:46.030
+You're opening the door to the whole
+world of programming, and it's super
+
+67
+00:03:46.030 --> 00:03:48.090
+exciting to be joining the development
+community.
+
+68
+00:03:48.970 --> 00:03:51.900
+The most important thing to remember is
+that you're never alone.
+
+69
+00:03:52.090 --> 00:03:56.390
+Any questions you may have, any time in
+your career, there are resources out
+
+70
+00:03:56.390 --> 00:03:57.850
+there to help you find the answers you
+need.
+
+71
+00:03:58.630 --> 00:04:00.650
+Wow, that was a lot of information.
+
+72
+00:04:01.130 --> 00:04:04.610
+Feel free to take a quick break, grab
+something to drink, and then head on
+
+73
+00:04:04.610 --> 00:04:07.500
+over to the supplemental reading to
+learn more about Python and the
+
+74
+00:04:07.500 --> 00:04:09.220
+resources out there to help you learn.

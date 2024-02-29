@@ -1,0 +1,480 @@
+WEBVTT
+
+1
+00:00:01.100 --> 00:00:03.400
+Working in IT is more than just a job.
+
+2
+00:00:03.490 --> 00:00:08.210
+It's a career path. Research shows that
+the field of IT support is a launchpad
+
+3
+00:00:08.210 --> 00:00:10.060
+for future career growth and better
+wages.
+
+4
+00:00:10.880 --> 00:00:14.330
+In fact, a study on the subject was
+recently conducted by the Harvard
+
+5
+00:00:14.330 --> 00:00:17.950
+Business School Accenture and Burning
+Glass entitled Bridge the Gap.
+
+6
+00:00:18.410 --> 00:00:21.680
+It found that among today's
+middle-skilled jobs which require
+
+7
+00:00:21.680 --> 00:00:26.670
+training but not a formal college
+degree, IT support offers clear pathways
+
+8
+00:00:26.670 --> 00:00:31.050
+to prosperity. We saw this phenomenon
+play out here at Google, in our IT
+
+9
+00:00:31.100 --> 00:00:34.540
+support program. Those who push
+themselves to learn how to code in
+
+10
+00:00:34.540 --> 00:00:37.030
+Python typically saw strong career
+growth.
+
+11
+00:00:37.850 --> 00:00:42.020
+They built skills that are critical to
+accessing higher level positions in the
+
+12
+00:00:42.020 --> 00:00:45.560
+IT field, and after honing those skills
+through hard work and determination,
+
+13
+00:00:45.880 --> 00:00:49.420
+they advanced into more technical IT
+support specialists, systems
+
+14
+00:00:49.420 --> 00:00:53.640
+administrators, technical solutions
+engineers, and even site reliability
+
+15
+00:00:53.640 --> 00:00:58.060
+engineers. The common thread across all
+of these roles is knowing how to write
+
+16
+00:00:58.100 --> 00:00:59.870
+code to solve problems and automate
+solutions.
+
+17
+00:01:01.080 --> 00:01:05.340
+By expanding your toolbox to include
+coding skills, you open a window into
+
+18
+00:01:05.340 --> 00:01:08.970
+the world of systems management that
+can lead you towards more advanced
+
+19
+00:01:08.970 --> 00:01:10.370
+technical roles down the line.
+
+20
+00:01:10.780 --> 00:01:12.800
+Python in particular is having a huge
+surgence.
+
+21
+00:01:14.030 --> 00:01:19.180
+According to the 2019 Stack Overflow
+Developer Survey, Python is the coding
+
+22
+00:01:19.180 --> 00:01:20.880
+language most people want to learn.
+
+23
+00:01:21.230 --> 00:01:24.820
+The second most loved by those who
+already know it and the fourth most
+
+24
+00:01:24.820 --> 00:01:29.060
+popular overall. So why take this
+program to learn how to code in Python?
+
+25
+00:01:29.420 --> 00:01:34.300
+Well, first it's geared towards people
+who are already in or aspiring to be in
+
+26
+00:01:34.300 --> 00:01:38.510
+the field of IT. Maybe you're thinking
+bigger about your current IT role and
+
+27
+00:01:38.510 --> 00:01:42.170
+want to work towards managing
+operations at scale, or maybe you're
+
+28
+00:01:42.170 --> 00:01:45.030
+just starting out and looking to break
+into the IT industry.
+
+29
+00:01:45.430 --> 00:01:48.990
+Perhaps you've taken our IT Support
+Professional Certificate program on
+
+30
+00:01:48.990 --> 00:01:52.860
+Coursera already, or you have
+equivalent IT support knowledge with
+
+31
+00:01:52.930 --> 00:01:57.050
+basic computing skills, like working
+with files and directories, familiarity
+
+32
+00:01:57.050 --> 00:02:00.060
+with networking concepts, and
+understanding how to install software on
+
+33
+00:02:00.060 --> 00:02:04.200
+your computer. In any case, this
+program is tailor-made for you.
+
+34
+00:02:04.690 --> 00:02:09.090
+Second, this program offers three
+hands-on methods of teaching coding and
+
+35
+00:02:09.090 --> 00:02:13.830
+Python and automation, code blocks,
+Jupyter notebooks, and Qwiklabs.
+
+36
+00:02:14.490 --> 00:02:18.330
+Third, we've assembled an awesome group
+of Googlers who will serve as your
+
+37
+00:02:18.330 --> 00:02:19.570
+instructors in each course.
+
+38
+00:02:20.080 --> 00:02:23.940
+They all started their careers in IT
+support then learned programming and
+
+39
+00:02:23.940 --> 00:02:26.180
+moved onto more technical roles like
+me.
+
+40
+00:02:27.370 --> 00:02:30.520
+We can't wait to share our stories with
+you on how we use Python in our
+
+41
+00:02:30.520 --> 00:02:34.310
+day-to-day. Oh and hey, I should
+probably introduce myself.
+
+42
+00:02:34.600 --> 00:02:37.750
+My name is Christine Rafla, and I'm a
+Systems Administrator at Google.
+
+43
+00:02:38.290 --> 00:02:39.600
+I will be your instructor in this
+course.
+
+44
+00:02:40.610 --> 00:02:44.740
+This program has been entirely designed
+and developed by Google and we even
+
+45
+00:02:44.740 --> 00:02:47.680
+filmed each course at different cool
+Google spaces.
+
+46
+00:02:47.680 --> 00:02:51.900
+It will introduce you to the Python
+programming language with a special
+
+47
+00:02:51.900 --> 00:02:55.880
+focus on how this language applies to
+automating tasks in the world of IT
+
+48
+00:02:55.960 --> 00:02:57.900
+systems support and administration.
+
+49
+00:02:58.390 --> 00:02:59.990
+I'm super excited to be here with you.
+
+50
+00:03:00.510 --> 00:03:04.170
+When I was younger, I had no idea that
+careers in IT even existed.
+
+51
+00:03:04.730 --> 00:03:08.110
+There are a lot of reasons I wanted to
+participate in the certificate program.
+
+52
+00:03:08.260 --> 00:03:11.680
+But one of my biggest motivations is
+that I want to see more women
+
+53
+00:03:11.680 --> 00:03:12.950
+represented in the industry.
+
+54
+00:03:13.630 --> 00:03:16.600
+I remember going to a System
+Administration Summit where there were
+
+55
+00:03:16.600 --> 00:03:19.840
+hundreds of men and about three women
+that were sysadmins.
+
+56
+00:03:20.380 --> 00:03:23.710
+A lot has changed since then but
+there's still so much we can do to bring
+
+57
+00:03:23.710 --> 00:03:26.420
+new ideas and representation into the
+IT field.
+
+58
+00:03:27.030 --> 00:03:30.220
+That's why I want to share my knowledge
+with as many people as possible.
+
+59
+00:03:30.690 --> 00:03:34.390
+I love my job and I love the people I
+work with because they make it easy to
+
+60
+00:03:34.390 --> 00:03:36.260
+ask for help and offer their guidance.
+
+61
+00:03:36.850 --> 00:03:40.650
+This type of support network allows our
+team and ultimately our industry to be
+
+62
+00:03:40.650 --> 00:03:43.910
+more successful. I understand from
+experience that it can feel pretty
+
+63
+00:03:43.910 --> 00:03:47.600
+intimidating and maybe even a bit scary
+to learn a coding language.
+
+64
+00:03:48.050 --> 00:03:52.490
+Just remember, everyone started where
+you are right now with the first
+
+65
+00:03:52.490 --> 00:03:56.800
+command, the first script, and of
+course, the first of many errors.
+
+66
+00:03:57.580 --> 00:04:00.960
+When I started out in my career, I
+strived to get everything perfectly
+
+67
+00:04:00.960 --> 00:04:02.280
+right the first time I tried it.
+
+68
+00:04:02.810 --> 00:04:04.220
+But that actually slowed down my
+progress.
+
+69
+00:04:04.950 --> 00:04:07.550
+So don't be afraid to make mistakes, it
+will give you a leg up.
+
+70
+00:04:08.030 --> 00:04:09.470
+So let's get down to it.
+
+71
+00:04:09.990 --> 00:04:14.120
+What's ahead? The program begins with a
+crash course in Python where you will
+
+72
+00:04:14.120 --> 00:04:17.680
+learn to write simple programs and
+understand their role in automation.
+
+73
+00:04:18.400 --> 00:04:22.890
+Next, we'll get more hands-on focus on
+how Python interacts with the operating
+
+74
+00:04:22.890 --> 00:04:27.630
+system. After that, we'll cover how to
+use Git and GitHub to manage versions of
+
+75
+00:04:27.630 --> 00:04:31.880
+your code. Then we will focus on
+troubleshooting and debugging techniques
+
+76
+00:04:31.880 --> 00:04:35.300
+to find and solve the root cause of
+problems in IT infrastructure.
+
+77
+00:04:36.120 --> 00:04:39.630
+The next course covers automating at
+scale where you will learn to deploy
+
+78
+00:04:39.630 --> 00:04:43.640
+configuration management on a fleet of
+either physical or virtual machines
+
+79
+00:04:43.640 --> 00:04:48.370
+running in the Cloud. Last up, we will
+bring all this knowledge together and
+
+80
+00:04:48.370 --> 00:04:52.510
+complete a final project designed to
+solve tasks that you might encounter in
+
+81
+00:04:52.630 --> 00:04:54.150
+real-world IT settings.
+
+82
+00:04:54.640 --> 00:04:59.210
+Bonus, you can post your projects to
+GitHub to show off your fancy new skills
+
+83
+00:04:59.210 --> 00:05:01.430
+to employers or friends or both.
+
+84
+00:05:03.050 --> 00:05:04.690
+That was a lot to rattle off.
+
+85
+00:05:04.970 --> 00:05:06.080
+Are you excited or what?
+
+86
+00:05:06.870 --> 00:05:10.460
+Now I'd like to quickly introduce you
+to my fellow instructors who you will
+
+87
+00:05:10.460 --> 00:05:13.970
+get to meet along the way. Hey, my name
+is Roger Martinez.
+
+88
+00:05:14.560 --> 00:05:18.100
+I'm a Linux System Administrator, and
+I'll be your instructor in the course on
+
+89
+00:05:18.100 --> 00:05:20.470
+using Python's interacts with an
+operating system.
+
+90
+00:05:20.990 --> 00:05:25.430
+Hi. I'm Kenny Sulma, and I'll be your
+guide in the course about using Git and
+
+91
+00:05:25.430 --> 00:05:27.340
+GitHub to manage versions of your code.
+
+92
+00:05:27.910 --> 00:05:31.740
+Hi there. I'm Amanda Ballas, and I'll
+be teaching you about troubleshooting
+
+93
+00:05:31.820 --> 00:05:35.290
+and debugging. Hey, I'm Phelan
+Vendeville, and in my course, we'll
+
+94
+00:05:35.290 --> 00:05:39.220
+learn about Automation at scale using
+Configuration Management and the Cloud.
+
+95
+00:05:39.710 --> 00:05:44.320
+Thanks everyone. This all-star team was
+brought together to guide you on your
+
+96
+00:05:44.320 --> 00:05:46.890
+adventures in coding. You're in very
+good hands.
+
+97
+00:05:47.440 --> 00:05:48.990
+Okay, I think that's everything.
+
+98
+00:05:49.110 --> 00:05:52.210
+Let's get ready to learn some new
+skills and maybe even have some laughs
+
+99
+00:05:52.210 --> 00:05:54.050
+along the way. I'll see you in the next
+video.

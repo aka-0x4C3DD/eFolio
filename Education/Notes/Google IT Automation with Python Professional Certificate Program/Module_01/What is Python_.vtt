@@ -1,0 +1,260 @@
+WEBVTT
+
+1
+00:00:01.100 --> 00:00:03.350
+Welcome back. How did you do on your
+first quiz?
+
+2
+00:00:04.150 --> 00:00:06.220
+If you got most of the questions right,
+great job.
+
+3
+00:00:06.490 --> 00:00:08.800
+If not, no worries it's all part of
+learning.
+
+4
+00:00:09.550 --> 00:00:12.470
+We'll be here to help you check that
+you've really got your head around these
+
+5
+00:00:12.470 --> 00:00:14.010
+concepts with regular quizzes like
+this.
+
+6
+00:00:14.790 --> 00:00:18.540
+If you ever find a question tricky, go
+back and review the videos and then try
+
+7
+00:00:18.540 --> 00:00:21.940
+the quiz again. You want to feel super
+comfortable with what you've learned
+
+8
+00:00:21.940 --> 00:00:23.530
+before jumping into the next lesson.
+
+9
+00:00:23.940 --> 00:00:25.330
+Remember, take your time.
+
+10
+00:00:25.330 --> 00:00:27.570
+I will be here whenever you're ready to
+move on.
+
+11
+00:00:28.220 --> 00:00:29.940
+Okay. Feeling good? Great.
+
+12
+00:00:30.380 --> 00:00:34.090
+Let us dive in. In this course, we will
+use the Python programming language to
+
+13
+00:00:34.090 --> 00:00:37.550
+demonstrate basic programming concepts
+and how to apply them to writing
+
+14
+00:00:37.550 --> 00:00:40.890
+scripts. We have mentioned that there
+are a bunch of programming languages out
+
+15
+00:00:40.950 --> 00:00:43.350
+there. So why pick Python?
+
+16
+00:00:43.980 --> 00:00:46.410
+Well, we chose Python for a few
+reasons.
+
+17
+00:00:47.220 --> 00:00:50.740
+First off, programming in Python
+usually feels similar to using a human
+
+18
+00:00:50.740 --> 00:00:55.040
+language. This is because Python makes
+it easy to express what we want to do
+
+19
+00:00:55.040 --> 00:00:57.280
+with syntax that's easy to read and
+write.
+
+20
+00:00:58.030 --> 00:01:03.230
+Check out this example. There is a lot
+to unpack here so don't worry if you
+
+21
+00:01:03.230 --> 00:01:06.770
+don't understand it right away, we'll
+get into the nitty-gritty details later
+
+22
+00:01:06.770 --> 00:01:10.510
+in the course. But even if you've never
+seen a line of code before, you might be
+
+23
+00:01:10.510 --> 00:01:12.430
+able to guess what this code does.
+
+24
+00:01:13.040 --> 00:01:17.050
+It defines a list with names of friends
+and then creates a greeting for each
+
+25
+00:01:17.050 --> 00:01:21.840
+name in the list. Now it is your turn
+to make friends with Python.
+
+26
+00:01:22.290 --> 00:01:23.600
+Try it out and see what happens.
+
+27
+00:01:25.110 --> 00:01:28.370
+Throughout this course, you will
+execute Python code using your web
+
+28
+00:01:28.410 --> 00:01:33.080
+browser. We'll start with some small
+coding exercises using code blocks just
+
+29
+00:01:33.080 --> 00:01:34.780
+like the one you experimented with.
+
+30
+00:01:35.490 --> 00:01:39.450
+Later on as you develop your skills,
+you'll work on larger more complex
+
+31
+00:01:39.450 --> 00:01:41.320
+coding exercises using other tools.
+
+32
+00:01:41.770 --> 00:01:45.440
+Getting good at something takes a whole
+lot of practice and programming and
+
+33
+00:01:45.440 --> 00:01:46.510
+Python is no different.
+
+34
+00:01:47.040 --> 00:01:50.670
+We recommend that you practice every
+example we share in this course on your
+
+35
+00:01:50.740 --> 00:01:53.810
+own. If you do not have Python
+installed on your machine, no worries,
+
+36
+00:01:54.220 --> 00:01:56.920
+you can still practice using an online
+Python interpreter.
+
+37
+00:01:57.270 --> 00:02:00.860
+Check out the next reading for links to
+the most popular Python interpreters
+
+38
+00:02:00.860 --> 00:02:05.830
+available online. Now I am sure you are
+wondering what the heck is a Python
+
+39
+00:02:05.830 --> 00:02:10.050
+interpreter. In programming, an
+interpreter is the program that reads
+
+40
+00:02:10.050 --> 00:02:11.230
+and executes code.
+
+41
+00:02:11.780 --> 00:02:15.480
+Remember how we said a computer program
+is like a recipe with step-by-step
+
+42
+00:02:15.480 --> 00:02:19.320
+instructions? Well, if your recipe is
+written in Python, the Python
+
+43
+00:02:19.320 --> 00:02:23.350
+interpreter is the program that reads
+what is in the recipe and translates it
+
+44
+00:02:23.350 --> 00:02:25.100
+into instructions for your computer to
+follow.
+
+45
+00:02:26.590 --> 00:02:29.670
+Eventually, you'll want to install
+Python on your computer so you can run
+
+46
+00:02:29.670 --> 00:02:31.960
+it locally and experiment with it as
+much as you like.
+
+47
+00:02:32.630 --> 00:02:36.080
+We'll guide you through how to install
+Python in the upcoming course but you
+
+48
+00:02:36.080 --> 00:02:38.740
+don't have to have it installed to get
+your first taste of Python.
+
+49
+00:02:39.200 --> 00:02:42.800
+You can practice with the quizzes we
+provide and with the online interpreters
+
+50
+00:02:42.800 --> 00:02:45.590
+and code pads that we'll give you links
+to in the next reading.
+
+51
+00:02:46.000 --> 00:02:49.200
+We'll provide a whole bunch of
+exercises for you but feel free to come
+
+52
+00:02:49.200 --> 00:02:51.640
+up with your own and share them in the
+discussion forums.
+
+53
+00:02:52.180 --> 00:02:53.290
+Feel free to get creative.
+
+54
+00:02:53.340 --> 00:02:55.390
+This is your chance to show off your
+new skills.
