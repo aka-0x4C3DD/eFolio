@@ -1,0 +1,317 @@
+WEBVTT
+
+1
+00:00:01.197 --> 00:00:05.571
+The internet is an open, public system
+with a lot of data flowing through it.
+
+2
+00:00:05.571 --> 00:00:08.791
+Even though we all send and
+store information online,
+
+3
+00:00:08.791 --> 00:00:12.294
+there's some information that
+we choose to keep private.
+
+4
+00:00:12.294 --> 00:00:18.026
+In security, this type of data is known
+as personally identifiable information.
+
+5
+00:00:18.026 --> 00:00:21.274
+Personally identifiable information, or
+PII,
+
+6
+00:00:21.274 --> 00:00:26.237
+is any information that can be used
+to infer an individual's identity.
+
+7
+00:00:26.237 --> 00:00:30.054
+This can include things like
+someone's name, medical and financial
+
+8
+00:00:30.054 --> 00:00:34.039
+information, photos,
+emails, or fingerprints.
+
+9
+00:00:35.039 --> 00:00:38.095
+Maintaining the privacy of
+PII online is difficult.
+
+10
+00:00:38.095 --> 00:00:41.154
+It takes the right security
+controls to do so.
+
+11
+00:00:41.154 --> 00:00:43.961
+One of the main security
+controls used to protect
+
+12
+00:00:43.961 --> 00:00:46.227
+information online is cryptography.
+
+13
+00:00:46.227 --> 00:00:50.829
+Cryptography is the process of
+transforming information into a form that
+
+14
+00:00:50.829 --> 00:00:53.435
+unintended readers can't understand.
+
+15
+00:00:53.435 --> 00:00:57.746
+Data of any kind is kept secret
+using a two-step process:
+
+16
+00:00:57.746 --> 00:01:03.000
+encryption to hide the information,
+and decryption to unhide it.
+
+17
+00:01:04.000 --> 00:01:05.491
+Imagine sending an email to a friend.
+
+18
+00:01:05.491 --> 00:01:09.015
+The process starts by taking
+data in its original and
+
+19
+00:01:09.015 --> 00:01:11.424
+readable form, known as plaintext.
+
+20
+00:01:11.424 --> 00:01:14.245
+Encryption takes that information and
+
+21
+00:01:14.245 --> 00:01:18.528
+scrambles it into an unreadable
+form, known as ciphertext.
+
+22
+00:01:18.528 --> 00:01:23.838
+We then use decryption to unscramble
+the ciphertext back into plaintext form,
+
+23
+00:01:23.838 --> 00:01:25.669
+making it readable again.
+
+24
+00:01:26.669 --> 00:01:30.593
+Hiding and unhiding private information
+is a practice that's been around for a long time.
+
+25
+00:01:30.593 --> 00:01:32.912
+Way before computers!
+
+26
+00:01:32.912 --> 00:01:37.082
+One of the earliest cryptographic
+methods is known as Caesar's cipher.
+
+27
+00:01:37.082 --> 00:01:40.850
+This method is named after
+a Roman general, Julius Caesar,
+
+28
+00:01:40.850 --> 00:01:45.108
+who ruled the Roman empire near
+the end of the first century BC.
+
+29
+00:01:45.108 --> 00:01:49.266
+He used it to keep messages between
+him and his military generals private.
+
+30
+00:01:50.266 --> 00:01:54.053
+Caesar's cipher is a pretty simple algorithm
+that works by shifting letters in
+
+31
+00:01:54.053 --> 00:01:57.589
+the Roman alphabet forward
+by a fixed number of spaces.
+
+32
+00:01:57.589 --> 00:02:01.437
+An algorithm is a set of
+rules that solve a problem.
+
+33
+00:02:01.437 --> 00:02:07.065
+Specifically in cryptography, a cipher is
+an algorithm that encrypts information.
+
+34
+00:02:08.065 --> 00:02:13.660
+For example, a message encoded with
+Caesar's cipher using a shift of 3 would encode
+
+35
+00:02:13.660 --> 00:02:19.559
+an A as a D, a B as an E,
+a C as an F, and so on.
+
+36
+00:02:19.559 --> 00:02:24.236
+In this example, you could send
+a friend a message that said, "hello"
+
+37
+00:02:24.236 --> 00:02:28.532
+using a shift of 3, and
+it would read "khoor."
+
+38
+00:02:28.532 --> 00:02:33.893
+Now, you might be wondering how would
+you know the shift a message encrypted with
+
+39
+00:02:33.893 --> 00:02:38.687
+Caesar's cipher is using.
+The answer to that is, you need the key!
+
+40
+00:02:39.687 --> 00:02:43.569
+A cryptographic key is a mechanism
+that decrypts ciphertext.
+
+41
+00:02:43.569 --> 00:02:47.881
+In our example, the key would tell you
+that my message is encrypted by 3 shifts.
+
+42
+00:02:47.881 --> 00:02:51.797
+With that information, you
+can unlock the hidden message!
+
+43
+00:02:52.797 --> 00:02:55.441
+Every form of encryption
+relies on both a cipher and
+
+44
+00:02:55.441 --> 00:02:58.584
+key to secure the exchange of information.
+
+45
+00:02:58.584 --> 00:03:02.975
+Caesar's cipher is not widely used today
+because of a couple of major flaws.
+
+46
+00:03:02.975 --> 00:03:08.165
+One concerns the cipher itself.
+The other relates to the key.
+
+47
+00:03:08.165 --> 00:03:12.652
+This particular cipher relies entirely on
+the characters of the Roman alphabet to hide
+
+48
+00:03:12.652 --> 00:03:13.765
+information.
+
+49
+00:03:13.765 --> 00:03:18.543
+For example, consider a message written
+using the English alphabet, which is only 26
+
+50
+00:03:18.543 --> 00:03:19.661
+characters.
+
+51
+00:03:19.661 --> 00:03:23.936
+Even without the key, it's pretty simple
+to crack a message secured with
+
+52
+00:03:23.936 --> 00:03:27.549
+Caesar's cipher by shifting
+letters 26 different ways.
+
+53
+00:03:28.549 --> 00:03:32.138
+In information security, this tactic
+is known as brute force attack,
+
+54
+00:03:32.138 --> 00:03:36.281
+a trial-and-error process of
+discovering private information.
+
+55
+00:03:37.281 --> 00:03:40.499
+The other major flaw of Caesar's cipher
+is that it relies on a single key.
+
+56
+00:03:40.499 --> 00:03:42.311
+If that key was lost or stolen,
+
+57
+00:03:42.311 --> 00:03:46.725
+there's nothing stopping someone
+from accessing private information.
+
+58
+00:03:46.725 --> 00:03:51.565
+Properly keeping track of cryptographic
+keys is an important part of security.
+
+59
+00:03:51.565 --> 00:03:55.838
+To start, it's important to ensure that
+these keys are not stored in public places,
+
+60
+00:03:55.838 --> 00:04:00.337
+and to share them separately
+from the information they will decrypt.
+
+61
+00:04:01.337 --> 00:04:04.713
+Caesar's cipher is just one of many
+algorithms used to protect people's
+
+62
+00:04:04.713 --> 00:04:05.386
+privacy.
+
+63
+00:04:05.386 --> 00:04:06.950
+Due to its limitations,
+
+64
+00:04:06.950 --> 00:04:11.126
+we rely on more complex algorithms
+to secure information online.
+
+65
+00:04:11.126 --> 00:04:14.288
+Our next focus is exploring
+how modern algorithms
+
+66
+00:04:14.288 --> 00:04:16.554
+work to keep information private.

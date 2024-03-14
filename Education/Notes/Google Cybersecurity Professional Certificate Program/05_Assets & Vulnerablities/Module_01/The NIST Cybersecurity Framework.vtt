@@ -1,0 +1,307 @@
+WEBVTT
+
+1
+00:00:01.110 --> 00:00:04.172
+Having a plan is just one
+part of securing assets.
+
+2
+00:00:04.172 --> 00:00:08.883
+Once the plan is in action, the other
+part is making sure everyone's following along.
+
+3
+00:00:08.883 --> 00:00:11.643
+In security, we call this compliance.
+
+4
+00:00:12.643 --> 00:00:15.732
+Compliance is the process of
+adhering to internal standards and
+
+5
+00:00:15.732 --> 00:00:17.332
+external regulations.
+
+6
+00:00:17.332 --> 00:00:21.973
+Small companies and large organizations
+around the world place security compliance
+
+7
+00:00:21.973 --> 00:00:24.110
+at the top of their list of priorities.
+
+8
+00:00:24.110 --> 00:00:28.034
+At a high-level, maintaining trust,
+reputation, safety, and
+
+9
+00:00:28.034 --> 00:00:33.229
+the integrity of your data are just a few
+reasons to be concerned about compliance.
+
+10
+00:00:33.229 --> 00:00:37.186
+Fines, penalties, and
+lawsuits are other reasons.
+
+11
+00:00:37.186 --> 00:00:38.930
+This is particularly true for
+
+12
+00:00:38.930 --> 00:00:43.830
+companies in highly regulated industries,
+like health care, energy, and finance.
+
+13
+00:00:43.830 --> 00:00:47.538
+Being out of compliance with
+a regulation can cause long lasting
+
+14
+00:00:47.538 --> 00:00:51.919
+financial and reputational effects that
+can seriously impact a business.
+
+15
+00:00:52.919 --> 00:00:54.422
+Regulations are rules
+set by a government or
+
+16
+00:00:54.422 --> 00:00:57.550
+other authority to control
+the way something is done.
+
+17
+00:00:57.550 --> 00:01:01.271
+Like policies,
+regulations exist to protect people and
+
+18
+00:01:01.271 --> 00:01:04.146
+their information, but on a larger scale.
+
+19
+00:01:04.146 --> 00:01:08.343
+Compliance can be a complex process
+because of the many regulations that
+
+20
+00:01:08.343 --> 00:01:10.004
+exist all around the world.
+
+21
+00:01:10.004 --> 00:01:14.769
+For our purpose, we're going to focus
+on a framework of security compliance,
+
+22
+00:01:14.769 --> 00:01:17.530
+the U.S. based NIST Cybersecurity Framework.
+
+23
+00:01:18.530 --> 00:01:21.346
+Earlier in the program, you learned
+the National Institute of Standards and
+
+24
+00:01:21.346 --> 00:01:22.730
+Technology, or NIST.
+
+25
+00:01:22.730 --> 00:01:27.097
+One of the primary roles of NIST is to
+openly provide companies with a set of
+
+26
+00:01:27.097 --> 00:01:32.630
+frameworks and security standards that
+reflect key security related regulations.
+
+27
+00:01:32.630 --> 00:01:36.991
+The NIST Cybersecurity Framework
+is a voluntary framework that consists of
+
+28
+00:01:36.991 --> 00:01:39.736
+standards, guidelines, and best practices
+
+29
+00:01:39.736 --> 00:01:44.860
+to manage cybersecurity risk.
+Commonly known as the CSF,
+
+30
+00:01:44.860 --> 00:01:49.284
+this framework was developed to help
+businesses secure one of their most important
+
+31
+00:01:49.284 --> 00:01:51.630
+assets, information.
+
+32
+00:01:51.630 --> 00:01:58.010
+The CSF consists of three main components:
+the core, it's tiers, and it's profiles.
+
+33
+00:01:58.010 --> 00:02:01.001
+Let's explore each of these together
+
+34
+00:02:01.001 --> 00:02:05.420
+to build a better understanding
+of how NIST's CSF is used.
+
+35
+00:02:06.420 --> 00:02:09.438
+The core is basically a simplified
+version of the functions, or
+
+36
+00:02:09.438 --> 00:02:11.222
+duties, of a security plan.
+
+37
+00:02:11.222 --> 00:02:15.438
+The CSF core identifies five
+broad functions:
+
+38
+00:02:15.438 --> 00:02:19.000
+identify, protect, detect, respond, and recover.
+
+39
+00:02:19.100 --> 00:02:22.958
+Think of these categories of
+the core as a security checklist.
+
+40
+00:02:23.958 --> 00:02:28.120
+After the core, the next NIST
+component we'll discuss is its tiers.
+
+41
+00:02:28.120 --> 00:02:30.808
+These provide security
+teams with a way to measure
+
+42
+00:02:30.808 --> 00:02:34.020
+performance across each of
+the five functions of the core.
+
+43
+00:02:34.020 --> 00:02:37.700
+Tiers range from Level-1 to Level-4.
+
+44
+00:02:37.700 --> 00:02:43.480
+Level-1, or passive, indicates a function
+is reaching bare minimum standards.
+
+45
+00:02:43.480 --> 00:02:44.237
+Level-4, or
+
+46
+00:02:44.237 --> 00:02:50.308
+adaptive, is an indication that a function
+is being performed at an exemplary standard.
+
+47
+00:02:50.308 --> 00:02:55.040
+You may have noticed that CSF tiers
+aren't a yes or no proposition;
+
+48
+00:02:55.040 --> 00:02:57.787
+instead, there's a range of values.
+
+49
+00:02:57.787 --> 00:03:02.195
+That's because tiers are designed as
+a way of showing organizations what is and
+
+50
+00:03:02.195 --> 00:03:05.130
+isn't working with their security plans.
+
+51
+00:03:06.130 --> 00:03:08.684
+Lastly, profiles are the final
+component of CSF.
+
+52
+00:03:08.684 --> 00:03:13.500
+These provide insight into
+the current state of a security plan.
+
+53
+00:03:13.500 --> 00:03:17.632
+One way to think of profiles is like
+photos capturing a moment in time.
+
+54
+00:03:17.632 --> 00:03:20.925
+Comparing photos of the same
+subject taken at different times
+
+55
+00:03:20.925 --> 00:03:23.260
+can provide useful insights.
+
+56
+00:03:23.260 --> 00:03:27.856
+For example, without these photos, you
+might not notice how this tree has changed.
+
+57
+00:03:27.856 --> 00:03:31.040
+It's the same
+with NIST profiles.
+
+58
+00:03:32.040 --> 00:03:34.289
+Good security practice is about
+more than avoiding fines and attacks.
+
+59
+00:03:34.289 --> 00:03:38.510
+It demonstrates that you care
+about people and their information.
+
+60
+00:03:38.510 --> 00:03:42.937
+Before we go, let's visit the core's
+functions one more time to look at where
+
+61
+00:03:42.937 --> 00:03:45.070
+we've been and where we're going.
+
+62
+00:03:45.070 --> 00:03:49.704
+The first function is identify.
+Our previous discussions on asset
+
+63
+00:03:49.704 --> 00:03:53.779
+management and
+risk assessment relates to that function.
+
+64
+00:03:53.779 --> 00:03:58.600
+Coming up, we're going to focus on many
+of the categories of the second function,
+
+65
+00:03:58.600 --> 00:04:01.416
+the protect function.
+Meet you there!

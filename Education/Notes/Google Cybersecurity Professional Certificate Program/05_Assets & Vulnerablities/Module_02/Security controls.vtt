@@ -1,0 +1,272 @@
+WEBVTT
+
+1
+00:00:01.067 --> 00:00:04.999
+These days, information is in so
+many places at once.
+
+2
+00:00:04.999 --> 00:00:09.533
+As a result, organizations are under
+a lot of pressure to implement effective
+
+3
+00:00:09.533 --> 00:00:14.771
+security controls that protects everyone's
+information from being stolen or exposed.
+
+4
+00:00:14.771 --> 00:00:19.859
+Security controls are safeguards designed
+to reduce specific security risks.
+
+5
+00:00:19.859 --> 00:00:24.547
+They include a wide range of tools that
+protect assets before, during, and
+
+6
+00:00:24.547 --> 00:00:25.584
+after an event.
+
+7
+00:00:26.584 --> 00:00:28.458
+Security controls can be
+organized into three types:
+
+8
+00:00:28.458 --> 00:00:31.451
+technical, operational, and managerial.
+
+9
+00:00:32.451 --> 00:00:35.882
+Technical control types include the many
+technologies used to protect assets.
+
+10
+00:00:35.882 --> 00:00:39.769
+This includes encryption,
+authentication systems, and others.
+
+11
+00:00:40.769 --> 00:00:44.126
+Operational controls relate to maintaining
+the day-to-day security environment.
+
+12
+00:00:44.126 --> 00:00:48.278
+Generally, people perform these
+controls like awareness training and
+
+13
+00:00:48.278 --> 00:00:49.508
+incident response.
+
+14
+00:00:50.508 --> 00:00:53.921
+Managerial controls are centered
+around how the other two reduce risk.
+
+15
+00:00:53.921 --> 00:00:58.860
+Examples of management controls include
+policies, standards, and procedures.
+
+16
+00:00:59.860 --> 00:01:03.804
+Typically, organization's security policy
+outlines the controls needed to achieve their goals.
+
+17
+00:01:04.646 --> 00:01:08.831
+Information privacy plays
+a key role in these decisions.
+
+18
+00:01:08.831 --> 00:01:13.118
+Information privacy is the protection
+of unauthorized access and
+
+19
+00:01:13.118 --> 00:01:14.657
+distribution of data.
+
+20
+00:01:14.657 --> 00:01:17.911
+Information privacy is
+about the right to choose.
+
+21
+00:01:17.911 --> 00:01:22.733
+People and organizations alike deserve
+the right to decide when, how, and
+
+22
+00:01:22.733 --> 00:01:26.440
+to what extent private
+information about them is shared.
+
+23
+00:01:26.440 --> 00:01:31.077
+Security controls are the technologies
+used to regulate information privacy.
+
+24
+00:01:32.077 --> 00:01:34.837
+For example, imagine using
+a travel app to book a flight.
+
+25
+00:01:34.837 --> 00:01:38.761
+You might browse through a list of
+flights and find one at a good price.
+
+26
+00:01:38.761 --> 00:01:43.421
+To reserve a seat, you enter some personal
+information, like your name, email, and
+
+27
+00:01:43.421 --> 00:01:45.324
+credit card number for payment.
+
+28
+00:01:45.324 --> 00:01:49.162
+The transaction goes through successfully,
+and you booked your flight.
+
+29
+00:01:49.162 --> 00:01:52.719
+Now, you reasonably expect
+the airline company to access this
+
+30
+00:01:52.719 --> 00:01:56.626
+information you enter when signing
+up to complete the reservation.
+
+31
+00:01:57.626 --> 00:02:01.146
+However, should everyone at the company
+have access to your information?
+
+32
+00:02:01.146 --> 00:02:04.479
+A person working in the marketing
+department shouldn't need access
+
+33
+00:02:04.479 --> 00:02:06.152
+to your credit card information.
+
+34
+00:02:06.152 --> 00:02:10.190
+It makes sense to share that information
+with a customer support agent.
+
+35
+00:02:10.190 --> 00:02:14.636
+Except, they should only need to access
+it while helping with your reservation.
+
+36
+00:02:14.636 --> 00:02:15.990
+To maintain privacy,
+
+37
+00:02:15.990 --> 00:02:20.848
+security controls are intended to limit
+access based on the user and situation.
+
+38
+00:02:20.848 --> 00:02:23.734
+This is known as the principle
+of least privilege.
+
+39
+00:02:24.734 --> 00:02:28.034
+Security controls should be designed with
+the principle of least privilege in mind.
+
+40
+00:02:28.034 --> 00:02:32.433
+When they are, they rely on
+differentiating between data owners and
+
+41
+00:02:32.433 --> 00:02:33.619
+data custodians.
+
+42
+00:02:34.619 --> 00:02:37.994
+A data owner is a person who decides
+who can access, edit, use, or
+
+43
+00:02:37.994 --> 00:02:39.961
+destroy their information.
+
+44
+00:02:39.961 --> 00:02:44.767
+The idea is very straightforward except
+in cases where there are multiple owners.
+
+45
+00:02:44.767 --> 00:02:49.028
+For example, the intellectual
+property of an organization can have
+
+46
+00:02:49.028 --> 00:02:50.504
+multiple data owners.
+
+47
+00:02:51.504 --> 00:02:54.353
+A data custodian is anyone or
+anything that's responsible for
+
+48
+00:02:54.353 --> 00:02:58.213
+the safe handling,
+transport, and storage of information.
+
+49
+00:02:58.213 --> 00:03:00.723
+Did you notice that I mentioned, "anything?"
+
+50
+00:03:00.723 --> 00:03:04.227
+That's because, aside from people,
+organizations and
+
+51
+00:03:04.227 --> 00:03:08.025
+their systems are also custodians
+of people's information.
+
+52
+00:03:09.025 --> 00:03:11.750
+There are other considerations besides
+these when implementing security controls.
+
+53
+00:03:11.750 --> 00:03:14.211
+Remember that data is an asset.
+
+54
+00:03:14.211 --> 00:03:19.209
+Like any other asset, information privacy
+requires proper classification and
+
+55
+00:03:19.209 --> 00:03:19.950
+handling.
+
+56
+00:03:19.950 --> 00:03:21.723
+As we progress in this section,
+
+57
+00:03:21.723 --> 00:03:26.074
+we'll continue exploring other security
+controls that make this possible.

@@ -1,0 +1,376 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.691
+Painting a portrait.
+Perfecting a new basketball move.
+
+2
+00:00:03.691 --> 00:00:07.700
+Playing a solo on guitar.
+They all share something in common.
+
+3
+00:00:07.700 --> 00:00:09.961
+Can you guess what it is?
+
+4
+00:00:09.961 --> 00:00:13.107
+If you thought "practice,"
+you're absolutely correct!
+
+5
+00:00:13.107 --> 00:00:17.112
+It takes time, dedication, and
+focus to improve these skills.
+
+6
+00:00:17.112 --> 00:00:19.084
+The security profession is no different.
+
+7
+00:00:19.084 --> 00:00:19.807
+Planning for
+
+8
+00:00:19.807 --> 00:00:24.280
+the future is a core skill that you'll
+need to practice all the time in security.
+
+9
+00:00:25.280 --> 00:00:28.412
+We all deal with uncertainty by trying
+to solve problems before they arise.
+
+10
+00:00:28.412 --> 00:00:30.592
+For example, if you're going on a trip,
+
+11
+00:00:30.592 --> 00:00:33.972
+you might think about the length
+of the trip and how much to pack.
+
+12
+00:00:33.972 --> 00:00:37.366
+Maybe you're traveling somewhere cold.
+You might bring coats and
+
+13
+00:00:37.366 --> 00:00:38.981
+sweaters to help keep you warm.
+
+14
+00:00:38.981 --> 00:00:43.013
+We all want to feel the security of
+knowing that there's a plan if something
+
+15
+00:00:43.013 --> 00:00:43.719
+goes wrong.
+
+16
+00:00:43.719 --> 00:00:46.507
+Businesses are no different.
+Just like you,
+
+17
+00:00:46.507 --> 00:00:50.303
+organizations try their best to
+plan ahead by analyzing risk.
+
+18
+00:00:51.303 --> 00:00:54.374
+Security teams help companies
+by focusing on risk.
+
+19
+00:00:54.374 --> 00:00:59.177
+In security, a risk is anything that
+can impact the confidentiality,
+
+20
+00:00:59.177 --> 00:01:02.066
+integrity, or availability of an asset.
+
+21
+00:01:02.066 --> 00:01:05.522
+Our primary focus as security
+practitioners is to maintain
+
+22
+00:01:05.522 --> 00:01:08.633
+confidentiality, integrity,
+and availability,
+
+23
+00:01:08.633 --> 00:01:11.479
+which are the three
+components of the CIA triad.
+
+24
+00:01:11.479 --> 00:01:15.566
+The process of security risk planning is
+the first step toward protecting these
+
+25
+00:01:15.566 --> 00:01:16.421
+cornerstones.
+
+26
+00:01:16.421 --> 00:01:21.287
+Each organization has their own unique
+security plan based on the risk they face.
+
+27
+00:01:21.287 --> 00:01:25.661
+Thankfully, you don't need to be familiar
+with every possible security plan to be
+
+28
+00:01:25.661 --> 00:01:27.356
+a good security practitioner.
+
+29
+00:01:27.356 --> 00:01:31.952
+All you really need to know are the basics
+of how these plans are put together.
+
+30
+00:01:32.952 --> 00:01:36.499
+Security plans are based on
+the analysis of three elements: assets,
+
+31
+00:01:36.499 --> 00:01:38.744
+threats, and vulnerabilities.
+
+32
+00:01:38.744 --> 00:01:43.284
+Organizations measure security risk by
+analyzing how each can have an effect on
+
+33
+00:01:43.284 --> 00:01:47.621
+confidentiality, integrity, and
+availability of their information and
+
+34
+00:01:47.621 --> 00:01:48.244
+systems.
+
+35
+00:01:48.244 --> 00:01:52.063
+Basically, they each represent the what,
+why, and how of security.
+
+36
+00:01:52.063 --> 00:01:55.956
+Let's spend a little time exploring
+each of these in more detail.
+
+37
+00:01:56.956 --> 00:02:00.301
+As you might imagine, an asset is
+an item perceived as having value to
+
+38
+00:02:00.301 --> 00:02:01.549
+an organization.
+
+39
+00:02:01.549 --> 00:02:06.844
+This often includes a wide range of
+things. Buildings, equipment, data,
+
+40
+00:02:06.844 --> 00:02:11.741
+and people are all examples of assets
+that businesses want to protect.
+
+41
+00:02:11.741 --> 00:02:16.315
+Let's examine this idea more by
+analyzing the assets of a home.
+
+42
+00:02:16.315 --> 00:02:19.491
+Inside a home, there's a wide
+range of assets, like people and
+
+43
+00:02:19.491 --> 00:02:20.721
+personal belongings.
+
+44
+00:02:20.721 --> 00:02:25.308
+The outside structure of a home is made
+of assets too, like the walls, roof,
+
+45
+00:02:25.308 --> 00:02:26.660
+windows, and doors.
+
+46
+00:02:26.660 --> 00:02:30.640
+All of these assets have value, but they
+differ in how they might be protected.
+
+47
+00:02:30.640 --> 00:02:34.418
+Someone might place a lower priority
+on protecting the outside walls than on
+
+48
+00:02:34.418 --> 00:02:35.962
+the front door, for example.
+
+49
+00:02:35.962 --> 00:02:40.032
+This is because a burglar is more likely
+to enter through the front door than
+
+50
+00:02:40.032 --> 00:02:41.983
+a wall. That's why we have locks.
+
+51
+00:02:41.983 --> 00:02:44.779
+With so many types of assets to think of,
+
+52
+00:02:44.779 --> 00:02:48.084
+security plans need to
+prioritize resources.
+
+53
+00:02:48.084 --> 00:02:51.426
+After all,
+no matter how large a security team is,
+
+54
+00:02:51.426 --> 00:02:56.420
+it would be impossible to monitor every
+single asset at all hours of the day.
+
+55
+00:02:57.420 --> 00:03:00.782
+Security teams can prioritize
+their efforts based on threats.
+
+56
+00:03:00.782 --> 00:03:03.619
+In security,
+a threat is any circumstance or
+
+57
+00:03:03.619 --> 00:03:06.318
+event that can negatively impact assets.
+
+58
+00:03:06.318 --> 00:03:10.985
+Much like assets,
+threats include a wide range of things.
+
+59
+00:03:10.985 --> 00:03:13.370
+Going back to the example of a home,
+
+60
+00:03:13.370 --> 00:03:17.039
+a threat can be a burglar
+who's trying to gain access.
+
+61
+00:03:17.039 --> 00:03:20.964
+Burglars aren't the only type of threat
+that affect the security of windows
+
+62
+00:03:20.964 --> 00:03:21.587
+and doors.
+
+63
+00:03:21.587 --> 00:03:23.026
+What if either broke by accident?
+
+64
+00:03:23.026 --> 00:03:26.540
+Strong winds can blow the door
+open during a bad storm.
+
+65
+00:03:26.540 --> 00:03:30.309
+Or, kids playing with a ball nearby
+can accidentally damage a window.
+
+66
+00:03:30.309 --> 00:03:33.684
+If any of these thoughts crossed your mind,
+great job!
+
+67
+00:03:33.684 --> 00:03:37.070
+You're already demonstrating
+a security mindset.
+
+68
+00:03:38.070 --> 00:03:41.609
+The final element of a security plan that
+we're going to cover are vulnerabilities.
+
+69
+00:03:41.609 --> 00:03:46.299
+In security, a vulnerability is a weakness
+that can be exploited by a threat.
+
+70
+00:03:46.299 --> 00:03:48.749
+A weak lock on a front door, for example,
+
+71
+00:03:48.749 --> 00:03:51.969
+is a vulnerability that can
+be exploited by a burglar.
+
+72
+00:03:51.969 --> 00:03:56.668
+And old, cracked wood is a different
+vulnerability on that same front door that
+
+73
+00:03:56.668 --> 00:03:59.283
+can increase the chances of storm damage.
+
+74
+00:03:59.283 --> 00:04:03.426
+In other words, think of vulnerabilities
+as flaws within an asset.
+
+75
+00:04:03.426 --> 00:04:08.024
+Assets can have many different types of
+vulnerabilities that are an easy target
+
+76
+00:04:08.024 --> 00:04:08.994
+for attackers.
+
+77
+00:04:09.994 --> 00:04:11.234
+We'll explore different
+types of threats and
+
+78
+00:04:11.234 --> 00:04:13.364
+vulnerabilities in greater detail later.
+
+79
+00:04:13.364 --> 00:04:17.817
+For now, just understand that security
+teams need to account for a wide range of
+
+80
+00:04:17.817 --> 00:04:22.219
+assets, threats, and vulnerabilities
+to effectively plan for the future.

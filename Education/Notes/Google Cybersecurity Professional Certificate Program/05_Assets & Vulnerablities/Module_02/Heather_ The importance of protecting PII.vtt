@@ -1,0 +1,215 @@
+WEBVTT
+
+1
+00:00:03.710 --> 00:00:06.870
+Hello, my name is
+Heather and I'm
+
+2
+00:00:06.870 --> 00:00:09.615
+the Vice President of Security
+Engineering at Google.
+
+3
+00:00:09.615 --> 00:00:11.790
+PII is everywhere.
+
+4
+00:00:11.790 --> 00:00:14.250
+It's a fundamental part of how
+
+5
+00:00:14.250 --> 00:00:16.725
+we are all working
+online all the time.
+
+6
+00:00:16.725 --> 00:00:18.840
+If you are using
+online resources,
+
+7
+00:00:18.840 --> 00:00:22.455
+you are probably putting your
+PII out there somewhere.
+
+8
+00:00:22.455 --> 00:00:25.860
+There's some of your PII
+that lots of people know,
+
+9
+00:00:25.860 --> 00:00:27.465
+such as your name.
+
+10
+00:00:27.465 --> 00:00:29.730
+And then there's sensitive data that
+
+11
+00:00:29.730 --> 00:00:32.010
+you don't want very
+many people to know,
+
+12
+00:00:32.010 --> 00:00:34.410
+such as your bank account number
+
+13
+00:00:34.410 --> 00:00:37.545
+or your private medical
+health information.
+
+14
+00:00:37.545 --> 00:00:40.400
+And so we make these distinctions often
+
+15
+00:00:40.400 --> 00:00:41.600
+because this kind of
+
+16
+00:00:41.600 --> 00:00:43.805
+information needs to be
+handled differently.
+
+17
+00:00:43.805 --> 00:00:45.845
+Everything that we do now,
+
+18
+00:00:45.845 --> 00:00:49.400
+from school to voting,
+
+19
+00:00:49.400 --> 00:00:53.445
+to registering our car
+happens online.
+
+20
+00:00:53.445 --> 00:00:57.410
+And because of that, it's so
+important that we have safety
+
+21
+00:00:57.410 --> 00:00:59.240
+built-in by default into all of
+
+22
+00:00:59.240 --> 00:01:01.880
+our systems. Here's some tips.
+
+23
+00:01:01.880 --> 00:01:03.920
+You should always encrypt
+the data as much as you
+
+24
+00:01:03.920 --> 00:01:06.460
+can when it's being
+stored at rest.
+
+25
+00:01:06.460 --> 00:01:09.935
+And secondly, when it's
+transitting over the Internet,
+
+26
+00:01:09.935 --> 00:01:14.270
+we always want to encrypt
+it using TLS or SSL.
+
+27
+00:01:14.270 --> 00:01:16.610
+Third, within your company,
+
+28
+00:01:16.610 --> 00:01:18.815
+you should think very clearly
+
+29
+00:01:18.815 --> 00:01:21.245
+about who has access
+to that data.
+
+30
+00:01:21.245 --> 00:01:24.980
+It should be almost no one
+if it's very sensitive.
+
+31
+00:01:24.980 --> 00:01:27.140
+And in the rare cases where
+
+32
+00:01:27.140 --> 00:01:29.705
+somebody does need
+to access that data,
+
+33
+00:01:29.705 --> 00:01:32.405
+there should be a
+record of that access,
+
+34
+00:01:32.405 --> 00:01:36.200
+who accessed it, and a
+justification as to why.
+
+35
+00:01:36.200 --> 00:01:39.245
+And you should have a
+program to look
+
+36
+00:01:39.245 --> 00:01:42.705
+at the audit records
+for that data.
+
+37
+00:01:42.705 --> 00:01:46.040
+The most important thing
+to remember is if you have
+
+38
+00:01:46.040 --> 00:01:49.670
+a situation where PII
+has been compromised,
+
+39
+00:01:49.670 --> 00:01:52.970
+remember that's someone's
+personal information and
+
+40
+00:01:52.970 --> 00:01:56.915
+your response wants to be
+grounded in that reality.
+
+41
+00:01:56.915 --> 00:01:59.810
+They need to be able to
+trust the infrastructure,
+
+42
+00:01:59.810 --> 00:02:02.885
+the systems, the
+websites, the devices.
+
+43
+00:02:02.885 --> 00:02:04.430
+They need to be able to trust
+
+44
+00:02:04.430 --> 00:02:05.930
+the experience they're having.
+
+45
+00:02:05.930 --> 00:02:08.540
+For me, that's the
+mission: To help
+
+46
+00:02:08.540 --> 00:02:12.330
+keep billions of people
+safe online every day.

@@ -1,0 +1,326 @@
+WEBVTT
+
+1
+00:00:00.780 --> 00:00:04.544
+Protecting data is a fundamental
+feature of security controls.
+
+2
+00:00:04.544 --> 00:00:08.806
+When it comes to keeping information
+safe and secure, hashing and encryption
+
+3
+00:00:08.806 --> 00:00:11.709
+are powerful, yet limited tools.
+
+4
+00:00:11.709 --> 00:00:12.707
+Managing who or
+
+5
+00:00:12.707 --> 00:00:18.100
+what has access to information is
+also key to safeguarding information.
+
+6
+00:00:19.100 --> 00:00:22.174
+The next series of controls that we'll
+be exploring are access controls,
+
+7
+00:00:22.174 --> 00:00:25.583
+the security controls that
+manage access, authorization, and
+
+8
+00:00:25.583 --> 00:00:27.550
+accountability of information.
+
+9
+00:00:27.550 --> 00:00:32.316
+When done well, access controls
+maintain data confidentiality,
+
+10
+00:00:32.316 --> 00:00:34.510
+integrity, and availability.
+
+11
+00:00:34.510 --> 00:00:38.750
+They also get users
+the information they need quickly.
+
+12
+00:00:39.750 --> 00:00:43.304
+These systems are commonly broken down
+into three separate, yet related functions
+
+13
+00:00:43.304 --> 00:00:47.480
+known as the authentication,
+authorization, and accounting framework.
+
+14
+00:00:47.480 --> 00:00:51.546
+Each control has its own protocol and
+systems that make them work.
+
+15
+00:00:51.546 --> 00:00:56.422
+In this video, let's get comfortable with
+the basics of the first one on the list,
+
+16
+00:00:56.422 --> 00:00:57.548
+authentication.
+
+17
+00:00:58.548 --> 00:01:02.220
+Authentication systems are access
+controls that serve a very basic purpose.
+
+18
+00:01:02.220 --> 00:01:05.748
+They ask anything attempting
+to access information
+
+19
+00:01:05.748 --> 00:01:08.133
+this simple question: who are you?
+
+20
+00:01:08.133 --> 00:01:12.314
+Organizations go about collecting
+answers to these questions differently,
+
+21
+00:01:12.314 --> 00:01:15.302
+depending on the objectives
+of their security policy.
+
+22
+00:01:15.302 --> 00:01:18.209
+Some are more thorough than others,
+but in general,
+
+23
+00:01:18.209 --> 00:01:22.650
+responses to this question can be based
+on three factors of authentication.
+
+24
+00:01:23.650 --> 00:01:27.246
+The first is knowledge. Authentication by
+knowledge refers to something the user
+
+25
+00:01:27.246 --> 00:01:28.690
+knows, like a password or
+
+26
+00:01:28.690 --> 00:01:32.700
+the answer to a security question
+they provided previously.
+
+27
+00:01:33.700 --> 00:01:37.513
+Another factor is ownership,
+referring to something the user possesses.
+
+28
+00:01:37.513 --> 00:01:42.422
+A commonly used type of authentication
+by ownership is a one-time passcode, or OTP.
+
+29
+00:01:42.422 --> 00:01:46.490
+You've probably experienced
+these at one time or another.
+
+30
+00:01:46.490 --> 00:01:49.883
+They're a random number
+sequence that an application or website
+
+31
+00:01:49.883 --> 00:01:53.850
+will send you via text or
+email and ask you to provide.
+
+32
+00:01:54.850 --> 00:01:58.857
+Last is characteristic. Authentication
+by this factor is something the user is.
+
+33
+00:01:58.857 --> 00:02:03.722
+Biometrics, like fingerprint scans on your
+smartphone, are example of this type of
+
+34
+00:02:03.722 --> 00:02:04.879
+authentication.
+
+35
+00:02:04.879 --> 00:02:09.046
+While not used everywhere, this form of
+authentication is becoming more common
+
+36
+00:02:09.046 --> 00:02:12.560
+because it's much tougher for
+criminals to impersonate someone
+
+37
+00:02:12.560 --> 00:02:17.830
+if they have to mimic a fingerprint or
+facial scan as opposed to a password.
+
+38
+00:02:18.830 --> 00:02:20.999
+The information provided during
+authentication needs to match
+
+39
+00:02:20.999 --> 00:02:23.950
+the information on file for
+these access controls to work.
+
+40
+00:02:23.950 --> 00:02:27.898
+When the credentials don't match,
+authentication fails and access is denied.
+
+41
+00:02:27.898 --> 00:02:31.334
+When they match, access is granted.
+
+42
+00:02:32.334 --> 00:02:35.086
+Incorrectly denying access
+can be frustrating to anyone.
+
+43
+00:02:35.086 --> 00:02:37.510
+To make access systems more convenient,
+
+44
+00:02:37.510 --> 00:02:40.844
+many organizations these
+days rely on single sign-on.
+
+45
+00:02:40.844 --> 00:02:42.201
+Single sign-on, or
+
+46
+00:02:42.201 --> 00:02:47.214
+SSO, is a technology that combines
+several different logins into one.
+
+47
+00:02:47.214 --> 00:02:50.839
+Can you imagine having to reintroduce
+yourself every time you meet up with
+
+48
+00:02:50.839 --> 00:02:51.980
+a friend?
+
+49
+00:02:51.980 --> 00:02:55.001
+That's exactly the sort
+of problem SSO solves.
+
+50
+00:02:56.001 --> 00:03:00.248
+Instead of requiring users to authenticate
+over and over again, SSO establishes
+
+51
+00:03:00.248 --> 00:03:05.508
+their identity once, allowing them to
+gain access to company resources faster.
+
+52
+00:03:05.508 --> 00:03:10.198
+While SSO systems are helpful when it
+comes to speeding up the authentication process,
+
+53
+00:03:10.198 --> 00:03:14.540
+they present a significant
+vulnerability when used alone.
+
+54
+00:03:15.540 --> 00:03:18.104
+Denying access to authorized
+users can be frustrating,
+
+55
+00:03:18.104 --> 00:03:23.100
+but you know what's even worse? Incorrectly
+granting access to the wrong user.
+
+56
+00:03:23.100 --> 00:03:27.613
+SSO technology is great, but not if
+it relies on just a single factor of
+
+57
+00:03:27.613 --> 00:03:33.090
+authentication. Adding more authentication
+factors strengthen these systems.
+
+58
+00:03:34.090 --> 00:03:37.799
+Multi-factor authentication, or
+MFA, is a security measure, which requires
+
+59
+00:03:37.799 --> 00:03:43.380
+a user to verify their identity in two or
+more ways to access a system or network.
+
+60
+00:03:43.380 --> 00:03:47.694
+MFA combines two or more independent
+credentials, like knowledge and
+
+61
+00:03:47.694 --> 00:03:51.740
+ownership, to prove that someone
+is who they claim to be.
+
+62
+00:03:52.740 --> 00:03:55.422
+SSO and MFA are often used in
+conjunction with one another
+
+63
+00:03:55.422 --> 00:03:59.409
+to layer the defense capabilities
+of authentication systems.
+
+64
+00:03:59.409 --> 00:04:03.568
+When both are used, organizations
+can ensure convenient access
+
+65
+00:04:03.568 --> 00:04:04.850
+that is also secure.
+
+66
+00:04:04.850 --> 00:04:06.685
+Now that we covered authentication,
+
+67
+00:04:06.685 --> 00:04:09.700
+we're ready to explore the second
+part of the framework.
+
+68
+00:04:09.700 --> 00:04:12.527
+Next, we'll learn about authorization!

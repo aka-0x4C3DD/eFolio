@@ -1,0 +1,435 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:05.085
+Welcome back! We've covered
+a lot of information so far.
+
+2
+00:00:05.085 --> 00:00:06.870
+I hope you're having as much fun
+
+3
+00:00:06.870 --> 00:00:09.300
+exploring the role
+of security as I am!
+
+4
+00:00:09.300 --> 00:00:11.610
+We've explored what
+organizational assets
+
+5
+00:00:11.610 --> 00:00:13.785
+are and why they
+need protection.
+
+6
+00:00:13.785 --> 00:00:15.450
+You've also gotten a sense of
+
+7
+00:00:15.450 --> 00:00:18.775
+the tremendous amount of
+assets security teams protect.
+
+8
+00:00:18.775 --> 00:00:20.315
+Previously, we began
+
+9
+00:00:20.315 --> 00:00:22.640
+examining security
+asset management and
+
+10
+00:00:22.640 --> 00:00:24.170
+the importance of
+keeping track of
+
+11
+00:00:24.170 --> 00:00:26.800
+everything that's important
+to an organization.
+
+12
+00:00:26.800 --> 00:00:30.395
+Security teams classify
+assets based on value.
+
+13
+00:00:30.395 --> 00:00:32.120
+Next, let's expand
+
+14
+00:00:32.120 --> 00:00:35.180
+our security mindset and
+think about this question.
+
+15
+00:00:35.180 --> 00:00:38.125
+What exactly is valuable
+about an asset?
+
+16
+00:00:39.125 --> 00:00:41.420
+These days, the answer
+is often information.
+
+17
+00:00:41.420 --> 00:00:44.015
+Most information is
+in a digital form.
+
+18
+00:00:44.015 --> 00:00:45.905
+We call this data.
+
+19
+00:00:45.905 --> 00:00:48.860
+Data is information
+that is translated,
+
+20
+00:00:48.860 --> 00:00:51.625
+processed, or stored
+by a computer.
+
+21
+00:00:51.625 --> 00:00:53.805
+We live in a connected world.
+
+22
+00:00:53.805 --> 00:00:56.420
+Billions of devices around
+the world are linked to
+
+23
+00:00:56.420 --> 00:00:57.740
+the internet and are exchanging
+
+24
+00:00:57.740 --> 00:00:59.650
+data with each
+other all the time.
+
+25
+00:00:59.650 --> 00:01:02.000
+In fact, millions of pieces of
+
+26
+00:01:02.000 --> 00:01:05.060
+data are being passed to
+your device right now!
+
+27
+00:01:05.060 --> 00:01:07.325
+When compared to
+physical assets,
+
+28
+00:01:07.325 --> 00:01:10.010
+digital assets have
+additional challenges.
+
+29
+00:01:10.010 --> 00:01:13.010
+What you need to understand
+is that protecting data
+
+30
+00:01:13.010 --> 00:01:16.385
+depends on where that data
+is and what it's doing.
+
+31
+00:01:16.385 --> 00:01:18.350
+Security teams protect data in
+
+32
+00:01:18.350 --> 00:01:20.630
+three different states: in use,
+
+33
+00:01:20.630 --> 00:01:22.505
+in transit, and at rest.
+
+34
+00:01:22.505 --> 00:01:25.540
+Let's investigate this
+idea in greater detail.
+
+35
+00:01:26.540 --> 00:01:30.110
+Data in use is data being
+accessed by one or more users.
+
+36
+00:01:30.110 --> 00:01:32.899
+Imagine being at a
+park with your laptop.
+
+37
+00:01:32.899 --> 00:01:34.430
+It's a nice sunny day, and you
+
+38
+00:01:34.430 --> 00:01:36.365
+stop at a bench to
+check your email.
+
+39
+00:01:36.365 --> 00:01:38.830
+This is an example
+of data in use.
+
+40
+00:01:38.830 --> 00:01:40.295
+As soon as you log in,
+
+41
+00:01:40.295 --> 00:01:42.920
+your inbox is considered
+to be in use.
+
+42
+00:01:43.920 --> 00:01:44.810
+Next, is data in transit.
+
+43
+00:01:44.810 --> 00:01:47.810
+Data in transit is data
+traveling from one point to
+
+44
+00:01:47.810 --> 00:01:50.795
+another. While you're
+signed into your account,
+
+45
+00:01:50.795 --> 00:01:52.970
+a message from one of
+your friends appears.
+
+46
+00:01:52.970 --> 00:01:54.830
+They sent you an
+interesting article
+
+47
+00:01:54.830 --> 00:01:56.815
+about the growing
+security industry.
+
+48
+00:01:56.815 --> 00:01:58.295
+You decide to reply,
+
+49
+00:01:58.295 --> 00:02:00.120
+thanking them for
+sending this to you.
+
+50
+00:02:00.120 --> 00:02:01.430
+When you click send,
+
+51
+00:02:01.430 --> 00:02:04.495
+this is now an example
+of data in transit.
+
+52
+00:02:05.495 --> 00:02:07.445
+Finally, there's data at rest.
+
+53
+00:02:07.445 --> 00:02:11.390
+Data at rest is data not
+currently being accessed.
+
+54
+00:02:11.390 --> 00:02:13.430
+In this state, data is typically
+
+55
+00:02:13.430 --> 00:02:15.295
+stored on a physical device.
+
+56
+00:02:15.295 --> 00:02:17.420
+An example of data at
+rest would be when you
+
+57
+00:02:17.420 --> 00:02:20.180
+finish checking your email
+and close your laptop.
+
+58
+00:02:20.180 --> 00:02:22.280
+You then decide to pack up
+
+59
+00:02:22.280 --> 00:02:24.560
+and go to a nearby
+cafe for breakfast.
+
+60
+00:02:24.560 --> 00:02:27.530
+As you make your way from
+the park towards the cafe,
+
+61
+00:02:27.530 --> 00:02:30.250
+the data in your
+laptop is at rest.
+
+62
+00:02:30.250 --> 00:02:32.795
+So now that we understand
+these states of data,
+
+63
+00:02:32.795 --> 00:02:35.485
+let's connect this back
+to asset management.
+
+64
+00:02:36.485 --> 00:02:38.300
+Earlier, I mentioned that
+information is one of
+
+65
+00:02:38.300 --> 00:02:41.285
+the most valuable assets
+that companies can have.
+
+66
+00:02:41.285 --> 00:02:44.840
+Information security,
+or InfoSec, is
+
+67
+00:02:44.840 --> 00:02:46.370
+the practice of keeping data in
+
+68
+00:02:46.370 --> 00:02:49.195
+all states away from
+unauthorized users.
+
+69
+00:02:49.195 --> 00:02:52.880
+Weak information security
+is a serious problem.
+
+70
+00:02:52.880 --> 00:02:55.085
+It can lead to things
+like identity theft,
+
+71
+00:02:55.085 --> 00:02:57.925
+financial loss, and
+reputational damage.
+
+72
+00:02:57.925 --> 00:03:01.025
+These events have potential
+to harm organizations,
+
+73
+00:03:01.025 --> 00:03:03.365
+their partners, and
+their customers.
+
+74
+00:03:04.365 --> 00:03:04.940
+And there's more to consider in
+
+75
+00:03:04.940 --> 00:03:06.800
+your work as a security analyst.
+
+76
+00:03:06.800 --> 00:03:09.155
+As our digital world
+continually changes,
+
+77
+00:03:09.155 --> 00:03:12.170
+we are adapting our
+understanding of data at rest.
+
+78
+00:03:12.170 --> 00:03:14.540
+Physical devices like
+our smartphones
+
+79
+00:03:14.540 --> 00:03:16.940
+more commonly store
+data in the cloud,
+
+80
+00:03:16.940 --> 00:03:19.550
+meaning that our information
+isn't necessarily at
+
+81
+00:03:19.550 --> 00:03:22.675
+rest just because our phone
+is resting on a table.
+
+82
+00:03:22.675 --> 00:03:24.410
+We should always be mindful of
+
+83
+00:03:24.410 --> 00:03:26.045
+new vulnerabilities as our world
+
+84
+00:03:26.045 --> 00:03:28.225
+becomes increasingly connected.
+
+85
+00:03:29.225 --> 00:03:30.410
+Remember, protecting data
+
+86
+00:03:30.410 --> 00:03:33.140
+depends on where the data
+is and what it's doing.
+
+87
+00:03:33.140 --> 00:03:35.810
+Keeping track of information
+is part of the puzzle
+
+88
+00:03:35.810 --> 00:03:37.040
+that companies solve when
+
+89
+00:03:37.040 --> 00:03:38.965
+considering their security plan.
+
+90
+00:03:38.965 --> 00:03:41.045
+Understanding the
+three states of data
+
+91
+00:03:41.045 --> 00:03:43.100
+enable security teams to analyze
+
+92
+00:03:43.100 --> 00:03:44.450
+risk and determine
+
+93
+00:03:44.450 --> 00:03:48.330
+an asset management plan
+for different situations.

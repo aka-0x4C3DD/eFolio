@@ -1,0 +1,530 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.690
+Access is as much
+about authorization
+
+2
+00:00:03.690 --> 00:00:05.910
+as it is about authentication.
+
+3
+00:00:05.910 --> 00:00:07.725
+One of the most
+important functions
+
+4
+00:00:07.725 --> 00:00:09.450
+of access controls is how they
+
+5
+00:00:09.450 --> 00:00:13.315
+assign responsibility for
+certain systems and processes.
+
+6
+00:00:13.315 --> 00:00:15.390
+Next up in our exploration of
+
+7
+00:00:15.390 --> 00:00:17.280
+access control systems are
+
+8
+00:00:17.280 --> 00:00:19.380
+the mechanisms of authorization.
+
+9
+00:00:20.380 --> 00:00:22.230
+These protocols actually
+work closely together with
+
+10
+00:00:22.230 --> 00:00:24.960
+authentication
+technologies. While one
+
+11
+00:00:24.960 --> 00:00:26.670
+validates who the user is,
+
+12
+00:00:26.670 --> 00:00:29.130
+the other determines what
+they're allowed to do.
+
+13
+00:00:29.130 --> 00:00:32.115
+Let's take a look at the
+next part of the authentication,
+
+14
+00:00:32.115 --> 00:00:34.065
+authorization, and
+accounting framework
+
+15
+00:00:34.065 --> 00:00:36.315
+that protects
+private information.
+
+16
+00:00:37.315 --> 00:00:38.300
+Earlier, we learned about
+
+17
+00:00:38.300 --> 00:00:40.280
+the principle of
+least privilege.
+
+18
+00:00:40.280 --> 00:00:42.935
+Authorization is linked
+to the idea that
+
+19
+00:00:42.935 --> 00:00:46.295
+access to information only
+lasts as long as needed.
+
+20
+00:00:46.295 --> 00:00:48.800
+Authorization systems are also
+
+21
+00:00:48.800 --> 00:00:50.750
+heavily influenced by this idea
+
+22
+00:00:50.750 --> 00:00:53.795
+in addition to another
+important security principle,
+
+23
+00:00:53.795 --> 00:00:55.780
+the separation of duties.
+
+24
+00:00:56.780 --> 00:00:57.620
+Separation of duties is
+
+25
+00:00:57.620 --> 00:00:59.810
+the principle that users
+should not be given
+
+26
+00:00:59.810 --> 00:01:01.610
+levels of authorization
+that will
+
+27
+00:01:01.610 --> 00:01:04.160
+allow them to misuse a system.
+
+28
+00:01:04.160 --> 00:01:07.130
+Separating duties
+reduces the risk of
+
+29
+00:01:07.130 --> 00:01:10.630
+system failures and inappropriate
+behavior from users.
+
+30
+00:01:11.630 --> 00:01:12.890
+For example, a person
+
+31
+00:01:12.890 --> 00:01:15.125
+responsible for providing
+customer service
+
+32
+00:01:15.125 --> 00:01:16.940
+shouldn't also be
+authorized to rate
+
+33
+00:01:16.940 --> 00:01:19.520
+their own performance.
+In this position,
+
+34
+00:01:19.520 --> 00:01:21.710
+they could easily neglect
+their duties while
+
+35
+00:01:21.710 --> 00:01:23.060
+continuing to give themselves
+
+36
+00:01:23.060 --> 00:01:24.805
+high marks with no oversight.
+
+37
+00:01:24.805 --> 00:01:26.870
+Similarly, if one person was
+
+38
+00:01:26.870 --> 00:01:30.125
+authorized to develop and
+test a security system,
+
+39
+00:01:30.125 --> 00:01:31.580
+they are much more likely to
+
+40
+00:01:31.580 --> 00:01:33.440
+be unaware of its weaknesses.
+
+41
+00:01:34.440 --> 00:01:36.470
+Both the principle of least
+privilege and the concept of
+
+42
+00:01:36.470 --> 00:01:39.700
+separating duties apply
+to more than just people.
+
+43
+00:01:39.700 --> 00:01:42.380
+They apply to all systems
+including networks,
+
+44
+00:01:42.380 --> 00:01:44.300
+databases, processes, and
+
+45
+00:01:44.300 --> 00:01:46.895
+any other aspect of
+an organization.
+
+46
+00:01:46.895 --> 00:01:49.190
+Ultimately,
+authorization depends
+
+47
+00:01:49.190 --> 00:01:51.280
+on a system or user's role.
+
+48
+00:01:51.280 --> 00:01:53.825
+When it comes to securing
+data over a network,
+
+49
+00:01:53.825 --> 00:01:55.520
+there are a couple
+of frequently used
+
+50
+00:01:55.520 --> 00:01:58.010
+access controls that you
+should be familiar with:
+
+51
+00:01:58.010 --> 00:02:01.010
+HTTP basic auth and OAuth.
+
+52
+00:02:02.010 --> 00:02:02.600
+Have you ever wondered what
+
+53
+00:02:02.600 --> 00:02:05.800
+the HTTP in web
+addresses stood for.
+
+54
+00:02:05.800 --> 00:02:09.335
+It stands for hypertext
+transfer protocol,
+
+55
+00:02:09.335 --> 00:02:12.365
+which is how communications
+are established over network.
+
+56
+00:02:12.365 --> 00:02:15.420
+HTTP uses what is
+known as basic auth,
+
+57
+00:02:15.420 --> 00:02:17.435
+the technology used to establish
+
+58
+00:02:17.435 --> 00:02:19.980
+a user's request to
+access a server.
+
+59
+00:02:19.980 --> 00:02:21.995
+Basic auth works by sending
+
+60
+00:02:21.995 --> 00:02:23.390
+an identifier every time
+
+61
+00:02:23.390 --> 00:02:25.450
+a user communicates
+with a web page.
+
+62
+00:02:26.450 --> 00:02:28.340
+Some websites still use basic
+auth to tell whether or
+
+63
+00:02:28.340 --> 00:02:29.810
+not someone is authorized to
+
+64
+00:02:29.810 --> 00:02:31.900
+access information on that site.
+
+65
+00:02:31.900 --> 00:02:33.830
+However, their protocol
+
+66
+00:02:33.830 --> 00:02:35.780
+is considered to be
+vulnerable to attacks
+
+67
+00:02:35.780 --> 00:02:37.760
+because it transmits
+usernames and
+
+68
+00:02:37.760 --> 00:02:40.315
+password openly
+over the network.
+
+69
+00:02:40.315 --> 00:02:44.165
+Most websites today
+use HTTPS instead,
+
+70
+00:02:44.165 --> 00:02:48.380
+which stands for hypertext
+transfer protocol secure.
+
+71
+00:02:48.380 --> 00:02:51.590
+This protocol doesn't expose
+sensitive information,
+
+72
+00:02:51.590 --> 00:02:53.210
+like access credentials, when
+
+73
+00:02:53.210 --> 00:02:55.130
+communicating over the network.
+
+74
+00:02:56.130 --> 00:02:57.650
+Another secure
+authentication technology
+
+75
+00:02:57.650 --> 00:02:59.300
+used today is OAuth.
+
+76
+00:02:59.300 --> 00:03:02.450
+OAuth is an open-standard
+authorization protocol
+
+77
+00:03:02.450 --> 00:03:05.500
+that shares designated
+access between applications.
+
+78
+00:03:05.500 --> 00:03:08.060
+For example, you can
+tell Google that it's
+
+79
+00:03:08.060 --> 00:03:10.670
+okay for another website
+to access your profile
+
+80
+00:03:10.670 --> 00:03:12.020
+to create an account.
+
+81
+00:03:12.020 --> 00:03:13.790
+Instead of requesting
+and sending
+
+82
+00:03:13.790 --> 00:03:16.565
+sensitive usernames and
+passwords over the network,
+
+83
+00:03:16.565 --> 00:03:19.340
+OAuth uses API tokens to verify
+
+84
+00:03:19.340 --> 00:03:22.505
+access between you and
+a service provider.
+
+85
+00:03:23.505 --> 00:03:25.070
+An API token is a small block of
+
+86
+00:03:25.070 --> 00:03:28.300
+encrypted code that contains
+information about a user.
+
+87
+00:03:28.300 --> 00:03:31.294
+These tokens contain
+things like your identity,
+
+88
+00:03:31.294 --> 00:03:32.810
+site permissions, and more.
+
+89
+00:03:32.810 --> 00:03:36.185
+OAuth sends and receives
+access requests using
+
+90
+00:03:36.185 --> 00:03:38.150
+API tokens by passing them from
+
+91
+00:03:38.150 --> 00:03:40.525
+a server to a user's device.
+
+92
+00:03:41.525 --> 00:03:43.440
+Let's explore what's going
+on behind the scenes.
+
+93
+00:03:43.440 --> 00:03:45.020
+When you authorize
+a site to create
+
+94
+00:03:45.020 --> 00:03:47.105
+an account using
+your Google profile,
+
+95
+00:03:47.105 --> 00:03:50.450
+all of Google's usual login
+protocols are still active.
+
+96
+00:03:50.450 --> 00:03:52.639
+If you have multi-factor
+authentication
+
+97
+00:03:52.639 --> 00:03:54.850
+enabled on your account,
+and you should,
+
+98
+00:03:54.850 --> 00:03:58.055
+you'll still have the security
+benefits that it provides.
+
+99
+00:03:58.055 --> 00:04:01.450
+API tokens minimize
+risks in a major way.
+
+100
+00:04:01.450 --> 00:04:03.500
+These API tokens serve as
+
+101
+00:04:03.500 --> 00:04:05.660
+an additional layer of
+encryption that helps to
+
+102
+00:04:05.660 --> 00:04:07.580
+keep your Google
+password safe in
+
+103
+00:04:07.580 --> 00:04:09.949
+the event of a breach
+on another platform.
+
+104
+00:04:10.949 --> 00:04:11.960
+Basic auth and OAuth are
+
+105
+00:04:11.960 --> 00:04:14.540
+just a couple of examples
+of authorization tools
+
+106
+00:04:14.540 --> 00:04:16.340
+that are designed with
+the principles of
+
+107
+00:04:16.340 --> 00:04:19.250
+least privilege and
+separation of duty in mind.
+
+108
+00:04:19.250 --> 00:04:21.530
+There are many other
+controls that help limit
+
+109
+00:04:21.530 --> 00:04:24.680
+the risk of unauthorized
+access to information.
+
+110
+00:04:24.680 --> 00:04:26.855
+In addition to
+controlling access,
+
+111
+00:04:26.855 --> 00:04:28.990
+it's also important to monitor it.
+
+112
+00:04:29.990 --> 00:04:31.040
+In our next video, we'll focus on
+
+113
+00:04:31.040 --> 00:04:33.785
+the third and final part
+of the authentication,
+
+114
+00:04:33.785 --> 00:04:36.900
+authorization, and
+accounting framework.

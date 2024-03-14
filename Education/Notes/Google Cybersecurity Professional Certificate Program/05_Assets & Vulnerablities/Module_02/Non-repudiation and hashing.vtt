@@ -1,0 +1,268 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.173
+Security professionals are always thinking
+
+2
+00:00:03.173 --> 00:00:07.103
+about vulnerabilities. It's how
+we stay ahead of threats.
+
+3
+00:00:08.103 --> 00:00:10.307
+We've spent some time together exploring
+a couple forms of encryption.
+
+4
+00:00:10.307 --> 00:00:13.580
+The two types we've discussed
+produce keys that are shared
+
+5
+00:00:13.580 --> 00:00:15.513
+when communicating information.
+
+6
+00:00:15.513 --> 00:00:18.911
+Encryption keys are vulnerable
+to being lost or stolen,
+
+7
+00:00:18.911 --> 00:00:21.894
+which can lead to sensitive
+information at risk.
+
+8
+00:00:21.894 --> 00:00:25.862
+Let's explore another security control
+that helps companies address this
+
+9
+00:00:25.862 --> 00:00:26.488
+weakness.
+
+10
+00:00:27.488 --> 00:00:31.832
+A hash function is an algorithm that
+produces a code that can't be decrypted.
+
+11
+00:00:31.832 --> 00:00:34.924
+Unlike asymmetric and
+symmetric algorithms,
+
+12
+00:00:34.924 --> 00:00:39.877
+hash functions are one-way processes
+that do not generate decryption keys.
+
+13
+00:00:39.877 --> 00:00:45.480
+Instead, these algorithms produce a unique
+identifier known as a hash value, or
+
+14
+00:00:45.480 --> 00:00:46.136
+digest.
+
+15
+00:00:46.136 --> 00:00:48.419
+Here's an example to demonstrate this.
+
+16
+00:00:49.419 --> 00:00:53.036
+Imagine a company has an internal
+application that is used by employees and
+
+17
+00:00:53.036 --> 00:00:54.807
+is stored in a shared drive.
+
+18
+00:00:54.807 --> 00:01:00.250
+After passing through a hashing function,
+the program receives its hash value.
+
+19
+00:01:00.250 --> 00:01:01.901
+For example purposes,
+
+20
+00:01:01.901 --> 00:01:06.920
+we created this relatively short hash
+value with the MD5 hashing function.
+
+21
+00:01:06.920 --> 00:01:12.324
+Generally, standard hash functions that
+produce longer hashes are preferred for
+
+22
+00:01:12.324 --> 00:01:13.649
+being more secure.
+
+23
+00:01:14.649 --> 00:01:17.204
+Next, let's imagine an attacker
+replaces the program
+
+24
+00:01:17.204 --> 00:01:21.165
+with a modified version that
+performs malicious actions.
+
+25
+00:01:21.165 --> 00:01:23.916
+The malicious program may
+work like the original.
+
+26
+00:01:23.916 --> 00:01:28.757
+However, if so much as one line of
+code is different from the original,
+
+27
+00:01:28.757 --> 00:01:31.515
+it will produce a different hash value.
+
+28
+00:01:31.515 --> 00:01:35.869
+By comparing the hash values, we can
+validate that the programs are different.
+
+29
+00:01:35.869 --> 00:01:40.418
+Attackers use tricks like this often
+because they're easily overlooked.
+
+30
+00:01:40.418 --> 00:01:45.438
+Fortunately, hash values help us identify
+when something like this is happening.
+
+31
+00:01:46.438 --> 00:01:48.386
+In security, hashes
+are primarily used as a way to
+
+32
+00:01:48.386 --> 00:01:51.714
+determine the integrity of files and
+applications.
+
+33
+00:01:52.714 --> 00:01:56.050
+Data integrity relates to the accuracy and
+consistency of information.
+
+34
+00:01:56.050 --> 00:01:58.330
+This is known as non-repudiation,
+
+35
+00:01:58.330 --> 00:02:02.550
+the concept that authenticity
+of information can't be denied.
+
+36
+00:02:03.550 --> 00:02:07.044
+Hash functions are important security
+controls that make proven data integrity
+
+37
+00:02:07.044 --> 00:02:09.500
+possible. Analysts use them frequently.
+
+38
+00:02:09.500 --> 00:02:12.609
+One way to do this is by finding
+the hash value of files or
+
+39
+00:02:12.609 --> 00:02:16.410
+applications and comparing them
+against known malicious files.
+
+40
+00:02:17.410 --> 00:02:21.042
+For example, we can use the Linux command
+line to generate the hash value for
+
+41
+00:02:21.042 --> 00:02:22.690
+any file on your computer.
+
+42
+00:02:22.690 --> 00:02:28.044
+We just launch a shell and type the name
+of the hashing algorithm we want to use.
+
+43
+00:02:28.044 --> 00:02:32.007
+In this case, we're using
+a common one known as sha256.
+
+44
+00:02:32.007 --> 00:02:36.276
+Next, we need to enter the file
+name of any file we want to hash.
+
+45
+00:02:36.276 --> 00:02:39.761
+Let's hash the contents of newfile.txt.
+
+46
+00:02:39.761 --> 00:02:43.079
+Now, we'll press Enter.
+
+47
+00:02:43.079 --> 00:02:46.570
+The terminal generates this
+unique hash value for the file.
+
+48
+00:02:47.570 --> 00:02:51.132
+These tools can be compared with
+the hash values of known online viruses.
+
+49
+00:02:51.132 --> 00:02:54.295
+One such database is VirusTotal.
+
+50
+00:02:54.295 --> 00:02:58.964
+This is a popular tool among security
+practitioners that's useful for analyzing
+
+51
+00:02:58.964 --> 00:03:02.633
+suspicious files, domains,
+IPs, and URLs.
+
+52
+00:03:03.633 --> 00:03:06.948
+As we've explored, even the slightest
+change in input results in a totally
+
+53
+00:03:06.948 --> 00:03:08.347
+different hash value.
+
+54
+00:03:08.347 --> 00:03:12.990
+Hash functions are intentionally designed
+this way to assist with matters of non-repudiation.
+
+55
+00:03:13.885 --> 00:03:18.122
+They equip computers with a quick and
+easy way to compare input and output
+
+56
+00:03:18.122 --> 00:03:20.911
+values and validate data integrity.
+
+57
+00:03:20.911 --> 00:03:22.230
+Pretty cool, right?
